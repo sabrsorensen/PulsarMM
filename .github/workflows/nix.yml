@@ -1,0 +1,49 @@
+name: Nix Outputs
+concurrency:
+  group: nix-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "*.md"
+      - "LICENSE"
+      - "screenshots/**"
+      - ".vscode/**"
+      - ".gitignore"
+      - ".github/workflows/update_curated_list.yml"
+      - ".github/workflows/publish-flatpak-repo.yml"
+  pull_request:
+    branches: [main]
+    paths-ignore:
+      - "*.md"
+      - "LICENSE"
+      - "screenshots/**"
+      - ".vscode/**"
+      - ".gitignore"
+      - ".github/workflows/update_curated_list.yml"
+      - ".github/workflows/publish-flatpak-repo.yml"
+  workflow_dispatch:
+
+jobs:
+  flake-check:
+    name: Flake Check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v31
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+
+      - name: Evaluate Flake Outputs
+        run: nix flake show --all-systems
+
+      - name: Build Nix Checks
+        run: nix flake check --print-build-logs

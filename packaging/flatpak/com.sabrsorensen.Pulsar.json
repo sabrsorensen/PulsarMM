@@ -1,0 +1,65 @@
+{
+  "app-id": "com.sabrsorensen.Pulsar",
+  "runtime": "org.gnome.Platform",
+  "runtime-version": "49",
+  "sdk": "org.gnome.Sdk",
+  "command": "pulsar-wrapper",
+  "finish-args": [
+    "--share=network",
+    "--share=ipc",
+    "--socket=x11",
+    "--socket=wayland",
+    "--socket=fallback-x11",
+    "--socket=pulseaudio",
+    "--device=dri",
+    "--filesystem=xdg-run/dri",
+    "--filesystem=xdg-data/Steam",
+    "--filesystem=~/.steam",
+    "--filesystem=/run/media",
+    "--filesystem=xdg-download",
+    "--filesystem=xdg-documents",
+    "--filesystem=xdg-desktop",
+    "--talk-name=org.freedesktop.Notifications",
+    "--talk-name=org.gtk.vfs.*",
+    "--talk-name=org.freedesktop.Flatpak",
+    "--filesystem=xdg-run/gvfsd"
+  ],
+  "add-extensions": {
+    "org.freedesktop.Platform.GL.default": {
+      "directory": "lib/GL"
+    },
+    "org.freedesktop.Platform.GL.nvidia": {
+      "directory": "lib/GL-nvidia"
+    },
+    "org.freedesktop.Platform.VAAPI.Intel": {
+      "directory": "lib/vaapi-intel"
+    },
+    "org.freedesktop.Platform.VAAPI.AMD": {
+      "directory": "lib/vaapi-amd"
+    },
+    "org.freedesktop.Platform.VAAPI.Nvidia": {
+      "directory": "lib/vaapi-nvidia"
+    }
+  },
+  "modules": [
+    {
+      "name": "pulsar",
+      "buildsystem": "simple",
+      "build-commands": [
+        "mkdir -p /app/bin /app/lib/Pulsar/locales /app/share/applications /app/share/icons/hicolor/128x128/apps /app/share/metainfo",
+        "install -m755 Pulsar /app/bin/Pulsar",
+        "install -m755 pulsar-wrapper /app/bin/pulsar-wrapper",
+        "if [ -d locales ]; then install -m644 locales/*.json /app/lib/Pulsar/locales/; fi",
+        "install -m644 pulsar.desktop /app/share/applications/com.sabrsorensen.Pulsar.desktop",
+        "install -m644 pulsar.png /app/share/icons/hicolor/128x128/apps/com.sabrsorensen.Pulsar.png",
+        "install -m644 pulsar.metainfo.xml /app/share/metainfo/com.sabrsorensen.Pulsar.metainfo.xml"
+      ],
+      "sources": [
+        {
+          "type": "dir",
+          "path": "../../flatpak-source"
+        }
+      ]
+    }
+  ]
+}

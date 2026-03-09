@@ -1,0 +1,116 @@
+name: Build and Publish Signed Flatpak Repository
+concurrency:
+  group: flatpak-pages-${{ github.ref }}
+  cancel-in-progress: true
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+jobs:
+  build-signed-flatpak-repo:
+    name: Build & Publish GPG-Signed Flatpak Repository
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v31
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+
+      - name: Install Build Dependencies (Flatpak)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            appstream \
+            flatpak \
+            flatpak-builder \
+            patchelf
+
+      - name: Run Test Gates
+        run: |
+          nix run .#quality-gate
+
+      - name: Build Nix Application Binary
+        run: nix build .#default
+
+      - name: Setup Flatpak Build Environment
+        run: |
+          sudo FLATPAK_INSTALL_SCOPE=system bash packaging/flatpak/ensure-runtimes.sh
+      - name: Configure GPG Signing for Repository
+        if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+        run: |
+          # Import CI GPG private key
+          echo "${{ secrets.FLATPAK_GPG_PRIVATE_KEY }}" | gpg --batch --import
+
+          # Get key ID for signing (get the specific CI key we just imported)
+          GPG_KEY_ID=$(gpg --list-secret-keys --with-colons singularityci@sam.nesneros.space | grep sec | head -1 | cut -d':' -f5)
+          echo "GPG_KEY_ID=$GPG_KEY_ID" >> $GITHUB_ENV
+          echo "Using GPG key: $GPG_KEY_ID"
+
+          # Verify we can sign
+          echo "test" | gpg --batch --yes --sign --armor --local-user $GPG_KEY_ID > /dev/null
+
+          # Export public key for repo metadata
+          gpg --armor --export $GPG_KEY_ID > flatpak-repo-signing.asc
+
+      - name: Prepare Flatpak Application Sources
+        shell: bash
+        run: |
+          PULSAR_BIN="$(readlink -f result/bin/.Pulsar-wrapped)" \
+          PULSAR_PATCH_FOR_FLATPAK=1 \
+          packaging/flatpak/copy-resources.sh
+
+      - name: Build and Sign Flatpak OSTree Repository
+        run: |
+          flatpak-builder --repo=flatpak-repo --force-clean --disable-updates --disable-rofiles-fuse --gpg-sign=$GPG_KEY_ID flatpak-build packaging/flatpak/com.sabrsorensen.Pulsar.json
+
+          # Sign the repository with GPG
+          flatpak build-update-repo --generate-static-deltas --prune --prune-depth=1 --gpg-sign=$GPG_KEY_ID flatpak-repo
+
+          # Copy GPG public key to repo for client verification
+          cp flatpak-repo-signing.asc flatpak-repo/
+
+      - name: Determine Deployment Channel (stable/dev)
+        id: channel
+        run: |
+          echo "name=repo" >> "$GITHUB_OUTPUT"
+
+      - name: Deploy Signed Repository to GitHub Pages
+        run: |
+          CHANNEL="${{ steps.channel.outputs.name }}"
+          echo "Deploying to channel: $CHANNEL"
+
+          # Configure git
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Clone gh-pages branch
+          git clone --branch gh-pages --single-branch "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages-deploy
+
+          # Replace the channel directory with the new repo
+          rm -rf "gh-pages-deploy/${CHANNEL}"
+          cp -r flatpak-repo "gh-pages-deploy/${CHANNEL}"
+
+          # Copy the landing page to root
+          cp packaging/flatpak/gh-pages-index.html gh-pages-deploy/index.html
+
+          # Commit and push
+          cd gh-pages-deploy
+          git add -A
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update ${CHANNEL} flatpak repo ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+            git push origin gh-pages
+            echo "Successfully deployed to GitHub Pages"
+          fi

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.sabrsorensen.Pulsar</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Pulsar</name>
+  <summary>No Man's Sky Mod Manager</summary>
+  <description>
+    <p>
+      Pulsar is a comprehensive mod manager for No Man's Sky.
+      Browse, install, and manage mods from Nexus Mods.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Browse and install mods from Nexus Mods</li>
+      <li>Automatic mod conflict detection</li>
+      <li>Easy mod installation and removal</li>
+      <li>Cross-platform network compatibility</li>
+    </ul>
+  </description>
+  <launchable type="desktop-id">com.sabrsorensen.Pulsar.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main interface showing installed mods</caption>
+      <image type="source">https://raw.githubusercontent.com/sabrsorensen/PulsarMM/main/screenshots/Screenshot1.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Mod installation and management</caption>
+      <image type="source">https://raw.githubusercontent.com/sabrsorensen/PulsarMM/main/screenshots/Screenshot2.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Settings and configuration</caption>
+      <image type="source">https://raw.githubusercontent.com/sabrsorensen/PulsarMM/main/screenshots/Screenshot3.png</image>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">https://github.com/sabrsorensen/PulsarMM</url>
+  <url type="bugtracker">https://github.com/sabrsorensen/PulsarMM/issues</url>
+  <developer id="com.sabrsorensen">
+    <name>sabrsorensen</name>
+  </developer>
+  <categories>
+    <category>Game</category>
+  </categories>
+  <keywords>
+    <keyword>No Man's Sky</keyword>
+    <keyword>Mods</keyword>
+    <keyword>Gaming</keyword>
+  </keywords>
+  <content_rating type="oars-1.1">
+    <content_attribute id="social-info">mild</content_attribute>
+  </content_rating>
+  <releases>
+    <release version="1.0.0" date="2026-03-03">
+      <description>
+        <p>Lineage and Linux-first update:</p>
+        <ul>
+          <li>Continues from SingularityMM/NMS-Mod-Manager with explicit upstream attribution</li>
+          <li>Improved Linux and Steam Deck support direction</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>

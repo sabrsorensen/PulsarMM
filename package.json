@@ -1,0 +1,37 @@
+{
+  "name": "pulsar",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/run-local-bin.mjs vite",
+    "build": "vite build",
+    "tauri": "node scripts/run-local-bin.mjs tauri",
+    "quality-gate": "bash scripts/run-quality-gate.sh",
+    "test": "node --test tests/**/*.test.js",
+    "test:rust": "bash scripts/run-rust-tests.sh",
+    "test:rust:fast": "bash scripts/run-rust-tests.sh linux_paths -- --nocapture",
+    "test:rust:coverage": "bash scripts/rust-coverage.sh src-tauri/Cargo.toml",
+    "test:changed": "node scripts/run-changed-tests.mjs",
+    "test:coverage": "node --test --experimental-test-coverage --test-coverage-include=src/config/appConstants.js --test-coverage-include=src/utils/*.js --test-coverage-include=src/state/*.js --test-coverage-include=src/features/updateResolver.js --test-coverage-include=src/features/nexusApi.js --test-coverage-include=src/features/settingsFeature.js --test-coverage-include=src/features/nexusAuthFeature.js --test-coverage-include=src/features/nxmHandlerFeature.js --test-coverage-include=src/features/launchGameFeature.js --test-coverage-include=src/features/dialogFeature.js --test-coverage-include=src/features/startupFeature.js --test-coverage-lines=100 --test-coverage-functions=100 --test-coverage-branches=100 tests/**/*.test.js",
+    "build:binary": "bash scripts/build-tauri-binary.sh",
+    "build:flatpak": "bash packaging/flatpak/package-flatpak.sh",
+    "run:flatpak": "bash packaging/flatpak/run-flatpak.sh",
+    "build:appimage": "bash packaging/appimage/build-appimage.sh",
+    "run:appimage": "bash packaging/appimage/run-appimage.sh",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "2.10.1",
+    "@tauri-apps/plugin-dialog": "^2.6.0",
+    "@tauri-apps/plugin-fs": "^2.4.5",
+    "@tauri-apps/plugin-process": "^2.3.1",
+    "@tauri-apps/plugin-shell": "2.3.4",
+    "@tauri-apps/plugin-updater": "2.10.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.9.6",
+    "husky": "^9.1.7",
+    "vite": "^7.3.1"
+  }
+}

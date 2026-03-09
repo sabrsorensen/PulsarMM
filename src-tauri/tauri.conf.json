@@ -1,0 +1,58 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "build": {
+    "beforeBuildCommand": "npm run build",
+    "beforeDevCommand": "npm run dev",
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:1420"
+  },
+  "bundle": {
+    "createUpdaterArtifacts": false,
+    "active": true,
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.ico"
+    ],
+    "targets": "all"
+  },
+  "productName": "Pulsar",
+  "mainBinaryName": "Pulsar",
+  "version": "1.0.0",
+  "identifier": "com.sabrsorensen.Pulsar",
+  "plugins": {
+    "updater": {
+      "active": false,
+      "endpoints": [
+        "https://gist.githubusercontent.com/sabrsorensen/9d29be1615e75e9206520811047be899/raw/latest.json"
+      ],
+      "dialog": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDIyOTA2OEUxRUVGMzk1NDYKUldSR2xmUHU0V2lRSWxsdDFNa1A2RmROZEZOSzRlMDZTVkNXRDlZaVBNa0lyYmE4cGRJSHZjZTQK",
+      "windows": {
+        "installMode": "passive"
+      }
+    }
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Pulsar",
+        "width": 950,
+        "height": 900,
+        "resizable": true,
+        "decorations": false,
+        "transparent": true,
+        "fullscreen": false,
+        "visible": false,
+        "minHeight": 671,
+        "useHttpsScheme": true,
+        "minWidth": 950
+      }
+    ],
+    "security": {
+      "capabilities": ["default", "desktop-capability"],
+      "csp": "default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https:; connect-src * ws: wss: https: http:; style-src 'self' 'unsafe-inline' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; img-src 'self' data: https: http:; font-src 'self' data: https:;"
+    }
+  }
+}

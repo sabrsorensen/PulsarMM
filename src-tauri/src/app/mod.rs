@@ -1,0 +1,11 @@
+pub(crate) mod bootstrap;
+pub(crate) mod commands;
+pub(crate) mod detection;
+pub(crate) mod entry;
+pub(crate) mod http;
+pub(crate) mod icon;
+pub(crate) mod linux;
+pub(crate) mod migration;
+pub(crate) mod ops;
+pub(crate) mod paths;
+pub(crate) mod single_instance;

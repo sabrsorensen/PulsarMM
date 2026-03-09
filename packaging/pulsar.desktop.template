@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Pulsar Mod Manager
+Comment=No Man's Sky Mod Manager
+Exec=pulsar-wrapper
+Icon=com.sabrsorensen.Pulsar
+Type=Application
+Categories=Game;
+Keywords=No Man's Sky;Mods;Gaming;modding;games;
+StartupNotify=true
+StartupWMClass=com.sabrsorensen.Pulsar
+X-GNOME-WMClass=com.sabrsorensen.Pulsar

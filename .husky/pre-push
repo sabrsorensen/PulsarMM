@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+set -e
+
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+cd "$REPO_ROOT"
+
+npm run test:coverage
+npm run test:rust:coverage
+nix flake check --print-build-logs
