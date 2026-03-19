@@ -3,6 +3,7 @@ use crate::mods::install_archive_flow::{
     copy_archive_to_downloads, library_folder_name_for_archive, scan_library_mod_path,
 };
 use std::path::{Path, PathBuf};
+use url::Url;
 
 pub struct InstallArchiveContext {
     pub final_archive_path_str: String,
@@ -31,6 +32,14 @@ pub fn resolve_conflict_with(
 }
 
 pub fn archive_path_from_input(archive_path_str: &str) -> PathBuf {
+    if let Ok(url) = Url::parse(archive_path_str) {
+        if url.scheme() == "file" {
+            if let Ok(path) = url.to_file_path() {
+                return path;
+            }
+        }
+    }
+
     PathBuf::from(archive_path_str)
 }
 

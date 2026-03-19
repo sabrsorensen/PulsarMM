@@ -10,6 +10,14 @@ fn archive_path_from_input_roundtrips() {
 }
 
 #[test]
+fn archive_path_from_input_decodes_file_urls() {
+    assert_eq!(
+        archive_path_from_input("file:///tmp/Ship%20Pack.zip"),
+        PathBuf::from("/tmp/Ship Pack.zip")
+    );
+}
+
+#[test]
 fn build_install_archive_context_derives_expected_paths() {
     let out = build_install_archive_context(
         PathBuf::from("/downloads/Example.zip").as_path(),
