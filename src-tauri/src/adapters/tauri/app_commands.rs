@@ -12,9 +12,12 @@ use crate::app::ops::{
     check_untracked_mods_for_game_path, delete_settings_at_path, delete_settings_without_game_path,
     open_mods_folder_for_game_path, save_text_file,
 };
-use crate::installation_detection::{detect_game_paths, find_game_path};
+use crate::installation_detection::{
+    detect_game_paths, find_game_path, resolve_game_root_from_selection, set_manual_game_path,
+};
 use crate::models::{GamePaths, HttpResponse, StartupState};
 use crate::settings_paths;
+use crate::utils::config::{load_config_or_default, save_config};
 use crate::{get_config_file_path, log_internal};
 use std::collections::HashMap;
 use std::path::Path;
@@ -73,6 +76,27 @@ pub fn detect_game_installation(app: AppHandle) -> Option<GamePaths> {
         &mut log,
         &missing_settings_warning,
     )
+}
+
+#[tauri::command]
+pub fn set_game_install_path(app: AppHandle, selected_path: String) -> Result<GamePaths, String> {
+    let selected = Path::new(&selected_path);
+    let game_root = resolve_game_root_from_selection(selected).ok_or_else(|| {
+        "Could not resolve a No Man's Sky install from the selected path.".to_string()
+    })?;
+
+    let config_path = get_config_file_path(&app)?;
+    let mut config = load_config_or_default(&config_path, true);
+    config.custom_game_path = Some(game_root.to_string_lossy().into_owned());
+    save_config(&config_path, &config)?;
+
+    set_manual_game_path(Some(game_root.clone()));
+    app.fs_scope()
+        .allow_directory(&game_root, true)
+        .map_err(|e| e.to_string())?;
+
+    detect_game_paths(&game_root)
+        .ok_or_else(|| "Selected path is not a valid No Man's Sky install.".to_string())
 }
 
 #[tauri::command]

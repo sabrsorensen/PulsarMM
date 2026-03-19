@@ -80,3 +80,56 @@ fn parse_steam_installdir_handles_missing_key() {
     let content = r#""AppState" { "appid" "275850" }"#;
     assert_eq!(parse_steam_installdir(content), None);
 }
+
+#[test]
+fn resolve_game_root_from_selection_accepts_settings_file_and_game_root() {
+    let dir = temp_test_dir("resolve_from_selection");
+    let settings_file = settings_paths::mod_settings_file(&dir);
+    fs::create_dir_all(settings_file.parent().expect("settings parent")).expect("create settings");
+    fs::create_dir_all(dir.join("GAMEDATA/MODS")).expect("create mods");
+    fs::write(&settings_file, "<Data/>").expect("write settings");
+
+    assert_eq!(resolve_game_root_from_selection(&dir), Some(dir.clone()));
+    assert_eq!(
+        resolve_game_root_from_selection(&settings_file),
+        Some(dir.clone())
+    );
+    assert_eq!(
+        resolve_game_root_from_selection(&dir.join("Binaries/SETTINGS")),
+        Some(dir.clone())
+    );
+    assert_eq!(
+        resolve_game_root_from_selection(&dir.join("GAMEDATA/MODS")),
+        Some(dir.clone())
+    );
+
+    fs::remove_dir_all(dir).expect("cleanup should succeed");
+}
+
+#[test]
+fn manual_game_path_ignores_invalid_paths() {
+    let dir = temp_test_dir("manual_path");
+    fs::create_dir_all(settings_paths::binaries_dir(&dir)).expect("create binaries");
+
+    set_manual_game_path(Some(dir.clone()));
+    assert_eq!(get_manual_game_path(), Some(dir.clone()));
+
+    set_manual_game_path(Some(dir.join("missing")));
+    assert_eq!(get_manual_game_path(), None);
+
+    fs::remove_dir_all(dir).expect("cleanup should succeed");
+}
+
+#[test]
+fn resolve_game_root_from_selection_rejects_unrelated_paths() {
+    let dir = temp_test_dir("invalid_selection");
+    fs::create_dir_all(dir.join("Elsewhere")).expect("create unrelated dir");
+
+    assert_eq!(resolve_game_root_from_selection(&dir.join("Elsewhere")), None);
+    assert_eq!(
+        resolve_game_root_from_selection(&dir.join("GCMODSETTINGS.MXML")),
+        None
+    );
+
+    fs::remove_dir_all(dir).expect("cleanup should succeed");
+}

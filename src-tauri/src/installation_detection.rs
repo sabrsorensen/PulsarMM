@@ -2,6 +2,9 @@ use crate::models::GamePaths;
 use crate::settings_paths;
 use std::path::Path;
 use std::path::PathBuf;
+use std::sync::{LazyLock, Mutex};
+
+static MANUAL_GAME_PATH: LazyLock<Mutex<Option<PathBuf>>> = LazyLock::new(|| Mutex::new(None));
 
 #[cfg(target_os = "windows")]
 fn determine_version_type(path: &Path) -> &'static str {
@@ -41,7 +44,77 @@ pub fn detect_game_paths(path: &Path) -> Option<GamePaths> {
     })
 }
 
+fn has_binaries_dir(path: &Path) -> bool {
+    settings_paths::binaries_dir(path).is_dir()
+}
+
+pub fn resolve_game_root_from_selection(path: &Path) -> Option<PathBuf> {
+    if has_binaries_dir(path) {
+        return Some(path.to_path_buf());
+    }
+
+    let settings_file = path.file_name()?.to_str()?;
+    if settings_file.eq_ignore_ascii_case(settings_paths::MOD_SETTINGS_FILE) {
+        let settings_dir = path.parent()?;
+        let binaries_dir = settings_dir.parent()?;
+        if settings_dir
+            .file_name()
+            .and_then(|name| name.to_str())
+            .is_some_and(|name| name.eq_ignore_ascii_case("SETTINGS"))
+            && binaries_dir
+                .file_name()
+                .and_then(|name| name.to_str())
+                .is_some_and(|name| name.eq_ignore_ascii_case("Binaries"))
+        {
+            let root = binaries_dir.parent()?;
+            if has_binaries_dir(root) {
+                return Some(root.to_path_buf());
+            }
+        }
+    }
+
+    let tail = path.file_name()?.to_str()?;
+    let parent = path.parent()?;
+    let parent_name = parent.file_name().and_then(|name| name.to_str())?;
+
+    if tail.eq_ignore_ascii_case("SETTINGS") && parent_name.eq_ignore_ascii_case("Binaries") {
+        let root = parent.parent()?;
+        if has_binaries_dir(root) {
+            return Some(root.to_path_buf());
+        }
+    }
+
+    if tail.eq_ignore_ascii_case("MODS") && parent_name.eq_ignore_ascii_case("GAMEDATA") {
+        let root = parent.parent()?;
+        if has_binaries_dir(root) {
+            return Some(root.to_path_buf());
+        }
+    }
+
+    None
+}
+
+pub fn set_manual_game_path(path: Option<PathBuf>) {
+    let mut guard = match MANUAL_GAME_PATH.lock() {
+        Ok(guard) => guard,
+        Err(poisoned) => poisoned.into_inner(),
+    };
+    *guard = path.filter(|candidate| has_binaries_dir(candidate));
+}
+
+pub fn get_manual_game_path() -> Option<PathBuf> {
+    let guard = match MANUAL_GAME_PATH.lock() {
+        Ok(guard) => guard,
+        Err(poisoned) => poisoned.into_inner(),
+    };
+    guard.clone().filter(|path| has_binaries_dir(path))
+}
+
 pub fn find_game_path() -> Option<PathBuf> {
+    if let Some(path) = get_manual_game_path() {
+        return Some(path);
+    }
+
     #[cfg(target_os = "windows")]
     {
         return find_windows_game_path();
@@ -88,11 +161,6 @@ fn parse_steam_installdir(content: &str) -> Option<String> {
         .find(|line| line.contains("\"installdir\""))
         .and_then(|line| line.split('"').nth(3))
         .map(|name| name.to_string())
-}
-
-#[cfg(target_os = "windows")]
-fn has_binaries_dir(path: &Path) -> bool {
-    settings_paths::binaries_dir(path).is_dir()
 }
 
 #[cfg(target_os = "windows")]

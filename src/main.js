@@ -173,6 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
     deckBExitsTextboxToggle = document.getElementById('deckBExitsTextboxToggle'),
     modsPerPageSlider = document.getElementById('modsPerPageSlider'),
     modsPerPageValue = document.getElementById('modsPerPageValue');
+  const currentGamePathEl = document.getElementById('currentGamePath');
 
   // --- Core Application Logic ---
 
@@ -725,14 +726,37 @@ document.addEventListener('DOMContentLoaded', () => {
   const currentLibraryPathEl = document.getElementById('currentLibraryPath');
   const {
     updateDownloadPathUI,
+    updateGamePathUI,
     updateLibraryPathUI,
     updateNXMButtonState,
   } = createSettingsHelpers({
     invoke,
     i18n,
     currentDownloadPathEl,
+    currentGamePathEl,
     currentLibraryPathEl,
   });
+
+  function applyDetectedGamePaths(gamePaths) {
+    if (!gamePaths) return;
+    appState.gamePath = gamePaths.game_root_path;
+    appState.settingsPath = gamePaths.settings_root_path;
+    appState.versionType = gamePaths.version_type;
+    const launchBtn = document.getElementById('launchGameBtn');
+    const launchIcon = document.getElementById('launchIcon');
+    launchBtn.classList.remove('disabled');
+    launchBtn.dataset.platform = appState.versionType;
+    if (appState.versionType === 'Steam') launchIcon.src = iconSteam;
+    else if (appState.versionType === 'GOG') launchIcon.src = iconGog;
+    else if (appState.versionType === 'GamePass') launchIcon.src = iconXbox;
+    openModsFolderBtn.disabled = false;
+    settingsBtn.classList.remove('disabled');
+    updateCheckBtn.classList.remove('disabled');
+    enableAllBtn.classList.remove('disabled');
+    disableAllBtn.classList.remove('disabled');
+    dropZone.classList.remove('hidden');
+    updateGamePathUI(appState.gamePath);
+  }
   updateNXMButtonStateRef = updateNXMButtonState;
 
   changeDownloadDirBtn.addEventListener('click', async () => {
@@ -1324,6 +1348,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     const selPath = await open({ title: i18n.get('loadFileBtn'), defaultPath: startDir, filters: [{ name: 'MXML Files', extensions: ['mxml'] }] });
     if (typeof selPath === 'string') {
+      try {
+        const gamePaths = await invoke('set_game_install_path', { selectedPath: selPath });
+        applyDetectedGamePaths(gamePaths);
+      } catch (e) {
+        console.warn('Could not derive game install from selected settings file.', e);
+      }
       const content = await readTextFile(selPath);
       await loadXmlContent(content, selPath);
     }
@@ -1342,6 +1372,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('nxmHandlerStatus').classList.add('hidden');
     settingsModalOverlay.classList.remove('hidden');
     updateDownloadPathUI();
+    updateGamePathUI(appState.gamePath);
     updateLibraryPathUI();
   });
   closeSettingsModalBtn.addEventListener('click', () => settingsModalOverlay.classList.add('hidden'));
@@ -1350,6 +1381,36 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   const changeLibraryDirBtn = document.getElementById('changeLibraryDirBtn');
+  const changeGameDirBtn = document.getElementById('changeGameDirBtn');
+
+  changeGameDirBtn.addEventListener('click', async () => {
+    try {
+      const selected = await open({
+        directory: true,
+        multiple: false,
+        title: 'Select No Man\'s Sky Folder'
+      });
+
+      if (!selected) return;
+
+      const gamePaths = await invoke('set_game_install_path', { selectedPath: selected });
+      applyDetectedGamePaths(gamePaths);
+
+      if (gamePaths.settings_initialized !== false) {
+        const settingsPath = await join(gamePaths.settings_root_path, 'Binaries', 'SETTINGS', 'GCMODSETTINGS.MXML');
+        const content = await readTextFile(settingsPath);
+        await loadXmlContent(content, settingsPath);
+      } else {
+        await window.customAlert(
+          'No Man\'s Sky settings were not found yet. Launch the game once, then reopen Pulsar.',
+          'Run Game First'
+        );
+      }
+    } catch (e) {
+      await window.customAlert(`Failed to set game folder: ${e}`, 'Error');
+      updateGamePathUI(appState.gamePath);
+    }
+  });
 
   changeLibraryDirBtn.addEventListener('click', async () => {
     try {

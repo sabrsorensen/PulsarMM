@@ -145,6 +145,8 @@ pub struct GlobalAppConfig {
     pub custom_download_path: Option<String>,
     pub custom_library_path: Option<String>,
     #[serde(default)]
+    pub custom_game_path: Option<String>,
+    #[serde(default)]
     pub legacy_migration_done: bool,
 }
 

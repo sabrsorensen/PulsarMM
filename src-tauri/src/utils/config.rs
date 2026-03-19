@@ -6,6 +6,7 @@ pub(crate) fn default_config(legacy_migration_done: bool) -> GlobalAppConfig {
     GlobalAppConfig {
         custom_download_path: None,
         custom_library_path: None,
+        custom_game_path: None,
         legacy_migration_done,
     }
 }

@@ -1,4 +1,5 @@
 use crate::app::linux;
+use crate::installation_detection::set_manual_game_path;
 use crate::models::StartupState;
 use crate::startup::logic::find_nxm_argument;
 use crate::startup::runtime::{
@@ -11,7 +12,10 @@ use crate::startup::{
     cache_pending_nxm_with, configure_main_window_if_present_with,
     persist_window_state_on_event_with, run_startup_setup_with, window_event_snapshot_with,
 };
-use crate::{get_state_file_path, load_runtime_window_icon, log_internal};
+use crate::utils::config::load_config_or_default;
+use crate::{
+    get_config_file_path, get_state_file_path, load_runtime_window_icon, log_internal,
+};
 use tauri::{App, AppHandle, Manager, PhysicalPosition};
 use tauri_plugin_fs::FsExt;
 
@@ -28,6 +32,15 @@ pub(crate) fn expand_fs_scope(app_handle: &AppHandle) {
         .resolve("Pulsar", tauri::path::BaseDirectory::Data)
         .ok();
     expand_fs_scope_with(app_data, data_dir, &mut allow_directory);
+
+    if let Ok(config_path) = get_config_file_path(app_handle) {
+        let config = load_config_or_default(&config_path, true);
+        if let Some(game_path) = config.custom_game_path {
+            let game_path = std::path::PathBuf::from(game_path);
+            set_manual_game_path(Some(game_path.clone()));
+            let _ = app_handle.fs_scope().allow_directory(&game_path, true);
+        }
+    }
 }
 
 pub(crate) fn apply_runtime_window_icon(app_handle: &AppHandle, window: &tauri::WebviewWindow) {

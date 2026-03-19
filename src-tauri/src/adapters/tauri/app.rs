@@ -104,6 +104,7 @@ pub(crate) fn run_app() {
         .invoke_handler(tauri::generate_handler![
             tauri_app_commands::check_startup_intent,
             tauri_app_commands::detect_game_installation,
+            tauri_app_commands::set_game_install_path,
             tauri_app_commands::open_mods_folder,
             tauri_app_commands::save_file,
             tauri_app_commands::delete_settings_file,

@@ -15,23 +15,32 @@ function createClassList(initial = []) {
 
 test('updateDownloadPathUI and updateLibraryPathUI set path text', async () => {
   const currentDownloadPathEl = { textContent: '' };
+  const currentGamePathEl = { textContent: '' };
   const currentLibraryPathEl = { textContent: '' };
   const helpers = createSettingsHelpers({
-    invoke: async (cmd) => (cmd === 'get_downloads_path' ? '/dl' : '/lib'),
+    invoke: async (cmd) => {
+      if (cmd === 'get_downloads_path') return '/dl';
+      if (cmd === 'detect_game_installation') return { game_root_path: '/game' };
+      return '/lib';
+    },
     i18n: { get: (k) => k },
     currentDownloadPathEl,
+    currentGamePathEl,
     currentLibraryPathEl,
   });
 
   await helpers.updateDownloadPathUI();
+  await helpers.updateGamePathUI();
   await helpers.updateLibraryPathUI();
 
   assert.equal(currentDownloadPathEl.textContent, '/dl');
+  assert.equal(currentGamePathEl.textContent, '/game');
   assert.equal(currentLibraryPathEl.textContent, '/lib');
 });
 
 test('path UI helpers show fallback text on errors', async () => {
   const currentDownloadPathEl = { textContent: '' };
+  const currentGamePathEl = { textContent: '' };
   const currentLibraryPathEl = { textContent: '' };
   const helpers = createSettingsHelpers({
     invoke: async () => {
@@ -39,14 +48,52 @@ test('path UI helpers show fallback text on errors', async () => {
     },
     i18n: { get: (k) => k },
     currentDownloadPathEl,
+    currentGamePathEl,
     currentLibraryPathEl,
   });
 
   await helpers.updateDownloadPathUI();
+  await helpers.updateGamePathUI();
   await helpers.updateLibraryPathUI();
 
   assert.equal(currentDownloadPathEl.textContent, 'Error loading path');
+  assert.equal(currentGamePathEl.textContent, 'Error loading path');
   assert.equal(currentLibraryPathEl.textContent, 'Error loading path');
+});
+
+test('updateGamePathUI prefers provided game path over backend detection', async () => {
+  const currentGamePathEl = { textContent: '' };
+  let invoked = false;
+  const helpers = createSettingsHelpers({
+    invoke: async () => {
+      invoked = true;
+      return { game_root_path: '/detected' };
+    },
+    i18n: { get: (k) => k },
+    currentDownloadPathEl: { textContent: '' },
+    currentGamePathEl,
+    currentLibraryPathEl: { textContent: '' },
+  });
+
+  await helpers.updateGamePathUI('/manual-game');
+
+  assert.equal(currentGamePathEl.textContent, '/manual-game');
+  assert.equal(invoked, false);
+});
+
+test('updateGamePathUI shows default prompt when detection returns no game path', async () => {
+  const currentGamePathEl = { textContent: '' };
+  const helpers = createSettingsHelpers({
+    invoke: async () => null,
+    i18n: { get: (k) => k },
+    currentDownloadPathEl: { textContent: '' },
+    currentGamePathEl,
+    currentLibraryPathEl: { textContent: '' },
+  });
+
+  await helpers.updateGamePathUI();
+
+  assert.equal(currentGamePathEl.textContent, 'Auto-detect or select a game folder.');
 });
 
 test('updateNXMButtonState updates button classes and text when registered', async () => {
@@ -66,6 +113,7 @@ test('updateNXMButtonState updates button classes and text when registered', asy
       invoke: async () => true,
       i18n: { get: (k) => ({ removeHandlerBtn: 'Remove', setHandlerBtn: 'Set' }[k] || k) },
       currentDownloadPathEl: { textContent: '' },
+      currentGamePathEl: { textContent: '' },
       currentLibraryPathEl: { textContent: '' },
     });
 
@@ -97,6 +145,7 @@ test('updateNXMButtonState updates button classes and text when not registered',
       invoke: async () => false,
       i18n: { get: (k) => ({ removeHandlerBtn: 'Remove', setHandlerBtn: 'Set' }[k] || k) },
       currentDownloadPathEl: { textContent: '' },
+      currentGamePathEl: { textContent: '' },
       currentLibraryPathEl: { textContent: '' },
     });
 
@@ -131,6 +180,7 @@ test('updateNXMButtonState handles invoke errors via catch branch', async () => 
       invoke: async () => { throw new Error('boom'); },
       i18n: { get: (k) => k },
       currentDownloadPathEl: { textContent: '' },
+      currentGamePathEl: { textContent: '' },
       currentLibraryPathEl: { textContent: '' },
     });
     await helpers.updateNXMButtonState();

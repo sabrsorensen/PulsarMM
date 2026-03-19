@@ -3,6 +3,7 @@ export function createSettingsHelpers(deps) {
     invoke,
     i18n,
     currentDownloadPathEl,
+    currentGamePathEl,
     currentLibraryPathEl,
   } = deps;
 
@@ -21,6 +22,20 @@ export function createSettingsHelpers(deps) {
       currentLibraryPathEl.textContent = path;
     } catch {
       currentLibraryPathEl.textContent = 'Error loading path';
+    }
+  }
+
+  async function updateGamePathUI(gamePath = null) {
+    if (gamePath) {
+      currentGamePathEl.textContent = gamePath;
+      return;
+    }
+
+    try {
+      const detected = await invoke('detect_game_installation');
+      currentGamePathEl.textContent = detected?.game_root_path || 'Auto-detect or select a game folder.';
+    } catch {
+      currentGamePathEl.textContent = 'Error loading path';
     }
   }
 
@@ -48,6 +63,7 @@ export function createSettingsHelpers(deps) {
 
   return {
     updateDownloadPathUI,
+    updateGamePathUI,
     updateLibraryPathUI,
     updateNXMButtonState,
   };
