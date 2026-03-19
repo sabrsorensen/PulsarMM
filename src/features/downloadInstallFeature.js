@@ -13,6 +13,7 @@ export function createDownloadInstallFeature(deps) {
     saveDownloadHistory,
     openFolderSelectionModal,
     loadXmlContent,
+    renderModList,
     addNewModToXml,
     checkForAndLinkMod,
     saveChanges,
@@ -194,6 +195,7 @@ export function createDownloadInstallFeature(deps) {
     }
 
     await saveChanges();
+    await renderModList();
     await renderDownloadHistory();
 
     updateDownloadItemStatus(item.id, i18n.get('statusInstalled'), 'installed');

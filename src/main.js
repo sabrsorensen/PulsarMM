@@ -959,6 +959,7 @@ document.addEventListener('DOMContentLoaded', () => {
     saveDownloadHistory,
     openFolderSelectionModal: (...args) => openFolderSelectionModal(...args),
     loadXmlContent: (...args) => loadXmlContent(...args),
+    renderModList: (...args) => renderModList(...args),
     addNewModToXml,
     checkForAndLinkMod: (...args) => checkForAndLinkMod(...args),
     saveChanges: (...args) => saveChanges(...args),
