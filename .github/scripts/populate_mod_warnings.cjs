@@ -115,48 +115,141 @@ function createWarningMessage(warnings) {
 // --- API HELPERS ---
 
 async function fetchAllModsFromNexus() {
-    console.log("Fetching all No Man's Sky mods from NexusMods...");
+    console.log("Discovering No Man's Sky mods from NexusMods...");
 
-    // Try to get all mods in a single request first
-    const url = `https://api.nexusmods.com/v1/games/nomanssky/mods.json`;
+    let allMods = new Map(); // Use Map to avoid duplicates
+    let apiCallCount = 0;
+
     const headers = {
         "apikey": NEXUS_API_KEY,
         "User-Agent": "PulsarMM-ModDiscovery/1.0"
     };
 
-    try {
-        console.log("Attempting to fetch all mods in single request...");
-        const response = await fetch(url, { headers });
+    // Strategy 1: Get mods from multiple time periods
+    const periods = ['1w', '1m', '3m', '6m', '1y', '2y']; // Extended periods to get more mods
 
-        if (response.status === 429) {
-            console.log("Rate limited, waiting 60 seconds...");
-            await new Promise(r => setTimeout(r, 60000));
-            return fetchAllModsFromNexus(); // Retry
+    for (const period of periods) {
+        try {
+            console.log(`Fetching mods updated in period: ${period}...`);
+            const url = `https://api.nexusmods.com/v1/games/nomanssky/mods/updated.json?period=${period}`;
+            const response = await fetch(url, { headers });
+            apiCallCount++;
+
+            if (response.status === 429) {
+                console.log("Rate limited, waiting 60 seconds...");
+                await new Promise(r => setTimeout(r, 60000));
+                continue;
+            }
+
+            if (!response.ok) {
+                console.log(`Warning: Failed to fetch ${period} period (${response.status}), continuing...`);
+                continue;
+            }
+
+            const periodMods = await response.json();
+
+            if (Array.isArray(periodMods)) {
+                periodMods.forEach(mod => {
+                    if (mod.mod_id) {
+                        allMods.set(mod.mod_id, mod);
+                    }
+                });
+                console.log(`  Found ${periodMods.length} mods in ${period} period (${allMods.size} unique total)`);
+            }
+
+            // Add delay between requests
+            await new Promise(r => setTimeout(r, 1000));
+
+        } catch (error) {
+            console.log(`Error fetching ${period} period:`, error.message);
+            continue;
         }
-
-        if (!response.ok) {
-            throw new Error(`API error ${response.status}: ${response.statusText}`);
-        }
-
-        const allMods = await response.json();
-
-        if (!Array.isArray(allMods)) {
-            throw new Error("Unexpected API response format");
-        }
-
-        console.log(`Discovery complete: Found ${allMods.length} total mods`);
-
-        // Filter mods based on our criteria
-        const filteredMods = allMods.filter(shouldIncludeMod);
-        console.log(`After filtering: ${filteredMods.length} mods included`);
-
-        console.log(`API calls made: 1`);
-        return filteredMods;
-
-    } catch (error) {
-        console.error("Error fetching mods:", error.message);
-        throw error;
     }
+
+    // Strategy 2: Try trending mods endpoint
+    try {
+        console.log("Fetching trending mods...");
+        const url = `https://api.nexusmods.com/v1/games/nomanssky/mods/trending.json`;
+        const response = await fetch(url, { headers });
+        apiCallCount++;
+
+        if (response.ok) {
+            const trendingMods = await response.json();
+            if (Array.isArray(trendingMods)) {
+                trendingMods.forEach(mod => {
+                    if (mod.mod_id) {
+                        allMods.set(mod.mod_id, mod);
+                    }
+                });
+                console.log(`  Found ${trendingMods.length} trending mods (${allMods.size} unique total)`);
+            }
+        } else {
+            console.log(`Trending endpoint not available (${response.status})`);
+        }
+
+        await new Promise(r => setTimeout(r, 1000));
+    } catch (error) {
+        console.log("Trending mods not available:", error.message);
+    }
+
+    // Strategy 3: Try search with broad terms to discover more mods
+    const searchTerms = ['', 'mod', 'ship', 'base', 'planet', 'creature', 'tool', 'weapon', 'suit'];
+
+    for (const term of searchTerms) {
+        try {
+            console.log(term ? `Searching for mods containing "${term}"...` : `Searching for all mods...`);
+
+            // Try search endpoint (might not exist, but worth trying)
+            const searchUrl = term
+                ? `https://api.nexusmods.com/v1/games/nomanssky/mods/search.json?q=${encodeURIComponent(term)}`
+                : `https://api.nexusmods.com/v1/games/nomanssky/mods/search.json`;
+
+            const response = await fetch(searchUrl, { headers });
+            apiCallCount++;
+
+            if (response.ok) {
+                const searchResults = await response.json();
+                if (Array.isArray(searchResults)) {
+                    searchResults.forEach(mod => {
+                        if (mod.mod_id) {
+                            allMods.set(mod.mod_id, mod);
+                        }
+                    });
+                    console.log(`  Found ${searchResults.length} search results (${allMods.size} unique total)`);
+                } else if (searchResults.mods && Array.isArray(searchResults.mods)) {
+                    searchResults.mods.forEach(mod => {
+                        if (mod.mod_id) {
+                            allMods.set(mod.mod_id, mod);
+                        }
+                    });
+                    console.log(`  Found ${searchResults.mods.length} search results (${allMods.size} unique total)`);
+                }
+            } else if (response.status === 404) {
+                console.log("Search endpoint not available, skipping search strategy");
+                break; // No point trying more search terms
+            }
+
+            await new Promise(r => setTimeout(r, 1500)); // Longer delay for searches
+
+        } catch (error) {
+            console.log(`Search for "${term}" failed:`, error.message);
+            if (term === '') break; // If basic search fails, skip the rest
+        }
+    }
+
+    const modsArray = Array.from(allMods.values());
+
+    // Filter mods based on our criteria
+    const filteredMods = modsArray.filter(shouldIncludeMod);
+
+    console.log("=".repeat(50));
+    console.log(`Discovery complete:`);
+    console.log(`  Total unique mods found: ${modsArray.length}`);
+    console.log(`  After filtering: ${filteredMods.length} mods`);
+    console.log(`  API calls made: ${apiCallCount}`);
+    console.log("=".repeat(50));
+
+    return filteredMods;
 }
 
 // --- MAIN LOGIC ---
