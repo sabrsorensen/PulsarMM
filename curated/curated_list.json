@@ -1,0 +1,114 @@
+[
+  {
+    "mod_id": 1003,
+    "name": "RIFTS BETTER CLOUDS (WAY LESS BLURRY)",
+    "summary": "This Mod reduces the blurriness of the Clouds (and more) <br /><br />The screenshots speak for themself <br /><br /><br /><br />WIP <br /><br /><br />if you find Bugs, pls feel free to report :)",
+    "version": "1.11",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/1003/1003-1555345481-452310716.jpeg",
+    "author": "Rift",
+    "updated_timestamp": 1555446023,
+    "created_timestamp": 1555321908,
+    "description": "This Mod reduces the blurriness of the Clouds (and more) \n<br />The screenshots speak for themself\n<br />\n<br />WIP \n<br /> \n<br />if you find Bugs, pls feel free to report :)\n<br />\n<br />1.1: \n<br />\n<br />Even better Clouds :D\n<br />\n<br />1.11:\n<br />\n<br />Added Optional High Clouds\n<br />Added  Experimental Support (Original is better)",
+    "state": "warning",
+    "warningMessage": "This mod may cause compatibility issues",
+    "files": [
+      {
+        "id": [
+          5157,
+          1634
+        ],
+        "uid": 7017976566821,
+        "file_id": 5157,
+        "name": "RIFTS BETTER CLOUDS",
+        "version": "1.0",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 28,
+        "file_name": "RIFTS BETTER CLOUDS-1003-1-0-1555321892.7z",
+        "uploaded_timestamp": 1555321892,
+        "uploaded_time": "2019-04-15T09:51:32.000+00:00",
+        "mod_version": "1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/file/c7a248dfd570b5de3523cfb96f5f833740737b9b918720bd79ae73c01fccc8e9/analysis/1555322043/",
+        "description": "This Mod reduces the blurriness of the Clouds (and more)",
+        "size_kb": 28,
+        "size_in_bytes": 28261,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1003/RIFTS BETTER CLOUDS-1003-1-0-1555321892.7z.json"
+      },
+      {
+        "id": [
+          5160,
+          1634
+        ],
+        "uid": 7017976566824,
+        "file_id": 5160,
+        "name": "RIFTS BETTER CLOUDS",
+        "version": "1.1",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 28,
+        "file_name": "RIFTS BETTER CLOUDS-1003-1-1-1555345375.7z",
+        "uploaded_timestamp": 1555345375,
+        "uploaded_time": "2019-04-15T16:22:55.000+00:00",
+        "mod_version": "1.1",
+        "external_virus_scan_url": "https://www.virustotal.com/file/1aa8b2968145d403f2ffae756f17ffc8b2076268760a2f8e41a7812790261ec1/analysis/1555345505/",
+        "description": "",
+        "size_kb": 28,
+        "size_in_bytes": 28279,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1003/RIFTS BETTER CLOUDS-1003-1-1-1555345375.7z.json"
+      },
+      {
+        "id": [
+          5167,
+          1634
+        ],
+        "uid": 7017976566831,
+        "file_id": 5167,
+        "name": "RIFTS BETTER CLOUDS",
+        "version": "1.11",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 36,
+        "file_name": "RIFTS BETTER CLOUDS-1003-1-11-1555430384.7z",
+        "uploaded_timestamp": 1555430384,
+        "uploaded_time": "2019-04-16T15:59:44.000+00:00",
+        "mod_version": "1.11",
+        "external_virus_scan_url": "https://www.virustotal.com/file/4630da47a151191037ec6b825e839f943f27215c9f0b26a46fa0a778632de594/analysis/1555430523/",
+        "description": "This Mod reduces the blurriness of the Clouds (and more)\n<br />Whit or without High Clouds",
+        "size_kb": 36,
+        "size_in_bytes": 36627,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1003/RIFTS BETTER CLOUDS-1003-1-11-1555430384.7z.json"
+      },
+      {
+        "id": [
+          5168,
+          1634
+        ],
+        "uid": 7017976566832,
+        "file_id": 5168,
+        "name": "Rifts Better Clouds",
+        "version": "1.11",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 46,
+        "file_name": "Rifts Better Clouds-1003-1-11-1555446023.7z",
+        "uploaded_timestamp": 1555446023,
+        "uploaded_time": "2019-04-16T20:20:23.000+00:00",
+        "mod_version": "1.11",
+        "external_virus_scan_url": "https://www.virustotal.com/file/9dc4dc8536d06f14ee28e34d3ffad5126226971d4afb9e707747cb9062bf52e1/analysis/1555446123/",
+        "description": "",
+        "size_kb": 46,
+        "size_in_bytes": 46887,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1003/Rifts Better Clouds-1003-1-11-1555446023.7z.json"
+      }
+    ],
+    "changelogs": {}
+  }
+]
