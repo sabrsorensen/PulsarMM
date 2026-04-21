@@ -8,8 +8,8 @@ if (!NEXUS_API_KEY) throw new Error("NEXUS_API_KEY environment variable not set!
 const OUTPUT_FILE_PATH = path.join(process.cwd(), 'mod_warnings.json');
 const BATCH_SIZE = 10; // Smaller batch size for discovery calls
 const DELAY_BETWEEN_BATCHES = 2000; // 2 seconds between batches
-const MIN_DOWNLOAD_COUNT = 10; // Minimum downloads to include mod
-const ABANDONED_THRESHOLD_YEARS = 2; // Years without update = abandoned
+const MIN_DOWNLOAD_COUNT = 1; // Very low threshold to include nearly all mods
+const ABANDONED_THRESHOLD_YEARS = 3; // More lenient abandonment threshold
 const MAX_MODS_PER_REQUEST = 100; // NexusMods API limit
 
 // --- FILTERING AND WARNING DETECTION ---
@@ -78,11 +78,9 @@ function detectWarnings(mod) {
 }
 
 function shouldIncludeMod(mod) {
-    // Filter criteria
-    if (mod.status !== 'published') return false;
-    if (mod.unique_downloads < MIN_DOWNLOAD_COUNT) return false;
-    if (mod.contains_adult_content && mod.unique_downloads < 100) return false; // Allow popular adult mods
-
+    // Very minimal filtering - include almost all mods
+    if (mod.status !== 'published') return false; // Only exclude unpublished mods
+    // Removed download count filter to get all mods
     return true;
 }
 
@@ -125,8 +123,8 @@ async function fetchAllModsFromNexus() {
         "User-Agent": "PulsarMM-ModDiscovery/1.0"
     };
 
-    // Strategy 1: Get mods from multiple time periods
-    const periods = ['1w', '1m', '3m', '6m', '1y', '2y']; // Extended periods to get more mods
+    // Focus on time periods that work (1w and 1m work, longer periods return 400)
+    const periods = ['1w', '1m']; // Only use periods that work
 
     for (const period of periods) {
         try {
@@ -166,7 +164,7 @@ async function fetchAllModsFromNexus() {
         }
     }
 
-    // Strategy 2: Try trending mods endpoint
+    // Get trending mods (this works and found 10 mods)
     try {
         console.log("Fetching trending mods...");
         const url = `https://api.nexusmods.com/v1/games/nomanssky/mods/trending.json`;
@@ -192,54 +190,54 @@ async function fetchAllModsFromNexus() {
         console.log("Trending mods not available:", error.message);
     }
 
-    // Strategy 3: Try search with broad terms to discover more mods
-    const searchTerms = ['', 'mod', 'ship', 'base', 'planet', 'creature', 'tool', 'weapon', 'suit'];
+    // Add strategy to get more historical mods by iterating through mod IDs
+    // This is a fallback strategy to discover more mods
+    console.log("Attempting to discover additional mods by sampling mod ID ranges...");
 
-    for (const term of searchTerms) {
-        try {
-            console.log(term ? `Searching for mods containing "${term}"...` : `Searching for all mods...`);
+    // Sample strategy: try some mod ID ranges to find more mods
+    const currentMods = Array.from(allMods.keys());
+    if (currentMods.length > 0) {
+        // Find the range of existing mod IDs
+        const minId = Math.min(...currentMods);
+        const maxId = Math.max(...currentMods);
 
-            // Try search endpoint (might not exist, but worth trying)
-            const searchUrl = term
-                ? `https://api.nexusmods.com/v1/games/nomanssky/mods/search.json?q=${encodeURIComponent(term)}`
-                : `https://api.nexusmods.com/v1/games/nomanssky/mods/search.json`;
+        console.log(`Sampling mod IDs from ${minId} to ${maxId} to discover more mods...`);
 
-            const response = await fetch(searchUrl, { headers });
-            apiCallCount++;
+        // Sample every 10th mod ID in the range (to avoid too many API calls)
+        const sampleCount = Math.min(50, Math.floor((maxId - minId) / 10)); // Limit to 50 samples
+        const step = Math.floor((maxId - minId) / sampleCount) || 1;
 
-            if (response.ok) {
-                const searchResults = await response.json();
-                if (Array.isArray(searchResults)) {
-                    searchResults.forEach(mod => {
-                        if (mod.mod_id) {
-                            allMods.set(mod.mod_id, mod);
+        for (let i = 0; i < sampleCount && apiCallCount < 50; i++) { // Limit total API calls
+            const sampleId = minId + (i * step);
+            if (allMods.has(sampleId)) continue; // Skip if we already have this mod
+
+            try {
+                const url = `https://api.nexusmods.com/v1/games/nomanssky/mods/${sampleId}.json`;
+                const response = await fetch(url, { headers });
+                apiCallCount++;
+
+                if (response.ok) {
+                    const mod = await response.json();
+                    if (mod && mod.mod_id && mod.status === 'published') {
+                        allMods.set(mod.mod_id, mod);
+                        if (i % 10 === 0) {
+                            console.log(`  Sampling: found mod ${mod.mod_id} (${allMods.size} unique total)`);
                         }
-                    });
-                    console.log(`  Found ${searchResults.length} search results (${allMods.size} unique total)`);
-                } else if (searchResults.mods && Array.isArray(searchResults.mods)) {
-                    searchResults.mods.forEach(mod => {
-                        if (mod.mod_id) {
-                            allMods.set(mod.mod_id, mod);
-                        }
-                    });
-                    console.log(`  Found ${searchResults.mods.length} search results (${allMods.size} unique total)`);
+                    }
                 }
-            } else if (response.status === 404) {
-                console.log("Search endpoint not available, skipping search strategy");
-                break; // No point trying more search terms
+
+                // Delay to respect rate limits
+                await new Promise(r => setTimeout(r, 300)); // Shorter delay for individual requests
+
+            } catch (error) {
+                // Silently continue for sampling errors
             }
-
-            await new Promise(r => setTimeout(r, 1500)); // Longer delay for searches
-
-        } catch (error) {
-            console.log(`Search for "${term}" failed:`, error.message);
-            if (term === '') break; // If basic search fails, skip the rest
         }
     }
 
     const modsArray = Array.from(allMods.values());
 
-    // Filter mods based on our criteria
+    // Apply minimal filtering
     const filteredMods = modsArray.filter(shouldIncludeMod);
 
     console.log("=".repeat(50));
