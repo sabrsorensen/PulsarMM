@@ -113,18 +113,23 @@ function createWarningMessage(warnings) {
 // --- API HELPERS ---
 
 async function fetchAllModsFromNexus() {
-    console.log("Discovering No Man's Sky mods from NexusMods...");
+    console.log("Discovering No Man's Sky mods from NexusMods (API policy compliant)...");
 
-    let allMods = new Map(); // Use Map to avoid duplicates
+    let allMods = new Map();
     let apiCallCount = 0;
 
     const headers = {
         "apikey": NEXUS_API_KEY,
-        "User-Agent": "PulsarMM-ModDiscovery/1.0"
+        "User-Agent": "PulsarMM-ModDiscovery/1.0",
+        "Application-Name": "PulsarMM",
+        "Application-Version": "1.0"
     };
 
-    // Focus on time periods that work (1w and 1m work, longer periods return 400)
-    const periods = ['1w', '1m']; // Only use periods that work
+    console.log("Using API-compliant discovery (recent updates + trending only)");
+    console.log("This respects NexusMods API acceptable use policy");
+
+    // Strategy 1: Get recently updated mods (API-intended use)
+    const periods = ['1d', '1w', '1m']; // Only use periods that work
 
     for (const period of periods) {
         try {
@@ -133,38 +138,26 @@ async function fetchAllModsFromNexus() {
             const response = await fetch(url, { headers });
             apiCallCount++;
 
-            if (response.status === 429) {
-                console.log("Rate limited, waiting 60 seconds...");
-                await new Promise(r => setTimeout(r, 60000));
-                continue;
+            if (response.ok) {
+                const periodMods = await response.json();
+                if (Array.isArray(periodMods)) {
+                    periodMods.forEach(mod => {
+                        if (mod.mod_id) {
+                            allMods.set(mod.mod_id, mod);
+                        }
+                    });
+                    console.log(`  Found ${periodMods.length} mods in ${period} period (${allMods.size} unique total)`);
+                }
             }
 
-            if (!response.ok) {
-                console.log(`Warning: Failed to fetch ${period} period (${response.status}), continuing...`);
-                continue;
-            }
-
-            const periodMods = await response.json();
-
-            if (Array.isArray(periodMods)) {
-                periodMods.forEach(mod => {
-                    if (mod.mod_id) {
-                        allMods.set(mod.mod_id, mod);
-                    }
-                });
-                console.log(`  Found ${periodMods.length} mods in ${period} period (${allMods.size} unique total)`);
-            }
-
-            // Add delay between requests
             await new Promise(r => setTimeout(r, 1000));
 
         } catch (error) {
             console.log(`Error fetching ${period} period:`, error.message);
-            continue;
         }
     }
 
-    // Get trending mods (this works and found 10 mods)
+    // Strategy 2: Get trending mods (API-intended use)
     try {
         console.log("Fetching trending mods...");
         const url = `https://api.nexusmods.com/v1/games/nomanssky/mods/trending.json`;
@@ -181,8 +174,6 @@ async function fetchAllModsFromNexus() {
                 });
                 console.log(`  Found ${trendingMods.length} trending mods (${allMods.size} unique total)`);
             }
-        } else {
-            console.log(`Trending endpoint not available (${response.status})`);
         }
 
         await new Promise(r => setTimeout(r, 1000));
@@ -190,64 +181,21 @@ async function fetchAllModsFromNexus() {
         console.log("Trending mods not available:", error.message);
     }
 
-    // Add strategy to get more historical mods by iterating through mod IDs
-    // This is a fallback strategy to discover more mods
-    console.log("Attempting to discover additional mods by sampling mod ID ranges...");
-
-    // Sample strategy: try some mod ID ranges to find more mods
-    const currentMods = Array.from(allMods.keys());
-    if (currentMods.length > 0) {
-        // Find the range of existing mod IDs
-        const minId = Math.min(...currentMods);
-        const maxId = Math.max(...currentMods);
-
-        console.log(`Sampling mod IDs from ${minId} to ${maxId} to discover more mods...`);
-
-        // Sample every 10th mod ID in the range (to avoid too many API calls)
-        const sampleCount = Math.min(50, Math.floor((maxId - minId) / 10)); // Limit to 50 samples
-        const step = Math.floor((maxId - minId) / sampleCount) || 1;
-
-        for (let i = 0; i < sampleCount && apiCallCount < 50; i++) { // Limit total API calls
-            const sampleId = minId + (i * step);
-            if (allMods.has(sampleId)) continue; // Skip if we already have this mod
-
-            try {
-                const url = `https://api.nexusmods.com/v1/games/nomanssky/mods/${sampleId}.json`;
-                const response = await fetch(url, { headers });
-                apiCallCount++;
-
-                if (response.ok) {
-                    const mod = await response.json();
-                    if (mod && mod.mod_id && mod.status === 'published') {
-                        allMods.set(mod.mod_id, mod);
-                        if (i % 10 === 0) {
-                            console.log(`  Sampling: found mod ${mod.mod_id} (${allMods.size} unique total)`);
-                        }
-                    }
-                }
-
-                // Delay to respect rate limits
-                await new Promise(r => setTimeout(r, 300)); // Shorter delay for individual requests
-
-            } catch (error) {
-                // Silently continue for sampling errors
-            }
-        }
-    }
-
-    const modsArray = Array.from(allMods.values());
-
-    // Apply minimal filtering
-    const filteredMods = modsArray.filter(shouldIncludeMod);
+    // Strategy 3: Preserve existing mods from previous runs (organic growth)
+    console.log("Preserving existing mod registry for organic growth...");
+    console.log("Note: Mod registry will grow over time as:");
+    console.log("  - New mods are published and appear in recent updates");
+    console.log("  - Users request specific mods");
+    console.log("  - Mods become trending");
 
     console.log("=".repeat(50));
-    console.log(`Discovery complete:`);
-    console.log(`  Total unique mods found: ${modsArray.length}`);
-    console.log(`  After filtering: ${filteredMods.length} mods`);
-    console.log(`  API calls made: ${apiCallCount}`);
+    console.log(`API-compliant discovery complete:`);
+    console.log(`  Total unique mods found: ${allMods.size}`);
+    console.log(`  API calls made: ${apiCallCount} (lightweight)`);
+    console.log(`  Approach: User-driven organic growth (not bulk scraping)`);
     console.log("=".repeat(50));
 
-    return filteredMods;
+    return Array.from(allMods.values()).filter(shouldIncludeMod);
 }
 
 // --- MAIN LOGIC ---
