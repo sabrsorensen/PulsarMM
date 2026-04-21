@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Test Mod 1",
+        "id": "1001",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Test Mod 2",
+        "id": "1002",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Test Mod with Warning",
+        "id": "1003",
+        "state": "warning",
+        "warningMessage": "This mod may cause compatibility issues"
+    }
+]
