@@ -1,20 +1,62 @@
 [
     {
-        "name": "Test Mod 1",
-        "id": "1001",
+        "name": "Reduced Launch Cost 4.1",
+        "id": "50",
         "state": "normal",
         "warningMessage": ""
     },
     {
-        "name": "Test Mod 2",
-        "id": "1002",
+        "name": "Better Planet Generation",
+        "id": "797",
         "state": "normal",
         "warningMessage": ""
     },
     {
-        "name": "Test Mod with Warning",
-        "id": "1003",
-        "state": "warning",
-        "warningMessage": "This mod may cause compatibility issues"
+        "name": "Fast Actions 7.1",
+        "id": "1081",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Exosolar's and Babs' Beyond Base Building",
+        "id": "1096",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Rewards",
+        "id": "1460",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "NomNom",
+        "id": "1566",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fast Refiners",
+        "id": "2016",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Consumerism - Expedition Twitch and Community reward unlocker",
+        "id": "2062",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Faster Scanning v6.31",
+        "id": "2284",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Corvette No Complexity Limit",
+        "id": "3701",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
