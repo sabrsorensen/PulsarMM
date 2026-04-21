@@ -6,7 +6,7 @@ concurrency:
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *" # Runs daily
+    - cron: "0 0 * * *" # Runs daily at midnight
 
 jobs:
   build-and-deploy:
@@ -34,15 +34,21 @@ jobs:
         with:
           node-version: "20"
 
-      # Step 3: Run script
+      # Step 3: Auto-populate mod_warnings.json with all NMS mods
+      - name: Populate mod_warnings.json with all No Man's Sky mods
+        run: node ./.github/main-branch-checkout/.github/scripts/populate_mod_warnings.cjs
+        env:
+          NEXUS_API_KEY: ${{ secrets.NEXUS_API_KEY }}
+
+      # Step 4: Generate curated_list.json from populated mod_warnings.json
       - name: Generate curated_list.json
         run: node ./.github/main-branch-checkout/.github/scripts/generate_curated_list.cjs
         env:
           NEXUS_API_KEY: ${{ secrets.NEXUS_API_KEY }}
 
-      # Step 4: Automatically commit the newly generated file back to the repository
+      # Step 5: Automatically commit the newly generated files back to the repository
       - name: Commit and push changes to the data branch
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: Auto-update curated mod list"
-          file_pattern: curated/curated_list.json
+          commit_message: "chore: Auto-update mod registry and curated mod list"
+          file_pattern: mod_warnings.json curated/curated_list.json
