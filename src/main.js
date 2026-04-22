@@ -473,9 +473,11 @@ document.addEventListener('DOMContentLoaded', () => {
     mkdir,
     invoke,
     setCuratedData: (next) => { curatedData = next; },
+    nexusApi,
+    getApiKey: () => NEXUS_API_KEY,
   });
 
-  const { fetchCuratedData } = curatedDataFeature;
+  const { fetchCuratedData, searchMods } = curatedDataFeature;
 
   // --- NEXUS LOGIN LOGIC ---
   const nexusAuthBtn = document.getElementById('nexusAuthBtn');
