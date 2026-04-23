@@ -18,6 +18,12 @@
         "warningMessage": "Not updated in 10 years"
     },
     {
+        "name": "JJs Better Ships",
+        "id": "547",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "Unlimited Tech Stacking",
         "id": "706",
         "state": "warning",
@@ -122,12 +128,6 @@
     {
         "name": "No Knowledge Stones In The Wild 2.0",
         "id": "2264",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Faster Scanning v6.31",
-        "id": "2284",
         "state": "normal",
         "warningMessage": ""
     },
