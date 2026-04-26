@@ -102,12 +102,6 @@
         "warningMessage": "Not updated in 5 years"
     },
     {
-        "name": "Fast Refiners",
-        "id": "2016",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Consumerism - Expedition Twitch and Community reward unlocker",
         "id": "2062",
         "state": "normal",
@@ -128,6 +122,12 @@
     {
         "name": "No Knowledge Stones In The Wild 2.0",
         "id": "2264",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Faster Scanning v6.34",
+        "id": "2284",
         "state": "normal",
         "warningMessage": ""
     },
