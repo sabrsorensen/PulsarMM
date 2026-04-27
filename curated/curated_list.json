@@ -14989,12 +14989,12 @@
     "mod_id": 1096,
     "name": "Exosolar's and Babs' Beyond Base Building",
     "summary": "★ FULLY MP compatible, this mod adds an extreme degree of freedom to the vanilla base-building options",
-    "version": "6.33",
+    "version": "6.34",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/1096/1096-1676239400-1128733167.png",
     "author": "Exosolar Sparky NeptuneX3 Babscoole",
-    "updated_timestamp": 1776296094,
+    "updated_timestamp": 1777178065,
     "created_timestamp": 1566025938,
-    "description": "[b][color=#f1c232][size=4]What is this Mod?[/size][/color][/b]\n<br />[size=4]There are now almost 1,000 buildable base parts in vanilla No Man's Sky! It's a dream come true!\n<br />This mod adds an extreme degree of freedom to the vanilla base-building options.\n<br />This does NOT mean the mod gives you access to all buildable parts.  You still need to learn the blueprints for each.  :)\n<br />Beyond Base Building does NOT add any new build parts to the game.\n<br />\n<br />Now includes all the functionality of gBase Items, [color=#ff0000]if chosen by running the Lua script[/color]:[/size]\n<br />\n<br />[list]\n<br />[*][size=4]Can multiply power, extraction, and storage rates by 2, 5, or 10. WARNING: Bases built with this mod cannot be uploaded for multiplayer when using 2x, 5x, or 10x multiplied rates.[/size][/*]\n<br />[/list]\n<br />[list]\n<br />[*][size=4]EM Generators do not need a hotspot and produce 250 power.  Not enabled by default.  Must run Lua through ANUMSS and answer question \"Choose a multiplier for Storage and Rates and EMAnywhere status\" to generate custom mod file to enable.[/size][/*]\n<br />[/list][size=4]\n<br />\n<br />It is [b]fully compatible[/b] with multiplayer, co-op building, uploading, etc, because it [i]does not add[/i] any parts, which would cause issues in multiplayer.[/size]\n<br />\n<br />[size=4][color=#f1c232][b]★ Beyond Basebuilding[/b] is fully Lua scripted, with script provided for easy updating and merging [b]★[/b][/color] and carries over all of the official updates and improvements offered by Hello Games [b]plus[/b]:[/size]\n<br />\n<br />[list]\n<br />[*][size=4]Most parts can be Scaled [i][color=#fff2cc]except[/color][/i] prefab building parts, [color=#fff2cc]Exocraft Geobays, Mineral/Gas Extractors and Base Computer[/color] (Door attachment points bug out when scaled, and issues persist with scaled base computers and geobays).  There may be others not listed.  Be aware, scaling breaks snapping.[/size][/*]\n<br />[*][size=4]Many parts can be built in a Freighter.  [color=#fff2cc][i]Exceptions[/i][/color]  include the Base Computer, Industrial Mining parts, Vehicle Summoners and planet-based teleporter.[/size][/*]\n<br />[*][size=4]Many parts can be built at a Planetary Base [i][color=#fff2cc]except[/color][/i] the freighter teleporter and the Orbital Exocraft Materialiser[/size][/*]\n<br />[*][size=4]All parts can be built above and below water[/size][/*]\n<br />[*][size=4]All parts can change color and material[/size][/*]\n<br />[*][size=4]All parts, which can be deleted, can be deleted without also deleting attached objects [color=#fff2cc][i]except[/i][/color] Decals and Posters[/size][/*]\n<br />[*][size=4]No build-count limits [i][color=#fff2cc]except[/color][/i] for parts related to resources harvesting, certain terminals, beacons and message capsules (and others with limits that are hard coded into the game, as they are added or changed by Hello Games).[/size][/*]\n<br />[*][size=4]Unlimited Storage Containers[color=#cccccc][size=3][i]—*This does not increase actual storage amounts: Each numbered container acts as an index to the store rather than a physical box[/i][/size][/color][/size][/*]\n<br />[*][size=4]Foundation, Pavings and Communications Station can be placed anywhere (not only on bare terrain)[/size][/*]\n<br />[*][size=4]Non corvette parts buildable with corvettes[/size][/*]\n<br />[/list][size=4]\n<br />Some customization of the mod is available just by running it through AMUMSS, where you'll be prompted about enabling several feature.  Even more customization can be had by editing the top portion of the Lua before processing.  See Lua usage below for link to AMUMSS install and basic usage How to.[/size]\n<br />\n<br />[color=#f1c232][b][u][size=5]Disclaimer:[/size][/u][/b][/color]\n<br />[size=3]This MOD makes changes to the placement and usage setting of vanilla parts.  If the MOD is removed, the vanilla settings will be restored and parts that \"violate\" a vanilla setting as well as those connected may go \"poof\".  Best practice is to regularly backup your saves for semi-painless recovery from the unexpected.[/size]\n<br />\n<br />[center][img]https://staticdelivery.nexusmods.com/images/1634/95741288-1598421367.png[/img][/center]\n<br />\n<br />[size=5][b][u][color=#f1c232]Installation[/color]\n<br />[/u][/b][/size]\n<br />[b]Extract archive contents to GAMEDATA&#92;MODS\n<br />\n<br />[color=#f1c232][size=4][u]Lua usage[/u][/size][/color]\n<br />[size=4][b]✦[url=https://www.nexusmods.com/nomanssky/mods/2626]How to use AMUMSS at No Man's Sky Nexus - Mods and Community (nexusmods.com)[/url]✦[/b][/size][/b]\n<br />\n<br />[size=4][u][b][color=#f1c232]Modified Files[/color][/b][/u][/size]\n<br />[color=#d8d8d8][size=3]METADATA&#92;REALITY&#92;TABLES&#92;BASEBUILDINGOBJECTSTABLE.MBIN[/size][/color]\n<br />\n<br />[i][color=#cccccc][size=3]Also check out...[/size][/color][/i]\n<br />[size=5]✦[b][color=#ffdd00][url=https://www.nexusmods.com/users/58018181?tab=user+files]Exosolar's Other Mods[/url][/color][/b]✦[/size]\n<br />\n<br />\n<br />[center][img]https://staticdelivery.nexusmods.com/images/1634/95741288-1598421367.png[/img][/center]\n<br />\n<br />[size=5][u][b][color=#f1c232]Is this Mod up-to-date?[/color][/b][/u][/size]\n<br />[size=4][i][b]Any mod files which are not hidden or demoted to the \"Old Files\" area can be expected to work.[/b][/i]\n<br />All uploaded files (on the Files page) are maintained with their packing date and version of the MBINCompiler used to pack it. Older mod versions, no longer compatible with the current version of No Man's Sky will be demoted to the \"Old Files\" subsection, but will remain available for download. There are no side-effects to using this mod.[/size]\n<br />\n<br />[size=4][u][b][color=#f1c232]How to update, tweak, combine, or patch the mod with AMUMSS?[/color][/b][/u][/size]\n<br />[size=4]As this mod is now Lua scripted, you can [color=#fff2cc]easily [b]update[/b], [b]tweak[/b] or [b]merge[/b] the mod yourself[/color] (if a game update breaks this PAK of the mod, or you have other PAK or Lua mods that could conflict with this one). [color=#cccccc][size=3][i]—*Click on the spoiler below for more[/i][/size][/color][/size]\n<br />[spoiler]\n<br />[size=3][u]Notes on AMUMSS:[/u]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/957]AMUMSS[/url] tries to update [url=https://github.com/monkeyman192/MBINCompiler/releases]MBINcompiler[/url] automatically. If it fails to convert EXML/MBIN files, its likely due to a very recent NMS version update and MBINcompiler is awaiting an update too.\n<br />If so, I highly recommend you to disable your mods and wait for MBINCompiler to be updated (it's pretty quick in general).[/size]\n<br />\n<br />\n<br />[size=3][u][b][color=#f1c232]Updating the mod after a game update:[/color][/b][/u][/size]\n<br />[spoiler][list]\n<br />[*] [size=3]Download [url=https://www.nexusmods.com/nomanssky/mods/957]AMUMSS[/url], and extract it locally,  avoid placing the AMUMSS folder in a path with special characters or in a system folder like [color=#fff2cc][i]\"C:&#92;Program Files (x86)&#92;(...)\"[/i][/color].[/size][/*]\n<br />[*][size=3]Place the mod Lua script (only the .LUA file, not the .PAK file) in the [color=#fff2cc][i]ModScript[/i][/color] folder of AMUMSS.[/size][/*]\n<br />[*][size=3]AMUMSS will normally auto-detect the NMS installation folder, but you can also manually edit the path in the [color=#fff2cc][i]NMS_FOLDER.txt[/i][/color] file.[/size][/*]\n<br />[*][size=3]Launch [color=#fff2cc][i]BUILDMOD.bat[/i][/color] in the root of the AMUMSS folder and follow the steps, selecting the option to automatically install it in the NMS [color=#fff2cc][i]MODS[/i][/color] folder.[/size][/*]\n<br />[*][size=3]A new modded PAK file will be created, using the last update of the MBIN game files duly amended by the script.[/size][/*]\n<br />[/list]\n<br />[size=3]Most of the time simply recompiling the mod using the Lua script will make it compatible again. Use the latest script to ensure you adopt any mod adjustments to accommodate the latest NMS build.[/size][size=3] There are two main causes of mods not correctly updating with this method:\n<br />1) MBINCompiler needs an update to be able to decompile the latest version of the game MBIN files.\n<br />2) Structural changes have been made to the MBIN files called by this Lua script. Whilst unlikely, this will require some script rewrite and other mods are likely affected.[/size][/spoiler]\n<br />\n<br />[size=3][u][b][color=#f1c232]Tweaking the mod:[/color][/b][/u][/size]\n<br />[spoiler][size=3]Use the same process as described in [color=#fff2cc][i]Updating the mod[/i][/color].\n<br />Just modify the script as you want before recompiling it. Look at the top of my scripts, you can generally edit modifiers there, or even disable/enable some features very easily.[/size]\n<br />\n<br />[size=3][color=#cccccc][i]*[url=https://notepad-plus-plus.org/]Notepad++[/url] or [url=https://code.visualstudio.com/download/]VSCode[/url] are generally recommended to read EXML and Lua files, due to large file support and automatic highlighting. The [url=https://sourceforge.net/projects/npp-compare/]Compare plugin[/url] for Notepad++, and Lua is also a must-have to highlight file differences.[/i][/color][/size][/spoiler]\n<br />\n<br />[size=3][u][b][color=#f1c232]Combining mods that provide Lua scripts:[/color][/b][/u][/size]\n<br />[spoiler][size=3]You'll want to do this if multiple mods affect the same MBIN file.[/size]\n<br />\n<br />[list]\n<br />[*] [size=3]Place all the scripts in the [color=#fff2cc][i]ModScript[/i][/color] folder of AMUMSS.[/size][/*]\n<br />[*][size=3]Launch [color=#fff2cc][i]BUILDMOD.bat[/i][/color] in the root folder of AMUMSS.[/size][/*]\n<br />[*][size=3]Follow the step, selecting that you want to combine all the scripts into one PAK file, and the option to automatically install it in the NMS [color=#fff2cc][i]MODS[/i][/color] folder.[/size][/*]\n<br />[/list]\n<br />[size=3]AMUMSS will output a PAK file that will contain the modifications of all the scripts.[/size]\n<br />[color=#cccccc][size=3][i]*If the scripts modify the exact same values in the MBIN file, the last loaded script will overwrite the preceding script values.[/i][/size][/color][/spoiler]\n<br />\n<br />[size=3][u][b][color=#f1c232]Patch in the mod to make it compatible with other PAK files:[/color][/b][/u][/size]\n<br />[spoiler][size=3]You will want to do this if another mods isn't Lua scripted, and affects the same MBIN file as the Lua scripted mod.\n<br />\n<br />It will work when :\n<br />Case 1) you patch a Lua scripted mod for only one other PAK.\n<br />Case 2) you patch a Lua scripted mod for several other PAKs, but only if the other PAKs don't modify the same MBIN files between them.[/size]\n<br />\n<br />[size=3][b]How to create a patched PAK:[/b][/size]\n<br />\n<br />[list]\n<br />[*] [size=3]Copy the script and the other mod(s) PAK(s) in the [color=#fff2cc][i]ModScript[/i][/color] folder of AMUMSS.[/size][/*]\n<br />[*][size=3]Launch [color=#fff2cc][i]BUILDMOD.bat[/i][/color] in the root folder of AMUMSS, and follow the steps, selecting the option to automatically install it in the NMS [color=#fff2cc][i]MODS[/i][/color] folder.[/size][/*]\n<br />[*][size=3]The new PAK file will contain all the Lua script modifications, and a compatibility patch for the other mod(s) PAK(s).[/size][/*]\n<br />[*][size=3]Rename it something like [color=#fff2cc][i]\"__zzz Scripted Mod Name -Patched For- The Other Mod Name.pak\"[/i][/color].[/size]\n<br />[size=3][color=#fff2cc][i]\"__zzz\"[/i][/color] prefix is to ensure that it'll be loaded after the mod(s) it was patched for (for NMS loading order, underscore [i]\"_\"[/i] came after every other characters).[/size][/*]\n<br />[*][size=3]Remove the original scripted mod PAK from the [color=#fff2cc][i]MODS[/i][/color] folder, and copy both the new patched one, and the other mod(s) PAK(s), into it.[/size][/*]\n<br />[/list][size=3][u]Notes:[/u]\n<br />[b]Be sure the mod PAK you want to create a compatibility patch for, is updated for the latest NMS version.[/b]\n<br />-&gt; When AMUSS find an MBIN file affected by a script and by a PAK in the [color=#fff2cc][i]ModScript[/i][/color] folder, it will take the MBIN file from the mod PAK over the original one of the game, and will apply to it the modifications listed in the script.\n<br />So, if the MBIN file of the mod PAK is not updated, the one in the resulting patched PAK won't be either.[/size][/spoiler]\n<br />[/spoiler]\n<br />\n<br />[center][img]https://staticdelivery.nexusmods.com/images/1634/95741288-1598421367.png[/img][/center]\n<br />[color=#f1c232][u][b][size=5]Philosophy[/size][/b][/u][/color]\n<br />[size=4]All the erroneous limitations in building are pretty silly, aren't they? In making this mod, I paid specific attention to making sure I did not make changes that will invalidate the bases built with it from online play. Any base made with Beyond BaseBuilding will be fully viable and visible in online play, even when other players don't have this mod! It does this by only editing placement rules while you are in the building editor and not modifying any of the actual base parts themselves.\n<br />We hope you enjoy the mod and naturally, your comments are most welcome. We can also be found on the No Man's Sky Discord or reached directly at: [color=#f1c232]Babscoole #6326 [/color]or [color=#f1c232]Exosolar#5120[/color], or if its about the Lua script: [color=#f1c232]NeptuneX3#8095[/color] [size=3][i][size=4]or [/size][/i][/size][color=#f1c232]s p a r k y#0536[/color][/size]\n<br />\n<br />\n<br />[center][img]https://staticdelivery.nexusmods.com/images/1634/95741288-1598421367.png[/img][/center]\n<br />[color=#f1c232][size=5][u][b]Credits and Special Thanks![/b][/u][/size][/color]\n<br />[size=4][i]Hello Games for making the wonderful, vast, and fun game, No Man's Sky!\n<br />monkeyman192 for the MBINCompiler and his continued efforts to keep it up-to-date\n<br />Mjjstral &amp; Wbertro for the AMUMSS script-based auto modbuilder/updater,\n<br />Tub0Crisco for the No Man's Sky Mod Station A.K.A. NMSMS\n<br />\n<br />[b]Big thanks[/b] to all of you lovely people who offer donations! It is greatly appreciated, and will help Exosolar buy lunch as a busy and broke college student! :D\n<br />\n<br />And, of course, thanks to all of the other modders who make mods too, as we often inspect the work of other modders to learn how things are done: [url=https://www.nexusmods.com/users/12249518]RangerDulann[/url], [url=https://www.nexusmods.com/users/44146502]Redmas[/url], [url=https://www.nexusmods.com/users/1964784]WoodyMontana[/url], [url=https://www.nexusmods.com/users/42286415]jasondude[/url], [url=https://www.nexusmods.com/nomanssky/users/38106355?tab=user+files]Gumsk[/url], [url=https://www.nexusmods.com/users/45932167?tab=user+files]Mjjstral[/url], [url=https://www.nexusmods.com/users/41291360]moddinaccount[/url], Devilin Pixy, saa044, and others have all helped us learn to mod effectively! Without the above-mentioned, their mods and applications, we would be unable to make any mods at all![/i][/size]\n<br />\n<br />[size=5][i]\"If I have seen further than others, it is by standing upon the shoulders of giants\"[/i][/size]\n<br />[right][size=4]﻿-Sir Isaac Newton  [/size][/right]\n<br />",
+    "description": "[b][color=#f1c232][size=4]What is this Mod?[/size][/color][/b]\n<br />[size=4]There are now almost 1,000 buildable base parts in vanilla No Man's Sky! It's a dream come true!\n<br />This mod adds an extreme degree of freedom to the vanilla base-building options.\n<br />This does NOT mean the mod gives you access to all buildable parts.  You still need to learn the blueprints for each.  :)\n<br />Beyond Base Building does NOT add any new build parts to the game.\n<br />\n<br />Now includes all the functionality of gBase Items, [color=#ff0000]if chosen by running the Lua script[/color]:[/size]\n<br />\n<br />[list]\n<br />[*][size=4]Can multiply power, extraction, and storage rates by 2, 5, or 10. WARNING: Bases built with this mod cannot be uploaded for multiplayer when using 2x, 5x, or 10x multiplied rates.[/size][/*]\n<br />[/list]\n<br />[list]\n<br />[*][size=4]EM Generators do not need a hotspot and produce 250 power.  Not enabled by default.  Must run Lua through ANUMSS and answer question \"Choose a multiplier for Storage and Rates and EMAnywhere status\" to generate custom mod file to enable.[/size][/*]\n<br />[/list][size=4]\n<br />\n<br />It is [b]fully compatible[/b] with multiplayer, co-op building, uploading, etc, because it [i]does not add[/i] any parts, which would cause issues in multiplayer.[/size]\n<br />\n<br />[size=4][color=#f1c232][b]★ Beyond Basebuilding[/b] is fully Lua scripted, with script provided for easy updating and merging [b]★[/b][/color] and carries over all of the official updates and improvements offered by Hello Games [b]plus[/b]:[/size]\n<br />\n<br />[list]\n<br />[*][size=4]Most parts can be Scaled [i][color=#fff2cc]except[/color][/i] prefab building parts, [color=#fff2cc]Exocraft Geobays, Mineral/Gas Extractors and Base Computer[/color] (Door attachment points bug out when scaled, and issues persist with scaled base computers and geobays).  There may be others not listed.  Be aware, scaling breaks snapping.[/size][/*]\n<br />[*][size=4]Many parts can be built in a Freighter.  [color=#fff2cc][i]Exceptions[/i][/color]  include the Base Computer, Industrial Mining parts, Vehicle Summoners and planet-based teleporter.[/size][/*]\n<br />[*][size=4]Many parts can be built at a Planetary Base [i][color=#fff2cc]except[/color][/i] the freighter teleporter and the Orbital Exocraft Materialiser[/size][/*]\n<br />[*][size=4]All parts can be built above and below water[/size][/*]\n<br />[*][size=4]All parts can change color and material[/size][/*]\n<br />[*][size=4]All parts, which can be deleted, can be deleted without also deleting attached objects [color=#fff2cc][i]except[/i][/color] Decals and Posters[/size][/*]\n<br />[*][size=4]No build-count limits [i][color=#fff2cc]except[/color][/i] for parts related to resources harvesting, certain terminals, beacons and message capsules (and others with limits that are hard coded into the game, as they are added or changed by Hello Games).[/size][/*]\n<br />[*][size=4]Unlimited Storage Containers[color=#cccccc][size=3][i]—*This does not increase actual storage amounts: Each numbered container acts as an index to the store rather than a physical box[/i][/size][/color][/size][/*]\n<br />[*][size=4]Foundation, Pavings and Communications Station can be placed anywhere (not only on bare terrain)[/size][/*]\n<br />[*][size=4]Non corvette parts buildable with corvettes[/size][/*]\n<br />[/list][size=4]\n<br />Some customization of the mod is available just by running it through AMUMSS, where you'll be prompted about enabling several feature.  Even more customization can be had by editing the top portion of the Lua before processing.  See Lua usage below for link to AMUMSS install and basic usage How to.[/size]\n<br />\n<br />[color=#f1c232][b][u][size=5]Disclaimer:[/size][/u][/b][/color]\n<br />[size=3]This MOD makes changes to the placement and usage setting of vanilla parts.  If the MOD is removed, the vanilla settings will be restored and parts that \"violate\" a vanilla setting as well as those connected may go \"poof\".  Best practice is to regularly backup your saves for semi-painless recovery from the unexpected.[/size]\n<br />\n<br />[center][img]https://staticdelivery.nexusmods.com/images/1634/95741288-1598421367.png[/img][/center]\n<br />\n<br />[size=5][b][u][color=#f1c232]Installation[/color]\n<br />[/u][/b][/size]\n<br />[b]Extract archive contents to GAMEDATA\\MODS\n<br />\n<br />[color=#f1c232][size=4][u]Lua usage[/u][/size][/color]\n<br />[size=4][b]✦[url=https://www.nexusmods.com/nomanssky/mods/2626]How to use AMUMSS at No Man's Sky Nexus - Mods and Community (nexusmods.com)[/url]✦[/b][/size][/b]\n<br />\n<br />[size=4][u][b][color=#f1c232]Modified Files[/color][/b][/u][/size]\n<br />[color=#d8d8d8][size=3]METADATA\\REALITY\\TABLES\\BASEBUILDINGOBJECTSTABLE.MBIN[/size][/color]\n<br />\n<br />[i][color=#cccccc][size=3]Also check out...[/size][/color][/i]\n<br />[size=5]✦[b][color=#ffdd00][url=https://www.nexusmods.com/users/58018181?tab=user+files]Exosolar's Other Mods[/url][/color][/b]✦[/size]\n<br />\n<br />\n<br />[center][img]https://staticdelivery.nexusmods.com/images/1634/95741288-1598421367.png[/img][/center]\n<br />\n<br />[size=5][u][b][color=#f1c232]Is this Mod up-to-date?[/color][/b][/u][/size]\n<br />[size=4][i][b]Any mod files which are not hidden or demoted to the \"Old Files\" area can be expected to work.[/b][/i]\n<br />All uploaded files (on the Files page) are maintained with their packing date and version of the MBINCompiler used to pack it. Older mod versions, no longer compatible with the current version of No Man's Sky will be demoted to the \"Old Files\" subsection, but will remain available for download. There are no side-effects to using this mod.[/size]\n<br />\n<br />[size=4][u][b][color=#f1c232]How to update, tweak, combine, or patch the mod with AMUMSS?[/color][/b][/u][/size]\n<br />[size=4]As this mod is now Lua scripted, you can [color=#fff2cc]easily [b]update[/b], [b]tweak[/b] or [b]merge[/b] the mod yourself[/color] (if a game update breaks this PAK of the mod, or you have other PAK or Lua mods that could conflict with this one). [color=#cccccc][size=3][i]—*Click on the spoiler below for more[/i][/size][/color][/size]\n<br />[spoiler]\n<br />[size=3][u]Notes on AMUMSS:[/u]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/957]AMUMSS[/url] tries to update [url=https://github.com/monkeyman192/MBINCompiler/releases]MBINcompiler[/url] automatically. If it fails to convert EXML/MBIN files, its likely due to a very recent NMS version update and MBINcompiler is awaiting an update too.\n<br />If so, I highly recommend you to disable your mods and wait for MBINCompiler to be updated (it's pretty quick in general).[/size]\n<br />\n<br />\n<br />[size=3][u][b][color=#f1c232]Updating the mod after a game update:[/color][/b][/u][/size]\n<br />[spoiler][list]\n<br />[*] [size=3]Download [url=https://www.nexusmods.com/nomanssky/mods/957]AMUMSS[/url], and extract it locally,  avoid placing the AMUMSS folder in a path with special characters or in a system folder like [color=#fff2cc][i]\"C:\\Program Files (x86)\\(...)\"[/i][/color].[/size][/*]\n<br />[*][size=3]Place the mod Lua script (only the .LUA file, not the .PAK file) in the [color=#fff2cc][i]ModScript[/i][/color] folder of AMUMSS.[/size][/*]\n<br />[*][size=3]AMUMSS will normally auto-detect the NMS installation folder, but you can also manually edit the path in the [color=#fff2cc][i]NMS_FOLDER.txt[/i][/color] file.[/size][/*]\n<br />[*][size=3]Launch [color=#fff2cc][i]BUILDMOD.bat[/i][/color] in the root of the AMUMSS folder and follow the steps, selecting the option to automatically install it in the NMS [color=#fff2cc][i]MODS[/i][/color] folder.[/size][/*]\n<br />[*][size=3]A new modded PAK file will be created, using the last update of the MBIN game files duly amended by the script.[/size][/*]\n<br />[/list]\n<br />[size=3]Most of the time simply recompiling the mod using the Lua script will make it compatible again. Use the latest script to ensure you adopt any mod adjustments to accommodate the latest NMS build.[/size][size=3] There are two main causes of mods not correctly updating with this method:\n<br />1) MBINCompiler needs an update to be able to decompile the latest version of the game MBIN files.\n<br />2) Structural changes have been made to the MBIN files called by this Lua script. Whilst unlikely, this will require some script rewrite and other mods are likely affected.[/size][/spoiler]\n<br />\n<br />[size=3][u][b][color=#f1c232]Tweaking the mod:[/color][/b][/u][/size]\n<br />[spoiler][size=3]Use the same process as described in [color=#fff2cc][i]Updating the mod[/i][/color].\n<br />Just modify the script as you want before recompiling it. Look at the top of my scripts, you can generally edit modifiers there, or even disable/enable some features very easily.[/size]\n<br />\n<br />[size=3][color=#cccccc][i]*[url=https://notepad-plus-plus.org/]Notepad++[/url] or [url=https://code.visualstudio.com/download/]VSCode[/url] are generally recommended to read EXML and Lua files, due to large file support and automatic highlighting. The [url=https://sourceforge.net/projects/npp-compare/]Compare plugin[/url] for Notepad++, and Lua is also a must-have to highlight file differences.[/i][/color][/size][/spoiler]\n<br />\n<br />[size=3][u][b][color=#f1c232]Combining mods that provide Lua scripts:[/color][/b][/u][/size]\n<br />[spoiler][size=3]You'll want to do this if multiple mods affect the same MBIN file.[/size]\n<br />\n<br />[list]\n<br />[*] [size=3]Place all the scripts in the [color=#fff2cc][i]ModScript[/i][/color] folder of AMUMSS.[/size][/*]\n<br />[*][size=3]Launch [color=#fff2cc][i]BUILDMOD.bat[/i][/color] in the root folder of AMUMSS.[/size][/*]\n<br />[*][size=3]Follow the step, selecting that you want to combine all the scripts into one PAK file, and the option to automatically install it in the NMS [color=#fff2cc][i]MODS[/i][/color] folder.[/size][/*]\n<br />[/list]\n<br />[size=3]AMUMSS will output a PAK file that will contain the modifications of all the scripts.[/size]\n<br />[color=#cccccc][size=3][i]*If the scripts modify the exact same values in the MBIN file, the last loaded script will overwrite the preceding script values.[/i][/size][/color][/spoiler]\n<br />\n<br />[size=3][u][b][color=#f1c232]Patch in the mod to make it compatible with other PAK files:[/color][/b][/u][/size]\n<br />[spoiler][size=3]You will want to do this if another mods isn't Lua scripted, and affects the same MBIN file as the Lua scripted mod.\n<br />\n<br />It will work when :\n<br />Case 1) you patch a Lua scripted mod for only one other PAK.\n<br />Case 2) you patch a Lua scripted mod for several other PAKs, but only if the other PAKs don't modify the same MBIN files between them.[/size]\n<br />\n<br />[size=3][b]How to create a patched PAK:[/b][/size]\n<br />\n<br />[list]\n<br />[*] [size=3]Copy the script and the other mod(s) PAK(s) in the [color=#fff2cc][i]ModScript[/i][/color] folder of AMUMSS.[/size][/*]\n<br />[*][size=3]Launch [color=#fff2cc][i]BUILDMOD.bat[/i][/color] in the root folder of AMUMSS, and follow the steps, selecting the option to automatically install it in the NMS [color=#fff2cc][i]MODS[/i][/color] folder.[/size][/*]\n<br />[*][size=3]The new PAK file will contain all the Lua script modifications, and a compatibility patch for the other mod(s) PAK(s).[/size][/*]\n<br />[*][size=3]Rename it something like [color=#fff2cc][i]\"__zzz Scripted Mod Name -Patched For- The Other Mod Name.pak\"[/i][/color].[/size]\n<br />[size=3][color=#fff2cc][i]\"__zzz\"[/i][/color] prefix is to ensure that it'll be loaded after the mod(s) it was patched for (for NMS loading order, underscore [i]\"_\"[/i] came after every other characters).[/size][/*]\n<br />[*][size=3]Remove the original scripted mod PAK from the [color=#fff2cc][i]MODS[/i][/color] folder, and copy both the new patched one, and the other mod(s) PAK(s), into it.[/size][/*]\n<br />[/list][size=3][u]Notes:[/u]\n<br />[b]Be sure the mod PAK you want to create a compatibility patch for, is updated for the latest NMS version.[/b]\n<br />-&gt; When AMUSS find an MBIN file affected by a script and by a PAK in the [color=#fff2cc][i]ModScript[/i][/color] folder, it will take the MBIN file from the mod PAK over the original one of the game, and will apply to it the modifications listed in the script.\n<br />So, if the MBIN file of the mod PAK is not updated, the one in the resulting patched PAK won't be either.[/size][/spoiler]\n<br />[/spoiler]\n<br />\n<br />[center][img]https://staticdelivery.nexusmods.com/images/1634/95741288-1598421367.png[/img][/center]\n<br />[color=#f1c232][u][b][size=5]Philosophy[/size][/b][/u][/color]\n<br />[size=4]All the erroneous limitations in building are pretty silly, aren't they? In making this mod, I paid specific attention to making sure I did not make changes that will invalidate the bases built with it from online play. Any base made with Beyond BaseBuilding will be fully viable and visible in online play, even when other players don't have this mod! It does this by only editing placement rules while you are in the building editor and not modifying any of the actual base parts themselves.\n<br />We hope you enjoy the mod and naturally, your comments are most welcome. We can also be found on the No Man's Sky Discord or reached directly at: [color=#f1c232]Babscoole #6326 [/color]or [color=#f1c232]Exosolar#5120[/color], or if its about the Lua script: [color=#f1c232]NeptuneX3#8095[/color] [size=3][i][size=4]or [/size][/i][/size][color=#f1c232]s p a r k y#0536[/color][/size]\n<br />\n<br />\n<br />[center][img]https://staticdelivery.nexusmods.com/images/1634/95741288-1598421367.png[/img][/center]\n<br />[color=#f1c232][size=5][u][b]Credits and Special Thanks![/b][/u][/size][/color]\n<br />[size=4][i]Hello Games for making the wonderful, vast, and fun game, No Man's Sky!\n<br />monkeyman192 for the MBINCompiler and his continued efforts to keep it up-to-date\n<br />Mjjstral &amp; Wbertro for the AMUMSS script-based auto modbuilder/updater,\n<br />Tub0Crisco for the No Man's Sky Mod Station A.K.A. NMSMS\n<br />\n<br />[b]Big thanks[/b] to all of you lovely people who offer donations! It is greatly appreciated, and will help Exosolar buy lunch as a busy and broke college student! :D\n<br />\n<br />And, of course, thanks to all of the other modders who make mods too, as we often inspect the work of other modders to learn how things are done: [url=https://www.nexusmods.com/users/12249518]RangerDulann[/url], [url=https://www.nexusmods.com/users/44146502]Redmas[/url], [url=https://www.nexusmods.com/users/1964784]WoodyMontana[/url], [url=https://www.nexusmods.com/users/42286415]jasondude[/url], [url=https://www.nexusmods.com/nomanssky/users/38106355?tab=user+files]Gumsk[/url], [url=https://www.nexusmods.com/users/45932167?tab=user+files]Mjjstral[/url], [url=https://www.nexusmods.com/users/41291360]moddinaccount[/url], Devilin Pixy, saa044, and others have all helped us learn to mod effectively! Without the above-mentioned, their mods and applications, we would be unable to make any mods at all![/i][/size]\n<br />\n<br />[size=5][i]\"If I have seen further than others, it is by standing upon the shoulders of giants\"[/i][/size]\n<br />[right][size=4]﻿-Sir Isaac Newton  [/size][/right]\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -17935,8 +17935,8 @@
         "file_id": 46453,
         "name": "Beyond Base Building",
         "version": "6.33",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 24,
         "file_name": "Beyond Base Building-1096-6-33-1776296094.zip",
@@ -17949,6 +17949,30 @@
         "size_in_bytes": 24956,
         "changelog_html": "Resolved issue with freighter tech rooms not showing up for some people in corvettes",
         "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-33-1776296094.zip.json"
+      },
+      {
+        "id": [
+          46561,
+          1634
+        ],
+        "uid": 7017976608225,
+        "file_id": 46561,
+        "name": "Beyond Base Building",
+        "version": "6.34",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 25,
+        "file_name": "Beyond Base Building-1096-6-34-1777178065.zip",
+        "uploaded_timestamp": 1777178065,
+        "uploaded_time": "2026-04-26T04:34:25.000+00:00",
+        "mod_version": "6.34",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/898ab592c58bee60cf7461ea938994e5407a3747bacd018eb2252a87a2c7ea4b",
+        "description": "★ FULLY MP compatible and LUA scripted for easy updating and merging ★ this mod adds an extreme degree of freedom to the vanilla base-building options.",
+        "size_kb": 25,
+        "size_in_bytes": 25124,
+        "changelog_html": "Remove base build limit for wonder projector.",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-34-1777178065.zip.json"
       }
     ],
     "changelogs": {
@@ -18038,6 +18062,9 @@
       ],
       "6.33": [
         "Resolved issue with freighter tech rooms not showing up for some people in corvettes"
+      ],
+      "6.34": [
+        "Remove base build limit for wonder projector."
       ]
     }
   },
@@ -29187,96 +29214,6 @@
     "changelogs": {}
   },
   {
-    "mod_id": 2284,
-    "name": "Faster Scanning v6.34",
-    "summary": "Scan anything faster!",
-    "version": "6.31",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2284/2284-1652427334-301250705.png",
-    "author": "Flugelwulff",
-    "updated_timestamp": 1776828158,
-    "created_timestamp": 1652427579,
-    "description": "Lets you scan things faster with the analyzer. 1 second and instant options available as well as the option to disable the delay between scans.\n<br />\n<br />\n<br />[b][u]HOW TO INSTALL:\n<br />[/u][/b]1. Install with Vortex (strongly recommended - just do it)\n<br />2. Choose scan speed\n<br />3. Profit\n<br />\n<br />LUA file is available for those who wish to change the multiplier themselves or merge it with other mods.",
-    "state": "normal",
-    "warningMessage": "",
-    "files": [
-      {
-        "id": [
-          45004,
-          1634
-        ],
-        "uid": 7017976606668,
-        "file_id": 45004,
-        "name": "Faster Scanning LUA",
-        "version": "6.17",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
-        "is_primary": false,
-        "size": 1,
-        "file_name": "Faster Scanning LUA-2284-6-17-1763512584.7z",
-        "uploaded_timestamp": 1763512584,
-        "uploaded_time": "2025-11-19T00:36:24.000+00:00",
-        "mod_version": "6.17",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/fbc6bc8b742d79ec90e6e1e3dac7326b2e96a742ba68d0bb641c3a4d9a693f71/detection/f-fbc6bc8b742d79ec90e6e1e3dac7326b2e96a742ba68d0bb641c3a4d9a693f71-1763512590",
-        "description": "",
-        "size_kb": 1,
-        "size_in_bytes": 526,
-        "changelog_html": "Updated version number",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2284/Faster Scanning LUA-2284-6-17-1763512584.7z.json"
-      },
-      {
-        "id": [
-          46512,
-          1634
-        ],
-        "uid": 7017976608176,
-        "file_id": 46512,
-        "name": "Faster Scanning",
-        "version": "6.34",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
-        "size": 25,
-        "file_name": "Faster Scanning-2284-6-34-1776828158.7z",
-        "uploaded_timestamp": 1776828158,
-        "uploaded_time": "2026-04-22T03:22:38.000+00:00",
-        "mod_version": "6.34",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d5417d970d6f4a4d1217327ca6ae3ce2f70888adc09db529a7b45058975910ca",
-        "description": "",
-        "size_kb": 25,
-        "size_in_bytes": 25546,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2284/Faster Scanning-2284-6-34-1776828158.7z.json"
-      }
-    ],
-    "changelogs": {
-      "1.0": [
-        "Sorry to anyone trying to download when I first uploaded. Added option to chose speeds. Fixed selection screen image being broken."
-      ],
-      "1.0.1": [
-        "Modified \"Instant\" from \"0.1\" sec. to actually instant after testing stability",
-        "Changed version numbering",
-        "Added LUA file for use with AMUMSS (for merging)"
-      ],
-      "1.1.0": [
-        "Added ability to remove the delay between scans (added to LUA as well)",
-        "Added link to description to custom LUA",
-        "Added Custom LUA as optional file"
-      ],
-      "5.02": [
-        "Removed Custom LUA as the additional changes are now changable in-game and that code no longer works."
-      ],
-      "5.75": [
-        "Replaced EXML_CHANGE_TABLE in LUA to MXML_CHANGE_TABLE to fix warning in AMUMSS"
-      ],
-      "6.12": [
-        "Overhaul to LUA structure &amp; updated version number"
-      ],
-      "6.17": [
-        "Updated version number"
-      ]
-    }
-  },
-  {
     "mod_id": 2346,
     "name": "Quick Damaged Machineries 2.8",
     "summary": "1-click no junk damaged machineries",
@@ -30414,6 +30351,98 @@
       }
     ],
     "changelogs": {}
+  },
+  {
+    "mod_id": 3420,
+    "name": "Communism - A Consumerism AddOn",
+    "summary": "Makes every Expedition and Twitch item added by Consumerism FREE OF CHARGE.",
+    "version": "6.32",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3420/3420-1743029391-404502943.png",
+    "author": "Syzzle",
+    "updated_timestamp": 1776211596,
+    "created_timestamp": 1743035334,
+    "description": "[center]That's right Comrade, are you also tired of the capitalism devils dictating what you can or can not have? If you are then you can join us, this little trick can help you achieve everything you desire and the best part is that you will be able to do that FOR FREE!\n<br />You've heard it right, FOR FREE!\n<br />\n<br />[size=5][b]THERE IS NO CATCH![/b][/size]\n<br />\n<br />If you want to bask in this red glory then just install our [i]thing[/i] on your game, and as you probably have guessed, this thing is also FREE!\n<br />\n<br />If you still not believe in what we're saying, then don't believe on us, believe on them who believes on us.\n<br />\n<br />[img]https://i.imgur.com/y3JelQA.png[/img]﻿﻿[/center][center]﻿[/center][center][size=4][b]Convinced now?[/b][/size]\n<br />Then join us in this WAR against CAPITALISM, to do it is pretty simple, download our program and follow the instructions below to activate it.[/center]\n<br />[quote][size=5][b]Installing Mods[/b][/size]\n<br />Follow these steps to install mods.\n<br />\n<br />[list=1]\n<br />[*]Browse to [b]No Man's Sky\\GAMEDATA[/b].\n<br />[*]Create a folder named [b]MODS[/b].\n<br />[*]Place the [b]mod folder containing the loose files into the MODS folder[/b] (they have to be in the MODS folder itself and not in any subfolder, and no loose files should be inside the MODS folder).\n<br />[*]Start the game and wait for the splash screen to disappear.\n<br />[*]If done correctly [b]the[/b] [b]game will display a[/b] [b]warning[/b] just before displaying the selection of saved games.\n<br />[/list][/quote][center]The warning will look like [url=https://i.imgur.com/zTEEFwI.jpeg]this[/url].[/center]\n<br />\n<br />[center][img]https://i.imgur.com/kVHngZn.png[/img]﻿[/center]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          42970,
+          1634
+        ],
+        "uid": 7017976604634,
+        "file_id": 42970,
+        "name": "Communism - Free Void Egg",
+        "version": "6.03",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "Communism - Free Void Egg-3420-6-03-1757177129.zip",
+        "uploaded_timestamp": 1757177129,
+        "uploaded_time": "2025-09-06T16:45:29.000+00:00",
+        "mod_version": "6.03",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/72a3efa3da9f0ff8c9b04bbf34eb17132a062891b285312bcdd6b7132fad44cf/detection/f-72a3efa3da9f0ff8c9b04bbf34eb17132a062891b285312bcdd6b7132fad44cf-1757177131",
+        "description": "Glory to the collective! The Void Egg, a tool for the people, is now liberated from the capitalist yoke of price and is rightfully free. For it is not an item of decadent, bourgeois expeditions, but a common resource for all.",
+        "size_kb": 1,
+        "size_in_bytes": 1302,
+        "changelog_html": "Due to a change in policy, the Void Egg is now considered an item of capitalist luxury and must be bought with a price, rather than being given freely to the people.",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3420/Communism - Free Void Egg-3420-6-03-1757177129.zip.json"
+      },
+      {
+        "id": [
+          46423,
+          1634
+        ],
+        "uid": 7017976608087,
+        "file_id": 46423,
+        "name": "Communism",
+        "version": "6.32",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 10,
+        "file_name": "Communism-3420-6-32-1776211596.zip",
+        "uploaded_timestamp": 1776211596,
+        "uploaded_time": "2026-04-15T00:06:36.000+00:00",
+        "mod_version": "6.32",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4b7259d1fe17731a2b2769ff954ce5839d9ec6fc446ab5e508afd1530d3aa675",
+        "description": "Here is your passport, Comrade.",
+        "size_kb": 10,
+        "size_in_bytes": 10550,
+        "changelog_html": "Attention, comrades! The Eggs from the glorious Xeno Arena update have been liberated from the greedy grip of the bourgeoisie! They have been seized and redistributed to the proletariat, and now belong to the people at absolutely no cost. Glory to the collective!",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3420/Communism-3420-6-32-1776211596.zip.json"
+      }
+    ],
+    "changelogs": {
+      "5.60": [
+        "Initial Release"
+      ],
+      "5.70": [
+        "Updated to 5.70, broski"
+      ],
+      "6.0": [
+        "Received the intel from Agent 6.0 with the new armaments for our cause."
+      ],
+      "6.03": [
+        "Due to a change in policy, the Void Egg is now considered an item of capitalist luxury and must be bought with a price, rather than being given freely to the people."
+      ],
+      "6.04": [
+        "Comrades,  In our collective struggle for a more just universe, we have liberated some of the Expedition Ships from the oppressive burden of Nanites. The People's Fleet is now more accessible to all who contribute to the common good!"
+      ],
+      "6.05": [
+        "Comrade, the Deadeye Cannon is now, by the will of the people and for the glory of the collective, a resource liberated from the chains of capitalist exchange! It is our cannon, and its use is free for all who serve the cause!"
+      ],
+      "6.10": [
+        "Comrades! The new resources secured by the victorious Breach expedition are now property of the collective and have been added to the people's inventory!"
+      ],
+      "6.20": [
+        "Comrades! The glorious Remnant expedition has arrived with spoils for the Collective! The Party has authorized the distribution of superior truck modifications for the proletariat. Best of all, these assets have been liberated from the chains of currency and they are available to all loyal workers at zero cost! Glory to the State!"
+      ],
+      "6.32": [
+        "Attention, comrades! The Eggs from the glorious Xeno Arena update have been liberated from the greedy grip of the bourgeoisie! They have been seized and redistributed to the proletariat, and now belong to the people at absolutely no cost. Glory to the collective!"
+      ]
+    }
   },
   {
     "mod_id": 3494,

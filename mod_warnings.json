@@ -126,12 +126,6 @@
         "warningMessage": ""
     },
     {
-        "name": "Faster Scanning v6.34",
-        "id": "2284",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Quick Damaged Machineries 2.8",
         "id": "2346",
         "state": "normal",
@@ -170,6 +164,12 @@
     {
         "name": "MC Character Customiser",
         "id": "3412",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Communism - A Consumerism AddOn",
+        "id": "3420",
         "state": "normal",
         "warningMessage": ""
     },
