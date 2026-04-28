@@ -18,12 +18,6 @@
         "warningMessage": "Not updated in 10 years"
     },
     {
-        "name": "JJs Better Ships",
-        "id": "547",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Unlimited Tech Stacking",
         "id": "706",
         "state": "warning",
@@ -46,6 +40,12 @@
         "id": "952",
         "state": "warning",
         "warningMessage": "Not updated in 6 years"
+    },
+    {
+        "name": "AMUMSS (auto modbuilder-updater with MOD script definition system)",
+        "id": "957",
+        "state": "normal",
+        "warningMessage": ""
     },
     {
         "name": "Fast Actions 7.1",
