@@ -42,12 +42,6 @@
         "warningMessage": "Not updated in 6 years"
     },
     {
-        "name": "AMUMSS (auto modbuilder-updater with MOD script definition system)",
-        "id": "957",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Fast Actions 7.1",
         "id": "1081",
         "state": "normal",
@@ -94,6 +88,12 @@
         "id": "1690",
         "state": "warning",
         "warningMessage": "Not updated in 6 years"
+    },
+    {
+        "name": "Companion Pet Unlocker",
+        "id": "1868",
+        "state": "normal",
+        "warningMessage": ""
     },
     {
         "name": "Feed your Living Ship delicious abyssal treats",
