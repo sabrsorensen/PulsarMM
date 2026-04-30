@@ -42,6 +42,12 @@
         "warningMessage": "Not updated in 6 years"
     },
     {
+        "name": "AMUMSS (auto modbuilder-updater with MOD script definition system)",
+        "id": "957",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "Fast Actions 7.1",
         "id": "1081",
         "state": "normal",
@@ -164,12 +170,6 @@
     {
         "name": "MC Character Customiser",
         "id": "3412",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Communism - A Consumerism AddOn",
-        "id": "3420",
         "state": "normal",
         "warningMessage": ""
     },
