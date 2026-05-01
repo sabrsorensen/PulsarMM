@@ -84,12 +84,6 @@
         "warningMessage": ""
     },
     {
-        "name": "NomNom",
-        "id": "1566",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "JinxterMODs Multitool HUD Reborn",
         "id": "1690",
         "state": "warning",
@@ -170,6 +164,12 @@
     {
         "name": "MC Character Customiser",
         "id": "3412",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Communism - A Consumerism AddOn",
+        "id": "3420",
         "state": "normal",
         "warningMessage": ""
     },
