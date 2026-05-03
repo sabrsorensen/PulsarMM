@@ -84,6 +84,12 @@
         "warningMessage": "Not updated in 6 years"
     },
     {
+        "name": "NomNom",
+        "id": "1566",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "Kibbles 'n Bits",
         "id": "1627",
         "state": "normal",
@@ -176,12 +182,6 @@
     {
         "name": "Bigger Fishing Range",
         "id": "3370",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Communism - A Consumerism AddOn",
-        "id": "3420",
         "state": "normal",
         "warningMessage": ""
     },
