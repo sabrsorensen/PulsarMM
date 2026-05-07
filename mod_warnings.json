@@ -60,12 +60,6 @@
         "warningMessage": ""
     },
     {
-        "name": "NomNom",
-        "id": "1566",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Capital System Freighters",
         "id": "1574",
         "state": "warning",
@@ -212,6 +206,12 @@
     {
         "name": "Portable Heater",
         "id": "3930",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Reticles Color(Ship and MultiTool Weapon)",
+        "id": "4193",
         "state": "normal",
         "warningMessage": ""
     }
