@@ -36,12 +36,6 @@
         "warningMessage": ""
     },
     {
-        "name": "HD Space Planet Clouds 2.2",
-        "id": "1083",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Exosolar's and Babs' Beyond Base Building",
         "id": "1096",
         "state": "normal",
@@ -212,6 +206,12 @@
     {
         "name": "Craftable Corvette Parts",
         "id": "3863",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Reticles Color(Ship and MultiTool Weapon)",
+        "id": "4193",
         "state": "normal",
         "warningMessage": ""
     }
