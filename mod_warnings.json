@@ -12,12 +12,6 @@
         "warningMessage": ""
     },
     {
-        "name": "AMUMSS (auto modbuilder-updater with MOD script definition system)",
-        "id": "957",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Tessellation Fix for VISIONS 1.77",
         "id": "1060",
         "state": "warning",
@@ -74,6 +68,12 @@
     {
         "name": "Sensible Planetary Charts - Worlds Pt II",
         "id": "1676",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Instant Text Display - ITD",
+        "id": "1677",
         "state": "normal",
         "warningMessage": ""
     },
@@ -216,8 +216,8 @@
         "warningMessage": ""
     },
     {
-        "name": "Reticles Color(Ship and MultiTool Weapon)",
-        "id": "4193",
+        "name": "Rapid Dialogs",
+        "id": "4169",
         "state": "normal",
         "warningMessage": ""
     }
