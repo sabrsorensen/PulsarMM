@@ -42,12 +42,6 @@
         "warningMessage": "Not updated in 6 years"
     },
     {
-        "name": "Better Rewards",
-        "id": "1460",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Living Ship - 3 Hour Timer",
         "id": "1522",
         "state": "warning",
@@ -72,12 +66,6 @@
         "warningMessage": ""
     },
     {
-        "name": "Instant Text Display - ITD",
-        "id": "1677",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Base Computer Missions Timer - Updated for 3.21 NMS Companions",
         "id": "1753",
         "state": "warning",
@@ -86,6 +74,12 @@
     {
         "name": "gLight Always On Lights",
         "id": "1830",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Companion Pet Unlocker",
+        "id": "1868",
         "state": "normal",
         "warningMessage": ""
     },
@@ -110,12 +104,6 @@
     {
         "name": "BuildFrame SACS - Selection Augmentation for Colour System",
         "id": "2215",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Faster Scanning v6.34",
-        "id": "2284",
         "state": "normal",
         "warningMessage": ""
     },
@@ -218,6 +206,12 @@
     {
         "name": "Rapid Dialogs",
         "id": "4169",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Reticles Color(Ship and MultiTool Weapon)",
+        "id": "4193",
         "state": "normal",
         "warningMessage": ""
     }
