@@ -90,12 +90,6 @@
         "warningMessage": "Not updated in 6 years"
     },
     {
-        "name": "Instant Text Display - ITD",
-        "id": "1677",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "No Asteroids While Pulse Jump",
         "id": "1712",
         "state": "warning",
@@ -248,6 +242,12 @@
     {
         "name": "fnb_PurpleOutlawFilterColor",
         "id": "4055",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Reticles Color(Ship and MultiTool Weapon)",
+        "id": "4193",
         "state": "normal",
         "warningMessage": ""
     }
