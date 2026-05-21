@@ -54,12 +54,6 @@
         "warningMessage": "Not updated in 6 years"
     },
     {
-        "name": "Fine LOD",
-        "id": "1316",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "No Space Station Icon 2.3",
         "id": "1357",
         "state": "normal",
@@ -248,6 +242,12 @@
     {
         "name": "Rainstorms Into Rain",
         "id": "3984",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Rapid Dialogs",
+        "id": "4169",
         "state": "normal",
         "warningMessage": ""
     }
