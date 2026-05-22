@@ -28922,6 +28922,288 @@
     }
   },
   {
+    "mod_id": 2162,
+    "name": "Remove Technology Overload - 6.21 Remnant Compatible",
+    "summary": "Equip more than 3 tech of the same type // Adjusts inventory and tech slots depending on class // Stack sizes raised by x100 // Increased exosuit slots // UI and inventory grid fixes // Comes in three different versions, choose to your liking. :)",
+    "version": "6.21",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2162/2162-1644517280-1886783521.png",
+    "author": "chronicallybored",
+    "updated_timestamp": 1756459144,
+    "created_timestamp": 1644517845,
+    "description": "[center][font=Verdana][size=4][b][color=#ffe599][u][/u][/color][/b][/size][/font][/center][center][size=3]﻿[/size][font=Lucida Sans Unicode][b]This Mod comes in [u]three[/u] different versions:\n<br />\n<br />[/b]\n<br />[b][color=#ffffff]1.[/color] [color=#00ffff][u]Remove Technology Overload[/u][/color][/b]\n<br />\n<br />[color=#ffffff][size=2][b][i][color=#ffffff]- Increases the maximum number of same tech you can equip from[/color] [color=#ffff00]3[/color] [color=#ffffff]to [/color][color=#ffff00]9999[/color],[color=#ffff00] [/color]effectively removing technology overload\n<br />[/i][/b][/size][/color][b]\n<br />\n<br />\n<br />[color=#ffffff]2.[/color][size=3] [/size][color=#00ffff][u]Remove Technology Overload Plus[/u][/color]\n<br />[color=#ffffff]\n<br />[i][size=2]- Increases the maximum [/size][/i][/color][size=2][i][color=#ffff00]number of same tech[/color][color=#ffffff] you can equip from[/color] [color=#ffff00]3[/color] [color=#ffffff]to [/color][color=#ffff00]9999[/color][color=#ffff00], [/color]effectively removing technology overload\n<br />\n<br />[color=#ffffff][i]- Added some new UI and boundary fixes for the way the new inventory/UI works and interacts with the mod\n<br />[/i][/color][/i][i]\n<br />- Changed the values of [color=#ffff00]technology and cargo[/color] inventories and adapted them for the new inventory/UI[color=#ffffff], depending[/color]\n<br />[color=#ffffff]on the [/color][color=#ffff00]class[/color][color=#ffffff] of the used [/color][color=#ffff00]multitool[/color][color=#ffffff], [/color][color=#ffff00]ship[/color][color=#ffffff], [/color][color=#ffff00]freighter[/color][color=#ffffff], etc. Details below.[/color]\n<br />\n<br />[color=#ffffff]New technology inventory sizes depending on class:[/color]\n<br />\n<br />[color=#00ff00]C[/color] class = [color=#ffff00]30[/color] slots\n<br />[color=#00ff00]B[/color] class = [color=#ffff00]40[/color] slots\n<br />[color=#00ff00]A[/color] class = [color=#ffff00]50[/color] slots\n<br />[color=#00ff00]S[/color] class = [color=#ffff00]60[/color] slots\n<br />\n<br />[color=#ffffff]New cargo inventory sizes depending on class:[/color]\n<br />\n<br />[color=#00ff00]C[/color] class = [color=#ffff00]60[/color] slots\n<br />[color=#00ff00] B[/color] class = [color=#ffff00]80[/color] slots \n<br />[color=#00ff00]A[/color] class = [color=#ffff00]100[/color] slots\n<br />[color=#00ff00] S[/color] class = [color=#ffff00]120[/color] slots \n<br />\n<br />- New exosuit inventory sizes:\n<br />\n<br />Exosuit cargo inventory size (Width * Height):\n<br />[color=#ffff00]\n<br />12[/color] * [color=#ffff00]10[/color] = [color=#ffff00]120 [/color]total slots\n<br />\n<br />Exosuit technology inventory size (Width * Height):\n<br />\n<br />[color=#ffff00]6[/color] * [color=#ffff00]10 [/color]= [color=#ffff00]60 [/color]total slots\n<br />[/i][color=#dbb0a7]\n<br />[/color][/size][i][color=#e06666][u][size=3]IMPORTANT:[/size][/u]\n<br />[size=2]Please keep in mind that you will still have to buy/upgrade the wanted slots ingame. This mod doesn't raise them automatically[/size]\n<br />[size=2]to the maximum capacity.[/size][/color]\n<br />[/i]\n<br />\n<br />\n<br />[color=#ffffff]3.[/color][size=3] [/size][u][color=#00ffff]Remove Technology Overload Ultimate - Reworked[/color]\n<br />[color=#ffffff]\n<br />[/color][/u][i][size=2][color=#ffffff]- Combines all of the changes of the previous versions\n<br />\n<br />[/color][color=#ffffff]- Contains a stack multiplier, raising stack sizes for all inventories by x[/color][color=#ffff00]100 [/color](rounded up for nicer numbers)\n<br />\n<br />[/size]- Implemented a fix for antimatter reactors when using higher stack multipliers[/i][/b]\n<br />[i]\n<br />[/i]\n<br />[color=#ffe599][b]- [u]Installation instructions[/u] -\n<br />[/b][/color][i][b]\n<br />[size=2][color=#fff2cc]1. Go to [/color][i]&lt;YourNoMan'sSkyDirectory&gt;&#92;GAMEDATA&#92;PCBANKS[/i][color=#fff2cc] and check if there is a file called [/color][i]DISABLEMODS.txt[color=#fff2cc] - if so, delete it.\n<br />[/color][/i]\n<br />[color=#fff2cc]2. Now move to [/color][i]&lt;YourNoMan'sSkyDirectory&gt;&#92;GAMEDATA[/i][color=#fff2cc] and create a new folder called [/color][i]MODS[/i][color=#fff2cc].\n<br />[/color]\n<br />[color=#fff2cc]3. Download the mod and unpack the ZIP file. Then copy the folder (eg. \"[/color]cb Remove Technology Overload[color=#fff2cc]\") straight into the [/color][i]MODS[/i][color=#fff2cc] folder.\n<br />[/color]\n<br />[color=#fff2cc]4. That's basically it. You can start up the game now.\n<br />\n<br />[/color][/size][/b][color=#fff2cc][size=2][b]If done correctly, you should be getting a notification warning you about mods when launching the game. Have fun![/b]\n<br />[/size][/color]\n<br />[/i]\n<br />[size=2][i]\n<br />[b][color=#00ffff]Please feel free to let me know what you think of the new changes or report any issues in the comments, thank you. I also would like to say [/color][color=#00ff00]thank you for supporting this mod until now[/color][color=#00ffff], this community is absolutely amazing.[/color]\n<br />\n<br />[color=#00ffff]I hope you'll have a great time playing this awesome game. \n<br />\n<br />Cheers! :)[/color][/b][/i][/size][/font][i]\n<br />[/i][/center][font=Lucida Sans Unicode][size=3][b]\n<br />[/b]\n<br />[/size][/font]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          42523,
+          1634
+        ],
+        "uid": 7017976604187,
+        "file_id": 42523,
+        "name": "Remove Technology Overload 6.0",
+        "version": "6.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 2,
+        "file_name": "Remove Technology Overloard 6.0-2162-6-0-1756458883.zip",
+        "uploaded_timestamp": 1756458883,
+        "uploaded_time": "2025-08-29T09:14:43.000+00:00",
+        "mod_version": "6.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/69a10f95ea0799e89fd835e0b1ec03aa1f51c61453dc21da2a12cd9c75eb102d/detection/f-69a10f95ea0799e89fd835e0b1ec03aa1f51c61453dc21da2a12cd9c75eb102d-1756458885",
+        "description": "Removes technology overload.\n<br />\n<br />6.21 Remnant Compatible",
+        "size_kb": 2,
+        "size_in_bytes": 1809,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2162/Remove Technology Overloard 6.0-2162-6-0-1756458883.zip.json"
+      },
+      {
+        "id": [
+          42524,
+          1634
+        ],
+        "uid": 7017976604188,
+        "file_id": 42524,
+        "name": "Remove Technology Overload Plus 6.0",
+        "version": "6.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 5,
+        "file_name": "Remove Technology Overload Plus 6.0-2162-6-0-1756458943.zip",
+        "uploaded_timestamp": 1756458943,
+        "uploaded_time": "2025-08-29T09:15:43.000+00:00",
+        "mod_version": "6.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b85c1689274e56240a1d11139dd00173fcbfc1c3f85b16639ebda04b685fd2a2/detection/f-b85c1689274e56240a1d11139dd00173fcbfc1c3f85b16639ebda04b685fd2a2-1756458947",
+        "description": "Removes technology overload, fixes UI/inventory bounds and expands cargo and tech slots of just about anything depending on it's class.\n<br />\n<br />6.21 Remnant Compatible",
+        "size_kb": 5,
+        "size_in_bytes": 4765,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2162/Remove Technology Overload Plus 6.0-2162-6-0-1756458943.zip.json"
+      },
+      {
+        "id": [
+          42525,
+          1634
+        ],
+        "uid": 7017976604189,
+        "file_id": 42525,
+        "name": "Remove Technology Overload Ultimate 6.0",
+        "version": "6.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 10,
+        "file_name": "Remove Technology Overload Ultimate 6.0-2162-6-0-1756458987.zip",
+        "uploaded_timestamp": 1756458987,
+        "uploaded_time": "2025-08-29T09:16:27.000+00:00",
+        "mod_version": "6.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/869a0c2a1bab434a137eeca005f1399ae050ecc1e77008e36150627d773aa8a5/detection/f-869a0c2a1bab434a137eeca005f1399ae050ecc1e77008e36150627d773aa8a5-1756458989",
+        "description": "Removes technology overload, fixes UI/inventory bounds, expands cargo and tech slots of just about anything depending on it's class and increases all cargo stack sizes by x100 for all difficulties.\n<br />\n<br />6.21 Remnant Compatible",
+        "size_kb": 10,
+        "size_in_bytes": 9762,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2162/Remove Technology Overload Ultimate 6.0-2162-6-0-1756458987.zip.json"
+      },
+      {
+        "id": [
+          42526,
+          1634
+        ],
+        "uid": 7017976604190,
+        "file_id": 42526,
+        "name": "Remove Technology Overload 6.0 - LUA files",
+        "version": "6.0",
+        "category_id": 5,
+        "category_name": "MISCELLANEOUS",
+        "is_primary": false,
+        "size": 6,
+        "file_name": "Remove Technology Overload 6.0 - LUA files-2162-6-0-1756459144.zip",
+        "uploaded_timestamp": 1756459144,
+        "uploaded_time": "2025-08-29T09:19:04.000+00:00",
+        "mod_version": "6.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/9fad877814a5214353fcb0137ed5051e83bd0ba8742c4acd2284204f2ee234a5/detection/f-9fad877814a5214353fcb0137ed5051e83bd0ba8742c4acd2284204f2ee234a5-1756459146",
+        "description": "These are the .lua files for all versions of the mod for those that run into rare mod conflicts.\n<br />Requires AMUMSS version 5.4.5.0W or later. For use with MBINCompiler version 6.00.0+.\n<br />\n<br />6.21 Remnant Compatible",
+        "size_kb": 6,
+        "size_in_bytes": 5903,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2162/Remove Technology Overload 6.0 - LUA files-2162-6-0-1756459144.zip.json"
+      }
+    ],
+    "changelogs": {
+      "3.82": [
+        "Updated for NMS 3.82"
+      ],
+      "3.81": [
+        "Updated for NMS 3.81"
+      ],
+      "3.75": [
+        "Created for NMS 3.75"
+      ],
+      "3.82a": [
+        "Added a plus version with expanded features. (tech and inventory of most things expanded)"
+      ],
+      "3.84": [
+        "Updated for NMS 3.84"
+      ],
+      "3.87": [
+        "Updated for NMS 3.87 OUTLAWS"
+      ],
+      "3.88": [
+        "Updated for NMS 3.88 OUTLAWS"
+      ],
+      "3.89": [
+        "Updated for NMS 3.89"
+      ],
+      "3.90": [
+        "Updated for NMS 3.90"
+      ],
+      "3.91": [
+        "Updated for NMS 3.91, added a new \"Ultimate\" version, making it three versions total to choose from."
+      ],
+      "3.97": [
+        "Updated for NMS 3.97 ENDURANCE"
+      ],
+      "3.98": [
+        "Updated for NMS 3.98 ENDURANCE"
+      ],
+      "3.99": [
+        "Updated for NMS 3.99"
+      ],
+      "4.00": [
+        "Updated for NMS 4.00 WAYPOINT"
+      ],
+      "4.00 Beta": [
+        "Reworked the mod for the new Waypoint changes, v3 Beta release"
+      ],
+      "4.04": [
+        "Reworked and updated for NMS 4.04"
+      ],
+      "4.05": [
+        "Updated for NMS 4.05"
+      ],
+      "4.06": [
+        "Updated for NMS 4.06"
+      ],
+      "4.07": [
+        "Updated for NMS 4.07"
+      ],
+      "4.08": [
+        "Updated for NMS 4.08"
+      ],
+      "4.10": [
+        "Updated for NMS 4.10 Fractal"
+      ],
+      "4.12": [
+        "Updated for NMS 4.12 Fractal"
+      ],
+      "4.14": [
+        "Updated for NMS 4.14 Fractal"
+      ],
+      "4.20": [
+        "Updated for NMS 4.20 Interceptor"
+      ],
+      "4.22": [
+        "Updated for NMS 4.22 Interceptor"
+      ],
+      "4.25": [
+        "Updated for NMS 4.25 Interceptor"
+      ],
+      "4.30": [
+        "Updated for NMS 4.30 Singularity"
+      ],
+      "4.33": [
+        "Updated for NMS 4.33 Singularity"
+      ],
+      "4.34": [
+        "Updated for NMS 4.34 Singularity"
+      ],
+      "4.36": [
+        "Updated for NMS 4.36 Singularity"
+      ],
+      "4.36.2": [
+        "Updated for NMS 4.36.2 Singularity"
+      ],
+      "4.40": [
+        "Updated for NMS 4.40 Echoes"
+      ],
+      "4.41": [
+        "Updated for NMS 4.41 Echoes"
+      ],
+      "4.43": [
+        "Updated for NMS 4.43 Echoes"
+      ],
+      "4.44": [
+        "Updated for NMS 4.44 Echoes"
+      ],
+      "4.45": [
+        "Updated for NMS 4.45 Echoes"
+      ],
+      "4.46": [
+        "Updated for NMS 4.46 Echoes"
+      ],
+      "4.50": [
+        "Updated for NMS 4.50 Omega"
+      ],
+      "4.52": [
+        "Updated for NMS 4.52 Omega"
+      ],
+      "4.60": [
+        "Updated for NMS 4.60 Orbital"
+      ],
+      "4.64": [
+        "Updated for NMS 4.64 Orbital"
+      ],
+      "4.65": [
+        "Updated for NMS 4.65 Orbital"
+      ],
+      "4.65-hotfix": [
+        "Hotfix for antimatter reactor output with high stack multipliers set, now defaults to max 20 units produced like vanilla NMS."
+      ],
+      "4.70": [
+        "Updated for NMS 4.70 Adrift"
+      ],
+      "5.00": [
+        "Updated for NMS 5.00 Worlds Part 1"
+      ],
+      "5.05": [
+        "Updated for NMS 5.05 Worlds Part 1"
+      ],
+      "5.10": [
+        "Updated for NMS 5.10 Aquarius"
+      ],
+      "5.12": [
+        "Updated for NMS 5.12 Aquarius"
+      ],
+      "5.20": [
+        "Updated for NMS 5.20 Aquarius"
+      ],
+      "5.21": [
+        "Mod still working fine for Patch 5.21 The Cursed"
+      ],
+      "5.29": [
+        "Updated for NMS 5.29 The Cursed (Holiday Expeditions)"
+      ],
+      "5.51": [
+        "The mod has been rebuilt for No Man's Sky's Worlds Part II update."
+      ],
+      "5.61": [
+        "Repacked for NMS 5.61 Relics update",
+        "Updated install instructions",
+        "Updated LUA files"
+      ],
+      "5.71": [
+        "No update necessary. Mod still works fine for No Man's Sky's 5.71 BEACON update."
+      ],
+      "6.00": [
+        "Updated for NMS 6.00 Voyagers",
+        "Added support for the new Corvette type ships",
+        "Updated install instructions to make more sense for newer NMS versions"
+      ]
+    }
+  },
+  {
     "mod_id": 2209,
     "name": "Burn Baby Burn Incinerator",
     "summary": "Want flames? Here you go",
@@ -33761,118 +34043,6 @@
         "size_in_bytes": 1216797,
         "changelog_html": null,
         "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3629/Red Diamonds Warps 1.4-3629-1-4-1776519800.zip.json"
-      }
-    ],
-    "changelogs": {}
-  },
-  {
-    "mod_id": 3701,
-    "name": "Corvette No Complexity Limit",
-    "summary": "Corvette-class ships no complexity limit<br />克尔维特级星舰(小型护卫舰)无复杂度限制<br />✅EXML - Still working fine so far(到目前为止仍然工作正常)",
-    "version": "6.01",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3701/3701-1758172631-120228289.png",
-    "author": "DY230",
-    "updated_timestamp": 1756698478,
-    "created_timestamp": 1756324548,
-    "description": "Corvette-class ships no complexity limit\n<br />\n<br />✅EXML - Still working fine so far.\n<br />\n<br />[b]#IMPORTANT#[/b]\n<br />likely to work well with other mods\n<br />[b][color=#ff0000]Too many parts can make the game STUCK!!![/color][/b]\n<br />\n<br />[b]#INSTALL#[/b]\n<br />Download and Extract archive contents\n<br />Place entire \"BuildableShip 99999 EXML\" folder inside [u][b]GAMEDATA&#92;MODS&#92;[/b][/u]\n<br />the full path looks like this:\n<br />D:&#92;Steam&#92;SteamApps&#92;Common&#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92;BuildableShip 99999 EXML&#92;GLOBALS&#92;GCBUILDABLESHIPGLOBALS.GLOBAL.EXML\n<br />\n<br />[b]#UNINSTALL#[/b]\n<br />Delete entire \"BuildableShip 99999 EXML\" folder inside [u][b]GAMEDATA&#92;MODS&#92;[/b][/u]\n<br />\n<br />[b]#GUIDE#[/b]\n<br />A little help for installing mods manually:\n<br />[url=https://nomanssky.fandom.com/wiki/Mods#Installing_Mods]https://nomanssky.fandom.com/wiki/Mods#Installing_Mods[/url]\n<br />If you have installed the mod correctly and it still doesn't work,\n<br />try deleting [u][b]No Man's Sky&#92;Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/b][/u] file and restart the game\n<br />\n<br />[b]#TOUCHES#[/b]\n<br />GLOBALS&#92;GCBUILDABLESHIPGLOBALS.GLOBAL.EXML\n<br />\n<br />[b]#CREDITS#[/b]\n<br />Hello Games for No Man's Sky\n<br />Nexus Mods websites\n<br />Monkeyman192 for the MBIN compiler\n<br />Mjjstral &amp; Wbertro for the AMUMSS\n<br />All of the other Amazing Modders\n<br />\n<br />\n<br />\n<br />克尔维特级星舰(小型护卫舰)无复杂度限制\n<br />\n<br />✅EXML - 到目前为止仍然工作正常\n<br />\n<br />[b]#重点#[/b]\n<br />可能与其它MOD兼容\n<br />[color=#ff0000][b]太多部件会让游戏很卡！！！[/b][/color]\n<br />\n<br />[b]#安装#[/b]\n<br />下载并解压\n<br />将整个“BuildableShip 99999 EXML”文件夹放入[u][b]GAMEDATA&#92;MODS&#92;[/b][/u]文件夹里面。\n<br />完整路径类似如下：\n<br />D:&#92;Steam&#92;SteamApps&#92;Common&#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92;BuildableShip 99999 EXML&#92;GLOBALS&#92;GCBUILDABLESHIPGLOBALS.GLOBAL.EXML\n<br />\n<br />[b]#卸载#[/b]\n<br />将整个“BuildableShip 99999 EXML”文件夹从[u][b]GAMEDATA&#92;MODS&#92;[/b][/u]中删除。\n<br />\n<br />[b]#指南#[/b]\n<br />无人深空又更新啦！简单易懂的新MOD安装方法教学！(来自B站@我值500G噢)\n<br />[url=https://www.bilibili.com/video/BV1AGKWeyE1J/]https://www.bilibili.com/video/BV1AGKWeyE1J/[/url]\n<br />如果你正确安装了MOD仍然无法使用，尝试删除[u][b]No Man's Sky&#92;Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/b][/u]文件并重启游戏\n<br />\n<br />[b]#点睛#[/b]\n<br />GLOBALS&#92;GCBUILDABLESHIPGLOBALS.GLOBAL.EXML\n<br />\n<br />[b]#鸣谢#[/b]\n<br />无人深空游戏官方Hello Games\n<br />Nexus Mods网站\n<br />Monkeyman192的MBIN compiler\n<br />Mjjstral和Wbertro的AMUMSS\n<br />以及所有其他了不起的mod作者",
-    "state": "normal",
-    "warningMessage": "",
-    "files": [
-      {
-        "id": [
-          42384,
-          1634
-        ],
-        "uid": 7017976604048,
-        "file_id": 42384,
-        "name": "BuildableShip 10x",
-        "version": "6.00",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 1,
-        "file_name": "BuildableShip 10x-3701-6-00-1756323395.zip",
-        "uploaded_timestamp": 1756323395,
-        "uploaded_time": "2025-08-27T19:36:35.000+00:00",
-        "mod_version": "6.00",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0ca716bed29695fbddf8d2132aa444c36cd36fec38cf4c5a8b900ab7e4047a4f/detection/f-0ca716bed29695fbddf8d2132aa444c36cd36fec38cf4c5a8b900ab7e4047a4f-1756323398",
-        "description": "No part limits\n<br />Complexity limit to 1000 (Orginal 100)",
-        "size_kb": 1,
-        "size_in_bytes": 837,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/BuildableShip 10x-3701-6-00-1756323395.zip.json"
-      },
-      {
-        "id": [
-          42385,
-          1634
-        ],
-        "uid": 7017976604049,
-        "file_id": 42385,
-        "name": "BuildableShip 99999",
-        "version": "6.00",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 1,
-        "file_name": "BuildableShip 99999-3701-6-00-1756323431.zip",
-        "uploaded_timestamp": 1756323431,
-        "uploaded_time": "2025-08-27T19:37:11.000+00:00",
-        "mod_version": "6.00",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/06df6ad9a2f2befe0f13f43e8c154591edbee552c10270394a6cfd379008f07a/detection/f-06df6ad9a2f2befe0f13f43e8c154591edbee552c10270394a6cfd379008f07a-1756323434",
-        "description": "No part limits\n<br />Complexity limit to 99999 (Orginal 100)",
-        "size_kb": 1,
-        "size_in_bytes": 849,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/BuildableShip 99999-3701-6-00-1756323431.zip.json"
-      },
-      {
-        "id": [
-          42751,
-          1634
-        ],
-        "uid": 7017976604415,
-        "file_id": 42751,
-        "name": "BuildableShip 99999 EXML",
-        "version": "6.01",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": false,
-        "size": 1,
-        "file_name": "BuildableShip 99999 EXML-3701-6-01-1756698417.zip",
-        "uploaded_timestamp": 1756698417,
-        "uploaded_time": "2025-09-01T03:46:57.000+00:00",
-        "mod_version": "6.01",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/452ee210684cc8ac8c281551c1711a428ff6e851db3dc84562850e3bf4c7e40e/detection/f-452ee210684cc8ac8c281551c1711a428ff6e851db3dc84562850e3bf4c7e40e-1756698422",
-        "description": "Corvette-class ships no complexity limit\n<br />克尔维特级星舰(小型护卫舰)无复杂度限制\n<br />✅EXML - Still working fine so far(到目前为止仍然工作正常)",
-        "size_kb": 1,
-        "size_in_bytes": 866,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/BuildableShip 99999 EXML-3701-6-01-1756698417.zip.json"
-      },
-      {
-        "id": [
-          42752,
-          1634
-        ],
-        "uid": 7017976604416,
-        "file_id": 42752,
-        "name": "BuildableShip 99999 MBIN",
-        "version": "6.01",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 1,
-        "file_name": "BuildableShip 99999 MBIN-3701-6-01-1756698478.zip",
-        "uploaded_timestamp": 1756698478,
-        "uploaded_time": "2025-09-01T03:47:58.000+00:00",
-        "mod_version": "6.01",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/83b52beafec7dc3cb3ae7fd40375a426dda80f1bce579a74790a7405f28e7685/detection/f-83b52beafec7dc3cb3ae7fd40375a426dda80f1bce579a74790a7405f28e7685-1756698482",
-        "description": "Part fx and Complexity limit to 99999\n<br />(Full file replacement, High chance of conflict,\n<br />and EASY to fail when NMS UPDATED.)",
-        "size_kb": 1,
-        "size_in_bytes": 965,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/BuildableShip 99999 MBIN-3701-6-01-1756698478.zip.json"
       }
     ],
     "changelogs": {}
