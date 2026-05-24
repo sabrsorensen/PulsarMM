@@ -66,6 +66,12 @@
         "warningMessage": ""
     },
     {
+        "name": "Better Rewards",
+        "id": "1460",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "NomNom",
         "id": "1566",
         "state": "normal",
@@ -116,12 +122,6 @@
     {
         "name": "gSettlement Timers - Gumsk's Settlement Timers - EXML",
         "id": "2067",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Remove Technology Overload - 6.21 Remnant Compatible",
-        "id": "2162",
         "state": "normal",
         "warningMessage": ""
     },
