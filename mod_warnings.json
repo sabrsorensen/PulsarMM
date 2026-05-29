@@ -1,5 +1,11 @@
 [
     {
+        "name": "JJs Better Ships",
+        "id": "547",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "Faster Mining - Less Overheat - Flavors (Atlas Rises only)",
         "id": "598",
         "state": "warning",
@@ -8,12 +14,6 @@
     {
         "name": "Better Planet Generation",
         "id": "797",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "AMUMSS (auto modbuilder-updater with MOD script definition system)",
-        "id": "957",
         "state": "normal",
         "warningMessage": ""
     },
