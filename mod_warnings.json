@@ -96,12 +96,6 @@
         "warningMessage": ""
     },
     {
-        "name": "Companion Pet Unlocker",
-        "id": "1868",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "STACKS-SurvivalisNormal",
         "id": "1907",
         "state": "warning",
@@ -116,6 +110,12 @@
     {
         "name": "Consumerism - Expedition Twitch and Community reward unlocker",
         "id": "2062",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Remove Technology Overload - 6.21 Remnant Compatible",
+        "id": "2162",
         "state": "normal",
         "warningMessage": ""
     },
@@ -222,14 +222,8 @@
         "warningMessage": ""
     },
     {
-        "name": "Moar Realistic Weather",
-        "id": "3986",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Rapid Dialogs",
-        "id": "4169",
+        "name": "Reticles Color(Ship and MultiTool Weapon)",
+        "id": "4193",
         "state": "normal",
         "warningMessage": ""
     }
