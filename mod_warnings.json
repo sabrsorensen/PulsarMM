@@ -42,12 +42,6 @@
         "warningMessage": "Not updated in 7 years"
     },
     {
-        "name": "Ultra Base Building",
-        "id": "1214",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Synthesis Updated Title Screen",
         "id": "1368",
         "state": "warning",
@@ -96,6 +90,12 @@
         "warningMessage": ""
     },
     {
+        "name": "Companion Pet Unlocker",
+        "id": "1868",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "STACKS-SurvivalisNormal",
         "id": "1907",
         "state": "warning",
@@ -110,12 +110,6 @@
     {
         "name": "Consumerism - Expedition Twitch and Community reward unlocker",
         "id": "2062",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Remove Technology Overload - 6.21 Remnant Compatible",
-        "id": "2162",
         "state": "normal",
         "warningMessage": ""
     },
