@@ -54,6 +54,12 @@
         "warningMessage": ""
     },
     {
+        "name": "Black Space 4.2",
+        "id": "1471",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "Living Ship - 3 Hour Timer",
         "id": "1522",
         "state": "warning",
@@ -206,18 +212,6 @@
     {
         "name": "Pirate Station Corvette Teleport",
         "id": "3832",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "No Rusty Tech Clothes",
-        "id": "3909",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Reticles Color(Ship and MultiTool Weapon)",
-        "id": "4193",
         "state": "normal",
         "warningMessage": ""
     }
