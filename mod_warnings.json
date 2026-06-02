@@ -54,12 +54,6 @@
         "warningMessage": ""
     },
     {
-        "name": "Black Space 4.2",
-        "id": "1471",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Living Ship - 3 Hour Timer",
         "id": "1522",
         "state": "warning",
@@ -78,8 +72,20 @@
         "warningMessage": "Not updated in 6 years"
     },
     {
+        "name": "Better Scanning Icons 1.6",
+        "id": "1661",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "Sensible Planetary Charts - Worlds Pt II",
         "id": "1676",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Instant Text Display - ITD",
+        "id": "1677",
         "state": "normal",
         "warningMessage": ""
     },
@@ -92,12 +98,6 @@
     {
         "name": "gLight Always On Lights",
         "id": "1830",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Companion Pet Unlocker",
-        "id": "1868",
         "state": "normal",
         "warningMessage": ""
     },
