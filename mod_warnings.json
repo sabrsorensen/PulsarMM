@@ -72,12 +72,6 @@
         "warningMessage": "Not updated in 6 years"
     },
     {
-        "name": "Better Scanning Icons 1.6",
-        "id": "1661",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Sensible Planetary Charts - Worlds Pt II",
         "id": "1676",
         "state": "normal",
@@ -106,6 +100,12 @@
         "id": "1907",
         "state": "warning",
         "warningMessage": "Not updated in 5 years"
+    },
+    {
+        "name": "Firmware Update for the Signal Booster",
+        "id": "1930",
+        "state": "normal",
+        "warningMessage": ""
     },
     {
         "name": "(Frontiers Update) Quicksilver Rewards",
