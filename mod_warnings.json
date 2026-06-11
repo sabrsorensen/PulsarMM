@@ -1,11 +1,5 @@
 [
     {
-        "name": "JJs Better Ships",
-        "id": "547",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Faster Mining - Less Overheat - Flavors (Atlas Rises only)",
         "id": "598",
         "state": "warning",
@@ -94,6 +88,12 @@
         "id": "1907",
         "state": "warning",
         "warningMessage": "Not updated in 5 years"
+    },
+    {
+        "name": "Fast Refiners",
+        "id": "2016",
+        "state": "normal",
+        "warningMessage": ""
     },
     {
         "name": "(Frontiers Update) Quicksilver Rewards",
