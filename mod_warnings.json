@@ -180,6 +180,12 @@
         "warningMessage": ""
     },
     {
+        "name": "Communism - A Consumerism AddOn",
+        "id": "3420",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "HardcoreSky - Reduced Hazard Protection Duration",
         "id": "3447",
         "state": "normal",
@@ -206,12 +212,6 @@
     {
         "name": "Pirate Station Corvette Teleport",
         "id": "3832",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Reticles Color(Ship and MultiTool Weapon)",
-        "id": "4193",
         "state": "normal",
         "warningMessage": ""
     }
