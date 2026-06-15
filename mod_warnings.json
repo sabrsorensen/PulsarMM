@@ -90,6 +90,12 @@
         "warningMessage": "Not updated in 5 years"
     },
     {
+        "name": "Fast Refiners",
+        "id": "2016",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "(Frontiers Update) Quicksilver Rewards",
         "id": "2061",
         "state": "warning",
@@ -170,12 +176,6 @@
     {
         "name": "Bigger Fishing Range",
         "id": "3370",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Communism - A Consumerism AddOn",
-        "id": "3420",
         "state": "normal",
         "warningMessage": ""
     },
