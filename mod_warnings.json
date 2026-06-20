@@ -6,6 +6,12 @@
         "warningMessage": "Not updated in 5 years"
     },
     {
+        "name": "Better Planet Generation",
+        "id": "797",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "Custom Filter",
         "id": "835",
         "state": "warning",
