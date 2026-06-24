@@ -1,11 +1,5 @@
 [
     {
-        "name": "JJs Better Ships",
-        "id": "547",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "No Crosshair or Dot (nope_cross) -PRISMS and future compatible-",
         "id": "757",
         "state": "warning",
@@ -92,6 +86,12 @@
     {
         "name": "Improved Mech",
         "id": "2239",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Faster Scanning v6.44",
+        "id": "2284",
         "state": "normal",
         "warningMessage": ""
     },
