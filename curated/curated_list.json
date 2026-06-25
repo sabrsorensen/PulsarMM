@@ -22484,6 +22484,2355 @@
     }
   },
   {
+    "mod_id": 1944,
+    "name": "Craftable Upgrade Mods",
+    "summary": "Finally you'll get the ability to unlock and craft your own mods, from ships to exocrafts ranging C to X Class + Bioship Mods",
+    "version": "Patch-6.xxAndUp",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/1944/1944-1623333375-771445791.jpeg",
+    "author": "jackty89",
+    "updated_timestamp": 1771675999,
+    "created_timestamp": 1620760161,
+    "description": "[size=5][b]Description[/b][/size]\n<br />\n<br />[size=4]Finally you'll get the ability to unlock and craft your own mods, from ships/freighter to exocrafts ranging C to X Class.\n<br />The recipes for the mods can be found on found the the extra page(s) of each respective stations in the Anomaly.\n<br />Freighter/Frigate mods can be found in the freighter build/tech station on your freighter.\n<br />X-Class mods can be bought through the Synthesis Lab (Nanites)/Sentinel Factories (with factory tokens).\n<br />Sentinel mods can be found at the same location as  X-Class mods.\n<br />Lua and CS (NMSMB) scripts are available as seperate downloads.[/size]\n<br />\n<br />[line]\n<br />[size=5][b]Technical Details[/b][/size]\n<br />\n<br />[size=4][b]Files Changed[/b][/size]\n<br />[quote]\n<br />[list]\n<br />[*]METADATA&#92;REALITY&#92;TABLES&#92;UNLOCKABLEITEMTREES.MBIN\n<br />[*]METADATA&#92;REALITY&#92;TABLES&#92;NMS_REALITY_GCPRODUCTTABLE.MBIN[\n<br />[*]METADATA/REALITY/TABLES/CONSUMABLEITEMTABLE.MBIN\n<br />[*]METADATA/REALITY/TABLES/REWARDTABLE.MBIN\n<br />[*]CDEBUGOPTIONS.GLOBAL.MBIN\n<br />[/list][/quote]\n<br />[size=4][b]Mod Format Explantion[/b][/size]\n<br />[quote]\n<br />[b]EXML Format:[/b] [u]Partial edit[/u], only touches the lines/values that need editing. Very low chance of conflicts with other mods (unless they edit the same values). Can be edited easily by user using an editor like Notepad ++/VSCODE/... .\n<br />[b]MBIN Format:[/b] [u]Full File Replacement[/u]. High chance of conflict, comparable with old pak format (pre. WORLDS). Can be used together with EXML, MBIN mods are loaded first so changes in EXML mods that edit the same file will still be applied. Other MBIN mods that change the same file follow the FIFO principle, merging is highly recommended with MBIN mods (see How To).\n<br />[b]Lua Format:[/b] Script file used by AMUMSS to generate the mod or used for merging with this tool.\n<br />[b]CS Format:[/b] Script file used by NMSMB to generate the mod or used for merging with this tool.[/quote]\n<br />[size=4][b]Installation[/b][/size]\n<br />[quote]\n<br />[b]Install path:[/b] ...&#92;No Man's Sky&#92;GAMEDATA&#92;MODS\n<br />[b]How to install:[/b] Recommend installation is manual, vortex can be used but some mods contain multiple versions so user might need to delete files/folders. Common steps, download mod, extract the  file(s) from archived file and copy to the install path.[/quote]\n<br />[line]\n<br />[size=5][b]Mod Details[/b][/size]\n<br />[quote]\n<br />[b][u]Mod Format:[/u][/b] Full EXML\n<br />\n<br />[b][u]2 Versions available[/u][/b]\n<br />[list]\n<br />[*]CraftableUpgradeMods: Makes all mods craftable C-&gt;X (bioship mods are included, 3rd page in the ship menu)\n<br />[*]CraftableUpgradeModsSonly: Only S and X Class mods are craftable  (bioship mods are included, 3rd page in the ship menu)\n<br />[/list]\n<br />\n<br />[b][u]Unlock cost[/u][/b]\n<br />[list]\n<br />[*]C-Class = 1000 Nanites\n<br />[*]B-Class = 2500 Nanites\n<br />[*]A-Class = 5000 Nanites\n<br />[*]S-Class = 10000 Nanites\n<br />[*]X-Class = 5000 Nanites (or 20Factory tokens)\n<br />[/list]\n<br />\n<br />[b][u]Recipe cost[/u][/b]\n<br />[b][u]C-Class[/u][/b]\n<br />[list]\n<br />[*]Activated Copper x 100\n<br />[*]Wiring Loom x 1\n<br />[*]Chromatic Metal x 500\n<br />[/list]\n<br />[u][b]B-Class[/b][/u]\n<br />[list]\n<br />[*]Activated Candmium x 200\n<br />[*]Wiring Loom x 2\n<br />[*]Chromatic Metal x 500\n<br />[/list]\n<br />[u][b]A-Class[/b][/u]\n<br />[list]\n<br />[*]Activated Emeril x 300\n<br />[*]Wiring Loom x 3\n<br />[*]Chromatic Metal x 500\n<br />[/list]\n<br />[u][b]S-Class[/b][/u]\n<br />[list]\n<br />[*]Activated Indium x 500\n<br />[*]Wiring Loom x 5\n<br />[*]Chromatic Metal x 500\n<br />[/list]\n<br />[u][b]X-Class[/b][/u]\n<br />[list]\n<br />[*]Activated Indium x 300\n<br />[*]Activated Candmium x 300\n<br />[*]Wiring Loom x 5\n<br />[/list][/quote]\n<br />[line]\n<br />[size=5][b]Extra information[/b][/size]\n<br />\n<br />[size=4][b]Other Craftable mods[/b][/size]\n<br />[quote][list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/1421]Sustainable[/url]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/1491]Craftable Modules[/url]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/3072]Wiring Loom Craftable[/url]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/2624]Craftable Emergency Signal Scanner[/url]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/2418]Craftable Spawning Sac[/url]\n<br />[/list][/quote]\n<br />\n<br />[size=4][b]Interesting links[/b][/size]\n<br />[quote]\n<br />[b]Modding Discord:[/b] [url=https://discord.com/invite/22ZAU9H]Discord[/url]\n<br />[b]Step WIKI:[/b] [url=https://stepmodifications.org/wiki/NoMansSky]Step WIKI[/url][/quote]\n<br />[size=4][b]How To Guides[/b][/size]\n<br />[quote]\n<br />[url=https://stepmodifications.org/wiki/NoMansSky:Tutorials/HowToAMUMSS]Quick Guide: How To merge with AMUMSS[/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/2521]Extensive Guide: How to use NMSMB (pdf)[/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/2626]Extensive Guide: How to use AMUMSS (pdf)[/url][/quote]\n<br />[size=4][b]Credits[/b][/size]\n<br />[quote]\n<br />To [url=https://next.nexusmods.com/profile/Lenni009?gameId=1634]Lenni[/url] who helped me figure out a workaround to make freighter mods craftable in a better way[/quote]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          12473,
+          1634
+        ],
+        "uid": 7017976574137,
+        "file_id": 12473,
+        "name": "CraftableUpgradeMods",
+        "version": "1.0",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 69,
+        "file_name": "CraftableUpgradeMods-1944-1-0-1620760154.7z",
+        "uploaded_timestamp": 1620760154,
+        "uploaded_time": "2021-05-11T19:09:14.000+00:00",
+        "mod_version": "1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/22ce91d7660410635ae83402850d495f0e88c8e7d932ab5d87dfcbd57bb14c65/detection/f-22ce91d7660410635ae83402850d495f0e88c8e7d932ab5d87dfcbd57bb14c65-1620760157",
+        "description": "Initial release, Ship mods only\n<br />Pak + lua",
+        "size_kb": 69,
+        "size_in_bytes": 70545,
+        "changelog_html": "Initial release\nShip Upgrade mods only",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-1-0-1620760154.7z.json"
+      },
+      {
+        "id": [
+          12485,
+          1634
+        ],
+        "uid": 7017976574149,
+        "file_id": 12485,
+        "name": "CraftableUpgradeMods",
+        "version": "2.0",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 75,
+        "file_name": "CraftableUpgradeMods-1944-2-0-1620857102.7z",
+        "uploaded_timestamp": 1620857102,
+        "uploaded_time": "2021-05-12T22:05:02.000+00:00",
+        "mod_version": "2.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/11c6bcca15af19480b54fb52de0af9c7574b16b80b7fe626f315de56f46780b6/detection/f-11c6bcca15af19480b54fb52de0af9c7574b16b80b7fe626f315de56f46780b6-1620857107",
+        "description": "Initial release, All mods\n<br /><br />Pak + lua",
+        "size_kb": 75,
+        "size_in_bytes": 77088,
+        "changelog_html": "Added the rest of Mods as craft recipes",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-2-0-1620857102.7z.json"
+      },
+      {
+        "id": [
+          12486,
+          1634
+        ],
+        "uid": 7017976574150,
+        "file_id": 12486,
+        "name": "CraftableModulesANDCraftableUpgradeModsMerged",
+        "version": "2.0",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 1884,
+        "file_name": "CraftableModulesANDCraftableUpgradeModsMerged-1944-2-0-1620857177.7z",
+        "uploaded_timestamp": 1620857177,
+        "uploaded_time": "2021-05-12T22:06:17.000+00:00",
+        "mod_version": "2.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7b85dc04d39c7efa3c7c7de115f4279c7078cdd0bcf57d895a81c49210969e96/detection/f-7b85dc04d39c7efa3c7c7de115f4279c7078cdd0bcf57d895a81c49210969e96-1620857186",
+        "description": "Merged mod, Craftable Modules+CraftableUpgradeMods",
+        "size_kb": 1884,
+        "size_in_bytes": 1929399,
+        "changelog_html": "Added the rest of Mods as craft recipes",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableModulesANDCraftableUpgradeModsMerged-1944-2-0-1620857177.7z.json"
+      },
+      {
+        "id": [
+          12487,
+          1634
+        ],
+        "uid": 7017976574151,
+        "file_id": 12487,
+        "name": "CraftableModulesANDCraftableUpgradeModsANDSustainabilityMerged",
+        "version": "2.0",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 3665,
+        "file_name": "CraftableModulesANDCraftableUpgradeModsANDSustainabilityMerged-1944-2-0-1620857214.7z",
+        "uploaded_timestamp": 1620857214,
+        "uploaded_time": "2021-05-12T22:06:54.000+00:00",
+        "mod_version": "2.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e4a1b2c8fb5670db64fd80d4022701a098eb7fe4eb5df6e62bc5e7014ce95d2f/detection/f-e4a1b2c8fb5670db64fd80d4022701a098eb7fe4eb5df6e62bc5e7014ce95d2f-1620857230",
+        "description": "CraftableModules+CraftableUpgradeMods+Sustainability merged",
+        "size_kb": 3665,
+        "size_in_bytes": 3752840,
+        "changelog_html": "Added the rest of Mods as craft recipes",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableModulesANDCraftableUpgradeModsANDSustainabilityMerged-1944-2-0-1620857214.7z.json"
+      },
+      {
+        "id": [
+          12496,
+          1634
+        ],
+        "uid": 7017976574160,
+        "file_id": 12496,
+        "name": "CraftableUpgradeMods",
+        "version": "3.0",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 75,
+        "file_name": "CraftableUpgradeMods-1944-3-0-1620921601.7z",
+        "uploaded_timestamp": 1620921601,
+        "uploaded_time": "2021-05-13T16:00:01.000+00:00",
+        "mod_version": "3.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/515b242ff2001bfdf4b5326d79779bb945dd23bf6c0c812952fee793546d39f8/detection/f-515b242ff2001bfdf4b5326d79779bb945dd23bf6c0c812952fee793546d39f8-1620921605",
+        "description": "All mods + lua",
+        "size_kb": 75,
+        "size_in_bytes": 77174,
+        "changelog_html": "Added exocraft mods that I forgot to add",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-3-0-1620921601.7z.json"
+      },
+      {
+        "id": [
+          12600,
+          1634
+        ],
+        "uid": 7017976574264,
+        "file_id": 12600,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.42",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 76,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-42-1621678812.7z",
+        "uploaded_timestamp": 1621678812,
+        "uploaded_time": "2021-05-22T10:20:12.000+00:00",
+        "mod_version": "Patch-3.42",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/02a4eb910d65d32a520830a7c74b9aa3471466646ac49fb957ba28a3e13fbe73/detection/f-02a4eb910d65d32a520830a7c74b9aa3471466646ac49fb957ba28a3e13fbe73-1621678814",
+        "description": "All mods + lua",
+        "size_kb": 76,
+        "size_in_bytes": 78094,
+        "changelog_html": "Recompiled Mod to Patch-3.42",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-42-1621678812.7z.json"
+      },
+      {
+        "id": [
+          12634,
+          1634
+        ],
+        "uid": 7017976574298,
+        "file_id": 12634,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.42V2",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 76,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-42V2-1621787900.7z",
+        "uploaded_timestamp": 1621787900,
+        "uploaded_time": "2021-05-23T16:38:20.000+00:00",
+        "mod_version": "Patch-3.42V2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/79f6047c6c5b09a124b17eb2fda324d20c0fcafb658a72ef8588389d53f6e1a0/detection/f-79f6047c6c5b09a124b17eb2fda324d20c0fcafb658a72ef8588389d53f6e1a0-1621787902",
+        "description": "All mods + lua",
+        "size_kb": 76,
+        "size_in_bytes": 78315,
+        "changelog_html": "Added Launch Thrusters mods",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-42V2-1621787900.7z.json"
+      },
+      {
+        "id": [
+          13039,
+          1634
+        ],
+        "uid": 7017976574703,
+        "file_id": 13039,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.51",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 77,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-51-1623069150.7z",
+        "uploaded_timestamp": 1623069150,
+        "uploaded_time": "2021-06-07T12:32:30.000+00:00",
+        "mod_version": "Patch-3.51",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/3338f26894b59253044d73ba4f44c7bf547a3fdc641ffd2c40b25f8b82a853c2/detection/f-3338f26894b59253044d73ba4f44c7bf547a3fdc641ffd2c40b25f8b82a853c2-1623069156",
+        "description": "All mods + lua",
+        "size_kb": 77,
+        "size_in_bytes": 79124,
+        "changelog_html": "Recompiled Mod to Patch-3.51",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-51-1623069150.7z.json"
+      },
+      {
+        "id": [
+          13080,
+          1634
+        ],
+        "uid": 7017976574744,
+        "file_id": 13080,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.51V2",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 94,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-51V2-1623256133.7z",
+        "uploaded_timestamp": 1623256133,
+        "uploaded_time": "2021-06-09T16:28:53.000+00:00",
+        "mod_version": "Patch-3.51V2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e492e91a7842fdbb57c0cf7018240c34966e0bd2bceb4379df905af84623e9de/detection/f-e492e91a7842fdbb57c0cf7018240c34966e0bd2bceb4379df905af84623e9de-1623256136",
+        "description": "All mods + lua",
+        "size_kb": 94,
+        "size_in_bytes": 95839,
+        "changelog_html": "Cost Change\nFreighter mods have been fixed\nUpdated language files",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-51V2-1623256133.7z.json"
+      },
+      {
+        "id": [
+          13090,
+          1634
+        ],
+        "uid": 7017976574754,
+        "file_id": 13090,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.51V2",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 4630,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-51V2-1623281531.7z",
+        "uploaded_timestamp": 1623281531,
+        "uploaded_time": "2021-06-09T23:32:11.000+00:00",
+        "mod_version": "Patch-3.51V2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c4b169555f8fa0af65be4f9193ab4554d6f253d4a3ee309bc116e8692b1dd751/detection/f-c4b169555f8fa0af65be4f9193ab4554d6f253d4a3ee309bc116e8692b1dd751-1623281550",
+        "description": "All mods + lua",
+        "size_kb": 4630,
+        "size_in_bytes": 4740951,
+        "changelog_html": "Cost Change\nFreighter mods have been fixed\nUpdated language files",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-51V2-1623281531.7z.json"
+      },
+      {
+        "id": [
+          13114,
+          1634
+        ],
+        "uid": 7017976574778,
+        "file_id": 13114,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.52",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 4636,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-52-1623332606.7z",
+        "uploaded_timestamp": 1623332606,
+        "uploaded_time": "2021-06-10T13:43:26.000+00:00",
+        "mod_version": "Patch-3.52",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8d9385a0ce2599be8d4390d28a517af9e7c2188f56c7cbed8d362da7b35e9fe5/detection/f-8d9385a0ce2599be8d4390d28a517af9e7c2188f56c7cbed8d362da7b35e9fe5-1623332625",
+        "description": "All mods + lua",
+        "size_kb": 4636,
+        "size_in_bytes": 4747136,
+        "changelog_html": "Recompiled Mod to Patch-3.52",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-52-1623332606.7z.json"
+      },
+      {
+        "id": [
+          13207,
+          1634
+        ],
+        "uid": 7017976574871,
+        "file_id": 13207,
+        "name": "CraftableUpgradeModsSOnly",
+        "version": "Patch-3.52V2",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 4630,
+        "file_name": "CraftableUpgradeModsSOnly-1944-Patch-3-52V2-1623438622.7z",
+        "uploaded_timestamp": 1623438622,
+        "uploaded_time": "2021-06-11T19:10:22.000+00:00",
+        "mod_version": "Patch-3.52V2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b59ad80f975ecc969011eca4e53d1ac6e7d65badfb408dabd3afcb9e5e2d675f/detection/f-b59ad80f975ecc969011eca4e53d1ac6e7d65badfb408dabd3afcb9e5e2d675f-1623438640",
+        "description": "Inital release\n<br />Pak + lua",
+        "size_kb": 4630,
+        "size_in_bytes": 4740700,
+        "changelog_html": "Main: Fixed small issue of some mods not having the correct recipe\nMain: Added a few missing weapon Mods, Pulse and Plasma Launcher\nOptional: S-Only Initial release",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeModsSOnly-1944-Patch-3-52V2-1623438622.7z.json"
+      },
+      {
+        "id": [
+          13208,
+          1634
+        ],
+        "uid": 7017976574872,
+        "file_id": 13208,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.52V2",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 4636,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-52V2-1623438671.7z",
+        "uploaded_timestamp": 1623438671,
+        "uploaded_time": "2021-06-11T19:11:11.000+00:00",
+        "mod_version": "Patch-3.52V2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/3bef9be105d8127ce3f037680e5efd1accc1dff18bde771fb51a7cec7c1db58c/detection/f-3bef9be105d8127ce3f037680e5efd1accc1dff18bde771fb51a7cec7c1db58c-1623438690",
+        "description": "All mods + lua",
+        "size_kb": 4636,
+        "size_in_bytes": 4747646,
+        "changelog_html": "Main: Fixed small issue of some mods not having the correct recipe\nMain: Added a few missing weapon Mods, Pulse and Plasma Launcher\nOptional: S-Only Initial release",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-52V2-1623438671.7z.json"
+      },
+      {
+        "id": [
+          13308,
+          1634
+        ],
+        "uid": 7017976574972,
+        "file_id": 13308,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.53",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 4643,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-53-1624217701.7z",
+        "uploaded_timestamp": 1624217701,
+        "uploaded_time": "2021-06-20T19:35:01.000+00:00",
+        "mod_version": "Patch-3.53",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/ea5cd2b7b3973b575515c6f3814c07703a1ff669a7f431c7ab37831dd5e070f8/detection/f-ea5cd2b7b3973b575515c6f3814c07703a1ff669a7f431c7ab37831dd5e070f8-1624217720",
+        "description": "All mods + lua",
+        "size_kb": 4643,
+        "size_in_bytes": 4754750,
+        "changelog_html": "Added X-Class mods to the SynthesisStation/Manufacturing Facility\nPolish language file added\nRecompiled Mod to Patch-3.53\nAdded Bio-Ship Upgrades",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-53-1624217701.7z.json"
+      },
+      {
+        "id": [
+          13309,
+          1634
+        ],
+        "uid": 7017976574973,
+        "file_id": 13309,
+        "name": "CraftableUpgradeModsSandXOnly",
+        "version": "Patch-3.53",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 4636,
+        "file_name": "CraftableUpgradeModsSandXOnly-1944-Patch-3-53-1624217745.7z",
+        "uploaded_timestamp": 1624217745,
+        "uploaded_time": "2021-06-20T19:35:45.000+00:00",
+        "mod_version": "Patch-3.53",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/91c1f88266f2c64ff1ec8e0861d5fed16ddb65a3b01a1fc95c84f64a3117e0cb/detection/f-91c1f88266f2c64ff1ec8e0861d5fed16ddb65a3b01a1fc95c84f64a3117e0cb-1624217763",
+        "description": "Inital release\n<br /><br />Pak + lua",
+        "size_kb": 4636,
+        "size_in_bytes": 4746835,
+        "changelog_html": "Added X-Class mods to the SynthesisStation/Manufacturing Facility\nPolish language file added\nRecompiled Mod to Patch-3.53\nAdded Bio-Ship Upgrades",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeModsSandXOnly-1944-Patch-3-53-1624217745.7z.json"
+      },
+      {
+        "id": [
+          13500,
+          1634
+        ],
+        "uid": 7017976575164,
+        "file_id": 13500,
+        "name": "CraftableUpgradeModsSAndXOnlyFIX",
+        "version": "Patch-3.53-SandXFix",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 4636,
+        "file_name": "CraftableUpgradeModsSAndXOnlyFIX-1944-Patch-3-53-SandXFix-1626869349.7z",
+        "uploaded_timestamp": 1626869349,
+        "uploaded_time": "2021-07-21T12:09:09.000+00:00",
+        "mod_version": "Patch-3.53-SandXFix",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1e4e7a58ca94e9ae4bd296f1b047b643b1e9b213b2bb82a22b8212b3e7363f8e/detection/f-1e4e7a58ca94e9ae4bd296f1b047b643b1e9b213b2bb82a22b8212b3e7363f8e-1626869371",
+        "description": "Inital release\n<br /><br /><br />Pak + lua",
+        "size_kb": 4636,
+        "size_in_bytes": 4747006,
+        "changelog_html": "Fixed minor issue of X-class mods not being available in the Synthesis Lab",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeModsSAndXOnlyFIX-1944-Patch-3-53-SandXFix-1626869349.7z.json"
+      },
+      {
+        "id": [
+          13919,
+          1634
+        ],
+        "uid": 7017976575583,
+        "file_id": 13919,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.62",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 9523,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-62-1630923140.7z",
+        "uploaded_timestamp": 1630923140,
+        "uploaded_time": "2021-09-06T10:12:20.000+00:00",
+        "mod_version": "Patch-3.62",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/39245fce350f5c79f137dd0f0e460d48c76061fe764cf5a22691cdae25226bd7/detection/f-39245fce350f5c79f137dd0f0e460d48c76061fe764cf5a22691cdae25226bd7-1630923179",
+        "description": "All mods + lua\n<br />Now comes with FOMOD installer",
+        "size_kb": 9523,
+        "size_in_bytes": 9752020,
+        "changelog_html": "Recompiled Mod to Patch-3.62\nCode clean-up was done in lua\nX-Class price and recipe has been altered (see description)\nNow Comes with FOMOD installer, this include both version of the mod",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-62-1630923140.7z.json"
+      },
+      {
+        "id": [
+          14235,
+          1634
+        ],
+        "uid": 7017976575899,
+        "file_id": 14235,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.65",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 9520,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-65-1631379075.7z",
+        "uploaded_timestamp": 1631379075,
+        "uploaded_time": "2021-09-11T16:51:15.000+00:00",
+        "mod_version": "Patch-3.65",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/04f7fb15e9e10ff1b97f00b204e9f2d21b3ef445dea4e676ffaecb6d09c355e4/detection/f-04f7fb15e9e10ff1b97f00b204e9f2d21b3ef445dea4e676ffaecb6d09c355e4-1631379111",
+        "description": "All mods + lua\n<br /><br />Now comes with FOMOD installer",
+        "size_kb": 9520,
+        "size_in_bytes": 9748242,
+        "changelog_html": "Recompiled Mod to Patch-3.65\nFixed minor bug that removed a few X class mods",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-65-1631379075.7z.json"
+      },
+      {
+        "id": [
+          14728,
+          1634
+        ],
+        "uid": 7017976576392,
+        "file_id": 14728,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.68",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 9520,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-68-1633122802.7z",
+        "uploaded_timestamp": 1633122802,
+        "uploaded_time": "2021-10-01T21:13:22.000+00:00",
+        "mod_version": "Patch-3.68",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/6fd3bfe671870172cc8e6d9472dff2766e342be1ef02f2edc3ad9dae1770df42/detection/f-6fd3bfe671870172cc8e6d9472dff2766e342be1ef02f2edc3ad9dae1770df42-1633122843",
+        "description": "All mods + lua\n<br /><br /><br />Now comes with FOMOD installer",
+        "size_kb": 9520,
+        "size_in_bytes": 9748320,
+        "changelog_html": "Recompiled Mod to Patch-3.68",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-68-1633122802.7z.json"
+      },
+      {
+        "id": [
+          15097,
+          1634
+        ],
+        "uid": 7017976576761,
+        "file_id": 15097,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.70",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 24099,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-70-1635156846.7z",
+        "uploaded_timestamp": 1635156846,
+        "uploaded_time": "2021-10-25T10:14:06.000+00:00",
+        "mod_version": "Patch-3.70",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/cfd886119630bf91d454896200a973911ccd97f33ce4983369f7ef1ba6e20b9a/detection/f-cfd886119630bf91d454896200a973911ccd97f33ce4983369f7ef1ba6e20b9a-1635156941",
+        "description": "All mods + lua\n<br /><br /><br /><br />Now comes with FOMOD installer",
+        "size_kb": 24099,
+        "size_in_bytes": 24676966,
+        "changelog_html": "Recompiled Mod to Patch-3.70",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-70-1635156846.7z.json"
+      },
+      {
+        "id": [
+          15975,
+          1634
+        ],
+        "uid": 7017976577639,
+        "file_id": 15975,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.81",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 10104,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-81-1645566804.7z",
+        "uploaded_timestamp": 1645566804,
+        "uploaded_time": "2022-02-22T21:53:24.000+00:00",
+        "mod_version": "Patch-3.81",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5e5d4c5022162a365996d5521f87b1f529528e3d96269abf48448c9908c42ea6/detection/f-5e5d4c5022162a365996d5521f87b1f529528e3d96269abf48448c9908c42ea6-1645566842",
+        "description": "All mods + lua\n<br /><br /><br /><br /><br />Now comes with FOMOD installer",
+        "size_kb": 10104,
+        "size_in_bytes": 10346497,
+        "changelog_html": "Recompiled Mod to Patch-3.81",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-81-1645566804.7z.json"
+      },
+      {
+        "id": [
+          16127,
+          1634
+        ],
+        "uid": 7017976577791,
+        "file_id": 16127,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.82",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 10104,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-82-1645886108.7z",
+        "uploaded_timestamp": 1645886108,
+        "uploaded_time": "2022-02-26T14:35:08.000+00:00",
+        "mod_version": "Patch-3.82",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5692eb2db0f56a471ad6594ff23c1b3f77a4f4ec780bd7deca008aa43785d571/detection/f-5692eb2db0f56a471ad6594ff23c1b3f77a4f4ec780bd7deca008aa43785d571-1645886147",
+        "description": "All mods + lua\n<br /><br /><br /><br /><br /><br />Now comes with FOMOD installer",
+        "size_kb": 10104,
+        "size_in_bytes": 10346137,
+        "changelog_html": "Recompiled Mod to Patch-3.82\nAdded missing X-Class mods\nFixed issue in SandXonly.lua\nAdded Sentinel Mods",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-82-1645886108.7z.json"
+      },
+      {
+        "id": [
+          16783,
+          1634
+        ],
+        "uid": 7017976578447,
+        "file_id": 16783,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.85",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 24880,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-85-1649872809.7z",
+        "uploaded_timestamp": 1649872809,
+        "uploaded_time": "2022-04-13T18:00:09.000+00:00",
+        "mod_version": "Patch-3.85",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/fcce6f46682e1b7df67c75198072a7be4f80aa3bc24981040868db8dee5ecc98/detection/f-fcce6f46682e1b7df67c75198072a7be4f80aa3bc24981040868db8dee5ecc98-1649872895",
+        "description": "All mods + lua\n<br /><br /><br /><br /><br /><br /><br />Now comes with FOMOD installer",
+        "size_kb": 24880,
+        "size_in_bytes": 25477458,
+        "changelog_html": "Recompiled Mod to Patch-3.85\nUpload of NMSMB script files",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-85-1649872809.7z.json"
+      },
+      {
+        "id": [
+          16786,
+          1634
+        ],
+        "uid": 7017976578450,
+        "file_id": 16786,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.85",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 10115,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-85-1649872933.7z",
+        "uploaded_timestamp": 1649872933,
+        "uploaded_time": "2022-04-13T18:02:13.000+00:00",
+        "mod_version": "Patch-3.85",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5331b3ad5bdd24bb568ea8ab7d5cf0d280beb47d26809beba6f131874eb66d44/detection/f-5331b3ad5bdd24bb568ea8ab7d5cf0d280beb47d26809beba6f131874eb66d44-1649872987",
+        "description": "All mods + lua\n<br /><br /><br /><br /><br /><br /><br /><br />Now comes with FOMOD installer",
+        "size_kb": 10115,
+        "size_in_bytes": 10357941,
+        "changelog_html": "Recompiled Mod to Patch-3.85\nUpload of NMSMB script files",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-85-1649872933.7z.json"
+      },
+      {
+        "id": [
+          16790,
+          1634
+        ],
+        "uid": 7017976578454,
+        "file_id": 16790,
+        "name": "CraftableUpgradeMods NMSMB script files",
+        "version": "Patch-3.87",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 4,
+        "file_name": "CraftableUpgradeMods NMSMB script files-1944-Patch-3-85-1649877866.7z",
+        "uploaded_timestamp": 1649877866,
+        "uploaded_time": "2022-04-13T19:24:26.000+00:00",
+        "mod_version": "Patch-3.87",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/bb7b66bca7fed5633f3451017ecd9ddb6dd56bf4fb8c40e9005e788241c4340c/detection/f-bb7b66bca7fed5633f3451017ecd9ddb6dd56bf4fb8c40e9005e788241c4340c-1649877868",
+        "description": "NMSMB cs files",
+        "size_kb": 4,
+        "size_in_bytes": 4358,
+        "changelog_html": "Recompiled Mod to Patch-3.87\nRemoved NMS language edits =&gt; replaced by custom language files<br />This brings with it an edit to GCDEBUGOPTIONS.GLOBAL.MBIN\nChanged custom freighter ID's minor bug fix",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods NMSMB script files-1944-Patch-3-85-1649877866.7z.json"
+      },
+      {
+        "id": [
+          17164,
+          1634
+        ],
+        "uid": 7017976578828,
+        "file_id": 17164,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.87",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 3100,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-87-1650647864.7z",
+        "uploaded_timestamp": 1650647864,
+        "uploaded_time": "2022-04-22T17:17:44.000+00:00",
+        "mod_version": "Patch-3.87",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/986d91a1415dd0d82d05b674277baee0f49d90288631dafe5d5b4b3ec8dc9059/detection/f-986d91a1415dd0d82d05b674277baee0f49d90288631dafe5d5b4b3ec8dc9059-1650647876",
+        "description": "All mods + lua\n<br /><br /><br /><br /><br /><br /><br /><br /><br />Now comes with FOMOD installer",
+        "size_kb": 3100,
+        "size_in_bytes": 3174904,
+        "changelog_html": "Recompiled Mod to Patch-3.87\nRemoved NMS language edits =&gt; replaced by custom language files<br />This brings with it an edit to GCDEBUGOPTIONS.GLOBAL.MBIN\nChanged custom freighter ID's minor bug fix",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-87-1650647864.7z.json"
+      },
+      {
+        "id": [
+          18097,
+          1634
+        ],
+        "uid": 7017976579761,
+        "file_id": 18097,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.91",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 3103,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-91-1653644154.7z",
+        "uploaded_timestamp": 1653644154,
+        "uploaded_time": "2022-05-27T09:35:54.000+00:00",
+        "mod_version": "Patch-3.91",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/74e807b800541ce1e5c07051a4b70c807148b5c8d40bb0d5b9a3f5825a6bba52/detection/f-74e807b800541ce1e5c07051a4b70c807148b5c8d40bb0d5b9a3f5825a6bba52-1653644166",
+        "description": "All mods + lua (fomod)\n<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />Now comes with FOMOD installer",
+        "size_kb": 3103,
+        "size_in_bytes": 3177743,
+        "changelog_html": "Recompiled Mod to Patch-3.91",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-91-1653644154.7z.json"
+      },
+      {
+        "id": [
+          19073,
+          1634
+        ],
+        "uid": 7017976580737,
+        "file_id": 19073,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.91",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 3112,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-91-1658952714.7z",
+        "uploaded_timestamp": 1658952714,
+        "uploaded_time": "2022-07-27T20:11:54.000+00:00",
+        "mod_version": "Patch-3.91",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8a6cac8ea9d9e9135153d677167f97d83a1d7e284012ae67d72a1b442ae11d9a/detection/f-8a6cac8ea9d9e9135153d677167f97d83a1d7e284012ae67d72a1b442ae11d9a-1658952731",
+        "description": "All mods + lua (fomod)\n<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />Now comes with FOMOD installer",
+        "size_kb": 3112,
+        "size_in_bytes": 3187184,
+        "changelog_html": "Recompiled Mod to Patch-3.91",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-91-1658952714.7z.json"
+      },
+      {
+        "id": [
+          19074,
+          1634
+        ],
+        "uid": 7017976580738,
+        "file_id": 19074,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.97",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 3112,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-97-1658952785.7z",
+        "uploaded_timestamp": 1658952785,
+        "uploaded_time": "2022-07-27T20:13:05.000+00:00",
+        "mod_version": "Patch-3.97",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8a6cac8ea9d9e9135153d677167f97d83a1d7e284012ae67d72a1b442ae11d9a/detection/f-8a6cac8ea9d9e9135153d677167f97d83a1d7e284012ae67d72a1b442ae11d9a-1658952731",
+        "description": "All mods + lua (fomod)\n<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />Now comes with FOMOD installer",
+        "size_kb": 3112,
+        "size_in_bytes": 3187184,
+        "changelog_html": "Recompiled Mod to Patch-3.97",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-97-1658952785.7z.json"
+      },
+      {
+        "id": [
+          19075,
+          1634
+        ],
+        "uid": 7017976580739,
+        "file_id": 19075,
+        "name": "CraftableUpgradeMods NMSMB script files",
+        "version": "Final",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 5,
+        "file_name": "CraftableUpgradeMods NMSMB script files-1944-Final-1658952858.7z",
+        "uploaded_timestamp": 1658952858,
+        "uploaded_time": "2022-07-27T20:14:18.000+00:00",
+        "mod_version": "Final",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a711ff3ccdcef185397b3afa047339bba950089ff61551928e7395cc7a89696a/detection/f-a711ff3ccdcef185397b3afa047339bba950089ff61551928e7395cc7a89696a-1658952862",
+        "description": "NMSMB cs files",
+        "size_kb": 5,
+        "size_in_bytes": 5613,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods NMSMB script files-1944-Final-1658952858.7z.json"
+      },
+      {
+        "id": [
+          19565,
+          1634
+        ],
+        "uid": 7017976581229,
+        "file_id": 19565,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.98",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 3113,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-98-1659726409.7z",
+        "uploaded_timestamp": 1659726409,
+        "uploaded_time": "2022-08-05T19:06:49.000+00:00",
+        "mod_version": "Patch-3.98",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5458952f55e5f41d23aa3ba613bef86da4f67b6f7aab34cfd014789065c42f81/detection/f-5458952f55e5f41d23aa3ba613bef86da4f67b6f7aab34cfd014789065c42f81-1659726425",
+        "description": "All mods + lua (fomod)\n<br /><br />Now comes with FOMOD installer",
+        "size_kb": 3113,
+        "size_in_bytes": 3187806,
+        "changelog_html": "Recompiled Mod to Patch-3.98",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-98-1659726409.7z.json"
+      },
+      {
+        "id": [
+          19732,
+          1634
+        ],
+        "uid": 7017976581396,
+        "file_id": 19732,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.98Fix",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 230,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-98Fix-1660378794.7z",
+        "uploaded_timestamp": 1660378794,
+        "uploaded_time": "2022-08-13T08:19:54.000+00:00",
+        "mod_version": "Patch-3.98Fix",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/3846d71b977fda58f5deb1d87e8f824f2e27b360e65614d9cd5c48d7608c1bb3/detection/f-3846d71b977fda58f5deb1d87e8f824f2e27b360e65614d9cd5c48d7608c1bb3-1660378798",
+        "description": "Both Paks",
+        "size_kb": 230,
+        "size_in_bytes": 235038,
+        "changelog_html": "Fixed some mistake in lua that duplicated the bioship mods (both version)\nRemoved FOMOD, as NMS mods are NOT recommended to be installed  with vortex",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-98Fix-1660378794.7z.json"
+      },
+      {
+        "id": [
+          19733,
+          1634
+        ],
+        "uid": 7017976581397,
+        "file_id": 19733,
+        "name": "CraftableUpgradeMods Lua",
+        "version": "Final",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 7,
+        "file_name": "CraftableUpgradeMods-1944-Final-1660378821.7z",
+        "uploaded_timestamp": 1660378821,
+        "uploaded_time": "2022-08-13T08:20:21.000+00:00",
+        "mod_version": "Final",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a29d432300286c7bc696185bf5d5e726501431911b05a27a918952a63c720118/detection/f-a29d432300286c7bc696185bf5d5e726501431911b05a27a918952a63c720118-1660378826",
+        "description": "lua's",
+        "size_kb": 7,
+        "size_in_bytes": 7194,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Final-1660378821.7z.json"
+      },
+      {
+        "id": [
+          20074,
+          1634
+        ],
+        "uid": 7017976581738,
+        "file_id": 20074,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-3.99",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 229,
+        "file_name": "CraftableUpgradeMods-1944-Patch-3-99-1661068613.7z",
+        "uploaded_timestamp": 1661068613,
+        "uploaded_time": "2022-08-21T07:56:53.000+00:00",
+        "mod_version": "Patch-3.99",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/2f39378532b4eb914ec471f0303f5bc75fcee31a6f886d1315176f5db4a7f992/detection/f-2f39378532b4eb914ec471f0303f5bc75fcee31a6f886d1315176f5db4a7f992-1661068620",
+        "description": "Both Paks",
+        "size_kb": 229,
+        "size_in_bytes": 234947,
+        "changelog_html": "Recompiled Mod to Patch-3.99",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-3-99-1661068613.7z.json"
+      },
+      {
+        "id": [
+          20565,
+          1634
+        ],
+        "uid": 7017976582229,
+        "file_id": 20565,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-4.0",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 232,
+        "file_name": "CraftableUpgradeMods-1944-Patch-4-0-1665236426.7z",
+        "uploaded_timestamp": 1665236426,
+        "uploaded_time": "2022-10-08T13:40:26.000+00:00",
+        "mod_version": "Patch-4.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c2776c574148df2320082b8c17a43ff1dcc545c24e5b06176832118784b9522a/detection/f-c2776c574148df2320082b8c17a43ff1dcc545c24e5b06176832118784b9522a-1665236500",
+        "description": "Both Paks",
+        "size_kb": 232,
+        "size_in_bytes": 237546,
+        "changelog_html": "Recompiled Mod to Patch-4.0",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-4-0-1665236426.7z.json"
+      },
+      {
+        "id": [
+          20566,
+          1634
+        ],
+        "uid": 7017976582230,
+        "file_id": 20566,
+        "name": "CraftableUpgradeMods Lua",
+        "version": "Patch-4.xAndUp",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 15,
+        "file_name": "CraftableUpgradeMods Lua-1944-Final-1665236449.zip",
+        "uploaded_timestamp": 1665236449,
+        "uploaded_time": "2022-10-08T13:40:49.000+00:00",
+        "mod_version": "Patch-4.xAndUp",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/36b5985eada4eec803e4f823f45239ec0f49828985d92500a0c1b542053db381/detection/f-36b5985eada4eec803e4f823f45239ec0f49828985d92500a0c1b542053db381-1665236510",
+        "description": "lua's",
+        "size_kb": 15,
+        "size_in_bytes": 15248,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods Lua-1944-Final-1665236449.zip.json"
+      },
+      {
+        "id": [
+          20856,
+          1634
+        ],
+        "uid": 7017976582520,
+        "file_id": 20856,
+        "name": "CraftableUpgradeMods NMSMB script files",
+        "version": "Patch-4.xAndUp",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 4,
+        "file_name": "CraftableUpgradeMods NMSMB script files-1944-Patch-4-xAndUp-1665514812.7z",
+        "uploaded_timestamp": 1665514812,
+        "uploaded_time": "2022-10-11T19:00:12.000+00:00",
+        "mod_version": "Patch-4.xAndUp",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/df867e8dc1034702c401188ce29d0b2ede7d038b7cad5bba8b50b46152dffe89/detection/f-df867e8dc1034702c401188ce29d0b2ede7d038b7cad5bba8b50b46152dffe89-1665514818",
+        "description": "NMSMB cs files",
+        "size_kb": 4,
+        "size_in_bytes": 4389,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods NMSMB script files-1944-Patch-4-xAndUp-1665514812.7z.json"
+      },
+      {
+        "id": [
+          21151,
+          1634
+        ],
+        "uid": 7017976582815,
+        "file_id": 21151,
+        "name": "CraftableUpgradeMods Lua",
+        "version": "Patch-4.xAndUp",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 7,
+        "file_name": "CraftableUpgradeMods Lua-1944-Patch-4-xAndUp-1666120708.7z",
+        "uploaded_timestamp": 1666120708,
+        "uploaded_time": "2022-10-18T19:18:28.000+00:00",
+        "mod_version": "Patch-4.xAndUp",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/21ad3710c4212377020a7c14545ea1c3a2e38bc110364614a7f46ccdadd4cfe7/detection/f-21ad3710c4212377020a7c14545ea1c3a2e38bc110364614a7f46ccdadd4cfe7-1666120712",
+        "description": "lua's",
+        "size_kb": 7,
+        "size_in_bytes": 7331,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods Lua-1944-Patch-4-xAndUp-1666120708.7z.json"
+      },
+      {
+        "id": [
+          21152,
+          1634
+        ],
+        "uid": 7017976582816,
+        "file_id": 21152,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-4.04",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 232,
+        "file_name": "CraftableUpgradeMods-1944-Patch-4-04-1666120754.7z",
+        "uploaded_timestamp": 1666120754,
+        "uploaded_time": "2022-10-18T19:19:14.000+00:00",
+        "mod_version": "Patch-4.04",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/25cb854e73c8290e02040907a00b3ac25fae8fa41f69eeece46300e3a09144e8/detection/f-25cb854e73c8290e02040907a00b3ac25fae8fa41f69eeece46300e3a09144e8-1666120790",
+        "description": "Both Paks",
+        "size_kb": 232,
+        "size_in_bytes": 237788,
+        "changelog_html": "Recompiled Mod to Patch-4.04\nAdded the Memory Fragments (same location as X-Class)",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-4-04-1666120754.7z.json"
+      },
+      {
+        "id": [
+          21192,
+          1634
+        ],
+        "uid": 7017976582856,
+        "file_id": 21192,
+        "name": "CraftableUpgradeMods NMSMB script files",
+        "version": "Patch-4.xAndUp",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 4,
+        "file_name": "CraftableUpgradeMods NMSMB script files-1944-Patch-4-xAndUp-1666203116.7z",
+        "uploaded_timestamp": 1666203116,
+        "uploaded_time": "2022-10-19T18:11:56.000+00:00",
+        "mod_version": "Patch-4.xAndUp",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/131859839b23227c3bf22192abc29d9ab3f14efce3ca37899b1f9c8bd2e5bf5f/detection/f-131859839b23227c3bf22192abc29d9ab3f14efce3ca37899b1f9c8bd2e5bf5f-1666203118",
+        "description": "NMSMB cs files",
+        "size_kb": 4,
+        "size_in_bytes": 4459,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods NMSMB script files-1944-Patch-4-xAndUp-1666203116.7z.json"
+      },
+      {
+        "id": [
+          21366,
+          1634
+        ],
+        "uid": 7017976583030,
+        "file_id": 21366,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-4.05",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 233,
+        "file_name": "CraftableUpgradeMods-1944-Patch-4-05-1666377648.7z",
+        "uploaded_timestamp": 1666377648,
+        "uploaded_time": "2022-10-21T18:40:48.000+00:00",
+        "mod_version": "Patch-4.05",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b50415195bc45c1502cb1ba217ae230eb821c4ac330595c20287251262b9274a/detection/f-b50415195bc45c1502cb1ba217ae230eb821c4ac330595c20287251262b9274a-1666377653",
+        "description": "Both Paks",
+        "size_kb": 233,
+        "size_in_bytes": 238303,
+        "changelog_html": "Recompiled Mod to Patch-4.05",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-4-05-1666377648.7z.json"
+      },
+      {
+        "id": [
+          22148,
+          1634
+        ],
+        "uid": 7017976583812,
+        "file_id": 22148,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-4.06",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 233,
+        "file_name": "CraftableUpgradeMods-1944-Patch-4-06-1668856792.7z",
+        "uploaded_timestamp": 1668856792,
+        "uploaded_time": "2022-11-19T11:19:52.000+00:00",
+        "mod_version": "Patch-4.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/856e20889c6f99d3330ed198ccf95abda6f7b133b1495a0e990d1a81cbd10dc8/detection/f-856e20889c6f99d3330ed198ccf95abda6f7b133b1495a0e990d1a81cbd10dc8-1668856797",
+        "description": "Both Paks",
+        "size_kb": 233,
+        "size_in_bytes": 238698,
+        "changelog_html": "Recompiled Mod to Patch-4.06",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-4-06-1668856792.7z.json"
+      },
+      {
+        "id": [
+          22722,
+          1634
+        ],
+        "uid": 7017976584386,
+        "file_id": 22722,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-4.08",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 233,
+        "file_name": "CraftableUpgradeMods-1944-Patch-4-08-1670605299.7z",
+        "uploaded_timestamp": 1670605299,
+        "uploaded_time": "2022-12-09T17:01:39.000+00:00",
+        "mod_version": "Patch-4.08",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a521b1e14fa843c965caed58f96f6c2b5094ff989bd655796f3494d09edabc61/detection/f-a521b1e14fa843c965caed58f96f6c2b5094ff989bd655796f3494d09edabc61-1670605304",
+        "description": "Both Paks",
+        "size_kb": 233,
+        "size_in_bytes": 238713,
+        "changelog_html": "Recompiled Mod to Patch-4.08",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-4-08-1670605299.7z.json"
+      },
+      {
+        "id": [
+          23423,
+          1634
+        ],
+        "uid": 7017976585087,
+        "file_id": 23423,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-4.10",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 243,
+        "file_name": "CraftableUpgradeMods-1944-Patch-4-10-1677614336.zip",
+        "uploaded_timestamp": 1677614337,
+        "uploaded_time": "2023-02-28T19:58:57.000+00:00",
+        "mod_version": "Patch-4.10",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1c9663d364d6685ed9375ad7af436aadfab016fd8a79b4359dc376e5eafbd899/detection/f-1c9663d364d6685ed9375ad7af436aadfab016fd8a79b4359dc376e5eafbd899-1677614339",
+        "description": "Both Paks",
+        "size_kb": 243,
+        "size_in_bytes": 248377,
+        "changelog_html": "Recompiled Mod to Patch-4.10",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-4-10-1677614336.zip.json"
+      },
+      {
+        "id": [
+          23424,
+          1634
+        ],
+        "uid": 7017976585088,
+        "file_id": 23424,
+        "name": "CraftableUpgradeMods Lua",
+        "version": "Patch-4.10AndUp",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 15,
+        "file_name": "CraftableUpgradeMods Lua-1944-Patch-4-10AndUp-1677614406.zip",
+        "uploaded_timestamp": 1677614406,
+        "uploaded_time": "2023-02-28T20:00:06.000+00:00",
+        "mod_version": "Patch-4.10AndUp",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/05cadde845960e5397f78d09b602ca12db959ce73bbbc410091a5e43cbc29c2d/detection/f-05cadde845960e5397f78d09b602ca12db959ce73bbbc410091a5e43cbc29c2d-1677614407",
+        "description": "lua's",
+        "size_kb": 15,
+        "size_in_bytes": 15184,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods Lua-1944-Patch-4-10AndUp-1677614406.zip.json"
+      },
+      {
+        "id": [
+          23909,
+          1634
+        ],
+        "uid": 7017976585573,
+        "file_id": 23909,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-4.14",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 237,
+        "file_name": "CraftableUpgradeMods-1944-Patch-4-14-1678630557.7z",
+        "uploaded_timestamp": 1678630557,
+        "uploaded_time": "2023-03-12T14:15:57.000+00:00",
+        "mod_version": "Patch-4.14",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/045c82fa1bcc6913e564b50b9f8dd2696972b0b0b881185984da42c06df12623/detection/f-045c82fa1bcc6913e564b50b9f8dd2696972b0b0b881185984da42c06df12623-1678630560",
+        "description": "Both Paks",
+        "size_kb": 237,
+        "size_in_bytes": 243102,
+        "changelog_html": "Recompiled Mod to Patch-4.14",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-4-14-1678630557.7z.json"
+      },
+      {
+        "id": [
+          24600,
+          1634
+        ],
+        "uid": 7017976586264,
+        "file_id": 24600,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-4.21",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 228,
+        "file_name": "CraftableUpgradeMods-1944-Patch-4-21-1680893584.7z",
+        "uploaded_timestamp": 1680893584,
+        "uploaded_time": "2023-04-07T18:53:04.000+00:00",
+        "mod_version": "Patch-4.21",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b5453b233939c6dd50caf9eef0236f7306cca922a77f030625813e67e3a8c7eb/detection/f-b5453b233939c6dd50caf9eef0236f7306cca922a77f030625813e67e3a8c7eb-1680893597",
+        "description": "Both Paks",
+        "size_kb": 228,
+        "size_in_bytes": 233329,
+        "changelog_html": "Recompiled Mod to Patch-4.21",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-4-21-1680893584.7z.json"
+      },
+      {
+        "id": [
+          24641,
+          1634
+        ],
+        "uid": 7017976586305,
+        "file_id": 24641,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-4.21Reupload",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 238,
+        "file_name": "CraftableUpgradeMods-1944-Patch-4-21Reupload-1680981594.7z",
+        "uploaded_timestamp": 1680981594,
+        "uploaded_time": "2023-04-08T19:19:54.000+00:00",
+        "mod_version": "Patch-4.21Reupload",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b758d0f9d9bda8bdb5e78ae6d54546ad05fe29e9f43d01b38f3b309d5d66a380/detection/f-b758d0f9d9bda8bdb5e78ae6d54546ad05fe29e9f43d01b38f3b309d5d66a380-1680981599",
+        "description": "Both Paks",
+        "size_kb": 238,
+        "size_in_bytes": 243934,
+        "changelog_html": "Zipped the wrong paks, reuploaded",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-4-21Reupload-1680981594.7z.json"
+      },
+      {
+        "id": [
+          25602,
+          1634
+        ],
+        "uid": 7017976587266,
+        "file_id": 25602,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-4.25",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 246,
+        "file_name": "CraftableUpgradeMods-1944-Patch-4-25-1685735714.zip",
+        "uploaded_timestamp": 1685735714,
+        "uploaded_time": "2023-06-02T19:55:14.000+00:00",
+        "mod_version": "Patch-4.25",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5283045ae3c5fa6dd6c0a69d2e8b101543e21eaec23dd18f0682e498d7bc6e70/detection/f-5283045ae3c5fa6dd6c0a69d2e8b101543e21eaec23dd18f0682e498d7bc6e70-1685735720",
+        "description": "Both Paks",
+        "size_kb": 246,
+        "size_in_bytes": 251562,
+        "changelog_html": "Recompiled Mod to Patch-4.25",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-4-25-1685735714.zip.json"
+      },
+      {
+        "id": [
+          26092,
+          1634
+        ],
+        "uid": 7017976587756,
+        "file_id": 26092,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-4.30",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 247,
+        "file_name": "CraftableUpgradeMods-1944-Patch-4-30-1686259540.zip",
+        "uploaded_timestamp": 1686259540,
+        "uploaded_time": "2023-06-08T21:25:40.000+00:00",
+        "mod_version": "Patch-4.30",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/755ae4798956b6edcec38e09896ced6ef82b94bbf8786e5308805e0a38cabbbc/detection/f-755ae4798956b6edcec38e09896ced6ef82b94bbf8786e5308805e0a38cabbbc-1686259544",
+        "description": "Both Paks",
+        "size_kb": 247,
+        "size_in_bytes": 253335,
+        "changelog_html": "Recompiled Mod to Patch-4.30",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-4-30-1686259540.zip.json"
+      },
+      {
+        "id": [
+          27079,
+          1634
+        ],
+        "uid": 7017976588743,
+        "file_id": 27079,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-4.40",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 297,
+        "file_name": "CraftableUpgradeMods-1944-Patch-4-40-1692911804.zip",
+        "uploaded_timestamp": 1692911804,
+        "uploaded_time": "2023-08-24T21:16:44.000+00:00",
+        "mod_version": "Patch-4.40",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/05a224cad5ef3b7c39d8bcc416c2b9d6dc6e7afa6f54cb14fa868331a5dd263b/detection/f-05a224cad5ef3b7c39d8bcc416c2b9d6dc6e7afa6f54cb14fa868331a5dd263b-1692911809",
+        "description": "Both Paks",
+        "size_kb": 297,
+        "size_in_bytes": 304445,
+        "changelog_html": "Recompiled Mod to Patch-4.40",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-4-40-1692911804.zip.json"
+      },
+      {
+        "id": [
+          27543,
+          1634
+        ],
+        "uid": 7017976589207,
+        "file_id": 27543,
+        "name": "CraftableUpgradeMods NMSMB",
+        "version": "Patch-4.xAndUpFix",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 9,
+        "file_name": "CraftableUpgradeMods NMSMB-1944-Patch-4-xAndUpFix-1693334828.zip",
+        "uploaded_timestamp": 1693334828,
+        "uploaded_time": "2023-08-29T18:47:08.000+00:00",
+        "mod_version": "Patch-4.xAndUpFix",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e71018b347715bd9f5e8ebd296e7c641b139b896e9ca3b3fd94dc565a9e14afb/detection/f-e71018b347715bd9f5e8ebd296e7c641b139b896e9ca3b3fd94dc565a9e14afb-1693334860",
+        "description": "NMSMB cs files",
+        "size_kb": 9,
+        "size_in_bytes": 8782,
+        "changelog_html": "Added minor safety precaution to prevent duplicate requirements",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods NMSMB-1944-Patch-4-xAndUpFix-1693334828.zip.json"
+      },
+      {
+        "id": [
+          28309,
+          1634
+        ],
+        "uid": 7017976589973,
+        "file_id": 28309,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-4.45",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 299,
+        "file_name": "CraftableUpgradeMods-1944-Patch-4-45-1695462544.zip",
+        "uploaded_timestamp": 1695462544,
+        "uploaded_time": "2023-09-23T09:49:04.000+00:00",
+        "mod_version": "Patch-4.45",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c7c04e42eb3b0273dbbff7632c4c846b36b1c9cdc352cea28a5cbece1c92530c/detection/f-c7c04e42eb3b0273dbbff7632c4c846b36b1c9cdc352cea28a5cbece1c92530c-1695462559",
+        "description": "Both Paks",
+        "size_kb": 299,
+        "size_in_bytes": 306564,
+        "changelog_html": "Recompiled Mod to Patch-4.45",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-4-45-1695462544.zip.json"
+      },
+      {
+        "id": [
+          28577,
+          1634
+        ],
+        "uid": 7017976590241,
+        "file_id": 28577,
+        "name": "CraftableUpgradeMods Lua",
+        "version": "Patch-4.10AndUp",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 6,
+        "file_name": "CraftableUpgradeMods Lua-1944-Patch-4-10AndUp-1699462531.zip",
+        "uploaded_timestamp": 1699462531,
+        "uploaded_time": "2023-11-08T16:55:31.000+00:00",
+        "mod_version": "Patch-4.10AndUp",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a4c58f723b98d91a73aabf299599bb88927697ab1ac77bb3f391a4e5a87882a3/detection/f-a4c58f723b98d91a73aabf299599bb88927697ab1ac77bb3f391a4e5a87882a3-1699462638",
+        "description": "lua, AIO, now comes with AMUMSS prompt",
+        "size_kb": 6,
+        "size_in_bytes": 5951,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods Lua-1944-Patch-4-10AndUp-1699462531.zip.json"
+      },
+      {
+        "id": [
+          29138,
+          1634
+        ],
+        "uid": 7017976590802,
+        "file_id": 29138,
+        "name": "CraftableUpgradeMods Lua",
+        "version": "Patch-4.xAndUpNew",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 7,
+        "file_name": "CraftableUpgradeMods Lua-1944-Patch-4-xAndUpNew-1702497156.zip",
+        "uploaded_timestamp": 1702497156,
+        "uploaded_time": "2023-12-13T19:52:36.000+00:00",
+        "mod_version": "Patch-4.xAndUpNew",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1383ceddbadfce23778cc9d1f57d3159aa6004defa9fed260bbdba2d1ab9a201/detection/f-1383ceddbadfce23778cc9d1f57d3159aa6004defa9fed260bbdba2d1ab9a201-1702497159",
+        "description": "lua AIO",
+        "size_kb": 7,
+        "size_in_bytes": 6877,
+        "changelog_html": "Updated script with SEC (more future proof)\nThis lua is an AIO version can be used for both SandX only or user selected choices",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods Lua-1944-Patch-4-xAndUpNew-1702497156.zip.json"
+      },
+      {
+        "id": [
+          29140,
+          1634
+        ],
+        "uid": 7017976590804,
+        "file_id": 29140,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-4.46",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 257,
+        "file_name": "CraftableUpgradeMods-1944-Patch-4-46-1702497824.zip",
+        "uploaded_timestamp": 1702497824,
+        "uploaded_time": "2023-12-13T20:03:44.000+00:00",
+        "mod_version": "Patch-4.46",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e9c29834a81808309c5c08e33f77f7ffac62c1b787d80978ecc00a48a214f52f/detection/f-e9c29834a81808309c5c08e33f77f7ffac62c1b787d80978ecc00a48a214f52f-1702497828",
+        "description": "Both Paks",
+        "size_kb": 257,
+        "size_in_bytes": 263215,
+        "changelog_html": "Recompiled Mod to Patch-4.46",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-4-46-1702497824.zip.json"
+      },
+      {
+        "id": [
+          30048,
+          1634
+        ],
+        "uid": 7017976591712,
+        "file_id": 30048,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-4.50",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 274,
+        "file_name": "CraftableUpgradeMods-1944-Patch-4-50-1708031147.zip",
+        "uploaded_timestamp": 1708031147,
+        "uploaded_time": "2024-02-15T21:05:47.000+00:00",
+        "mod_version": "Patch-4.50",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/597f76dd6e86584c62945747ec5151dc2a982e7efa2ba36595623a531de0587c/detection/f-597f76dd6e86584c62945747ec5151dc2a982e7efa2ba36595623a531de0587c-1708031784",
+        "description": "Both Paks",
+        "size_kb": 274,
+        "size_in_bytes": 280693,
+        "changelog_html": "Recompiled Mod to Patch-4.50",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-4-50-1708031147.zip.json"
+      },
+      {
+        "id": [
+          31019,
+          1634
+        ],
+        "uid": 7017976592683,
+        "file_id": 31019,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-4.63",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 293,
+        "file_name": "CraftableUpgradeMods-1944-Patch-4-63-1711808256.zip",
+        "uploaded_timestamp": 1711808256,
+        "uploaded_time": "2024-03-30T14:17:36.000+00:00",
+        "mod_version": "Patch-4.63",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/f6fb6c2f39d6f67706ee416a7764e2828d70c8f352f912421e18bb2569c1b0d2/detection/f-f6fb6c2f39d6f67706ee416a7764e2828d70c8f352f912421e18bb2569c1b0d2-1711808627",
+        "description": "Both Paks",
+        "size_kb": 293,
+        "size_in_bytes": 299840,
+        "changelog_html": "Patch-4.63",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-4-63-1711808256.zip.json"
+      },
+      {
+        "id": [
+          31882,
+          1634
+        ],
+        "uid": 7017976593546,
+        "file_id": 31882,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-4.65",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 150,
+        "file_name": "CraftableUpgradeMods-1944-Patch-4-65-1714641077.zip",
+        "uploaded_timestamp": 1714641077,
+        "uploaded_time": "2024-05-02T09:11:17.000+00:00",
+        "mod_version": "Patch-4.65",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7f1553f65a1a64ce2bf8d1d538e17d65252459e45b1a0a62c04f45c0ff8128c8/detection/f-7f1553f65a1a64ce2bf8d1d538e17d65252459e45b1a0a62c04f45c0ff8128c8-1714641081",
+        "description": "Both Paks",
+        "size_kb": 150,
+        "size_in_bytes": 153784,
+        "changelog_html": "Recompiled Mod to Patch-4.65",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-4-65-1714641077.zip.json"
+      },
+      {
+        "id": [
+          32169,
+          1634
+        ],
+        "uid": 7017976593833,
+        "file_id": 32169,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-4.65V2",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 299,
+        "file_name": "CraftableUpgradeMods-1944-Patch-4-65V2-1714843912.zip",
+        "uploaded_timestamp": 1714843912,
+        "uploaded_time": "2024-05-04T17:31:52.000+00:00",
+        "mod_version": "Patch-4.65V2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7a1a404c900724e5a45e7f4035c0cfe9751901307f33b153502706e18751bc7e/detection/f-7a1a404c900724e5a45e7f4035c0cfe9751901307f33b153502706e18751bc7e-1714844832",
+        "description": "Both Paks",
+        "size_kb": 299,
+        "size_in_bytes": 306282,
+        "changelog_html": "Reupload, wrong pak in 4.65",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-4-65V2-1714843912.zip.json"
+      },
+      {
+        "id": [
+          32906,
+          1634
+        ],
+        "uid": 7017976594570,
+        "file_id": 32906,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-4.71",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 298,
+        "file_name": "CraftableUpgradeMods-1944-Patch-4-71-1717238238.zip",
+        "uploaded_timestamp": 1717238238,
+        "uploaded_time": "2024-06-01T10:37:18.000+00:00",
+        "mod_version": "Patch-4.71",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/66aa342060e50a41f73602b932e3c9ad8d27e303880bebca55bc7483589abcf1/detection/f-66aa342060e50a41f73602b932e3c9ad8d27e303880bebca55bc7483589abcf1-1717238241",
+        "description": "Both Paks",
+        "size_kb": 298,
+        "size_in_bytes": 304764,
+        "changelog_html": "Recompiled Mod to Patch-4.71",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-4-71-1717238238.zip.json"
+      },
+      {
+        "id": [
+          32907,
+          1634
+        ],
+        "uid": 7017976594571,
+        "file_id": 32907,
+        "name": "CraftableUpgradeMods Lua",
+        "version": "Patch-4.7xAndUpNew",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 6,
+        "file_name": "CraftableUpgradeMods Lua-1944-Patch-4-7xAndUpNew-1717238280.7z",
+        "uploaded_timestamp": 1717238280,
+        "uploaded_time": "2024-06-01T10:38:00.000+00:00",
+        "mod_version": "Patch-4.7xAndUpNew",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7421a8603b7fbfbc03669ad3783c7109ede48ad68b2b9f651224b3aca62aa583/detection/f-7421a8603b7fbfbc03669ad3783c7109ede48ad68b2b9f651224b3aca62aa583-1717238281",
+        "description": "lua AIO",
+        "size_kb": 6,
+        "size_in_bytes": 6370,
+        "changelog_html": "Updated script",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods Lua-1944-Patch-4-7xAndUpNew-1717238280.7z.json"
+      },
+      {
+        "id": [
+          33001,
+          1634
+        ],
+        "uid": 7017976594665,
+        "file_id": 33001,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-4.71V",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 301,
+        "file_name": "CraftableUpgradeMods-1944-Patch-4-71V-1717321723.zip",
+        "uploaded_timestamp": 1717321723,
+        "uploaded_time": "2024-06-02T09:48:43.000+00:00",
+        "mod_version": "Patch-4.71V",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/3fd33531312c270db21902c1aab0aad02e04a6245ba8a136717942b4f1210cc8/detection/f-3fd33531312c270db21902c1aab0aad02e04a6245ba8a136717942b4f1210cc8-1717321726",
+        "description": "Both Paks",
+        "size_kb": 301,
+        "size_in_bytes": 308557,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-4-71V-1717321723.zip.json"
+      },
+      {
+        "id": [
+          33002,
+          1634
+        ],
+        "uid": 7017976594666,
+        "file_id": 33002,
+        "name": "CraftableUpgradeMods Lua",
+        "version": "Patch-4.7xAndUpNewV",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 7,
+        "file_name": "CraftableUpgradeMods Lua-1944-Patch-4-7xAndUpNewV-1717321796.zip",
+        "uploaded_timestamp": 1717321796,
+        "uploaded_time": "2024-06-02T09:49:56.000+00:00",
+        "mod_version": "Patch-4.7xAndUpNewV",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e267df92f6266ceff10c0ac7650e69b85b28c075a361513c50bbc0049c77c38c/detection/f-e267df92f6266ceff10c0ac7650e69b85b28c075a361513c50bbc0049c77c38c-1717321801",
+        "description": "lua AIO",
+        "size_kb": 7,
+        "size_in_bytes": 6790,
+        "changelog_html": "Fixed language issue",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods Lua-1944-Patch-4-7xAndUpNewV-1717321796.zip.json"
+      },
+      {
+        "id": [
+          33256,
+          1634
+        ],
+        "uid": 7017976594920,
+        "file_id": 33256,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-4.72",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 506,
+        "file_name": "CraftableUpgradeMods-1944-Patch-4-72-1720294546.zip",
+        "uploaded_timestamp": 1720294546,
+        "uploaded_time": "2024-07-06T19:35:46.000+00:00",
+        "mod_version": "Patch-4.72",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/715050cd21d6e4f6340258994ffe8fa7358a3995ca607ce17e0c61097c498531/detection/f-715050cd21d6e4f6340258994ffe8fa7358a3995ca607ce17e0c61097c498531-1720295369",
+        "description": "Both Paks",
+        "size_kb": 506,
+        "size_in_bytes": 518470,
+        "changelog_html": "Recompiled Mod to Patch-4.72\nMajor update to Freighter Mods (see description)",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-4-72-1720294546.zip.json"
+      },
+      {
+        "id": [
+          33257,
+          1634
+        ],
+        "uid": 7017976594921,
+        "file_id": 33257,
+        "name": "CraftableUpgradeMods NMSMB",
+        "version": "Patch-4.xAndUpNew",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 10,
+        "file_name": "CraftableUpgradeMods NMSMB-1944-Patch-4-xAndUpNew-1720294577.zip",
+        "uploaded_timestamp": 1720294577,
+        "uploaded_time": "2024-07-06T19:36:17.000+00:00",
+        "mod_version": "Patch-4.xAndUpNew",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/54ca4047377f8d92c5b32465046131f441aa399517d3fc806c8f284d465281fe/detection/f-54ca4047377f8d92c5b32465046131f441aa399517d3fc806c8f284d465281fe-1720295448",
+        "description": "NMSMB cs files",
+        "size_kb": 10,
+        "size_in_bytes": 10290,
+        "changelog_html": "Updated script with SEC (more future proof)\nThis lua is an AIO version can be used for both SandX only or user selected choices",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods NMSMB-1944-Patch-4-xAndUpNew-1720294577.zip.json"
+      },
+      {
+        "id": [
+          33258,
+          1634
+        ],
+        "uid": 7017976594922,
+        "file_id": 33258,
+        "name": "CraftableUpgradeMods Lua",
+        "version": "Patch-4.7xAndUpNew",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 8,
+        "file_name": "CraftableUpgradeMods Lua-1944-Patch-4-7xAndUpNew-1720294634.zip",
+        "uploaded_timestamp": 1720294634,
+        "uploaded_time": "2024-07-06T19:37:14.000+00:00",
+        "mod_version": "Patch-4.7xAndUpNew",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/daab4f4e563dedb6b74f5c691a1ad8d03fc7ea078bd42dbfb04c12fc445defe3/detection/f-daab4f4e563dedb6b74f5c691a1ad8d03fc7ea078bd42dbfb04c12fc445defe3-1720295514",
+        "description": "lua AIO",
+        "size_kb": 8,
+        "size_in_bytes": 8516,
+        "changelog_html": "Updated script",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods Lua-1944-Patch-4-7xAndUpNew-1720294634.zip.json"
+      },
+      {
+        "id": [
+          33298,
+          1634
+        ],
+        "uid": 7017976594962,
+        "file_id": 33298,
+        "name": "CraftableUpgradeMods Public",
+        "version": "Patch-4.72",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 506,
+        "file_name": "CraftableUpgradeMods Public-1944-Patch-4-72-1720910147.zip",
+        "uploaded_timestamp": 1720910147,
+        "uploaded_time": "2024-07-13T22:35:47.000+00:00",
+        "mod_version": "Patch-4.72",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7ef27614fe2cb8949fd27fb13cf07f5c5b851e84d86bb5c2294a535651803e1e/detection/f-7ef27614fe2cb8949fd27fb13cf07f5c5b851e84d86bb5c2294a535651803e1e-1720910267",
+        "description": "pak, same as main but compiled on public",
+        "size_kb": 506,
+        "size_in_bytes": 518457,
+        "changelog_html": "Recompiled Mod to Patch-4.72\nMajor update to Freighter Mods (see description)",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods Public-1944-Patch-4-72-1720910147.zip.json"
+      },
+      {
+        "id": [
+          34015,
+          1634
+        ],
+        "uid": 7017976595679,
+        "file_id": 34015,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-5.01",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 535,
+        "file_name": "CraftableUpgradeMods-1944-Patch-5-01-1721927414.zip",
+        "uploaded_timestamp": 1721927414,
+        "uploaded_time": "2024-07-25T17:10:14.000+00:00",
+        "mod_version": "Patch-5.01",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/286d2712851ff18840f422ac84e3d6721b831ea992f358e9ca282e4c807fee90/detection/f-286d2712851ff18840f422ac84e3d6721b831ea992f358e9ca282e4c807fee90-1721927436",
+        "description": "Both Paks, pick one",
+        "size_kb": 535,
+        "size_in_bytes": 548289,
+        "changelog_html": "Recompiled Mod to Patch-5.01",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-5-01-1721927414.zip.json"
+      },
+      {
+        "id": [
+          35202,
+          1634
+        ],
+        "uid": 7017976596866,
+        "file_id": 35202,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-5.05",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 535,
+        "file_name": "CraftableUpgradeMods-1944-Patch-5-05-1724779137.zip",
+        "uploaded_timestamp": 1724779137,
+        "uploaded_time": "2024-08-27T17:18:57.000+00:00",
+        "mod_version": "Patch-5.05",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/6f784c795cd9b52acf8b46f242c510fc71c12c77e53ecab555e7f4a76cdbf37f/detection/f-6f784c795cd9b52acf8b46f242c510fc71c12c77e53ecab555e7f4a76cdbf37f-1724779154",
+        "description": "Both Paks, pick one",
+        "size_kb": 535,
+        "size_in_bytes": 548128,
+        "changelog_html": "Recompiled Mod to Patch-5.05",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-5-05-1724779137.zip.json"
+      },
+      {
+        "id": [
+          35994,
+          1634
+        ],
+        "uid": 7017976597658,
+        "file_id": 35994,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-5.11",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 560,
+        "file_name": "CraftableUpgradeMods-1944-Patch-5-11-1725701041.zip",
+        "uploaded_timestamp": 1725701041,
+        "uploaded_time": "2024-09-07T09:24:01.000+00:00",
+        "mod_version": "Patch-5.11",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4211144d9593494d49431d9d758d3a777477187b0a754076cc719944d77423cd/detection/f-4211144d9593494d49431d9d758d3a777477187b0a754076cc719944d77423cd-1725701049",
+        "description": "Both Paks, pick one",
+        "size_kb": 560,
+        "size_in_bytes": 573360,
+        "changelog_html": "Recompiled Mod to Patch-5.11",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-5-11-1725701041.zip.json"
+      },
+      {
+        "id": [
+          36419,
+          1634
+        ],
+        "uid": 7017976598083,
+        "file_id": 36419,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-5.12",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 560,
+        "file_name": "CraftableUpgradeMods-1944-Patch-5-12-1726682085.zip",
+        "uploaded_timestamp": 1726682085,
+        "uploaded_time": "2024-09-18T17:54:45.000+00:00",
+        "mod_version": "Patch-5.12",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/f51f7c63189f6a46e8e65f3e49350487cabfb745719c0667947917e21b3bcf40/detection/f-f51f7c63189f6a46e8e65f3e49350487cabfb745719c0667947917e21b3bcf40-1726682748",
+        "description": "Both Paks, pick one",
+        "size_kb": 560,
+        "size_in_bytes": 573353,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-5-12-1726682085.zip.json"
+      },
+      {
+        "id": [
+          36421,
+          1634
+        ],
+        "uid": 7017976598085,
+        "file_id": 36421,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-5.12",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 560,
+        "file_name": "CraftableUpgradeMods-1944-Patch-5-12-1726682289.zip",
+        "uploaded_timestamp": 1726682289,
+        "uploaded_time": "2024-09-18T17:58:09.000+00:00",
+        "mod_version": "Patch-5.12",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/f51f7c63189f6a46e8e65f3e49350487cabfb745719c0667947917e21b3bcf40/detection/f-f51f7c63189f6a46e8e65f3e49350487cabfb745719c0667947917e21b3bcf40-1726682748",
+        "description": "Both Paks, pick one",
+        "size_kb": 560,
+        "size_in_bytes": 573353,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-5-12-1726682289.zip.json"
+      },
+      {
+        "id": [
+          37217,
+          1634
+        ],
+        "uid": 7017976598881,
+        "file_id": 37217,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-5.2x",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 569,
+        "file_name": "CraftableUpgradeMods-1944-Patch-5-2x-1729877936.zip",
+        "uploaded_timestamp": 1729877936,
+        "uploaded_time": "2024-10-25T17:38:56.000+00:00",
+        "mod_version": "Patch-5.2x",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c26f1f486f987dee7ec4195e1ca84feaea877dc51e90cf83b6340ceb063166b7/detection/f-c26f1f486f987dee7ec4195e1ca84feaea877dc51e90cf83b6340ceb063166b7-1729877795",
+        "description": "Both Paks, pick one",
+        "size_kb": 569,
+        "size_in_bytes": 582700,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-5-2x-1729877936.zip.json"
+      },
+      {
+        "id": [
+          37806,
+          1634
+        ],
+        "uid": 7017976599470,
+        "file_id": 37806,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-5.22",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 569,
+        "file_name": "CraftableUpgradeMods-1944-Patch-5-22-1731235341.zip",
+        "uploaded_timestamp": 1731235341,
+        "uploaded_time": "2024-11-10T10:42:21.000+00:00",
+        "mod_version": "Patch-5.22",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1d4e4071a9ecd805b24b9c5d1e06a2e8fa045d603d13dad25e7083f9d62960e4/detection/f-1d4e4071a9ecd805b24b9c5d1e06a2e8fa045d603d13dad25e7083f9d62960e4-1731235351",
+        "description": "Both Paks, pick one",
+        "size_kb": 569,
+        "size_in_bytes": 582803,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-5-22-1731235341.zip.json"
+      },
+      {
+        "id": [
+          38098,
+          1634
+        ],
+        "uid": 7017976599762,
+        "file_id": 38098,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-5.28",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 569,
+        "file_name": "CraftableUpgradeMods-1944-Patch-5-28-1733054147.zip",
+        "uploaded_timestamp": 1733054147,
+        "uploaded_time": "2024-12-01T11:55:47.000+00:00",
+        "mod_version": "Patch-5.28",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/78e1be7c5bda9493f4f02cd083b47ce40d86137ccb61bdf8f00cc4090f02daaf/detection/f-78e1be7c5bda9493f4f02cd083b47ce40d86137ccb61bdf8f00cc4090f02daaf-1733054223",
+        "description": "Both Paks, pick one",
+        "size_kb": 569,
+        "size_in_bytes": 582885,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-5-28-1733054147.zip.json"
+      },
+      {
+        "id": [
+          38402,
+          1634
+        ],
+        "uid": 7017976600066,
+        "file_id": 38402,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-5.29",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 570,
+        "file_name": "CraftableUpgradeMods-1944-Patch-5-29-1734372609.zip",
+        "uploaded_timestamp": 1734372609,
+        "uploaded_time": "2024-12-16T18:10:09.000+00:00",
+        "mod_version": "Patch-5.29",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0aeb3ed3a49dd5dbd8d21b18c0ede2507bed564bf81c87e7a461e635ef3c2a3b/detection/f-0aeb3ed3a49dd5dbd8d21b18c0ede2507bed564bf81c87e7a461e635ef3c2a3b-1734372615",
+        "description": "Both Paks, pick one",
+        "size_kb": 570,
+        "size_in_bytes": 583302,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-5-29-1734372609.zip.json"
+      },
+      {
+        "id": [
+          39269,
+          1634
+        ],
+        "uid": 7017976600933,
+        "file_id": 39269,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-5.53",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 100,
+        "file_name": "CraftableUpgradeMods-1944-Patch-5-53-1738942275.zip",
+        "uploaded_timestamp": 1738942275,
+        "uploaded_time": "2025-02-07T15:31:15.000+00:00",
+        "mod_version": "Patch-5.53",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0ddb50fb11b380e6d5372fae3218ccd3816f3c645c250834f401fa20a574c8d5/detection/f-0ddb50fb11b380e6d5372fae3218ccd3816f3c645c250834f401fa20a574c8d5-1738942276",
+        "description": "EXML format\n<br />Both version pick one",
+        "size_kb": 100,
+        "size_in_bytes": 102818,
+        "changelog_html": "Recompile for worlds Pt2",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-5-53-1738942275.zip.json"
+      },
+      {
+        "id": [
+          39270,
+          1634
+        ],
+        "uid": 7017976600934,
+        "file_id": 39270,
+        "name": "CraftableUpgradeMods Lua",
+        "version": "Patch-5.5xAndUp",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 8,
+        "file_name": "CraftableUpgradeMods Lua-1944-Patch-5-5xAndUp-1738942319.zip",
+        "uploaded_timestamp": 1738942319,
+        "uploaded_time": "2025-02-07T15:31:59.000+00:00",
+        "mod_version": "Patch-5.5xAndUp",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a2f687953aacaaf222a9013a19dac4c2e9ed13e3a2f18539729bd2374407ffc7/detection/f-a2f687953aacaaf222a9013a19dac4c2e9ed13e3a2f18539729bd2374407ffc7-1738942325",
+        "description": "WORLDS Pt2\n<br />lua AIO",
+        "size_kb": 8,
+        "size_in_bytes": 8192,
+        "changelog_html": "Reworked for WORLDS Pt2",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods Lua-1944-Patch-5-5xAndUp-1738942319.zip.json"
+      },
+      {
+        "id": [
+          40162,
+          1634
+        ],
+        "uid": 7017976601826,
+        "file_id": 40162,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-5.58",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 4894,
+        "file_name": "CraftableUpgradeMods-1944-Patch-5--1742083035.7z",
+        "uploaded_timestamp": 1742083035,
+        "uploaded_time": "2025-03-15T23:57:15.000+00:00",
+        "mod_version": "Patch-5.58",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4f6bd415099e9711b392e34f61bffb2e3ed35e5d9b87bb01881fc672b2dc5ca1/detection/f-4f6bd415099e9711b392e34f61bffb2e3ed35e5d9b87bb01881fc672b2dc5ca1-1742083038",
+        "description": "EXML format +MBIN (unlockable item trees)\n<br />\n<br />Both version pick one",
+        "size_kb": 4894,
+        "size_in_bytes": 5011604,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-5--1742083035.7z.json"
+      },
+      {
+        "id": [
+          40196,
+          1634
+        ],
+        "uid": 7017976601860,
+        "file_id": 40196,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-5.58V2",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 92,
+        "file_name": "CraftableUpgradeMods-1944-Patch-5-58V2-1742136961.zip",
+        "uploaded_timestamp": 1742136961,
+        "uploaded_time": "2025-03-16T14:56:01.000+00:00",
+        "mod_version": "Patch-5.58V2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5c827c083d9a6eba91c812c5500ab5fc82f6b1d4b7fd94530fc52122fe95114e/detection/f-5c827c083d9a6eba91c812c5500ab5fc82f6b1d4b7fd94530fc52122fe95114e-1742136964",
+        "description": "EXML format +MBIN (unlockable item trees)\n<br />\n<br />\n<br />\n<br />Both version pick one",
+        "size_kb": 92,
+        "size_in_bytes": 94493,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-5-58V2-1742136961.zip.json"
+      },
+      {
+        "id": [
+          40340,
+          1634
+        ],
+        "uid": 7017976602004,
+        "file_id": 40340,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-5.58V3",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 24,
+        "file_name": "CraftableUpgradeMods-1944-Patch-5-58V3-1742757269.7z",
+        "uploaded_timestamp": 1742757269,
+        "uploaded_time": "2025-03-23T19:14:29.000+00:00",
+        "mod_version": "Patch-5.58V3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/f2a645e7de977e74869340a9cb3997fce6cd93953da1dc6377ac0734b997e493/detection/f-f2a645e7de977e74869340a9cb3997fce6cd93953da1dc6377ac0734b997e493-1742757394",
+        "description": "EXML format\n<br />Both version pick one",
+        "size_kb": 24,
+        "size_in_bytes": 24125,
+        "changelog_html": "Changed UNLOCKABLEITEMTREES to EXML format (should not require any merging with other mods, unless they change the same index, this would require manual edit of EXML or merging via LUA)",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-5-58V3-1742757269.7z.json"
+      },
+      {
+        "id": [
+          41108,
+          1634
+        ],
+        "uid": 7017976602772,
+        "file_id": 41108,
+        "name": "CraftableUpgradeMods NMSMB",
+        "version": "Patch-5.5xAndUp",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 10,
+        "file_name": "CraftableUpgradeMods NMSMB-1944-Patch-5-5xAndUp-1746177623.zip",
+        "uploaded_timestamp": 1746177623,
+        "uploaded_time": "2025-05-02T09:20:23.000+00:00",
+        "mod_version": "Patch-5.5xAndUp",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d233f6fb7aaa728f9d6f2ab328ee00e477b549bd34264927f7f64a40e2629d3b/detection/f-d233f6fb7aaa728f9d6f2ab328ee00e477b549bd34264927f7f64a40e2629d3b-1746177625",
+        "description": "NMSMB cs files",
+        "size_kb": 10,
+        "size_in_bytes": 10290,
+        "changelog_html": "Reworked for WORLDS Pt2",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods NMSMB-1944-Patch-5-5xAndUp-1746177623.zip.json"
+      },
+      {
+        "id": [
+          41111,
+          1634
+        ],
+        "uid": 7017976602775,
+        "file_id": 41111,
+        "name": "CraftableUpgradeMods NMSMB",
+        "version": "Patch-5.5xAndUp",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 10,
+        "file_name": "CraftableUpgradeMods NMSMB-1944-Patch-5-5xAndUp-1746178044.zip",
+        "uploaded_timestamp": 1746178044,
+        "uploaded_time": "2025-05-02T09:27:24.000+00:00",
+        "mod_version": "Patch-5.5xAndUp",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/cff973139447e95cef508351d2de4cdcc76a9b7cfa730dc2fd919cddd86163f3/detection/f-cff973139447e95cef508351d2de4cdcc76a9b7cfa730dc2fd919cddd86163f3-1746178050",
+        "description": "NMSMB cs files",
+        "size_kb": 10,
+        "size_in_bytes": 10420,
+        "changelog_html": "Reworked for WORLDS Pt2",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods NMSMB-1944-Patch-5-5xAndUp-1746178044.zip.json"
+      },
+      {
+        "id": [
+          41134,
+          1634
+        ],
+        "uid": 7017976602798,
+        "file_id": 41134,
+        "name": "CraftableUpgradeMods Lua",
+        "version": "Patch-5.5xAndUp",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 8,
+        "file_name": "CraftableUpgradeMods Lua-1944-Patch-5-5xAndUp-1746179761.zip",
+        "uploaded_timestamp": 1746179761,
+        "uploaded_time": "2025-05-02T09:56:01.000+00:00",
+        "mod_version": "Patch-5.5xAndUp",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/13923cccba55fa77b6e584001120eec9b79837af10a9a0a46c1c936064350289/detection/f-13923cccba55fa77b6e584001120eec9b79837af10a9a0a46c1c936064350289-1746179768",
+        "description": "WORLDS Pt2\n<br />\n<br />lua AIO",
+        "size_kb": 8,
+        "size_in_bytes": 8188,
+        "changelog_html": "Reworked for WORLDS Pt2",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods Lua-1944-Patch-5-5xAndUp-1746179761.zip.json"
+      },
+      {
+        "id": [
+          41862,
+          1634
+        ],
+        "uid": 7017976603526,
+        "file_id": 41862,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-5.73",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 69,
+        "file_name": "CraftableUpgradeMods-1944-Patch-5-73-1751799745.zip",
+        "uploaded_timestamp": 1751799745,
+        "uploaded_time": "2025-07-06T11:02:25.000+00:00",
+        "mod_version": "Patch-5.73",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/636a14f270bb6a67531b0bc4aaf354b221057b58bf5e368294077cc9e3ba124b/detection/f-636a14f270bb6a67531b0bc4aaf354b221057b58bf5e368294077cc9e3ba124b-1751799748",
+        "description": "EXML format\n<br />\n<br />Both version pick one",
+        "size_kb": 69,
+        "size_in_bytes": 70333,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-5-73-1751799745.zip.json"
+      },
+      {
+        "id": [
+          42896,
+          1634
+        ],
+        "uid": 7017976604560,
+        "file_id": 42896,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-6.00",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 69,
+        "file_name": "CraftableUpgradeMods-1944-Patch-6-00-1756922682.zip",
+        "uploaded_timestamp": 1756922682,
+        "uploaded_time": "2025-09-03T18:04:42.000+00:00",
+        "mod_version": "Patch-6.00",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/89ca724973345ba6cb43dde1500b6d8219948625d83471be6e6d91c09c9a3530/detection/f-89ca724973345ba6cb43dde1500b6d8219948625d83471be6e6d91c09c9a3530-1756922687",
+        "description": "EXML format\n<br />\n<br />\n<br />\n<br />Both version pick one",
+        "size_kb": 69,
+        "size_in_bytes": 70514,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-6-00-1756922682.zip.json"
+      },
+      {
+        "id": [
+          45963,
+          1634
+        ],
+        "uid": 7017976607627,
+        "file_id": 45963,
+        "name": "CraftableUpgradeMods",
+        "version": "Patch-6.xxAndUp",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 49,
+        "file_name": "CraftableUpgradeMods-1944-Patch-6-xx-1771675936.zip",
+        "uploaded_timestamp": 1771675936,
+        "uploaded_time": "2026-02-21T12:12:16.000+00:00",
+        "mod_version": "Patch-6.xxAndUp",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/cccfd8b30ddea29787ad108a5dde8ea2190ef69e01caad7cdaa56cb477e528c2",
+        "description": "EXML format, Pick One\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />Both version pick one",
+        "size_kb": 49,
+        "size_in_bytes": 50555,
+        "changelog_html": "Recompiled",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods-1944-Patch-6-xx-1771675936.zip.json"
+      },
+      {
+        "id": [
+          45964,
+          1634
+        ],
+        "uid": 7017976607628,
+        "file_id": 45964,
+        "name": "CraftableUpgradeMods Lua",
+        "version": "Patch-6.23AndUp",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 8,
+        "file_name": "CraftableUpgradeMods Lua-1944-Patch-6-23AndUp-1771675999.zip",
+        "uploaded_timestamp": 1771675999,
+        "uploaded_time": "2026-02-21T12:13:19.000+00:00",
+        "mod_version": "Patch-6.23AndUp",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/68476ab94bb781d2e6401a650eafe27a56d2b5e977433d7bdadb0765be892ada",
+        "description": "WORLDS Pt2<br /><br /><br /><br />lua AIO",
+        "size_kb": 8,
+        "size_in_bytes": 8213,
+        "changelog_html": "Updated lua",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1944/CraftableUpgradeMods Lua-1944-Patch-6-23AndUp-1771675999.zip.json"
+      }
+    ],
+    "changelogs": {
+      "1.0": [
+        "Initial release",
+        "Ship Upgrade mods only"
+      ],
+      "2.0": [
+        "Added the rest of Mods as craft recipes"
+      ],
+      "3.0": [
+        "Added exocraft mods that I forgot to add"
+      ],
+      "Patch-3.42": [
+        "Recompiled Mod to Patch-3.42"
+      ],
+      "Patch-3.42V2": [
+        "Added Launch Thrusters mods"
+      ],
+      "Patch-3.51": [
+        "Recompiled Mod to Patch-3.51"
+      ],
+      "Patch-3.51V2": [
+        "Cost Change",
+        "Freighter mods have been fixed",
+        "Updated language files"
+      ],
+      "Patch-3.52": [
+        "Recompiled Mod to Patch-3.52"
+      ],
+      "Patch-3.52V2": [
+        "Main: Fixed small issue of some mods not having the correct recipe",
+        "Main: Added a few missing weapon Mods, Pulse and Plasma Launcher",
+        "Optional: S-Only Initial release"
+      ],
+      "Patch-3.53": [
+        "Added X-Class mods to the SynthesisStation/Manufacturing Facility",
+        "Polish language file added",
+        "Recompiled Mod to Patch-3.53",
+        "Added Bio-Ship Upgrades"
+      ],
+      "Patch-3.53-SandXFix": [
+        "Fixed minor issue of X-class mods not being available in the Synthesis Lab"
+      ],
+      "Patch-3.62": [
+        "Recompiled Mod to Patch-3.62",
+        "Code clean-up was done in lua",
+        "X-Class price and recipe has been altered (see description)",
+        "Now Comes with FOMOD installer, this include both version of the mod"
+      ],
+      "Patch-3.65": [
+        "Recompiled Mod to Patch-3.65",
+        "Fixed minor bug that removed a few X class mods"
+      ],
+      "Patch-3.68": [
+        "Recompiled Mod to Patch-3.68"
+      ],
+      "Patch-3.70": [
+        "Recompiled Mod to Patch-3.70"
+      ],
+      "Patch-3.81": [
+        "Recompiled Mod to Patch-3.81"
+      ],
+      "Patch-3.82": [
+        "Recompiled Mod to Patch-3.82",
+        "Added missing X-Class mods",
+        "Fixed issue in SandXonly.lua",
+        "Added Sentinel Mods"
+      ],
+      "Patch-3.85": [
+        "Recompiled Mod to Patch-3.85",
+        "Upload of NMSMB script files"
+      ],
+      "Patch-3.87": [
+        "Recompiled Mod to Patch-3.87",
+        "Removed NMS language edits =&gt; replaced by custom language files<br />This brings with it an edit to GCDEBUGOPTIONS.GLOBAL.MBIN",
+        "Changed custom freighter ID's minor bug fix"
+      ],
+      "Patch-3.91": [
+        "Recompiled Mod to Patch-3.91"
+      ],
+      "Patch-3.97": [
+        "Recompiled Mod to Patch-3.97"
+      ],
+      "Patch-3.98": [
+        "Recompiled Mod to Patch-3.98"
+      ],
+      "Patch-3.98Fix": [
+        "Fixed some mistake in lua that duplicated the bioship mods (both version)",
+        "Removed FOMOD, as NMS mods are NOT recommended to be installed  with vortex"
+      ],
+      "Patch-3.99": [
+        "Recompiled Mod to Patch-3.99"
+      ],
+      "Patch-4.0": [
+        "Recompiled Mod to Patch-4.0"
+      ],
+      "Patch-4.04": [
+        "Recompiled Mod to Patch-4.04",
+        "Added the Memory Fragments (same location as X-Class)"
+      ],
+      "Patch-4.05": [
+        "Recompiled Mod to Patch-4.05"
+      ],
+      "Patch-4.06": [
+        "Recompiled Mod to Patch-4.06"
+      ],
+      "Patch-4.08": [
+        "Recompiled Mod to Patch-4.08"
+      ],
+      "Patch-4.10": [
+        "Recompiled Mod to Patch-4.10"
+      ],
+      "Patch-4.14": [
+        "Recompiled Mod to Patch-4.14"
+      ],
+      "Patch-4.21": [
+        "Recompiled Mod to Patch-4.21"
+      ],
+      "Patch-4.21Reupload": [
+        "Zipped the wrong paks, reuploaded"
+      ],
+      "Patch-4.25": [
+        "Recompiled Mod to Patch-4.25"
+      ],
+      "Patch-4.30": [
+        "Recompiled Mod to Patch-4.30"
+      ],
+      "Patch-4.40": [
+        "Recompiled Mod to Patch-4.40"
+      ],
+      "Patch-4.xAndUpFix": [
+        "Added minor safety precaution to prevent duplicate requirements"
+      ],
+      "Patch-4.45": [
+        "Recompiled Mod to Patch-4.45"
+      ],
+      "Patch-4.46": [
+        "Recompiled Mod to Patch-4.46"
+      ],
+      "Patch-4.xAndUpNew": [
+        "Updated script with SEC (more future proof)",
+        "This lua is an AIO version can be used for both SandX only or user selected choices"
+      ],
+      "Patch-4.50": [
+        "Recompiled Mod to Patch-4.50"
+      ],
+      "Patch-4.63": [
+        "Patch-4.63"
+      ],
+      "Patch-4.65": [
+        "Recompiled Mod to Patch-4.65"
+      ],
+      "Patch-4.65V2": [
+        "Reupload, wrong pak in 4.65"
+      ],
+      "Patch-4.71": [
+        "Recompiled Mod to Patch-4.71"
+      ],
+      "Patch-4.7xAndUpNew": [
+        "Updated script"
+      ],
+      "Patch-4.71V2": [
+        "Fixed language issue"
+      ],
+      "Patch-4.7xAndUpNewV": [
+        "Fixed language issue"
+      ],
+      "Patch-4.72": [
+        "Recompiled Mod to Patch-4.72",
+        "Major update to Freighter Mods (see description)"
+      ],
+      "Patch-5.01": [
+        "Recompiled Mod to Patch-5.01"
+      ],
+      "Patch-5.05": [
+        "Recompiled Mod to Patch-5.05"
+      ],
+      "Patch-5.11": [
+        "Recompiled Mod to Patch-5.11"
+      ],
+      "Patch-5.53": [
+        "Recompile for worlds Pt2"
+      ],
+      "Patch-5.5xAndUp": [
+        "Reworked for WORLDS Pt2"
+      ],
+      "Patch-5.58V3": [
+        "Changed UNLOCKABLEITEMTREES to EXML format (should not require any merging with other mods, unless they change the same index, this would require manual edit of EXML or merging via LUA)"
+      ],
+      "Patch-6.xx": [
+        "Updated lua"
+      ],
+      "Patch-6.xxAndUp": [
+        "Recompiled"
+      ],
+      "Patch-6.23AndUp": [
+        "Updated lua"
+      ]
+    }
+  },
+  {
     "mod_id": 2062,
     "name": "Consumerism - Expedition Twitch and Community reward unlocker",
     "summary": "Unlocks Expedition, Twitch, and Community Rewards for purchase in the Quicksilver shop",
@@ -24977,288 +27326,6 @@
       "1.2.10": [
         "Updated with MBINCompiler v6.17.0.2 for NMS Build 169216 (6.40) from 27/5/26",
         "Added Expedition 22 rewards"
-      ]
-    }
-  },
-  {
-    "mod_id": 2162,
-    "name": "Remove Technology Overload - 6.21 Remnant Compatible",
-    "summary": "Equip more than 3 tech of the same type // Adjusts inventory and tech slots depending on class // Stack sizes raised by x100 // Increased exosuit slots // UI and inventory grid fixes // Comes in three different versions, choose to your liking. :)",
-    "version": "6.21",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2162/2162-1644517280-1886783521.png",
-    "author": "chronicallybored",
-    "updated_timestamp": 1756459144,
-    "created_timestamp": 1644517845,
-    "description": "[center][font=Verdana][size=4][b][color=#ffe599][u][/u][/color][/b][/size][/font][/center][center][size=3]﻿[/size][font=Lucida Sans Unicode][b]This Mod comes in [u]three[/u] different versions:\n<br />\n<br />[/b]\n<br />[b][color=#ffffff]1.[/color] [color=#00ffff][u]Remove Technology Overload[/u][/color][/b]\n<br />\n<br />[color=#ffffff][size=2][b][i][color=#ffffff]- Increases the maximum number of same tech you can equip from[/color] [color=#ffff00]3[/color] [color=#ffffff]to [/color][color=#ffff00]9999[/color],[color=#ffff00] [/color]effectively removing technology overload\n<br />[/i][/b][/size][/color][b]\n<br />\n<br />\n<br />[color=#ffffff]2.[/color][size=3] [/size][color=#00ffff][u]Remove Technology Overload Plus[/u][/color]\n<br />[color=#ffffff]\n<br />[i][size=2]- Increases the maximum [/size][/i][/color][size=2][i][color=#ffff00]number of same tech[/color][color=#ffffff] you can equip from[/color] [color=#ffff00]3[/color] [color=#ffffff]to [/color][color=#ffff00]9999[/color][color=#ffff00], [/color]effectively removing technology overload\n<br />\n<br />[color=#ffffff][i]- Added some new UI and boundary fixes for the way the new inventory/UI works and interacts with the mod\n<br />[/i][/color][/i][i]\n<br />- Changed the values of [color=#ffff00]technology and cargo[/color] inventories and adapted them for the new inventory/UI[color=#ffffff], depending[/color]\n<br />[color=#ffffff]on the [/color][color=#ffff00]class[/color][color=#ffffff] of the used [/color][color=#ffff00]multitool[/color][color=#ffffff], [/color][color=#ffff00]ship[/color][color=#ffffff], [/color][color=#ffff00]freighter[/color][color=#ffffff], etc. Details below.[/color]\n<br />\n<br />[color=#ffffff]New technology inventory sizes depending on class:[/color]\n<br />\n<br />[color=#00ff00]C[/color] class = [color=#ffff00]30[/color] slots\n<br />[color=#00ff00]B[/color] class = [color=#ffff00]40[/color] slots\n<br />[color=#00ff00]A[/color] class = [color=#ffff00]50[/color] slots\n<br />[color=#00ff00]S[/color] class = [color=#ffff00]60[/color] slots\n<br />\n<br />[color=#ffffff]New cargo inventory sizes depending on class:[/color]\n<br />\n<br />[color=#00ff00]C[/color] class = [color=#ffff00]60[/color] slots\n<br />[color=#00ff00] B[/color] class = [color=#ffff00]80[/color] slots \n<br />[color=#00ff00]A[/color] class = [color=#ffff00]100[/color] slots\n<br />[color=#00ff00] S[/color] class = [color=#ffff00]120[/color] slots \n<br />\n<br />- New exosuit inventory sizes:\n<br />\n<br />Exosuit cargo inventory size (Width * Height):\n<br />[color=#ffff00]\n<br />12[/color] * [color=#ffff00]10[/color] = [color=#ffff00]120 [/color]total slots\n<br />\n<br />Exosuit technology inventory size (Width * Height):\n<br />\n<br />[color=#ffff00]6[/color] * [color=#ffff00]10 [/color]= [color=#ffff00]60 [/color]total slots\n<br />[/i][color=#dbb0a7]\n<br />[/color][/size][i][color=#e06666][u][size=3]IMPORTANT:[/size][/u]\n<br />[size=2]Please keep in mind that you will still have to buy/upgrade the wanted slots ingame. This mod doesn't raise them automatically[/size]\n<br />[size=2]to the maximum capacity.[/size][/color]\n<br />[/i]\n<br />\n<br />\n<br />[color=#ffffff]3.[/color][size=3] [/size][u][color=#00ffff]Remove Technology Overload Ultimate - Reworked[/color]\n<br />[color=#ffffff]\n<br />[/color][/u][i][size=2][color=#ffffff]- Combines all of the changes of the previous versions\n<br />\n<br />[/color][color=#ffffff]- Contains a stack multiplier, raising stack sizes for all inventories by x[/color][color=#ffff00]100 [/color](rounded up for nicer numbers)\n<br />\n<br />[/size]- Implemented a fix for antimatter reactors when using higher stack multipliers[/i][/b]\n<br />[i]\n<br />[/i]\n<br />[color=#ffe599][b]- [u]Installation instructions[/u] -\n<br />[/b][/color][i][b]\n<br />[size=2][color=#fff2cc]1. Go to [/color][i]&lt;YourNoMan'sSkyDirectory&gt;&#92;GAMEDATA&#92;PCBANKS[/i][color=#fff2cc] and check if there is a file called [/color][i]DISABLEMODS.txt[color=#fff2cc] - if so, delete it.\n<br />[/color][/i]\n<br />[color=#fff2cc]2. Now move to [/color][i]&lt;YourNoMan'sSkyDirectory&gt;&#92;GAMEDATA[/i][color=#fff2cc] and create a new folder called [/color][i]MODS[/i][color=#fff2cc].\n<br />[/color]\n<br />[color=#fff2cc]3. Download the mod and unpack the ZIP file. Then copy the folder (eg. \"[/color]cb Remove Technology Overload[color=#fff2cc]\") straight into the [/color][i]MODS[/i][color=#fff2cc] folder.\n<br />[/color]\n<br />[color=#fff2cc]4. That's basically it. You can start up the game now.\n<br />\n<br />[/color][/size][/b][color=#fff2cc][size=2][b]If done correctly, you should be getting a notification warning you about mods when launching the game. Have fun![/b]\n<br />[/size][/color]\n<br />[/i]\n<br />[size=2][i]\n<br />[b][color=#00ffff]Please feel free to let me know what you think of the new changes or report any issues in the comments, thank you. I also would like to say [/color][color=#00ff00]thank you for supporting this mod until now[/color][color=#00ffff], this community is absolutely amazing.[/color]\n<br />\n<br />[color=#00ffff]I hope you'll have a great time playing this awesome game. \n<br />\n<br />Cheers! :)[/color][/b][/i][/size][/font][i]\n<br />[/i][/center][font=Lucida Sans Unicode][size=3][b]\n<br />[/b]\n<br />[/size][/font]",
-    "state": "normal",
-    "warningMessage": "",
-    "files": [
-      {
-        "id": [
-          42523,
-          1634
-        ],
-        "uid": 7017976604187,
-        "file_id": 42523,
-        "name": "Remove Technology Overload 6.0",
-        "version": "6.0",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
-        "size": 2,
-        "file_name": "Remove Technology Overloard 6.0-2162-6-0-1756458883.zip",
-        "uploaded_timestamp": 1756458883,
-        "uploaded_time": "2025-08-29T09:14:43.000+00:00",
-        "mod_version": "6.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/69a10f95ea0799e89fd835e0b1ec03aa1f51c61453dc21da2a12cd9c75eb102d/detection/f-69a10f95ea0799e89fd835e0b1ec03aa1f51c61453dc21da2a12cd9c75eb102d-1756458885",
-        "description": "Removes technology overload.\n<br />\n<br />6.21 Remnant Compatible",
-        "size_kb": 2,
-        "size_in_bytes": 1809,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2162/Remove Technology Overloard 6.0-2162-6-0-1756458883.zip.json"
-      },
-      {
-        "id": [
-          42524,
-          1634
-        ],
-        "uid": 7017976604188,
-        "file_id": 42524,
-        "name": "Remove Technology Overload Plus 6.0",
-        "version": "6.0",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": false,
-        "size": 5,
-        "file_name": "Remove Technology Overload Plus 6.0-2162-6-0-1756458943.zip",
-        "uploaded_timestamp": 1756458943,
-        "uploaded_time": "2025-08-29T09:15:43.000+00:00",
-        "mod_version": "6.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b85c1689274e56240a1d11139dd00173fcbfc1c3f85b16639ebda04b685fd2a2/detection/f-b85c1689274e56240a1d11139dd00173fcbfc1c3f85b16639ebda04b685fd2a2-1756458947",
-        "description": "Removes technology overload, fixes UI/inventory bounds and expands cargo and tech slots of just about anything depending on it's class.\n<br />\n<br />6.21 Remnant Compatible",
-        "size_kb": 5,
-        "size_in_bytes": 4765,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2162/Remove Technology Overload Plus 6.0-2162-6-0-1756458943.zip.json"
-      },
-      {
-        "id": [
-          42525,
-          1634
-        ],
-        "uid": 7017976604189,
-        "file_id": 42525,
-        "name": "Remove Technology Overload Ultimate 6.0",
-        "version": "6.0",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": false,
-        "size": 10,
-        "file_name": "Remove Technology Overload Ultimate 6.0-2162-6-0-1756458987.zip",
-        "uploaded_timestamp": 1756458987,
-        "uploaded_time": "2025-08-29T09:16:27.000+00:00",
-        "mod_version": "6.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/869a0c2a1bab434a137eeca005f1399ae050ecc1e77008e36150627d773aa8a5/detection/f-869a0c2a1bab434a137eeca005f1399ae050ecc1e77008e36150627d773aa8a5-1756458989",
-        "description": "Removes technology overload, fixes UI/inventory bounds, expands cargo and tech slots of just about anything depending on it's class and increases all cargo stack sizes by x100 for all difficulties.\n<br />\n<br />6.21 Remnant Compatible",
-        "size_kb": 10,
-        "size_in_bytes": 9762,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2162/Remove Technology Overload Ultimate 6.0-2162-6-0-1756458987.zip.json"
-      },
-      {
-        "id": [
-          42526,
-          1634
-        ],
-        "uid": 7017976604190,
-        "file_id": 42526,
-        "name": "Remove Technology Overload 6.0 - LUA files",
-        "version": "6.0",
-        "category_id": 5,
-        "category_name": "MISCELLANEOUS",
-        "is_primary": false,
-        "size": 6,
-        "file_name": "Remove Technology Overload 6.0 - LUA files-2162-6-0-1756459144.zip",
-        "uploaded_timestamp": 1756459144,
-        "uploaded_time": "2025-08-29T09:19:04.000+00:00",
-        "mod_version": "6.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/9fad877814a5214353fcb0137ed5051e83bd0ba8742c4acd2284204f2ee234a5/detection/f-9fad877814a5214353fcb0137ed5051e83bd0ba8742c4acd2284204f2ee234a5-1756459146",
-        "description": "These are the .lua files for all versions of the mod for those that run into rare mod conflicts.\n<br />Requires AMUMSS version 5.4.5.0W or later. For use with MBINCompiler version 6.00.0+.\n<br />\n<br />6.21 Remnant Compatible",
-        "size_kb": 6,
-        "size_in_bytes": 5903,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2162/Remove Technology Overload 6.0 - LUA files-2162-6-0-1756459144.zip.json"
-      }
-    ],
-    "changelogs": {
-      "3.82": [
-        "Updated for NMS 3.82"
-      ],
-      "3.81": [
-        "Updated for NMS 3.81"
-      ],
-      "3.75": [
-        "Created for NMS 3.75"
-      ],
-      "3.82a": [
-        "Added a plus version with expanded features. (tech and inventory of most things expanded)"
-      ],
-      "3.84": [
-        "Updated for NMS 3.84"
-      ],
-      "3.87": [
-        "Updated for NMS 3.87 OUTLAWS"
-      ],
-      "3.88": [
-        "Updated for NMS 3.88 OUTLAWS"
-      ],
-      "3.89": [
-        "Updated for NMS 3.89"
-      ],
-      "3.90": [
-        "Updated for NMS 3.90"
-      ],
-      "3.91": [
-        "Updated for NMS 3.91, added a new \"Ultimate\" version, making it three versions total to choose from."
-      ],
-      "3.97": [
-        "Updated for NMS 3.97 ENDURANCE"
-      ],
-      "3.98": [
-        "Updated for NMS 3.98 ENDURANCE"
-      ],
-      "3.99": [
-        "Updated for NMS 3.99"
-      ],
-      "4.00": [
-        "Updated for NMS 4.00 WAYPOINT"
-      ],
-      "4.00 Beta": [
-        "Reworked the mod for the new Waypoint changes, v3 Beta release"
-      ],
-      "4.04": [
-        "Reworked and updated for NMS 4.04"
-      ],
-      "4.05": [
-        "Updated for NMS 4.05"
-      ],
-      "4.06": [
-        "Updated for NMS 4.06"
-      ],
-      "4.07": [
-        "Updated for NMS 4.07"
-      ],
-      "4.08": [
-        "Updated for NMS 4.08"
-      ],
-      "4.10": [
-        "Updated for NMS 4.10 Fractal"
-      ],
-      "4.12": [
-        "Updated for NMS 4.12 Fractal"
-      ],
-      "4.14": [
-        "Updated for NMS 4.14 Fractal"
-      ],
-      "4.20": [
-        "Updated for NMS 4.20 Interceptor"
-      ],
-      "4.22": [
-        "Updated for NMS 4.22 Interceptor"
-      ],
-      "4.25": [
-        "Updated for NMS 4.25 Interceptor"
-      ],
-      "4.30": [
-        "Updated for NMS 4.30 Singularity"
-      ],
-      "4.33": [
-        "Updated for NMS 4.33 Singularity"
-      ],
-      "4.34": [
-        "Updated for NMS 4.34 Singularity"
-      ],
-      "4.36": [
-        "Updated for NMS 4.36 Singularity"
-      ],
-      "4.36.2": [
-        "Updated for NMS 4.36.2 Singularity"
-      ],
-      "4.40": [
-        "Updated for NMS 4.40 Echoes"
-      ],
-      "4.41": [
-        "Updated for NMS 4.41 Echoes"
-      ],
-      "4.43": [
-        "Updated for NMS 4.43 Echoes"
-      ],
-      "4.44": [
-        "Updated for NMS 4.44 Echoes"
-      ],
-      "4.45": [
-        "Updated for NMS 4.45 Echoes"
-      ],
-      "4.46": [
-        "Updated for NMS 4.46 Echoes"
-      ],
-      "4.50": [
-        "Updated for NMS 4.50 Omega"
-      ],
-      "4.52": [
-        "Updated for NMS 4.52 Omega"
-      ],
-      "4.60": [
-        "Updated for NMS 4.60 Orbital"
-      ],
-      "4.64": [
-        "Updated for NMS 4.64 Orbital"
-      ],
-      "4.65": [
-        "Updated for NMS 4.65 Orbital"
-      ],
-      "4.65-hotfix": [
-        "Hotfix for antimatter reactor output with high stack multipliers set, now defaults to max 20 units produced like vanilla NMS."
-      ],
-      "4.70": [
-        "Updated for NMS 4.70 Adrift"
-      ],
-      "5.00": [
-        "Updated for NMS 5.00 Worlds Part 1"
-      ],
-      "5.05": [
-        "Updated for NMS 5.05 Worlds Part 1"
-      ],
-      "5.10": [
-        "Updated for NMS 5.10 Aquarius"
-      ],
-      "5.12": [
-        "Updated for NMS 5.12 Aquarius"
-      ],
-      "5.20": [
-        "Updated for NMS 5.20 Aquarius"
-      ],
-      "5.21": [
-        "Mod still working fine for Patch 5.21 The Cursed"
-      ],
-      "5.29": [
-        "Updated for NMS 5.29 The Cursed (Holiday Expeditions)"
-      ],
-      "5.51": [
-        "The mod has been rebuilt for No Man's Sky's Worlds Part II update."
-      ],
-      "5.61": [
-        "Repacked for NMS 5.61 Relics update",
-        "Updated install instructions",
-        "Updated LUA files"
-      ],
-      "5.71": [
-        "No update necessary. Mod still works fine for No Man's Sky's 5.71 BEACON update."
-      ],
-      "6.00": [
-        "Updated for NMS 6.00 Voyagers",
-        "Added support for the new Corvette type ships",
-        "Updated install instructions to make more sense for newer NMS versions"
       ]
     }
   },
