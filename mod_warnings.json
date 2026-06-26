@@ -1,5 +1,11 @@
 [
     {
+        "name": "JJs Better Ships",
+        "id": "547",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "No Crosshair or Dot (nope_cross) -PRISMS and future compatible-",
         "id": "757",
         "state": "warning",
@@ -50,12 +56,6 @@
     {
         "name": "Better Rewards",
         "id": "1460",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "NomNom",
-        "id": "1566",
         "state": "normal",
         "warningMessage": ""
     },
