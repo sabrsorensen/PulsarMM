@@ -36,12 +36,6 @@
         "warningMessage": ""
     },
     {
-        "name": "Exosolar's and Babs' Beyond Base Building",
-        "id": "1096",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Silent Mod Enabler (formerly VR mod enabler) (Legacy)",
         "id": "1147",
         "state": "warning",
@@ -230,6 +224,12 @@
     {
         "name": "CLVerse Alternative Cockpit Colors",
         "id": "4147",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Reticles Color(Ship and MultiTool Weapon)",
+        "id": "4193",
         "state": "normal",
         "warningMessage": ""
     }
