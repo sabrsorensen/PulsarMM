@@ -108,6 +108,12 @@
         "warningMessage": ""
     },
     {
+        "name": "Fast Refiners",
+        "id": "2016",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "Consumerism - Expedition Twitch and Community reward unlocker",
         "id": "2062",
         "state": "normal",
@@ -224,12 +230,6 @@
     {
         "name": "CLVerse Alternative Cockpit Colors",
         "id": "4147",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Reticles Color(Ship and MultiTool Weapon)",
-        "id": "4193",
         "state": "normal",
         "warningMessage": ""
     }
