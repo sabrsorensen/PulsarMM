@@ -72,12 +72,6 @@
         "warningMessage": ""
     },
     {
-        "name": "Quick Crates 3.8",
-        "id": "1162",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Scanner BeQuiet",
         "id": "1240",
         "state": "warning",
@@ -134,6 +128,12 @@
     {
         "name": "Nautilon alternate camera",
         "id": "2260",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Faster Scanning v6.44",
+        "id": "2284",
         "state": "normal",
         "warningMessage": ""
     },
