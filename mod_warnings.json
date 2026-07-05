@@ -30,6 +30,12 @@
         "warningMessage": "Not updated in 9 years"
     },
     {
+        "name": "JJs Better Ships",
+        "id": "547",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "CHEAP BROKEN SHIP INVENTORY SLOTS",
         "id": "560",
         "state": "warning",
@@ -62,12 +68,6 @@
     {
         "name": "Fast Actions 7.1",
         "id": "1081",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Quick Crates 3.8",
-        "id": "1162",
         "state": "normal",
         "warningMessage": ""
     },
@@ -152,8 +152,8 @@
     {
         "name": "More Modules in Vendors",
         "id": "2770",
-        "state": "normal",
-        "warningMessage": ""
+        "state": "warning",
+        "warningMessage": "Not updated in 3 years"
     },
     {
         "name": "BetterSettlements",
