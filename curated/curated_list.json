@@ -17399,1102 +17399,6 @@
     "changelogs": {}
   },
   {
-    "mod_id": 1471,
-    "name": "Black Space 4.3",
-    "summary": "Makes space much darker",
-    "version": "4.3",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/1471/1471-1583589806-1333405593.jpeg",
-    "author": "Lo2k",
-    "updated_timestamp": 1781677197,
-    "created_timestamp": 1583590040,
-    "description": "This mod replaces fully colored space by a more common black space.\n<br />\n<br />You can choose between 2 versions :\n<br />  - Black Space : Pure black space, white suns, no nebulae\n<br />  - Black Space + Nebulae : Black space but colored suns and colored nebulae\n<br />\n<br />Since 2.2B, you can now also remove the too numerous stars from the sky with the No Stars optional mod (there's sadly no available slider yet in the game to just reduce the amount of stars visible in the sky).\n<br />\n<br />\n<br />Enjoy.\n<br />\n<br />Optional : \n<br />- Enjoy black space even more with [url=https://www.nexusmods.com/nomanssky/mods/1084][color=#ffd966]No Space Dust and No Space Plasma[/color][/url]\n<br />- Enjoy black space without bloom everywhere with [url=https://www.nexusmods.com/nomanssky/mods/2315][color=#ffd966]No Bloom Effect[/color]\n<br />[/url]- Enjoy Station and other indoor place independent of (black) space color with [url=https://www.nexusmods.com/nomanssky/mods/2440][color=#ffd966]Indoors Lighting Fix[/color][/url]\n<br />\n<br />[color=#ffd966]\n<br />News in v4.3 : No Star was updated for 6.45 game version. Both Black Space mods are still fine as 3.0.[/color]\n<br />\n<br />[size=2]Compatibility : [/size]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/880][color=#ffd966]- [u]CHECK IF THIS MOD IS COMPATIBLE WITH LATEST GAME VERSION[/u][/color][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/articles/85][color=#f6b26b]- [u]CHECK IF THIS MOD NEEDS TO BE MERGED WITH ANOTHER OF MY MODS[/u][/color][/url]\n<br />These mods edit the following files :\n<br />    - METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;WEATHER&#92;SKYSETTINGS&#92;SPACESKYCOLOURS.MBIN\n<br />    - METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;WEATHER&#92;SKYSETTINGS&#92;SPACERARESKYCOLOURS.MBIN\n<br />\n<br />\n<br />Credits : Thanks to Rayrod who pointed me toward the right files now that shaders can't be edited anymore.",
-    "state": "normal",
-    "warningMessage": "",
-    "files": [
-      {
-        "id": [
-          7489,
-          1634
-        ],
-        "uid": 7017976569153,
-        "file_id": 7489,
-        "name": "Black Space 2.0",
-        "version": "2.0",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 1,
-        "file_name": "Black Space 2.0-1471-2-0-1583589975.zip",
-        "uploaded_timestamp": 1583589975,
-        "uploaded_time": "2020-03-07T14:06:15.000+00:00",
-        "mod_version": "2.0",
-        "external_virus_scan_url": "https://www.virustotal.com/file/f0984d2fdf98de36c820dbec8167e93b82b1b364d2ba6b70df2e47db43bdf7ce/analysis/1583589981/",
-        "description": "Makes Space black",
-        "size_kb": 1,
-        "size_in_bytes": 1168,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/Black Space 2.0-1471-2-0-1583589975.zip.json"
-      },
-      {
-        "id": [
-          7577,
-          1634
-        ],
-        "uid": 7017976569241,
-        "file_id": 7577,
-        "name": "Black Space with Nebulae 2.1",
-        "version": "2.1",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 5,
-        "file_name": "Black Space with Nebulae 2.1-1471-2-1-1584528836.zip",
-        "uploaded_timestamp": 1584528836,
-        "uploaded_time": "2020-03-18T10:53:56.000+00:00",
-        "mod_version": "2.1",
-        "external_virus_scan_url": "https://www.virustotal.com/file/06874b378eff26d0a259e9fc5a380fd86f50563b5b59a9396270342d17d191c8/analysis/1584528842/",
-        "description": "",
-        "size_kb": 5,
-        "size_in_bytes": 4894,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/Black Space with Nebulae 2.1-1471-2-1-1584528836.zip.json"
-      },
-      {
-        "id": [
-          27936,
-          1634
-        ],
-        "uid": 7017976589600,
-        "file_id": 27936,
-        "name": "Black Space 2.1",
-        "version": "2.1",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 2,
-        "file_name": "Black Space 2.1-1471-2-1-1694118178.zip",
-        "uploaded_timestamp": 1694118178,
-        "uploaded_time": "2023-09-07T20:22:58.000+00:00",
-        "mod_version": "2.1",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/f42dd4495d4862b4cc059bcd80402bd031e9b7b7c67db2968376e77a3b05d19b/detection/f-f42dd4495d4862b4cc059bcd80402bd031e9b7b7c67db2968376e77a3b05d19b-1694118206",
-        "description": "Makes Space black. Includes a .lua file and installation notes",
-        "size_kb": 2,
-        "size_in_bytes": 2002,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/Black Space 2.1-1471-2-1-1694118178.zip.json"
-      },
-      {
-        "id": [
-          27970,
-          1634
-        ],
-        "uid": 7017976589634,
-        "file_id": 27970,
-        "name": "Black Space with Nebulae 2.1",
-        "version": "2.1",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 4,
-        "file_name": "Black Space with Nebulae 2.1-1471-2-1-1694252654.zip",
-        "uploaded_timestamp": 1694252654,
-        "uploaded_time": "2023-09-09T09:44:14.000+00:00",
-        "mod_version": "2.1",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5b31d75800e1ac0ac7d25e42253ab4810b35ce64501fb39cd5003624978963fb/detection/f-5b31d75800e1ac0ac7d25e42253ab4810b35ce64501fb39cd5003624978963fb-1694252655",
-        "description": "",
-        "size_kb": 4,
-        "size_in_bytes": 4555,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/Black Space with Nebulae 2.1-1471-2-1-1694252654.zip.json"
-      },
-      {
-        "id": [
-          27971,
-          1634
-        ],
-        "uid": 7017976589635,
-        "file_id": 27971,
-        "name": "Black Space with Nebulae 2.1",
-        "version": "2.1",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 4,
-        "file_name": "Black Space with Nebulae 2.1-1471-2-1-1694252716.zip",
-        "uploaded_timestamp": 1694252716,
-        "uploaded_time": "2023-09-09T09:45:16.000+00:00",
-        "mod_version": "2.1",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5b31d75800e1ac0ac7d25e42253ab4810b35ce64501fb39cd5003624978963fb/detection/f-5b31d75800e1ac0ac7d25e42253ab4810b35ce64501fb39cd5003624978963fb-1694252655",
-        "description": "",
-        "size_kb": 4,
-        "size_in_bytes": 4555,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/Black Space with Nebulae 2.1-1471-2-1-1694252716.zip.json"
-      },
-      {
-        "id": [
-          31852,
-          1634
-        ],
-        "uid": 7017976593516,
-        "file_id": 31852,
-        "name": "Black Space 2.2",
-        "version": "2.2",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 2,
-        "file_name": "Black Space 2.2-1471-2-2-1714638950.zip",
-        "uploaded_timestamp": 1714638950,
-        "uploaded_time": "2024-05-02T08:35:50.000+00:00",
-        "mod_version": "2.2",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/87996d73b227c30ae2a97490401b326c2a7a1e3e16c58f30469c8e6a385845ee/detection/f-87996d73b227c30ae2a97490401b326c2a7a1e3e16c58f30469c8e6a385845ee-1714638954",
-        "description": "Makes Space black. Includes a .lua file and installation notes",
-        "size_kb": 2,
-        "size_in_bytes": 1997,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/Black Space 2.2-1471-2-2-1714638950.zip.json"
-      },
-      {
-        "id": [
-          31853,
-          1634
-        ],
-        "uid": 7017976593517,
-        "file_id": 31853,
-        "name": "Black Space with Nebulae 2.2",
-        "version": "2.2",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 4,
-        "file_name": "Black Space with Nebulae 2.2-1471-2-2-1714639027.zip",
-        "uploaded_timestamp": 1714639027,
-        "uploaded_time": "2024-05-02T08:37:07.000+00:00",
-        "mod_version": "2.2",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/578365ce8160a4e9d336b1b97bf16bd4272b69d748adf03aa159ba3b5e4a3e66/detection/f-578365ce8160a4e9d336b1b97bf16bd4272b69d748adf03aa159ba3b5e4a3e66-1714639131",
-        "description": "Makes space black but keep colored suns and nebulae. Includes a .lua script and installation notes.",
-        "size_kb": 4,
-        "size_in_bytes": 4475,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/Black Space with Nebulae 2.2-1471-2-2-1714639027.zip.json"
-      },
-      {
-        "id": [
-          32952,
-          1634
-        ],
-        "uid": 7017976594616,
-        "file_id": 32952,
-        "name": "No Stars",
-        "version": "1.0",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
-        "is_primary": false,
-        "size": 38,
-        "file_name": "No Stars-1471-1-0-1717271186.zip",
-        "uploaded_timestamp": 1717271186,
-        "uploaded_time": "2024-06-01T19:46:26.000+00:00",
-        "mod_version": "1.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/576735b106bcddf74738135f9abff7bc81ad06812b9cf53fc2b202d9f77ab9ce/detection/f-576735b106bcddf74738135f9abff7bc81ad06812b9cf53fc2b202d9f77ab9ce-1717271474",
-        "description": "Removes stars from the sky/space. Includes a .lua script and installation notes.",
-        "size_kb": 38,
-        "size_in_bytes": 39095,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars-1471-1-0-1717271186.zip.json"
-      },
-      {
-        "id": [
-          33374,
-          1634
-        ],
-        "uid": 7017976595038,
-        "file_id": 33374,
-        "name": "Black Space 2.3",
-        "version": "2.3",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 2,
-        "file_name": "Black Space 2.3-1471-2-3-1721407190.zip",
-        "uploaded_timestamp": 1721407190,
-        "uploaded_time": "2024-07-19T16:39:50.000+00:00",
-        "mod_version": "2.3",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/fbc8b264b8963954d77fb49a1669d6fa14ff2d8a377de6f1ae17eeb1b1f0b03f/detection/f-fbc8b264b8963954d77fb49a1669d6fa14ff2d8a377de6f1ae17eeb1b1f0b03f-1721407246",
-        "description": "Makes Space black. Includes a .lua file and installation notes",
-        "size_kb": 2,
-        "size_in_bytes": 1973,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/Black Space 2.3-1471-2-3-1721407190.zip.json"
-      },
-      {
-        "id": [
-          33375,
-          1634
-        ],
-        "uid": 7017976595039,
-        "file_id": 33375,
-        "name": "Black Space with Nebulae 2.3",
-        "version": "2.3",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 4,
-        "file_name": "Black Space with Nebulae 2.3-1471-2-3-1721407209.zip",
-        "uploaded_timestamp": 1721407209,
-        "uploaded_time": "2024-07-19T16:40:09.000+00:00",
-        "mod_version": "2.3",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e0a52840e29438cdd4852e716494c9fc2e211898a506b61e6e332644f953bbcc/detection/f-e0a52840e29438cdd4852e716494c9fc2e211898a506b61e6e332644f953bbcc-1721407272",
-        "description": "Makes space black but keep colored suns and nebulae. Includes a .lua script and installation notes.",
-        "size_kb": 4,
-        "size_in_bytes": 4425,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/Black Space with Nebulae 2.3-1471-2-3-1721407209.zip.json"
-      },
-      {
-        "id": [
-          33376,
-          1634
-        ],
-        "uid": 7017976595040,
-        "file_id": 33376,
-        "name": "No Stars",
-        "version": "2.3",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 48,
-        "file_name": "No Stars-1471-2-3-1721407244.zip",
-        "uploaded_timestamp": 1721407244,
-        "uploaded_time": "2024-07-19T16:40:44.000+00:00",
-        "mod_version": "2.3",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/810894d7417a5e9b38fbb520e4553b16554e7bf07d91442d2e4b07db6d0f4933/detection/f-810894d7417a5e9b38fbb520e4553b16554e7bf07d91442d2e4b07db6d0f4933-1721407275",
-        "description": "Removes stars from the sky/space. Includes a .lua script and installation notes.",
-        "size_kb": 48,
-        "size_in_bytes": 49279,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars-1471-2-3-1721407244.zip.json"
-      },
-      {
-        "id": [
-          34361,
-          1634
-        ],
-        "uid": 7017976596025,
-        "file_id": 34361,
-        "name": "No Stars 1.1",
-        "version": "1.1",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 49,
-        "file_name": "No Stars 1.1-1471-1-1-1722357257.zip",
-        "uploaded_timestamp": 1722357257,
-        "uploaded_time": "2024-07-30T16:34:17.000+00:00",
-        "mod_version": "1.1",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4dc903cb67746cd7ce4dc28d4c06eeea7388276d427ffa2400b5938b38e9008d/detection/f-4dc903cb67746cd7ce4dc28d4c06eeea7388276d427ffa2400b5938b38e9008d-1722357757",
-        "description": "Removes stars from the sky/space. Includes a .lua script and installation notes.",
-        "size_kb": 49,
-        "size_in_bytes": 49905,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 1.1-1471-1-1-1722357257.zip.json"
-      },
-      {
-        "id": [
-          35002,
-          1634
-        ],
-        "uid": 7017976596666,
-        "file_id": 35002,
-        "name": "No Stars 1.2",
-        "version": "1.2",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 48,
-        "file_name": "No Stars 1.2-1471-1-2-1724096337.zip",
-        "uploaded_timestamp": 1724096337,
-        "uploaded_time": "2024-08-19T19:38:57.000+00:00",
-        "mod_version": "1.2",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/705fa062d8e6e3cf51c814d0802c89939104fdfc51f0c530cf77521bd8adbedc/detection/f-705fa062d8e6e3cf51c814d0802c89939104fdfc51f0c530cf77521bd8adbedc-1724096455",
-        "description": "Removes stars from the sky/space. Includes a .lua script and installation notes.",
-        "size_kb": 48,
-        "size_in_bytes": 49427,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 1.2-1471-1-2-1724096337.zip.json"
-      },
-      {
-        "id": [
-          36151,
-          1634
-        ],
-        "uid": 7017976597815,
-        "file_id": 36151,
-        "name": "No Stars 1.3",
-        "version": "1.3",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 49,
-        "file_name": "No Stars 1.3-1471-1-3-1726151608.zip",
-        "uploaded_timestamp": 1726151608,
-        "uploaded_time": "2024-09-12T14:33:28.000+00:00",
-        "mod_version": "1.3",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8bea7e31a656848e6c2a0f696dca81ed8a418a5d37e30d73c5442df898275dcf/detection/f-8bea7e31a656848e6c2a0f696dca81ed8a418a5d37e30d73c5442df898275dcf-1726151613",
-        "description": "Removes stars from the sky/space. Includes a .lua script and installation notes.",
-        "size_kb": 49,
-        "size_in_bytes": 49760,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 1.3-1471-1-3-1726151608.zip.json"
-      },
-      {
-        "id": [
-          36986,
-          1634
-        ],
-        "uid": 7017976598650,
-        "file_id": 36986,
-        "name": "No Stars 1.4",
-        "version": "1.4",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 49,
-        "file_name": "No Stars 1.4-1471-1-4-1729784779.zip",
-        "uploaded_timestamp": 1729784779,
-        "uploaded_time": "2024-10-24T15:46:19.000+00:00",
-        "mod_version": "1.4",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/fcbaaf833e1023b08c0b7bd45d6465a2b8db3ee8e66e73ebfc7ee812b1a210ee/detection/f-fcbaaf833e1023b08c0b7bd45d6465a2b8db3ee8e66e73ebfc7ee812b1a210ee-1729784810",
-        "description": "Removes stars from the sky/space. Includes a .lua script and installation notes.",
-        "size_kb": 49,
-        "size_in_bytes": 50450,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 1.4-1471-1-4-1729784779.zip.json"
-      },
-      {
-        "id": [
-          37442,
-          1634
-        ],
-        "uid": 7017976599106,
-        "file_id": 37442,
-        "name": "No Stars 1.5",
-        "version": "1.5",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 49,
-        "file_name": "No Stars 1.5-1471-1-5-1730383100.zip",
-        "uploaded_timestamp": 1730383100,
-        "uploaded_time": "2024-10-31T13:58:20.000+00:00",
-        "mod_version": "1.5",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7cd4f55b820c614e837f300049349ff88c26eda44274766cee40081171e1ca58/detection/f-7cd4f55b820c614e837f300049349ff88c26eda44274766cee40081171e1ca58-1730383106",
-        "description": "Removes stars from the sky/space. Includes a .lua script and installation notes.",
-        "size_kb": 49,
-        "size_in_bytes": 50459,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 1.5-1471-1-5-1730383100.zip.json"
-      },
-      {
-        "id": [
-          37937,
-          1634
-        ],
-        "uid": 7017976599601,
-        "file_id": 37937,
-        "name": "No Stars 1.6",
-        "version": "1.6",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 49,
-        "file_name": "No Stars 1.6-1471-1-6-1732029341.zip",
-        "uploaded_timestamp": 1732029341,
-        "uploaded_time": "2024-11-19T15:15:41.000+00:00",
-        "mod_version": "1.6",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7609f4ca2bbed71bc74bd3da6c62737d5240316b39b4e8187b722d02295591a1/detection/f-7609f4ca2bbed71bc74bd3da6c62737d5240316b39b4e8187b722d02295591a1-1732029343",
-        "description": "Removes stars from the sky/space. Includes a .lua script and installation notes.",
-        "size_kb": 49,
-        "size_in_bytes": 50617,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 1.6-1471-1-6-1732029341.zip.json"
-      },
-      {
-        "id": [
-          38348,
-          1634
-        ],
-        "uid": 7017976600012,
-        "file_id": 38348,
-        "name": "No Stars 1.7",
-        "version": "1.7",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 49,
-        "file_name": "No Stars 1.7-1471-1-7-1734112144.zip",
-        "uploaded_timestamp": 1734112144,
-        "uploaded_time": "2024-12-13T17:49:04.000+00:00",
-        "mod_version": "1.7",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/188e8dfdb17b4052ed35a4a98afcbb896e700d3f7069bd79b18475db846df1d6/detection/f-188e8dfdb17b4052ed35a4a98afcbb896e700d3f7069bd79b18475db846df1d6-1734112178",
-        "description": "Removes stars from the sky/space. Includes a .lua script and installation notes.",
-        "size_kb": 49,
-        "size_in_bytes": 50614,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 1.7-1471-1-7-1734112144.zip.json"
-      },
-      {
-        "id": [
-          38753,
-          1634
-        ],
-        "uid": 7017976600417,
-        "file_id": 38753,
-        "name": "Black Space 2.4",
-        "version": "2.4",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 2,
-        "file_name": "Black Space 2.4-1471-2-4-1738363829.zip",
-        "uploaded_timestamp": 1738363829,
-        "uploaded_time": "2025-01-31T22:50:29.000+00:00",
-        "mod_version": "2.4",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5737a922233f1e760fc051f2bb5c1edd66d28aaeb13628ae4bbed97857978738/detection/f-5737a922233f1e760fc051f2bb5c1edd66d28aaeb13628ae4bbed97857978738-1738363840",
-        "description": "Makes Space black. Includes installation notes",
-        "size_kb": 2,
-        "size_in_bytes": 2551,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/Black Space 2.4-1471-2-4-1738363829.zip.json"
-      },
-      {
-        "id": [
-          38754,
-          1634
-        ],
-        "uid": 7017976600418,
-        "file_id": 38754,
-        "name": "Black Space with Nebulae 2.4",
-        "version": "2.4",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 5,
-        "file_name": "Black Space with Nebulae 2.4-1471-2-4-1738363869.zip",
-        "uploaded_timestamp": 1738363869,
-        "uploaded_time": "2025-01-31T22:51:09.000+00:00",
-        "mod_version": "2.4",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/63a196349e5466f544909e92e83ea98a96513f29300228722b2be5f86e6e333d/detection/f-63a196349e5466f544909e92e83ea98a96513f29300228722b2be5f86e6e333d-1738363872",
-        "description": "Makes space black but keep colored suns and nebulae. Includes installation notes.",
-        "size_kb": 5,
-        "size_in_bytes": 5066,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/Black Space with Nebulae 2.4-1471-2-4-1738363869.zip.json"
-      },
-      {
-        "id": [
-          38755,
-          1634
-        ],
-        "uid": 7017976600419,
-        "file_id": 38755,
-        "name": "No Stars 2.4",
-        "version": "2.4",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 46,
-        "file_name": "No Stars 2.4-1471-2-4-1738363904.zip",
-        "uploaded_timestamp": 1738363904,
-        "uploaded_time": "2025-01-31T22:51:44.000+00:00",
-        "mod_version": "2.4",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b330b04ab3d03a7a9dfab54191de7f4ce882daff031a421ce69142e833bab2a8/detection/f-b330b04ab3d03a7a9dfab54191de7f4ce882daff031a421ce69142e833bab2a8-1738363909",
-        "description": "Removes stars from the sky/space. Includes installation notes.",
-        "size_kb": 46,
-        "size_in_bytes": 47014,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 2.4-1471-2-4-1738363904.zip.json"
-      },
-      {
-        "id": [
-          38792,
-          1634
-        ],
-        "uid": 7017976600456,
-        "file_id": 38792,
-        "name": "No Stars 2.4",
-        "version": "2.4",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 47,
-        "file_name": "No Stars 2.4-1471-2-4-1738428112.zip",
-        "uploaded_timestamp": 1738428112,
-        "uploaded_time": "2025-02-01T16:41:52.000+00:00",
-        "mod_version": "2.4",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c8e07ebd5062046b4d9428b8ddabcd04dc7a73de5b6c75636a653f7a5eb6f8a9/detection/f-c8e07ebd5062046b4d9428b8ddabcd04dc7a73de5b6c75636a653f7a5eb6f8a9-1738428115",
-        "description": "Removes stars from the sky/space. Includes installation notes.",
-        "size_kb": 47,
-        "size_in_bytes": 48497,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 2.4-1471-2-4-1738428112.zip.json"
-      },
-      {
-        "id": [
-          38793,
-          1634
-        ],
-        "uid": 7017976600457,
-        "file_id": 38793,
-        "name": "No Stars 2.5",
-        "version": "2.5",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 47,
-        "file_name": "No Stars 2.5-1471-2-5-1738428148.zip",
-        "uploaded_timestamp": 1738428148,
-        "uploaded_time": "2025-02-01T16:42:28.000+00:00",
-        "mod_version": "2.5",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/537f609b05c09c8d87639120cc67645f12f4e44a67fb5344696c220af535f60d/detection/f-537f609b05c09c8d87639120cc67645f12f4e44a67fb5344696c220af535f60d-1738428154",
-        "description": "Removes stars from the sky/space. Includes installation notes.",
-        "size_kb": 47,
-        "size_in_bytes": 48497,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 2.5-1471-2-5-1738428148.zip.json"
-      },
-      {
-        "id": [
-          39060,
-          1634
-        ],
-        "uid": 7017976600724,
-        "file_id": 39060,
-        "name": "No Stars 2.6",
-        "version": "2.6",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 48,
-        "file_name": "No Stars 2.6-1471-2-6-1738676263.zip",
-        "uploaded_timestamp": 1738676263,
-        "uploaded_time": "2025-02-04T13:37:43.000+00:00",
-        "mod_version": "2.6",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c4d5103d442bfc9cb8b7f77547832f93f81c31c9e88ba03aa23cf3393dbca814/detection/f-c4d5103d442bfc9cb8b7f77547832f93f81c31c9e88ba03aa23cf3393dbca814-1738676267",
-        "description": "Removes stars from the sky/space. Includes an AMUMSS 5.0+ .lua script and installation notes.",
-        "size_kb": 48,
-        "size_in_bytes": 49410,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 2.6-1471-2-6-1738676263.zip.json"
-      },
-      {
-        "id": [
-          39141,
-          1634
-        ],
-        "uid": 7017976600805,
-        "file_id": 39141,
-        "name": "Black Space 2.7",
-        "version": "2.7",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 3,
-        "file_name": "Black Space 2.7-1471-2-7-1738819115.zip",
-        "uploaded_timestamp": 1738819115,
-        "uploaded_time": "2025-02-06T05:18:35.000+00:00",
-        "mod_version": "2.7",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/292d7e1ff41be0cb28bce331867b1a899cacce0ebd41da32521d3dba8975e4d2/detection/f-292d7e1ff41be0cb28bce331867b1a899cacce0ebd41da32521d3dba8975e4d2-1738819117",
-        "description": "Makes Space black. Includes installation notes",
-        "size_kb": 3,
-        "size_in_bytes": 3187,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/Black Space 2.7-1471-2-7-1738819115.zip.json"
-      },
-      {
-        "id": [
-          39142,
-          1634
-        ],
-        "uid": 7017976600806,
-        "file_id": 39142,
-        "name": "Black Space with Nebulae 2.7",
-        "version": "2.7",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 6,
-        "file_name": "Black Space with Nebulae 2.7-1471-2-7-1738819135.zip",
-        "uploaded_timestamp": 1738819135,
-        "uploaded_time": "2025-02-06T05:18:55.000+00:00",
-        "mod_version": "2.7",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1439a8aa9a7fc39365a83890fe5443adee19747593c08295dfb56854594cd825/detection/f-1439a8aa9a7fc39365a83890fe5443adee19747593c08295dfb56854594cd825-1738819139",
-        "description": "Makes space black but keep colored suns and nebulae. Includes installation notes.",
-        "size_kb": 6,
-        "size_in_bytes": 5701,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/Black Space with Nebulae 2.7-1471-2-7-1738819135.zip.json"
-      },
-      {
-        "id": [
-          39178,
-          1634
-        ],
-        "uid": 7017976600842,
-        "file_id": 39178,
-        "name": "No Stars 2.8",
-        "version": "2.8",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 48,
-        "file_name": "No Stars 2.8-1471-2-8-1738847419.zip",
-        "uploaded_timestamp": 1738847419,
-        "uploaded_time": "2025-02-06T13:10:19.000+00:00",
-        "mod_version": "2.8",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/46dc71d285709613df48116cdda5eacf89d8a61fd54bd4332fd04a75fb45cfb3/detection/f-46dc71d285709613df48116cdda5eacf89d8a61fd54bd4332fd04a75fb45cfb3-1738847425",
-        "description": "Removes stars from the sky/space. Includes an AMUMSS 5.0+ .lua script and installation notes.",
-        "size_kb": 48,
-        "size_in_bytes": 49418,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 2.8-1471-2-8-1738847419.zip.json"
-      },
-      {
-        "id": [
-          39538,
-          1634
-        ],
-        "uid": 7017976601202,
-        "file_id": 39538,
-        "name": "No Stars 2.9",
-        "version": "2.9",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 48,
-        "file_name": "No Stars 2.9-1471-2-9-1739397434.zip",
-        "uploaded_timestamp": 1739397434,
-        "uploaded_time": "2025-02-12T21:57:14.000+00:00",
-        "mod_version": "2.9",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/fe858927e17f410635cd9d64af1619b664cedfa714f1900b6713b0ad9b478664/detection/f-fe858927e17f410635cd9d64af1619b664cedfa714f1900b6713b0ad9b478664-1739397439",
-        "description": "Removes stars from the sky/space. Includes an AMUMSS 5.0+ .lua script and installation notes.",
-        "size_kb": 48,
-        "size_in_bytes": 49376,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 2.9-1471-2-9-1739397434.zip.json"
-      },
-      {
-        "id": [
-          39837,
-          1634
-        ],
-        "uid": 7017976601501,
-        "file_id": 39837,
-        "name": "Black Space 3.0",
-        "version": "3.0",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": false,
-        "size": 3,
-        "file_name": "Black Space 3.0-1471-3-0-1741105644.zip",
-        "uploaded_timestamp": 1741105644,
-        "uploaded_time": "2025-03-04T16:27:24.000+00:00",
-        "mod_version": "3.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/324985eb6f8e5d46ace6945f2c5f8f78991a09bdfb2370c9cdb72f37cf6be764/detection/f-324985eb6f8e5d46ace6945f2c5f8f78991a09bdfb2370c9cdb72f37cf6be764-1741105664",
-        "description": "Makes Space black. Includes installation notes",
-        "size_kb": 3,
-        "size_in_bytes": 3244,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/Black Space 3.0-1471-3-0-1741105644.zip.json"
-      },
-      {
-        "id": [
-          39838,
-          1634
-        ],
-        "uid": 7017976601502,
-        "file_id": 39838,
-        "name": "Black Space with Nebulae 3.0",
-        "version": "3.0",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": false,
-        "size": 6,
-        "file_name": "Black Space with Nebulae 3.0-1471-3-0-1741105677.zip",
-        "uploaded_timestamp": 1741105677,
-        "uploaded_time": "2025-03-04T16:27:57.000+00:00",
-        "mod_version": "3.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0c8503f9e7454422144e733adab395ebe384f4a54ee92a0cae6e48d13724b1d7/detection/f-0c8503f9e7454422144e733adab395ebe384f4a54ee92a0cae6e48d13724b1d7-1741105682",
-        "description": "Makes space black but keep colored suns and nebulae. Includes installation notes.",
-        "size_kb": 6,
-        "size_in_bytes": 5735,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/Black Space with Nebulae 3.0-1471-3-0-1741105677.zip.json"
-      },
-      {
-        "id": [
-          40087,
-          1634
-        ],
-        "uid": 7017976601751,
-        "file_id": 40087,
-        "name": "No Stars 3.0",
-        "version": "3.0",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 49,
-        "file_name": "No Stars 3.0-1471-3-0-1741635156.zip",
-        "uploaded_timestamp": 1741635156,
-        "uploaded_time": "2025-03-10T19:32:36.000+00:00",
-        "mod_version": "3.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/63a8e8da8345ad760baaf5bf5705e24108e3d226764586d7dbe708d8aa17c5af/detection/f-63a8e8da8345ad760baaf5bf5705e24108e3d226764586d7dbe708d8aa17c5af-1741635191",
-        "description": "Removes stars from the sky/space. Includes an AMUMSS 5.0+ .lua script and installation notes.",
-        "size_kb": 49,
-        "size_in_bytes": 50002,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 3.0-1471-3-0-1741635156.zip.json"
-      },
-      {
-        "id": [
-          40088,
-          1634
-        ],
-        "uid": 7017976601752,
-        "file_id": 40088,
-        "name": "No Stars 3.0",
-        "version": "3.0",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 49,
-        "file_name": "No Stars 3.0-1471-3-0-1741635208.zip",
-        "uploaded_timestamp": 1741635208,
-        "uploaded_time": "2025-03-10T19:33:28.000+00:00",
-        "mod_version": "3.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/63a8e8da8345ad760baaf5bf5705e24108e3d226764586d7dbe708d8aa17c5af/detection/f-63a8e8da8345ad760baaf5bf5705e24108e3d226764586d7dbe708d8aa17c5af-1741635191",
-        "description": "Removes stars from the sky/space. Includes an AMUMSS 5.0+ .lua script and installation notes.",
-        "size_kb": 49,
-        "size_in_bytes": 50002,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 3.0-1471-3-0-1741635208.zip.json"
-      },
-      {
-        "id": [
-          40397,
-          1634
-        ],
-        "uid": 7017976602061,
-        "file_id": 40397,
-        "name": "No Stars 3.1",
-        "version": "3.1",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 49,
-        "file_name": "No Stars 3.1-1471-3-1-1743093656.zip",
-        "uploaded_timestamp": 1743093656,
-        "uploaded_time": "2025-03-27T16:40:56.000+00:00",
-        "mod_version": "3.1",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4c340a6975d9270340d3cb9abd9af2ba51b4c2f8d82fed75c0f65f30a8df49e4/detection/f-4c340a6975d9270340d3cb9abd9af2ba51b4c2f8d82fed75c0f65f30a8df49e4-1743093661",
-        "description": "Removes stars from the sky/space. Includes an AMUMSS 5.0+ .lua script and installation notes.",
-        "size_kb": 49,
-        "size_in_bytes": 50005,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 3.1-1471-3-1-1743093656.zip.json"
-      },
-      {
-        "id": [
-          41421,
-          1634
-        ],
-        "uid": 7017976603085,
-        "file_id": 41421,
-        "name": "No Stars 3.2",
-        "version": "3.2",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 51,
-        "file_name": "No Stars 3.2-1471-3-2-1749305925.zip",
-        "uploaded_timestamp": 1749305925,
-        "uploaded_time": "2025-06-07T14:18:45.000+00:00",
-        "mod_version": "3.2",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7b5f5d528c971abb70ce14663b31322ab289b6a10460a7733608d3f6178c1e2e/detection/f-7b5f5d528c971abb70ce14663b31322ab289b6a10460a7733608d3f6178c1e2e-1749305928",
-        "description": "Removes stars from the sky/space. Includes an AMUMSS 5.0+ .lua script and installation notes.",
-        "size_kb": 51,
-        "size_in_bytes": 52015,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 3.2-1471-3-2-1749305925.zip.json"
-      },
-      {
-        "id": [
-          41499,
-          1634
-        ],
-        "uid": 7017976603163,
-        "file_id": 41499,
-        "name": "No Stars 3.3",
-        "version": "3.3",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 51,
-        "file_name": "No Stars 3.3-1471-3-3-1749753238.zip",
-        "uploaded_timestamp": 1749753238,
-        "uploaded_time": "2025-06-12T18:33:58.000+00:00",
-        "mod_version": "3.3",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8111134d39e8e85781bd711770c9c0e6664725ddbcfba1d43adc5813f299c9df/detection/f-8111134d39e8e85781bd711770c9c0e6664725ddbcfba1d43adc5813f299c9df-1749759856",
-        "description": "Removes stars from the sky/space. Includes an AMUMSS 5.0+ .lua script and installation notes.",
-        "size_kb": 51,
-        "size_in_bytes": 52011,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 3.3-1471-3-3-1749753238.zip.json"
-      },
-      {
-        "id": [
-          42531,
-          1634
-        ],
-        "uid": 7017976604195,
-        "file_id": 42531,
-        "name": "No Stars 3.4",
-        "version": "3.4",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 52,
-        "file_name": "No Stars 3.4-1471-3-4-1756468195.zip",
-        "uploaded_timestamp": 1756468195,
-        "uploaded_time": "2025-08-29T11:49:55.000+00:00",
-        "mod_version": "3.4",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/86731ec1f6b8d4163c61325eeef6d8883ad25ec11fa038f23c3e73366ee5dc06/detection/f-86731ec1f6b8d4163c61325eeef6d8883ad25ec11fa038f23c3e73366ee5dc06-1756468200",
-        "description": "Removes stars from the sky/space. Includes an AMUMSS 5.0+ .lua script and installation notes.",
-        "size_kb": 52,
-        "size_in_bytes": 53375,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 3.4-1471-3-4-1756468195.zip.json"
-      },
-      {
-        "id": [
-          43719,
-          1634
-        ],
-        "uid": 7017976605383,
-        "file_id": 43719,
-        "name": "No Stars 3.5",
-        "version": "3.5",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 52,
-        "file_name": "No Stars 3.5-1471-3-5-1759156605.zip",
-        "uploaded_timestamp": 1759156605,
-        "uploaded_time": "2025-09-29T14:36:45.000+00:00",
-        "mod_version": "3.5",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/2b378c149167bf9d2b66f791371c76572667c38c1b9357fa7b8727bb77f8a6c6/detection/f-2b378c149167bf9d2b66f791371c76572667c38c1b9357fa7b8727bb77f8a6c6-1759156608",
-        "description": "Removes stars from the sky/space. Includes an AMUMSS 5.0+ .lua script and installation notes.",
-        "size_kb": 52,
-        "size_in_bytes": 53716,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 3.5-1471-3-5-1759156605.zip.json"
-      },
-      {
-        "id": [
-          44441,
-          1634
-        ],
-        "uid": 7017976606105,
-        "file_id": 44441,
-        "name": "No Stars 3.6",
-        "version": "3.6",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 53,
-        "file_name": "No Stars 3.6-1471-3-6-1761159741.zip",
-        "uploaded_timestamp": 1761159741,
-        "uploaded_time": "2025-10-22T19:02:21.000+00:00",
-        "mod_version": "3.6",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/fc81d74691233a4f4d5d85e5c60cd7480889e3a5c60b27032b0ad0af7ef12cf5/detection/f-fc81d74691233a4f4d5d85e5c60cd7480889e3a5c60b27032b0ad0af7ef12cf5-1761159744",
-        "description": "Removes stars from the sky/space. Includes an AMUMSS 5.0+ .lua script and installation notes.",
-        "size_kb": 53,
-        "size_in_bytes": 53821,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 3.6-1471-3-6-1761159741.zip.json"
-      },
-      {
-        "id": [
-          44825,
-          1634
-        ],
-        "uid": 7017976606489,
-        "file_id": 44825,
-        "name": "No Stars 3.7",
-        "version": "3.7",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 53,
-        "file_name": "No Stars 3.7-1471-3-7-1762453205.zip",
-        "uploaded_timestamp": 1762453205,
-        "uploaded_time": "2025-11-06T18:20:05.000+00:00",
-        "mod_version": "3.7",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8864009f4b64b0295946fbda7ea17068d5c4b04699ede13f2e155c6ee9a0d19c/detection/f-8864009f4b64b0295946fbda7ea17068d5c4b04699ede13f2e155c6ee9a0d19c-1762453209",
-        "description": "Removes stars from the sky/space. Includes an AMUMSS 5.0+ .lua script and installation notes.",
-        "size_kb": 53,
-        "size_in_bytes": 53841,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 3.7-1471-3-7-1762453205.zip.json"
-      },
-      {
-        "id": [
-          44979,
-          1634
-        ],
-        "uid": 7017976606643,
-        "file_id": 44979,
-        "name": "No Stars 3.8",
-        "version": "3.8",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 52,
-        "file_name": "No Stars 3.8-1471-3-8-1763481560.zip",
-        "uploaded_timestamp": 1763481560,
-        "uploaded_time": "2025-11-18T15:59:20.000+00:00",
-        "mod_version": "3.8",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8d9c95c76059073d272aa3eff66b31f57fcbbf2d70cb79d3a4e0f6200c1e77d7/detection/f-8d9c95c76059073d272aa3eff66b31f57fcbbf2d70cb79d3a4e0f6200c1e77d7-1763481562",
-        "description": "Removes stars from the sky/space. Includes an AMUMSS 5.0+ .lua script and installation notes.",
-        "size_kb": 52,
-        "size_in_bytes": 53676,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 3.8-1471-3-8-1763481560.zip.json"
-      },
-      {
-        "id": [
-          45475,
-          1634
-        ],
-        "uid": 7017976607139,
-        "file_id": 45475,
-        "name": "No Stars 3.9",
-        "version": "3.9",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 53,
-        "file_name": "No Stars 3.9-1471-3-9-1770834702.zip",
-        "uploaded_timestamp": 1770834702,
-        "uploaded_time": "2026-02-11T18:31:42.000+00:00",
-        "mod_version": "3.9",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1df478482576c1d681f9fb7f085bc6389bb9198926301faae16d59295baf82de",
-        "description": "Removes stars from the sky/space. Includes an AMUMSS 5.0+ .lua script and installation notes.",
-        "size_kb": 53,
-        "size_in_bytes": 54613,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 3.9-1471-3-9-1770834702.zip.json"
-      },
-      {
-        "id": [
-          45840,
-          1634
-        ],
-        "uid": 7017976607504,
-        "file_id": 45840,
-        "name": "No Stars 4.0",
-        "version": "4.0",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 54,
-        "file_name": "No Stars 4.0-1471-4-0-1771263997.zip",
-        "uploaded_timestamp": 1771263997,
-        "uploaded_time": "2026-02-16T17:46:37.000+00:00",
-        "mod_version": "4.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/6fb84431c1d64353b37096f6c78b2714486fd8378d66e978d83b8ab68e2395cf",
-        "description": "Removes stars from the sky/space. Includes an AMUMSS 5.0+ .lua script and installation notes.",
-        "size_kb": 54,
-        "size_in_bytes": 54854,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 4.0-1471-4-0-1771263997.zip.json"
-      },
-      {
-        "id": [
-          46473,
-          1634
-        ],
-        "uid": 7017976608137,
-        "file_id": 46473,
-        "name": "No Stars 4.1",
-        "version": "4.1",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 55,
-        "file_name": "No Stars 4.1-1471-4-1-1776518761.zip",
-        "uploaded_timestamp": 1776518761,
-        "uploaded_time": "2026-04-18T13:26:01.000+00:00",
-        "mod_version": "4.1",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/79d2e080c8a9121d113591746d9b8a86749137a38bf7ec1f43a8951c0d55f12e",
-        "description": "Removes stars from the sky/space. Includes an AMUMSS 5.0+ .lua script and installation notes.",
-        "size_kb": 55,
-        "size_in_bytes": 56420,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 4.1-1471-4-1-1776518761.zip.json"
-      },
-      {
-        "id": [
-          46492,
-          1634
-        ],
-        "uid": 7017976608156,
-        "file_id": 46492,
-        "name": "No Stars 4.2",
-        "version": "4.2",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 55,
-        "file_name": "No Stars 4.2-1471-4-2-1776782922.zip",
-        "uploaded_timestamp": 1776782922,
-        "uploaded_time": "2026-04-21T14:48:42.000+00:00",
-        "mod_version": "4.2",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a7aed06797bcc41c4d9ad620d0507b801f27b060cd34de72cdff8d3f2722c24c",
-        "description": "Removes stars from the sky/space. Includes an AMUMSS 5.0+ .lua script and installation notes.",
-        "size_kb": 55,
-        "size_in_bytes": 56516,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/No Stars 4.2-1471-4-2-1776782922.zip.json"
-      },
-      {
-        "id": [
-          47298,
-          1634
-        ],
-        "uid": 7017976608962,
-        "file_id": 47298,
-        "name": "No Stars 4.3",
-        "version": "4.3",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": false,
-        "size": 55,
-        "file_name": "No_Stars_4.3_4.3_RH1TdJIO1.zip",
-        "uploaded_timestamp": 1781677197,
-        "uploaded_time": "2026-06-17T06:19:57.000+00:00",
-        "mod_version": "4.3",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/692fe8b8b98aefda03db633bdcc058bb011c9ec30086487ea838a3e7dd9fa764",
-        "description": "Removes stars from the sky/space. Includes an AMUMSS 5.0+ .lua script and installation notes.",
-        "size_kb": 55,
-        "size_in_bytes": null,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/f0/f9/a7/f0f9a7a9-9b62-4f30-b812-83a2583fef7b.json"
-      }
-    ],
-    "changelogs": {}
-  },
-  {
     "mod_id": 1497,
     "name": "GlobalAdjustments",
     "summary": "This mode makes combat more challenging by increasing the damage &amp; health of the enemies, adds a harder death penalty aswell as some other small adjustments.",
@@ -26822,6 +25726,96 @@
     }
   },
   {
+    "mod_id": 2284,
+    "name": "Faster Scanning v6.45",
+    "summary": "Scan anything faster!",
+    "version": "6.45",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2284/2284-1652427334-301250705.png",
+    "author": "Flugelwulff",
+    "updated_timestamp": 1783375304,
+    "created_timestamp": 1652427579,
+    "description": "Lets you scan things faster with the analyzer. 1 second and instant options available as well as the option to disable the delay between scans.\n<br />\n<br />\n<br />[b][u]HOW TO INSTALL:\n<br />[/u][/b]1. Install with Vortex (strongly recommended - just do it)\n<br />2. Choose scan speed\n<br />3. Profit\n<br />\n<br />LUA file is available for those who wish to change the multiplier themselves or merge it with other mods.",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          45004,
+          1634
+        ],
+        "uid": 7017976606668,
+        "file_id": 45004,
+        "name": "Faster Scanning LUA",
+        "version": "6.17",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "Faster Scanning LUA-2284-6-17-1763512584.7z",
+        "uploaded_timestamp": 1763512584,
+        "uploaded_time": "2025-11-19T00:36:24.000+00:00",
+        "mod_version": "6.17",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/fbc6bc8b742d79ec90e6e1e3dac7326b2e96a742ba68d0bb641c3a4d9a693f71/detection/f-fbc6bc8b742d79ec90e6e1e3dac7326b2e96a742ba68d0bb641c3a4d9a693f71-1763512590",
+        "description": "",
+        "size_kb": 1,
+        "size_in_bytes": 526,
+        "changelog_html": "Updated version number",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2284/Faster Scanning LUA-2284-6-17-1763512584.7z.json"
+      },
+      {
+        "id": [
+          47499,
+          1634
+        ],
+        "uid": 7017976609163,
+        "file_id": 47499,
+        "name": "Faster Scanning",
+        "version": "6.45",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 24,
+        "file_name": "Faster Scanning 2284 6.45 2026-07-06T22-01Z rv2uEjLfA.7z",
+        "uploaded_timestamp": 1783375304,
+        "uploaded_time": "2026-07-06T22:01:44.000+00:00",
+        "mod_version": "6.45",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a5c0b90db4acce3f8dae443f2bc8f6b87295d149a945a490865760338d5ebdd0",
+        "description": "",
+        "size_kb": 24,
+        "size_in_bytes": null,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2284/98/13/b7/9813b7e2-7335-42c9-a7b8-f0c695bfb200.json"
+      }
+    ],
+    "changelogs": {
+      "1.0": [
+        "Sorry to anyone trying to download when I first uploaded. Added option to chose speeds. Fixed selection screen image being broken."
+      ],
+      "1.0.1": [
+        "Modified \"Instant\" from \"0.1\" sec. to actually instant after testing stability",
+        "Changed version numbering",
+        "Added LUA file for use with AMUMSS (for merging)"
+      ],
+      "1.1.0": [
+        "Added ability to remove the delay between scans (added to LUA as well)",
+        "Added link to description to custom LUA",
+        "Added Custom LUA as optional file"
+      ],
+      "5.02": [
+        "Removed Custom LUA as the additional changes are now changable in-game and that code no longer works."
+      ],
+      "5.75": [
+        "Replaced EXML_CHANGE_TABLE in LUA to MXML_CHANGE_TABLE to fix warning in AMUMSS"
+      ],
+      "6.12": [
+        "Overhaul to LUA structure &amp; updated version number"
+      ],
+      "6.17": [
+        "Updated version number"
+      ]
+    }
+  },
+  {
     "mod_id": 2337,
     "name": "More Suit Terminal Upgrades",
     "summary": "More Suit Terminal Upgrades lets you buy more than one suit upgrade at space stations, space anomaly, and outlaw space stations.",
@@ -27472,194 +26466,6 @@
       }
     ],
     "changelogs": {}
-  },
-  {
-    "mod_id": 2589,
-    "name": "Unlockable Expedition Exclusive Techs",
-    "summary": "Adds the Expedition and Pre-Order exclusive Techs for Ship, Multi-Tool, Exosuit and Base Building to the Anomaly.",
-    "version": "6.44",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2589/2589-1668019734-311713757.jpeg",
-    "author": "Syzzle07",
-    "updated_timestamp": 1780719302,
-    "created_timestamp": 1668020347,
-    "description": "This mod does a couple of things, it changes Pulse Drive, Launch Thruster and Hyperdrive to be able to be dismantled so you can install the replacement ones, and add the Techs you're not able to get normally anymore, such as Expedition exclusive techs, pre-order techs or techs that were removed from the game.\n<br />\n<br />[b]Ships:[/b]\n<br />Add Waveform Engine which is a better Pulse Drive. (Expedition Tech)\n<br />Add Frameshift Catapult which is a better Hyperdrive. (Expedition Tech)\n<br />Add Advanced Launch System which is a better Launch Thruster. (Expedition Tech)\n<br />Add Photonix Core which is a Pulse Drive Upgrade. (PS4 Pre-Order Tech)\n<br />\n<br />[color=#ffff00][size=4][b]WARNING:[/b][/size][/color][color=#ff0000][size=4][b] [/b][/size][/color]\n<br />[quote]Since Waveform Engine, Frameshift Catapult and Advanced Launch System are better versions of the mentioned 3 core ship techs, when installing them you SHOULD REMOVE THE OTHER EQUIVALENT ONE FROM THE SHIP otherwise your ship might break and not fly, if you install Waveform Engine, remove Pulse Drive, if you install Frameshift, remove Hyperdrive, if you install Advanced Launch System, remove Launch Thruster or your ship won't fly anymore.[/quote]\n<br />[b]\n<br />Multitools:[/b]\n<br />Add Boltcaster SM which is a Boltcaster Upgrade. (PS4 Pre-Order Tech)\n<br />Add Plasma Resonator which is a Mining Laser Upgrade. (Previously removed from the game)\n<br />\n<br />[b]Exosuit:[/b]\n<br />Add Visceral Synthesiser which I have no idea what it does, but it's an exclusive expedition tech so here we are. (Expedition Tech)\n<br />Add Archive Override Implant which I have no idea what it does either, but again it's an exclusive expedition tech. (Expedition Tech)\n<br />\n<br />[b]Base Buildings:\n<br />[/b]Add Utopia Build Station, Portable Exocraft Research Station, Utopia Ship Station, Utopia Exosuit Statio and Utopia Multi-Tool Station, they are portable stations from Utopia Expedition so you can learn new Blueprints without having to do to the Anomaly.\n<br />\n<br />[quote][size=5][b]Installing Mods[/b][/size]\n<br />Follow these steps to install mods.\n<br />\n<br />[list=1]\n<br />[*]Browse to [b]No Man's Sky&#92;GAMEDATA[/b].\n<br />[*]Create a folder named [b]MODS[/b].\n<br />[*]Place the [b]mod folder containing the loose files into the MODS folder[/b] (they have to be in the MODS folder itself and not in any subfolder, and no loose files should be inside the MODS folder).\n<br />[*]Start the game and wait for the splash screen to disappear.\n<br />[*]If done correctly [b]the[/b] [b]game will display a[/b] [b]warning[/b] just before displaying the selection of saved games.\n<br />[/list][/quote]The warning will look like [url=https://i.imgur.com/zTEEFwI.jpeg]this[/url].\n<br />\n<br />Even if you remove the Mod after installing the Techs on your ship, they will still be there, but you will lose the ability of installing it on other ships of course.",
-    "state": "normal",
-    "warningMessage": "",
-    "files": [
-      {
-        "id": [
-          47141,
-          1634
-        ],
-        "uid": 7017976608805,
-        "file_id": 47141,
-        "name": "Unlockable Expedition Exclusive Techs",
-        "version": "6.44",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": false,
-        "size": 7,
-        "file_name": "Unlockable Expedition Exclusive Techs-2589-6-44-1780719285.zip",
-        "uploaded_timestamp": 1780719285,
-        "uploaded_time": "2026-06-06T04:14:45.000+00:00",
-        "mod_version": "6.44",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/72a73203d4530283d9ac3a4340c58f238f447cfd3ee635f59d0fcb3d4ab7500b",
-        "description": "",
-        "size_kb": 7,
-        "size_in_bytes": 6685,
-        "changelog_html": "Updated to 6.44\nUpdated to 6.44",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2589/Unlockable Expedition Exclusive Techs-2589-6-44-1780719285.zip.json"
-      },
-      {
-        "id": [
-          47142,
-          1634
-        ],
-        "uid": 7017976608806,
-        "file_id": 47142,
-        "name": "UEET - Utopia Stations Only",
-        "version": "6.44",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
-        "is_primary": false,
-        "size": 4,
-        "file_name": "UEET - Utopia Stations Only-2589-6-44-1780719302.zip",
-        "uploaded_timestamp": 1780719302,
-        "uploaded_time": "2026-06-06T04:15:02.000+00:00",
-        "mod_version": "6.44",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/ca4066ca5d4e7cc950d6f4fcbbce37394214436db0626d3952115557c421674f",
-        "description": "Only has the Utopía Stations to be unlocked, nothing else.",
-        "size_kb": 4,
-        "size_in_bytes": 3871,
-        "changelog_html": "Updated to 6.44\nUpdated to 6.44",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2589/UEET - Utopia Stations Only-2589-6-44-1780719302.zip.json"
-      }
-    ],
-    "changelogs": {
-      "4.15": [
-        "Updated to 4.15"
-      ],
-      "4.20": [
-        "Updated to 4.20"
-      ],
-      "4.21": [
-        "- Updated to 4.21<br />- Added Boltcaster SM blueprint.<br />- Added Plasma Resonator blueprint.<br />- Added Visceral Synthesiser blueprint.<br />- Added Archive Override Implant blueprint."
-      ],
-      "4.22": [
-        "Updated to 4.22"
-      ],
-      "4.23": [
-        "Updated to 4.23"
-      ],
-      "4.25": [
-        "Updated to 4.25"
-      ],
-      "4.30": [
-        "Updated to 4.30"
-      ],
-      "4.34": [
-        "Updated to 4.34"
-      ],
-      "4.36": [
-        "Updated to 4.36"
-      ],
-      "4.38": [
-        "Updated to 4.38"
-      ],
-      "4.40": [
-        "Updated to 4.40"
-      ],
-      "4.42": [
-        "Updated to 4.42"
-      ],
-      "4.44": [
-        "Updated to 4.44"
-      ],
-      "4.45": [
-        "Updated to 4.45"
-      ],
-      "4.46": [
-        "Updated to 4.46"
-      ],
-      "4.47": [
-        "Updated to 4.47<br />- Added Utopia Build Station, Portable Exocraft Research Station, Utopia Ship Station, Utopia Exosuit Statio and Utopia Multi-Tool Station from Utopia Expedition."
-      ],
-      "4.50": [
-        "Updated to 4.50"
-      ],
-      "4.51": [
-        "Updated to 4.51"
-      ],
-      "4.52": [
-        "Updated to 4.52"
-      ],
-      "4.62": [
-        "Updated to 4.62"
-      ],
-      "4.64": [
-        "Updated to 4.64"
-      ],
-      "4.65": [
-        "Updated to 4.65"
-      ],
-      "4.70": [
-        "Updated to 4.70"
-      ],
-      "5.0": [
-        "Updated to 5.0"
-      ],
-      "5.02": [
-        "Updated to 5.02"
-      ],
-      "5.03": [
-        "Updated to 5.03"
-      ],
-      "5.05": [
-        "Updated to 5.05"
-      ],
-      "5.10": [
-        "- Updated to 5.10",
-        "- Fixed the missing Optical Drill blueprint from Eos (Most likely a bug that HG will fix)"
-      ],
-      "5.12": [
-        "Updated to 5.12<br />- Removed the Optical Drill fix, since it's not needed anymore."
-      ],
-      "5.21": [
-        "Updated to 5.21"
-      ],
-      "5.25": [
-        "Updated to 5.25"
-      ],
-      "5.29": [
-        "Updated to 5.29"
-      ],
-      "5.51": [
-        "Updated to Worlds Part 2 new Modding System"
-      ],
-      "5.56": [
-        "Updated to 5.56"
-      ],
-      "5.58": [
-        "Updated to 5.58",
-        "Mod updated to be fully EXML now."
-      ],
-      "5.64": [
-        "- Updated to 5.64<br />- Set the Utopia Stations to be allowed to be built in Freighters."
-      ],
-      "6.02": [
-        "Updated to 6.02"
-      ],
-      "6.04": [
-        "- Added Orbital Uplink to be unlocked at the Product Recipes computer at the Anomaly."
-      ],
-      "6.16": [
-        "- Updated to 6.16<br />- Added Debris Rangefinder to unlock in the product blueprint tree."
-      ],
-      "6.44": [
-        "Updated to 6.44",
-        "Updated to 6.44"
-      ]
-    }
   },
   {
     "mod_id": 2617,
@@ -29606,6 +28412,118 @@
         "General boring restructuring \"under the hood\""
       ]
     }
+  },
+  {
+    "mod_id": 4248,
+    "name": "All Corvette Parts For Sale",
+    "summary": "Buy all corvette parts from the worksop terminal",
+    "version": "Patch-6.xxAndUp",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4248/4248-1780226455-1383078497.jpg",
+    "author": "jackty89",
+    "updated_timestamp": 1780229795,
+    "created_timestamp": 1780226783,
+    "description": "[size=5][b]Description[/b][/size]\n<br />\n<br />[size=4]This mod lets you buy all corvette parts from the worksop terminal.[/size]\n<br />[size=4]No more annoying trading[/size]\n<br />[size=4]You can find all the parts under the BASIC PARTS\n<br />Lua and CS (NMSMB) scripts are available as seperate downloads.[/size]\n<br />\n<br />[line]\n<br />[size=5][b]Technical Details[/b][/size]\n<br />\n<br />[size=4][b]Files Changed[/b][/size]\n<br />[quote][list]\n<br />[*]METADATA/REALITY/DEFAULTREALITY.MBIN[/*]\n<br />[/list][/quote][size=4][b]Mod Format Explantion[/b][/size]\n<br />[quote]\n<br />[b]EXML Format:[/b] [u]Partial edit[/u], only touches the lines/values that need editing. Very low chance of conflicts with other mods (unless they edit the same values). Can be edited easily by user using an editor like Notepad ++/VSCODE/... .\n<br />[b]MBIN Format:[/b] [u]Full File Replacement[/u]. High chance of conflict, comparable with old pak format (pre. WORLDS). Can be used together with EXML, MBIN mods are loaded first so changes in EXML mods that edit the same file will still be applied. Other MBIN mods that change the same file follow the FIFO principle, merging is highly recommended with MBIN mods (see How To).\n<br />[b]Lua Format:[/b] Script file used by AMUMSS to generate the mod or used for merging with this tool.\n<br />[b]CS Format:[/b] Script file used by NMSMB to generate the mod or used for merging with this tool.[/quote][size=4][b]Installation[/b][/size]\n<br />[quote]\n<br />[b]Install path:[/b] ...&#92;No Man's Sky&#92;GAMEDATA&#92;MODS\n<br />[b]How to install:[/b] Recommend installation is manual, vortex can be used but some mods contain multiple versions so user might need to delete files/folders. Common steps, download mod, extract the  file(s) from archived file and copy to the install path.[/quote][line]\n<br />[size=5][b]Mod Details[/b][/size]\n<br />[quote]\n<br />[b][u]Mod Format:[/u][/b] Full EXML[/quote][line]\n<br />[size=5][b]Extra information[/b][/size]\n<br />\n<br />[size=4][b]Interesting links[/b][/size]\n<br />[quote][b]Modding Discord:[/b] [url=https://discord.com/invite/22ZAU9H]Discord[/url]\n<br />[b]Step WIKI:[/b] [url=https://stepmodifications.org/wiki/NoMansSky]Step WIKI[/url][/quote][size=4][b]How To Guides[/b][/size]\n<br />[quote]\n<br />[url=https://stepmodifications.org/wiki/NoMansSky:Tutorials/HowToAMUMSS]Quick Guide: How To merge with AMUMSS[/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/2521]Extensive Guide: How to use NMSMB (pdf)[/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/2626]Extensive Guide: How to use AMUMSS (pdf)[/url][/quote]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          47069,
+          1634
+        ],
+        "uid": 7017976608733,
+        "file_id": 47069,
+        "name": "AllCorvettePartsForSale LUA",
+        "version": "Patch-6.xxAnUp",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "AllCorvettePartsForSale LUA-4248-Patch-6-xxAnUp-1780226643.zip",
+        "uploaded_timestamp": 1780226643,
+        "uploaded_time": "2026-05-31T11:24:03.000+00:00",
+        "mod_version": "Patch-6.xxAnUp",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/9132f24b9cb018927bc9cd399a91c2e243110eeeaa6b3293c66582519e68f2ae",
+        "description": "Lua script",
+        "size_kb": 1,
+        "size_in_bytes": 649,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4248/AllCorvettePartsForSale LUA-4248-Patch-6-xxAnUp-1780226643.zip.json"
+      },
+      {
+        "id": [
+          47070,
+          1634
+        ],
+        "uid": 7017976608734,
+        "file_id": 47070,
+        "name": "AllCorvettePartsForSale",
+        "version": "Patch-6.xxAndUp",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 2,
+        "file_name": "AllCorvettePartsForSale-4248-Patch-6-xxAndUp-1780226680.zip",
+        "uploaded_timestamp": 1780226680,
+        "uploaded_time": "2026-05-31T11:24:40.000+00:00",
+        "mod_version": "Patch-6.xxAndUp",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/291b32deee3810b916896307d5c5ae60aa625610b942ad7fc71aaa14582847aa",
+        "description": "",
+        "size_kb": 2,
+        "size_in_bytes": 2363,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4248/AllCorvettePartsForSale-4248-Patch-6-xxAndUp-1780226680.zip.json"
+      },
+      {
+        "id": [
+          47071,
+          1634
+        ],
+        "uid": 7017976608735,
+        "file_id": 47071,
+        "name": "AllCorvettePartsForSale NMSMB",
+        "version": "Patch-6.xxAndUp",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "AllCorvettePartsForSale NMSMB-4248-Patch-6-xxAndUp-1780229785.zip",
+        "uploaded_timestamp": 1780229785,
+        "uploaded_time": "2026-05-31T12:16:25.000+00:00",
+        "mod_version": "Patch-6.xxAndUp",
+        "external_virus_scan_url": null,
+        "description": "Cs Script",
+        "size_kb": 1,
+        "size_in_bytes": 623,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4248/AllCorvettePartsForSale NMSMB-4248-Patch-6-xxAndUp-1780229785.zip.json"
+      },
+      {
+        "id": [
+          47072,
+          1634
+        ],
+        "uid": 7017976608736,
+        "file_id": 47072,
+        "name": "AllCorvettePartsForSale NMSMB",
+        "version": "Patch-6.xxAndUp",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "AllCorvettePartsForSale NMSMB-4248-Patch-6-xxAndUp-1780229795.zip",
+        "uploaded_timestamp": 1780229795,
+        "uploaded_time": "2026-05-31T12:16:35.000+00:00",
+        "mod_version": "Patch-6.xxAndUp",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/56ff79df975071814e9ed032e1255a92c2448160c2b7312523a98aad067a5b0c",
+        "description": "Cs Script",
+        "size_kb": 1,
+        "size_in_bytes": 623,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4248/AllCorvettePartsForSale NMSMB-4248-Patch-6-xxAndUp-1780229795.zip.json"
+      }
+    ],
+    "changelogs": {}
   },
   {
     "mod_id": 4317,
