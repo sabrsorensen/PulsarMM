@@ -66,6 +66,12 @@
         "warningMessage": ""
     },
     {
+        "name": "Black Space 4.3",
+        "id": "1471",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "Realistic Faster Movement Speed",
         "id": "1520",
         "state": "warning",
@@ -110,12 +116,6 @@
     {
         "name": "Firearms Unlimited Cool Keeper",
         "id": "2240",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Faster Scanning v6.45",
-        "id": "2284",
         "state": "normal",
         "warningMessage": ""
     },
