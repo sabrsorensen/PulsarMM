@@ -66,12 +66,6 @@
         "warningMessage": ""
     },
     {
-        "name": "Black Space 4.3",
-        "id": "1471",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Realistic Faster Movement Speed",
         "id": "1520",
         "state": "warning",
@@ -128,6 +122,12 @@
     {
         "name": "gGame Supercharge Bonus - EXML",
         "id": "2560",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Unlockable Expedition Exclusive Techs",
+        "id": "2589",
         "state": "normal",
         "warningMessage": ""
     },
