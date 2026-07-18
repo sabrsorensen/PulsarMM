@@ -6,6 +6,12 @@
         "warningMessage": "Not updated in 9 years"
     },
     {
+        "name": "JJs Better Ships",
+        "id": "547",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "CHEAP BROKEN SHIP INVENTORY SLOTS",
         "id": "560",
         "state": "warning",
@@ -88,12 +94,6 @@
         "id": "1680",
         "state": "warning",
         "warningMessage": "Not updated in 5 years"
-    },
-    {
-        "name": "Faster Movement Speed 3.0",
-        "id": "1973",
-        "state": "normal",
-        "warningMessage": ""
     },
     {
         "name": "Consumerism - Expedition Twitch and Community reward unlocker",
