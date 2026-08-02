@@ -120,12 +120,6 @@
         "warningMessage": ""
     },
     {
-        "name": "Remove Technology Overload - 6.21 Remnant Compatible",
-        "id": "2162",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Firearms Unlimited Cool Keeper",
         "id": "2240",
         "state": "normal",
@@ -158,6 +152,12 @@
     {
         "name": "State Phasure Engine",
         "id": "2800",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Only S class",
+        "id": "2878",
         "state": "normal",
         "warningMessage": ""
     },
