@@ -6,12 +6,6 @@
         "warningMessage": "Not updated in 9 years"
     },
     {
-        "name": "JJs Better Ships",
-        "id": "547",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "CHEAP BROKEN SHIP INVENTORY SLOTS",
         "id": "560",
         "state": "warning",
@@ -116,6 +110,12 @@
     {
         "name": "Galactic Positioning System - Russian Translation",
         "id": "2160",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Remove Technology Overload - 6.21 Remnant Compatible",
+        "id": "2162",
         "state": "normal",
         "warningMessage": ""
     },
