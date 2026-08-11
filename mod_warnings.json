@@ -24,12 +24,6 @@
         "warningMessage": ""
     },
     {
-        "name": "AMUMSS (auto modbuilder-updater with MOD script definition system)",
-        "id": "957",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Fast Actions 7.1",
         "id": "1081",
         "state": "normal",
@@ -92,6 +86,12 @@
     {
         "name": "Consumerism - Expedition Twitch and Community reward unlocker",
         "id": "2062",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Remove Technology Overload - 6.21 Remnant Compatible",
+        "id": "2162",
         "state": "normal",
         "warningMessage": ""
     },
