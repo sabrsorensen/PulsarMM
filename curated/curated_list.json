@@ -13832,6 +13832,742 @@
     "changelogs": {}
   },
   {
+    "mod_id": 1162,
+    "name": "Quick Crates 3.8",
+    "summary": "1-click no junk green crates and crashed freighter containers.",
+    "version": "3.8",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/1162/1162-1618046524-1857010426.jpeg",
+    "author": "Lo2k",
+    "updated_timestamp": 1780983833,
+    "created_timestamp": 1566467588,
+    "description": "I don't know about you but since Atlas Rises, I'm railing against these green crates and the junk that has been added to them and that we need to trash each time we open a single one of these to get the item inside.\n<br />Well, rail no more as I finally got the green crates working as all the other crates : meaning you just press action button and get the loot. Nothing more to pick, to trash or to wait to get what is inside.\n<br />New : and since 3.3, no junk either on crashed freighter containers.\n<br />\n<br />Enjoy !\n<br />\n<br />PS : And if you ever need some junk, they can be crafted via miners or even found in deposits on some planets.\n<br />\n<br />Optional:\n<br />- Open damaged machineries in a single click with [url=https://www.nexusmods.com/nomanssky/mods/2346][color=#ffd966]Quick Damaged Machineries[/color][/url]\n<br />\n<br />\n<br />[color=#ffd966]News : v3.8 fixes crashed freighters crates not opening quickly since 6.44[/color]\n<br />\n<br />[size=2]Compatibility : [/size]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/880][color=#ffd966]- [u]CHECK IF THIS MOD IS COMPATIBLE WITH LATEST GAME VERSION[/u][/color][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/articles/85][color=#f6b26b]- [u]CHECK IF THIS MOD NEEDS TO BE MERGED WITH ANOTHER OF MY MODS[/u][/color][/url]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          5668,
+          1634
+        ],
+        "uid": 7017976567332,
+        "file_id": 5668,
+        "name": "Quick Crates",
+        "version": "1.0",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 2,
+        "file_name": "Quick Crates-1162-1-0-1566467582.zip",
+        "uploaded_timestamp": 1566467582,
+        "uploaded_time": "2019-08-22T09:53:02.000+00:00",
+        "mod_version": "1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/file/aed334d8d1a2cb149224a28bc828ec42fdb60871bfdc6cba1f28407ce853b049/analysis/1566467643/",
+        "description": "1-clic no junk green crates",
+        "size_kb": 2,
+        "size_in_bytes": 2146,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates-1162-1-0-1566467582.zip.json"
+      },
+      {
+        "id": [
+          6651,
+          1634
+        ],
+        "uid": 7017976568315,
+        "file_id": 6651,
+        "name": "Quick Crates 1.1",
+        "version": "1.1",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 4,
+        "file_name": "Quick Crates 1.1-1162-1-1-1575220903.zip",
+        "uploaded_timestamp": 1575220903,
+        "uploaded_time": "2019-12-01T17:21:43.000+00:00",
+        "mod_version": "1.1",
+        "external_virus_scan_url": "https://www.virustotal.com/file/7595e7f1767005428e2e3bb246ec5d808821f4c854e5dd16044d8896e25cceb1/analysis/1575220907/",
+        "description": "1-clic no junk green crates",
+        "size_kb": 4,
+        "size_in_bytes": 4045,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 1.1-1162-1-1-1575220903.zip.json"
+      },
+      {
+        "id": [
+          8921,
+          1634
+        ],
+        "uid": 7017976570585,
+        "file_id": 8921,
+        "name": "Quick Crates 1.2",
+        "version": "1.2",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 2,
+        "file_name": "Quick Crates 1.2-1162-1-2-1596226812.zip",
+        "uploaded_timestamp": 1596226812,
+        "uploaded_time": "2020-07-31T20:20:12.000+00:00",
+        "mod_version": "1.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/27d577a7ffbf1a4ef14c46c15ff590633458c7970a4a851008fbc0663ada027a/detection/f-27d577a7ffbf1a4ef14c46c15ff590633458c7970a4a851008fbc0663ada027a-1596226816",
+        "description": "1-clic no junk green crates",
+        "size_kb": 2,
+        "size_in_bytes": 2174,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 1.2-1162-1-2-1596226812.zip.json"
+      },
+      {
+        "id": [
+          9819,
+          1634
+        ],
+        "uid": 7017976571483,
+        "file_id": 9819,
+        "name": "Quick Crates 1.3",
+        "version": "1.3",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 2,
+        "file_name": "Quick Crates 1.3-1162-1-3-1602339785.zip",
+        "uploaded_timestamp": 1602339785,
+        "uploaded_time": "2020-10-10T14:23:05.000+00:00",
+        "mod_version": "1.3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/f121308f03f3d2ff8e9cf426045c456821d673708a9da067d6ae448769f78927/detection/f-f121308f03f3d2ff8e9cf426045c456821d673708a9da067d6ae448769f78927-1602339892",
+        "description": "1-clic no junk green crates",
+        "size_kb": 2,
+        "size_in_bytes": null,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 1.3-1162-1-3-1602339785.zip.json"
+      },
+      {
+        "id": [
+          12021,
+          1634
+        ],
+        "uid": 7017976573685,
+        "file_id": 12021,
+        "name": "Quick Crates 1.4",
+        "version": "1.4",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 2,
+        "file_name": "Quick Crates 1.4-1162-1-4-1618046582.zip",
+        "uploaded_timestamp": 1618046582,
+        "uploaded_time": "2021-04-10T09:23:02.000+00:00",
+        "mod_version": "1.4",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/75c0e75c20b2f09094906947d62030f435bc2f1c453b783b5fbc33835b05a980/detection/f-75c0e75c20b2f09094906947d62030f435bc2f1c453b783b5fbc33835b05a980-1618046584",
+        "description": "1-clic no junk green crates",
+        "size_kb": 2,
+        "size_in_bytes": 2175,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 1.4-1162-1-4-1618046582.zip.json"
+      },
+      {
+        "id": [
+          13209,
+          1634
+        ],
+        "uid": 7017976574873,
+        "file_id": 13209,
+        "name": "Quick Crates 1.5",
+        "version": "1.5",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 6,
+        "file_name": "Quick Crates 1.5-1162-1-5-1623440560.zip",
+        "uploaded_timestamp": 1623440560,
+        "uploaded_time": "2021-06-11T19:42:40.000+00:00",
+        "mod_version": "1.5",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/609d7dcefab3d3c5cf7013658ddeb19386840d798eb44b98f4c87bee5850d744/detection/f-609d7dcefab3d3c5cf7013658ddeb19386840d798eb44b98f4c87bee5850d744-1623440565",
+        "description": "1-clic no junk green crates",
+        "size_kb": 6,
+        "size_in_bytes": 6210,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 1.5-1162-1-5-1623440560.zip.json"
+      },
+      {
+        "id": [
+          14108,
+          1634
+        ],
+        "uid": 7017976575772,
+        "file_id": 14108,
+        "name": "Quick Crates 1.6",
+        "version": "1.6",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 6,
+        "file_name": "Quick Crates 1.6-1162-1-6-1631122075.zip",
+        "uploaded_timestamp": 1631122075,
+        "uploaded_time": "2021-09-08T17:27:55.000+00:00",
+        "mod_version": "1.6",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/f7b7d22494af157be34da5da9194f1b57d0ad583e2a1d781319859110fc279e6/detection/f-f7b7d22494af157be34da5da9194f1b57d0ad583e2a1d781319859110fc279e6-1631122080",
+        "description": "1-clic no junk green crates",
+        "size_kb": 6,
+        "size_in_bytes": 6208,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 1.6-1162-1-6-1631122075.zip.json"
+      },
+      {
+        "id": [
+          14946,
+          1634
+        ],
+        "uid": 7017976576610,
+        "file_id": 14946,
+        "name": "Quick Crates 1.7",
+        "version": "1.7",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 6,
+        "file_name": "Quick Crates 1.7-1162-1-7-1634841580.zip",
+        "uploaded_timestamp": 1634841580,
+        "uploaded_time": "2021-10-21T18:39:40.000+00:00",
+        "mod_version": "1.7",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b2ed7d006c11f72501f240defd3eb76f519493d6030ab89aa05684c8e0590e2e/detection/f-b2ed7d006c11f72501f240defd3eb76f519493d6030ab89aa05684c8e0590e2e-1634841584",
+        "description": "1-clic no junk green crates. Includes a .lua file and installation notes.",
+        "size_kb": 6,
+        "size_in_bytes": 6211,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 1.7-1162-1-7-1634841580.zip.json"
+      },
+      {
+        "id": [
+          16972,
+          1634
+        ],
+        "uid": 7017976578636,
+        "file_id": 16972,
+        "name": "Quick Crates 1.8",
+        "version": "1.8",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 15,
+        "file_name": "Quick Crates 1.8-1162-1-8-1650471459.zip",
+        "uploaded_timestamp": 1650471459,
+        "uploaded_time": "2022-04-20T16:17:39.000+00:00",
+        "mod_version": "1.8",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c67f787c06372996e5929dceb68a3c7631d1e19e485b30fdc063f842e82c63b0/detection/f-c67f787c06372996e5929dceb68a3c7631d1e19e485b30fdc063f842e82c63b0-1650471540",
+        "description": "1-clic no junk green crates. Includes a .lua file and installation notes.",
+        "size_kb": 15,
+        "size_in_bytes": 15294,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 1.8-1162-1-8-1650471459.zip.json"
+      },
+      {
+        "id": [
+          20473,
+          1634
+        ],
+        "uid": 7017976582137,
+        "file_id": 20473,
+        "name": "Quick Crates 1.9",
+        "version": "1.9",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 5,
+        "file_name": "Quick Crates 1.9-1162-1-9-1665219074.zip",
+        "uploaded_timestamp": 1665219074,
+        "uploaded_time": "2022-10-08T08:51:14.000+00:00",
+        "mod_version": "1.9",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/250443c28e9497758985821a911623570d45ddbbe1ec45315b7d8cd66b33dd36/detection/f-250443c28e9497758985821a911623570d45ddbbe1ec45315b7d8cd66b33dd36-1665219077",
+        "description": "1-clic no junk green crates. Includes a .lua file and installation notes.",
+        "size_kb": 5,
+        "size_in_bytes": 4924,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 1.9-1162-1-9-1665219074.zip.json"
+      },
+      {
+        "id": [
+          20981,
+          1634
+        ],
+        "uid": 7017976582645,
+        "file_id": 20981,
+        "name": "Quick Crates 2.0",
+        "version": "2.0",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 6,
+        "file_name": "Quick Crates 2.0-1162-2-0-1665828214.zip",
+        "uploaded_timestamp": 1665828214,
+        "uploaded_time": "2022-10-15T10:03:34.000+00:00",
+        "mod_version": "2.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1cea33b522451e213b0543980229fe2da52d4a3d81ac1e5c942b7ea97f746882/detection/f-1cea33b522451e213b0543980229fe2da52d4a3d81ac1e5c942b7ea97f746882-1665828218",
+        "description": "1-clic no junk green crates. Includes a .lua file and installation notes.",
+        "size_kb": 6,
+        "size_in_bytes": 6125,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 2.0-1162-2-0-1665828214.zip.json"
+      },
+      {
+        "id": [
+          23225,
+          1634
+        ],
+        "uid": 7017976584889,
+        "file_id": 23225,
+        "name": "Quick Crates 2.1",
+        "version": "2.1",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 6,
+        "file_name": "Quick Crates 2.1-1162-2-1-1677534714.zip",
+        "uploaded_timestamp": 1677534714,
+        "uploaded_time": "2023-02-27T21:51:54.000+00:00",
+        "mod_version": "2.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e9231a5a9b6a914eee32f4e5df6ac52e1fe2db7b5f7920ddaf849a9f414ab04d/detection/f-e9231a5a9b6a914eee32f4e5df6ac52e1fe2db7b5f7920ddaf849a9f414ab04d-1677534718",
+        "description": "1-clic no junk green crates. Includes a .lua file and installation notes.",
+        "size_kb": 6,
+        "size_in_bytes": 6125,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 2.1-1162-2-1-1677534714.zip.json"
+      },
+      {
+        "id": [
+          24569,
+          1634
+        ],
+        "uid": 7017976586233,
+        "file_id": 24569,
+        "name": "Quick Crates 2.2",
+        "version": "2.2",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 6,
+        "file_name": "Quick Crates 2.2-1162-2-2-1680874760.zip",
+        "uploaded_timestamp": 1680874760,
+        "uploaded_time": "2023-04-07T13:39:20.000+00:00",
+        "mod_version": "2.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c08e3c6fd53b7cc8940c2d40f99cdaedad587a7a3b744cef607e4e32e8a833a3/detection/f-c08e3c6fd53b7cc8940c2d40f99cdaedad587a7a3b744cef607e4e32e8a833a3-1680874762",
+        "description": "1-clic no junk green crates. Includes a .lua file and installation notes.",
+        "size_kb": 6,
+        "size_in_bytes": 6129,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 2.2-1162-2-2-1680874760.zip.json"
+      },
+      {
+        "id": [
+          25706,
+          1634
+        ],
+        "uid": 7017976587370,
+        "file_id": 25706,
+        "name": "Quick Crates 2.3",
+        "version": "2.3",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 6,
+        "file_name": "Quick Crates 2.3-1162-2-3-1685869050.zip",
+        "uploaded_timestamp": 1685869050,
+        "uploaded_time": "2023-06-04T08:57:30.000+00:00",
+        "mod_version": "2.3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4c06846a748e58d1b7bb3fdef089c2287ebbd176add2b6ecb4b0c3776c14c533/detection/f-4c06846a748e58d1b7bb3fdef089c2287ebbd176add2b6ecb4b0c3776c14c533-1685869084",
+        "description": "1-clic no junk green crates. Includes a .lua file and installation notes.",
+        "size_kb": 6,
+        "size_in_bytes": 6128,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 2.3-1162-2-3-1685869050.zip.json"
+      },
+      {
+        "id": [
+          26144,
+          1634
+        ],
+        "uid": 7017976587808,
+        "file_id": 26144,
+        "name": "Quick Crates 2.4",
+        "version": "2.4",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 6,
+        "file_name": "Quick Crates 2.4-1162-2-4-1686343739.zip",
+        "uploaded_timestamp": 1686343739,
+        "uploaded_time": "2023-06-09T20:48:59.000+00:00",
+        "mod_version": "2.4",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/3347edf3d1a0c1919f27550b42395fc530ca929315eed751a94c8a813496292b/detection/f-3347edf3d1a0c1919f27550b42395fc530ca929315eed751a94c8a813496292b-1686343797",
+        "description": "1-clic no junk green crates. Includes a .lua file and installation notes.",
+        "size_kb": 6,
+        "size_in_bytes": 6131,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 2.4-1162-2-4-1686343739.zip.json"
+      },
+      {
+        "id": [
+          27162,
+          1634
+        ],
+        "uid": 7017976588826,
+        "file_id": 27162,
+        "name": "Quick Crates 2.5",
+        "version": "2.5",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 6,
+        "file_name": "Quick Crates 2.5-1162-2-5-1692961783.zip",
+        "uploaded_timestamp": 1692961783,
+        "uploaded_time": "2023-08-25T11:09:43.000+00:00",
+        "mod_version": "2.5",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/cb8ec66b231989905a3fcecb036c0ca70e1d9748c5e571f67a7193c953aa9f41/detection/f-cb8ec66b231989905a3fcecb036c0ca70e1d9748c5e571f67a7193c953aa9f41-1692961789",
+        "description": "1-clic no junk green crates. Includes a .lua file and installation notes.",
+        "size_kb": 6,
+        "size_in_bytes": 6130,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 2.5-1162-2-5-1692961783.zip.json"
+      },
+      {
+        "id": [
+          27459,
+          1634
+        ],
+        "uid": 7017976589123,
+        "file_id": 27459,
+        "name": "Quick Crates 2.6",
+        "version": "2.6",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 6,
+        "file_name": "Quick Crates 2.6-1162-2-6-1693317517.zip",
+        "uploaded_timestamp": 1693317517,
+        "uploaded_time": "2023-08-29T13:58:37.000+00:00",
+        "mod_version": "2.6",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/10519cf7688e09bf1b08a208a8d5fe10a108d3af7906a45638e7a4a828ce5abe/detection/f-10519cf7688e09bf1b08a208a8d5fe10a108d3af7906a45638e7a4a828ce5abe-1693317522",
+        "description": "1-clic no junk green crates. Includes a .lua file and installation notes.",
+        "size_kb": 6,
+        "size_in_bytes": 6174,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 2.6-1162-2-6-1693317517.zip.json"
+      },
+      {
+        "id": [
+          31791,
+          1634
+        ],
+        "uid": 7017976593455,
+        "file_id": 31791,
+        "name": "Quick Crates 2.7",
+        "version": "2.7",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 15,
+        "file_name": "Quick Crates 2.7-1162-2-7-1714588564.zip",
+        "uploaded_timestamp": 1714588564,
+        "uploaded_time": "2024-05-01T18:36:04.000+00:00",
+        "mod_version": "2.7",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/6dc90eb4f32a2adedc477712f12e0d27d169f9c281de087e70934b5d8670f53f/detection/f-6dc90eb4f32a2adedc477712f12e0d27d169f9c281de087e70934b5d8670f53f-1714588610",
+        "description": "1-clic no junk green crates. Includes a .lua file and installation notes.",
+        "size_kb": 15,
+        "size_in_bytes": 15462,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 2.7-1162-2-7-1714588564.zip.json"
+      },
+      {
+        "id": [
+          31851,
+          1634
+        ],
+        "uid": 7017976593515,
+        "file_id": 31851,
+        "name": "Quick Crates 2.7",
+        "version": "2.7",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 5,
+        "file_name": "Quick Crates 2.7-1162-2-7-1714637736.zip",
+        "uploaded_timestamp": 1714637736,
+        "uploaded_time": "2024-05-02T08:15:36.000+00:00",
+        "mod_version": "2.7",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4609bc613b9898b6593b319e1a6656ce93a72599cbf59608f2707a831c3b2ef1/detection/f-4609bc613b9898b6593b319e1a6656ce93a72599cbf59608f2707a831c3b2ef1-1714637761",
+        "description": "1-clic no junk green crates. Includes a .lua file and installation notes.",
+        "size_kb": 5,
+        "size_in_bytes": 5385,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 2.7-1162-2-7-1714637736.zip.json"
+      },
+      {
+        "id": [
+          32894,
+          1634
+        ],
+        "uid": 7017976594558,
+        "file_id": 32894,
+        "name": "Quick Crates 2.8",
+        "version": "2.8",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 5,
+        "file_name": "Quick Crates 2.8-1162-2-8-1717235734.zip",
+        "uploaded_timestamp": 1717235734,
+        "uploaded_time": "2024-06-01T09:55:34.000+00:00",
+        "mod_version": "2.8",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8e452a6bb78851f6598bbb689ac84c8279996d9cb274f7fff31f3ad9aef2a141/detection/f-8e452a6bb78851f6598bbb689ac84c8279996d9cb274f7fff31f3ad9aef2a141-1717235778",
+        "description": "1-clic no junk green crates. Includes a .lua file and installation notes.",
+        "size_kb": 5,
+        "size_in_bytes": 5386,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 2.8-1162-2-8-1717235734.zip.json"
+      },
+      {
+        "id": [
+          33681,
+          1634
+        ],
+        "uid": 7017976595345,
+        "file_id": 33681,
+        "name": "Quick Crates 2.9",
+        "version": "2.9",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 5,
+        "file_name": "Quick Crates 2.9-1162-2-9-1721575918.zip",
+        "uploaded_timestamp": 1721575918,
+        "uploaded_time": "2024-07-21T15:31:58.000+00:00",
+        "mod_version": "2.9",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/41989ae239b86c28210293b96ee6bbd89e7feda1f4506bf594c2360a34ed6d1f/detection/f-41989ae239b86c28210293b96ee6bbd89e7feda1f4506bf594c2360a34ed6d1f-1721575919",
+        "description": "1-clic no junk green crates. Includes a .lua file and installation notes.",
+        "size_kb": 5,
+        "size_in_bytes": 5235,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 2.9-1162-2-9-1721575918.zip.json"
+      },
+      {
+        "id": [
+          39102,
+          1634
+        ],
+        "uid": 7017976600766,
+        "file_id": 39102,
+        "name": "Quick Crates 3.0",
+        "version": "3.0",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 8,
+        "file_name": "Quick Crates 3.0-1162-3-0-1738762869.zip",
+        "uploaded_timestamp": 1738762869,
+        "uploaded_time": "2025-02-05T13:41:09.000+00:00",
+        "mod_version": "3.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/92e75108595f9f5f807f3f904f20e68caf960c7c7fd802a5cf372fe5fe4adc6c/detection/f-92e75108595f9f5f807f3f904f20e68caf960c7c7fd802a5cf372fe5fe4adc6c-1738762872",
+        "description": "1-clic no junk green crates. Includes a .lua file and installation notes.",
+        "size_kb": 8,
+        "size_in_bytes": 7744,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 3.0-1162-3-0-1738762869.zip.json"
+      },
+      {
+        "id": [
+          39539,
+          1634
+        ],
+        "uid": 7017976601203,
+        "file_id": 39539,
+        "name": "Quick Crates 3.1",
+        "version": "3.1",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 8,
+        "file_name": "Quick Crates 3.1-1162-3-1-1739397614.zip",
+        "uploaded_timestamp": 1739397614,
+        "uploaded_time": "2025-02-12T22:00:14.000+00:00",
+        "mod_version": "3.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/17cdf9712b5121cfb2880cd9c3d041d801fc5ad1f4af39c420ef82cdab8923b5/detection/f-17cdf9712b5121cfb2880cd9c3d041d801fc5ad1f4af39c420ef82cdab8923b5-1739397652",
+        "description": "1-clic no junk green crates. Includes a .lua file and installation notes.",
+        "size_kb": 8,
+        "size_in_bytes": 7739,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 3.1-1162-3-1-1739397614.zip.json"
+      },
+      {
+        "id": [
+          40064,
+          1634
+        ],
+        "uid": 7017976601728,
+        "file_id": 40064,
+        "name": "Quick Crates 3.2",
+        "version": "3.2",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 6,
+        "file_name": "Quick Crates 3.2-1162-3-2-1741525489.zip",
+        "uploaded_timestamp": 1741525489,
+        "uploaded_time": "2025-03-09T13:04:49.000+00:00",
+        "mod_version": "3.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/392aee0dce4b2bb97b8eeb46ae5e33b8a34ad1fbddc61ca8158a76e563e0a44f/detection/f-392aee0dce4b2bb97b8eeb46ae5e33b8a34ad1fbddc61ca8158a76e563e0a44f-1741525493",
+        "description": "1-clic no junk green crates. Includes a .lua file and installation notes.",
+        "size_kb": 6,
+        "size_in_bytes": 6422,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 3.2-1162-3-2-1741525489.zip.json"
+      },
+      {
+        "id": [
+          40344,
+          1634
+        ],
+        "uid": 7017976602008,
+        "file_id": 40344,
+        "name": "Quick Crates 3.3",
+        "version": "3.3",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 9,
+        "file_name": "Quick Crates 3.3-1162-3-3-1742841810.zip",
+        "uploaded_timestamp": 1742841810,
+        "uploaded_time": "2025-03-24T18:43:30.000+00:00",
+        "mod_version": "3.3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/f0e9e52588d5d7cd33cd0604f6d65317dbaf14299bfb953b9b415b9f2b8341ce/detection/f-f0e9e52588d5d7cd33cd0604f6d65317dbaf14299bfb953b9b415b9f2b8341ce-1742841814",
+        "description": "1-clic no junk green crates. Includes a .lua file and installation notes.",
+        "size_kb": 9,
+        "size_in_bytes": 9035,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 3.3-1162-3-3-1742841810.zip.json"
+      },
+      {
+        "id": [
+          40420,
+          1634
+        ],
+        "uid": 7017976602084,
+        "file_id": 40420,
+        "name": "Quick Crates 3.4",
+        "version": "3.4",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 8,
+        "file_name": "Quick Crates 3.4-1162-3-4-1743114454.zip",
+        "uploaded_timestamp": 1743114454,
+        "uploaded_time": "2025-03-27T22:27:34.000+00:00",
+        "mod_version": "3.4",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5eb69df2d403ad2ddcb4c1d91bc1591a9358432bd7727687e073593f5f371cee/detection/f-5eb69df2d403ad2ddcb4c1d91bc1591a9358432bd7727687e073593f5f371cee-1743114460",
+        "description": "1-clic no junk green crates. Includes installation notes.",
+        "size_kb": 8,
+        "size_in_bytes": 8209,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 3.4-1162-3-4-1743114454.zip.json"
+      },
+      {
+        "id": [
+          42530,
+          1634
+        ],
+        "uid": 7017976604194,
+        "file_id": 42530,
+        "name": "Quick Crates 3.5",
+        "version": "3.5",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 8,
+        "file_name": "Quick Crates 3.5-1162-3-5-1756467126.zip",
+        "uploaded_timestamp": 1756467126,
+        "uploaded_time": "2025-08-29T11:32:06.000+00:00",
+        "mod_version": "3.5",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/3953305f7f7e100b32bace40eed2730187a6550a1b7cd0166db22a54b2ec5d2e/detection/f-3953305f7f7e100b32bace40eed2730187a6550a1b7cd0166db22a54b2ec5d2e-1756467129",
+        "description": "1-clic no junk green crates. Includes installation notes.",
+        "size_kb": 8,
+        "size_in_bytes": 8315,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 3.5-1162-3-5-1756467126.zip.json"
+      },
+      {
+        "id": [
+          47153,
+          1634
+        ],
+        "uid": 7017976608817,
+        "file_id": 47153,
+        "name": "Quick Crates 3.6",
+        "version": "3.6",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 8,
+        "file_name": "Quick Crates 3.6-1162-3-6-1780729941.zip",
+        "uploaded_timestamp": 1780729941,
+        "uploaded_time": "2026-06-06T07:12:21.000+00:00",
+        "mod_version": "3.6",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/acfba43f28620573bb0214bebf296622527969bbcb2bd715c4fd649db6470e01",
+        "description": "1-clic no junk green crates. Includes installation notes.",
+        "size_kb": 8,
+        "size_in_bytes": 8695,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 3.6-1162-3-6-1780729941.zip.json"
+      },
+      {
+        "id": [
+          47183,
+          1634
+        ],
+        "uid": 7017976608847,
+        "file_id": 47183,
+        "name": "Quick Crates 3.7",
+        "version": "3.7",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 8,
+        "file_name": "Quick Crates 3.7-1162-3-7-1780816570.zip",
+        "uploaded_timestamp": 1780816570,
+        "uploaded_time": "2026-06-07T07:16:10.000+00:00",
+        "mod_version": "3.7",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/93182a098a4c85307f26df79a90332f39cdeac7f936a31315fb462ed4141bd2e",
+        "description": "1-clic no junk green crates. Includes installation notes.",
+        "size_kb": 8,
+        "size_in_bytes": 8232,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 3.7-1162-3-7-1780816570.zip.json"
+      },
+      {
+        "id": [
+          47219,
+          1634
+        ],
+        "uid": 7017976608883,
+        "file_id": 47219,
+        "name": "Quick Crates 3.8",
+        "version": "3.8",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 8,
+        "file_name": "Quick Crates 3.8-1162-3-8-1780983833.zip",
+        "uploaded_timestamp": 1780983833,
+        "uploaded_time": "2026-06-09T05:43:53.000+00:00",
+        "mod_version": "3.8",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c8bc8be5752a9e20f436573fb08e9f94eb0aaaf65fc6039e67dec8ef6cfc32f2",
+        "description": "1-clic no junk green crates. Includes installation notes.",
+        "size_kb": 8,
+        "size_in_bytes": 8147,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1162/Quick Crates 3.8-1162-3-8-1780983833.zip.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
     "mod_id": 1168,
     "name": "NPC races and Armor",
     "summary": "NPC heads and armor.",
@@ -24637,288 +25373,6 @@
       "1.2.10": [
         "Updated with MBINCompiler v6.17.0.2 for NMS Build 169216 (6.40) from 27/5/26",
         "Added Expedition 22 rewards"
-      ]
-    }
-  },
-  {
-    "mod_id": 2162,
-    "name": "Remove Technology Overload - 6.21 Remnant Compatible",
-    "summary": "Equip more than 3 tech of the same type // Adjusts inventory and tech slots depending on class // Stack sizes raised by x100 // Increased exosuit slots // UI and inventory grid fixes // Comes in three different versions, choose to your liking. :)",
-    "version": "6.21",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2162/2162-1644517280-1886783521.png",
-    "author": "chronicallybored",
-    "updated_timestamp": 1756459144,
-    "created_timestamp": 1644517845,
-    "description": "[center][font=Verdana][size=4][b][color=#ffe599][u][/u][/color][/b][/size][/font][/center][center][size=3]﻿[/size][font=Lucida Sans Unicode][b]This Mod comes in [u]three[/u] different versions:\n<br />\n<br />[/b]\n<br />[b][color=#ffffff]1.[/color] [color=#00ffff][u]Remove Technology Overload[/u][/color][/b]\n<br />\n<br />[color=#ffffff][size=2][b][i][color=#ffffff]- Increases the maximum number of same tech you can equip from[/color] [color=#ffff00]3[/color] [color=#ffffff]to [/color][color=#ffff00]9999[/color],[color=#ffff00] [/color]effectively removing technology overload\n<br />[/i][/b][/size][/color][b]\n<br />\n<br />\n<br />[color=#ffffff]2.[/color][size=3] [/size][color=#00ffff][u]Remove Technology Overload Plus[/u][/color]\n<br />[color=#ffffff]\n<br />[i][size=2]- Increases the maximum [/size][/i][/color][size=2][i][color=#ffff00]number of same tech[/color][color=#ffffff] you can equip from[/color] [color=#ffff00]3[/color] [color=#ffffff]to [/color][color=#ffff00]9999[/color][color=#ffff00], [/color]effectively removing technology overload\n<br />\n<br />[color=#ffffff][i]- Added some new UI and boundary fixes for the way the new inventory/UI works and interacts with the mod\n<br />[/i][/color][/i][i]\n<br />- Changed the values of [color=#ffff00]technology and cargo[/color] inventories and adapted them for the new inventory/UI[color=#ffffff], depending[/color]\n<br />[color=#ffffff]on the [/color][color=#ffff00]class[/color][color=#ffffff] of the used [/color][color=#ffff00]multitool[/color][color=#ffffff], [/color][color=#ffff00]ship[/color][color=#ffffff], [/color][color=#ffff00]freighter[/color][color=#ffffff], etc. Details below.[/color]\n<br />\n<br />[color=#ffffff]New technology inventory sizes depending on class:[/color]\n<br />\n<br />[color=#00ff00]C[/color] class = [color=#ffff00]30[/color] slots\n<br />[color=#00ff00]B[/color] class = [color=#ffff00]40[/color] slots\n<br />[color=#00ff00]A[/color] class = [color=#ffff00]50[/color] slots\n<br />[color=#00ff00]S[/color] class = [color=#ffff00]60[/color] slots\n<br />\n<br />[color=#ffffff]New cargo inventory sizes depending on class:[/color]\n<br />\n<br />[color=#00ff00]C[/color] class = [color=#ffff00]60[/color] slots\n<br />[color=#00ff00] B[/color] class = [color=#ffff00]80[/color] slots \n<br />[color=#00ff00]A[/color] class = [color=#ffff00]100[/color] slots\n<br />[color=#00ff00] S[/color] class = [color=#ffff00]120[/color] slots \n<br />\n<br />- New exosuit inventory sizes:\n<br />\n<br />Exosuit cargo inventory size (Width * Height):\n<br />[color=#ffff00]\n<br />12[/color] * [color=#ffff00]10[/color] = [color=#ffff00]120 [/color]total slots\n<br />\n<br />Exosuit technology inventory size (Width * Height):\n<br />\n<br />[color=#ffff00]6[/color] * [color=#ffff00]10 [/color]= [color=#ffff00]60 [/color]total slots\n<br />[/i][color=#dbb0a7]\n<br />[/color][/size][i][color=#e06666][u][size=3]IMPORTANT:[/size][/u]\n<br />[size=2]Please keep in mind that you will still have to buy/upgrade the wanted slots ingame. This mod doesn't raise them automatically[/size]\n<br />[size=2]to the maximum capacity.[/size][/color]\n<br />[/i]\n<br />\n<br />\n<br />[color=#ffffff]3.[/color][size=3] [/size][u][color=#00ffff]Remove Technology Overload Ultimate - Reworked[/color]\n<br />[color=#ffffff]\n<br />[/color][/u][i][size=2][color=#ffffff]- Combines all of the changes of the previous versions\n<br />\n<br />[/color][color=#ffffff]- Contains a stack multiplier, raising stack sizes for all inventories by x[/color][color=#ffff00]100 [/color](rounded up for nicer numbers)\n<br />\n<br />[/size]- Implemented a fix for antimatter reactors when using higher stack multipliers[/i][/b]\n<br />[i]\n<br />[/i]\n<br />[color=#ffe599][b]- [u]Installation instructions[/u] -\n<br />[/b][/color][i][b]\n<br />[size=2][color=#fff2cc]1. Go to [/color][i]&lt;YourNoMan'sSkyDirectory&gt;&#92;GAMEDATA&#92;PCBANKS[/i][color=#fff2cc] and check if there is a file called [/color][i]DISABLEMODS.txt[color=#fff2cc] - if so, delete it.\n<br />[/color][/i]\n<br />[color=#fff2cc]2. Now move to [/color][i]&lt;YourNoMan'sSkyDirectory&gt;&#92;GAMEDATA[/i][color=#fff2cc] and create a new folder called [/color][i]MODS[/i][color=#fff2cc].\n<br />[/color]\n<br />[color=#fff2cc]3. Download the mod and unpack the ZIP file. Then copy the folder (eg. \"[/color]cb Remove Technology Overload[color=#fff2cc]\") straight into the [/color][i]MODS[/i][color=#fff2cc] folder.\n<br />[/color]\n<br />[color=#fff2cc]4. That's basically it. You can start up the game now.\n<br />\n<br />[/color][/size][/b][color=#fff2cc][size=2][b]If done correctly, you should be getting a notification warning you about mods when launching the game. Have fun![/b]\n<br />[/size][/color]\n<br />[/i]\n<br />[size=2][i]\n<br />[b][color=#00ffff]Please feel free to let me know what you think of the new changes or report any issues in the comments, thank you. I also would like to say [/color][color=#00ff00]thank you for supporting this mod until now[/color][color=#00ffff], this community is absolutely amazing.[/color]\n<br />\n<br />[color=#00ffff]I hope you'll have a great time playing this awesome game. \n<br />\n<br />Cheers! :)[/color][/b][/i][/size][/font][i]\n<br />[/i][/center][font=Lucida Sans Unicode][size=3][b]\n<br />[/b]\n<br />[/size][/font]",
-    "state": "normal",
-    "warningMessage": "",
-    "files": [
-      {
-        "id": [
-          42523,
-          1634
-        ],
-        "uid": 7017976604187,
-        "file_id": 42523,
-        "name": "Remove Technology Overload 6.0",
-        "version": "6.0",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
-        "size": 2,
-        "file_name": "Remove Technology Overloard 6.0-2162-6-0-1756458883.zip",
-        "uploaded_timestamp": 1756458883,
-        "uploaded_time": "2025-08-29T09:14:43.000+00:00",
-        "mod_version": "6.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/69a10f95ea0799e89fd835e0b1ec03aa1f51c61453dc21da2a12cd9c75eb102d/detection/f-69a10f95ea0799e89fd835e0b1ec03aa1f51c61453dc21da2a12cd9c75eb102d-1756458885",
-        "description": "Removes technology overload.\n<br />\n<br />6.21 Remnant Compatible",
-        "size_kb": 2,
-        "size_in_bytes": 1809,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2162/Remove Technology Overloard 6.0-2162-6-0-1756458883.zip.json"
-      },
-      {
-        "id": [
-          42524,
-          1634
-        ],
-        "uid": 7017976604188,
-        "file_id": 42524,
-        "name": "Remove Technology Overload Plus 6.0",
-        "version": "6.0",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": false,
-        "size": 5,
-        "file_name": "Remove Technology Overload Plus 6.0-2162-6-0-1756458943.zip",
-        "uploaded_timestamp": 1756458943,
-        "uploaded_time": "2025-08-29T09:15:43.000+00:00",
-        "mod_version": "6.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b85c1689274e56240a1d11139dd00173fcbfc1c3f85b16639ebda04b685fd2a2/detection/f-b85c1689274e56240a1d11139dd00173fcbfc1c3f85b16639ebda04b685fd2a2-1756458947",
-        "description": "Removes technology overload, fixes UI/inventory bounds and expands cargo and tech slots of just about anything depending on it's class.\n<br />\n<br />6.21 Remnant Compatible",
-        "size_kb": 5,
-        "size_in_bytes": 4765,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2162/Remove Technology Overload Plus 6.0-2162-6-0-1756458943.zip.json"
-      },
-      {
-        "id": [
-          42525,
-          1634
-        ],
-        "uid": 7017976604189,
-        "file_id": 42525,
-        "name": "Remove Technology Overload Ultimate 6.0",
-        "version": "6.0",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": false,
-        "size": 10,
-        "file_name": "Remove Technology Overload Ultimate 6.0-2162-6-0-1756458987.zip",
-        "uploaded_timestamp": 1756458987,
-        "uploaded_time": "2025-08-29T09:16:27.000+00:00",
-        "mod_version": "6.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/869a0c2a1bab434a137eeca005f1399ae050ecc1e77008e36150627d773aa8a5/detection/f-869a0c2a1bab434a137eeca005f1399ae050ecc1e77008e36150627d773aa8a5-1756458989",
-        "description": "Removes technology overload, fixes UI/inventory bounds, expands cargo and tech slots of just about anything depending on it's class and increases all cargo stack sizes by x100 for all difficulties.\n<br />\n<br />6.21 Remnant Compatible",
-        "size_kb": 10,
-        "size_in_bytes": 9762,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2162/Remove Technology Overload Ultimate 6.0-2162-6-0-1756458987.zip.json"
-      },
-      {
-        "id": [
-          42526,
-          1634
-        ],
-        "uid": 7017976604190,
-        "file_id": 42526,
-        "name": "Remove Technology Overload 6.0 - LUA files",
-        "version": "6.0",
-        "category_id": 5,
-        "category_name": "MISCELLANEOUS",
-        "is_primary": false,
-        "size": 6,
-        "file_name": "Remove Technology Overload 6.0 - LUA files-2162-6-0-1756459144.zip",
-        "uploaded_timestamp": 1756459144,
-        "uploaded_time": "2025-08-29T09:19:04.000+00:00",
-        "mod_version": "6.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/9fad877814a5214353fcb0137ed5051e83bd0ba8742c4acd2284204f2ee234a5/detection/f-9fad877814a5214353fcb0137ed5051e83bd0ba8742c4acd2284204f2ee234a5-1756459146",
-        "description": "These are the .lua files for all versions of the mod for those that run into rare mod conflicts.\n<br />Requires AMUMSS version 5.4.5.0W or later. For use with MBINCompiler version 6.00.0+.\n<br />\n<br />6.21 Remnant Compatible",
-        "size_kb": 6,
-        "size_in_bytes": 5903,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2162/Remove Technology Overload 6.0 - LUA files-2162-6-0-1756459144.zip.json"
-      }
-    ],
-    "changelogs": {
-      "3.82": [
-        "Updated for NMS 3.82"
-      ],
-      "3.81": [
-        "Updated for NMS 3.81"
-      ],
-      "3.75": [
-        "Created for NMS 3.75"
-      ],
-      "3.82a": [
-        "Added a plus version with expanded features. (tech and inventory of most things expanded)"
-      ],
-      "3.84": [
-        "Updated for NMS 3.84"
-      ],
-      "3.87": [
-        "Updated for NMS 3.87 OUTLAWS"
-      ],
-      "3.88": [
-        "Updated for NMS 3.88 OUTLAWS"
-      ],
-      "3.89": [
-        "Updated for NMS 3.89"
-      ],
-      "3.90": [
-        "Updated for NMS 3.90"
-      ],
-      "3.91": [
-        "Updated for NMS 3.91, added a new \"Ultimate\" version, making it three versions total to choose from."
-      ],
-      "3.97": [
-        "Updated for NMS 3.97 ENDURANCE"
-      ],
-      "3.98": [
-        "Updated for NMS 3.98 ENDURANCE"
-      ],
-      "3.99": [
-        "Updated for NMS 3.99"
-      ],
-      "4.00": [
-        "Updated for NMS 4.00 WAYPOINT"
-      ],
-      "4.00 Beta": [
-        "Reworked the mod for the new Waypoint changes, v3 Beta release"
-      ],
-      "4.04": [
-        "Reworked and updated for NMS 4.04"
-      ],
-      "4.05": [
-        "Updated for NMS 4.05"
-      ],
-      "4.06": [
-        "Updated for NMS 4.06"
-      ],
-      "4.07": [
-        "Updated for NMS 4.07"
-      ],
-      "4.08": [
-        "Updated for NMS 4.08"
-      ],
-      "4.10": [
-        "Updated for NMS 4.10 Fractal"
-      ],
-      "4.12": [
-        "Updated for NMS 4.12 Fractal"
-      ],
-      "4.14": [
-        "Updated for NMS 4.14 Fractal"
-      ],
-      "4.20": [
-        "Updated for NMS 4.20 Interceptor"
-      ],
-      "4.22": [
-        "Updated for NMS 4.22 Interceptor"
-      ],
-      "4.25": [
-        "Updated for NMS 4.25 Interceptor"
-      ],
-      "4.30": [
-        "Updated for NMS 4.30 Singularity"
-      ],
-      "4.33": [
-        "Updated for NMS 4.33 Singularity"
-      ],
-      "4.34": [
-        "Updated for NMS 4.34 Singularity"
-      ],
-      "4.36": [
-        "Updated for NMS 4.36 Singularity"
-      ],
-      "4.36.2": [
-        "Updated for NMS 4.36.2 Singularity"
-      ],
-      "4.40": [
-        "Updated for NMS 4.40 Echoes"
-      ],
-      "4.41": [
-        "Updated for NMS 4.41 Echoes"
-      ],
-      "4.43": [
-        "Updated for NMS 4.43 Echoes"
-      ],
-      "4.44": [
-        "Updated for NMS 4.44 Echoes"
-      ],
-      "4.45": [
-        "Updated for NMS 4.45 Echoes"
-      ],
-      "4.46": [
-        "Updated for NMS 4.46 Echoes"
-      ],
-      "4.50": [
-        "Updated for NMS 4.50 Omega"
-      ],
-      "4.52": [
-        "Updated for NMS 4.52 Omega"
-      ],
-      "4.60": [
-        "Updated for NMS 4.60 Orbital"
-      ],
-      "4.64": [
-        "Updated for NMS 4.64 Orbital"
-      ],
-      "4.65": [
-        "Updated for NMS 4.65 Orbital"
-      ],
-      "4.65-hotfix": [
-        "Hotfix for antimatter reactor output with high stack multipliers set, now defaults to max 20 units produced like vanilla NMS."
-      ],
-      "4.70": [
-        "Updated for NMS 4.70 Adrift"
-      ],
-      "5.00": [
-        "Updated for NMS 5.00 Worlds Part 1"
-      ],
-      "5.05": [
-        "Updated for NMS 5.05 Worlds Part 1"
-      ],
-      "5.10": [
-        "Updated for NMS 5.10 Aquarius"
-      ],
-      "5.12": [
-        "Updated for NMS 5.12 Aquarius"
-      ],
-      "5.20": [
-        "Updated for NMS 5.20 Aquarius"
-      ],
-      "5.21": [
-        "Mod still working fine for Patch 5.21 The Cursed"
-      ],
-      "5.29": [
-        "Updated for NMS 5.29 The Cursed (Holiday Expeditions)"
-      ],
-      "5.51": [
-        "The mod has been rebuilt for No Man's Sky's Worlds Part II update."
-      ],
-      "5.61": [
-        "Repacked for NMS 5.61 Relics update",
-        "Updated install instructions",
-        "Updated LUA files"
-      ],
-      "5.71": [
-        "No update necessary. Mod still works fine for No Man's Sky's 5.71 BEACON update."
-      ],
-      "6.00": [
-        "Updated for NMS 6.00 Voyagers",
-        "Added support for the new Corvette type ships",
-        "Updated install instructions to make more sense for newer NMS versions"
       ]
     }
   },
