@@ -54,6 +54,12 @@
         "warningMessage": ""
     },
     {
+        "name": "Exosolar's and Babs' Beyond Base Building",
+        "id": "1096",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "Increased Draw Distance and LOD",
         "id": "1181",
         "state": "warning",
@@ -226,11 +232,5 @@
         "id": "4313",
         "state": "normal",
         "warningMessage": ""
-    },
-    {
-        "name": "OpenComposite for No Man's Sky VR - VDXR",
-        "id": "4363",
-        "state": "experimental",
-        "warningMessage": "Experimental or work-in-progress mod"
     }
 ]
