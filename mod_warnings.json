@@ -12,6 +12,12 @@
         "warningMessage": "Not updated in 7 years"
     },
     {
+        "name": "JJs Better Ships",
+        "id": "547",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "Atlas Language Assistant",
         "id": "572",
         "state": "warning",
@@ -70,12 +76,6 @@
         "id": "1268",
         "state": "warning",
         "warningMessage": "Not updated in 4 years"
-    },
-    {
-        "name": "Fine LOD",
-        "id": "1316",
-        "state": "normal",
-        "warningMessage": ""
     },
     {
         "name": "(Synthesis) Dead Planet Changes",
