@@ -12,12 +12,6 @@
         "warningMessage": "Not updated in 7 years"
     },
     {
-        "name": "JJs Better Ships",
-        "id": "547",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Atlas Language Assistant",
         "id": "572",
         "state": "warning",
@@ -134,6 +128,12 @@
     {
         "name": "No Man's - Prepare to Sky Edition (PTSd) -- A Progression-Difficulty-Balance Overhaul",
         "id": "2225",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More Words",
+        "id": "2333",
         "state": "normal",
         "warningMessage": ""
     },
