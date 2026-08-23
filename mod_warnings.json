@@ -12,6 +12,12 @@
         "warningMessage": "Not updated in 7 years"
     },
     {
+        "name": "JJs Better Ships",
+        "id": "547",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "Atlas Language Assistant",
         "id": "572",
         "state": "warning",
@@ -44,12 +50,6 @@
     {
         "name": "Fast Actions 7.1",
         "id": "1081",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "HD Space Planet Clouds 2.2",
-        "id": "1083",
         "state": "normal",
         "warningMessage": ""
     },
