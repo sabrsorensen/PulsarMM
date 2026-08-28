@@ -24712,6 +24712,521 @@
     }
   },
   {
+    "mod_id": 1677,
+    "name": "Instant Text Display - ITD",
+    "summary": "This mod displays the text pretty instantly when interacting with objects or aliens (NPCs). Compatible with NMS \"THE SWARM\" v.6.44 (Steam's build 23583900).",
+    "version": "6.20",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/1677/1677-1601846759-780937301.jpeg",
+    "author": "NooBzPoWaH - Backing vocals by Babscoole",
+    "updated_timestamp": 1770898362,
+    "created_timestamp": 1600486057,
+    "description": "[center][size=3]This mod simply displays the text pretty instantly when interacting with objects or aliens (NPCs).\n<br />\n<br />If you leave the left mouse button pressed (players with keyboard/mouse, or the A button for XBOX 360 controller's users),\n<br />the text will be displayed even faster, if that's even possible.[/size]\n<br />\n<br />\n<br />[size=3]**************************************************************************************[/size][/center]\n<br />\n<br />\n<br />\n<br />[center][b]Compatibility[/b] : \n<br />\n<br />[size=4][color=#00ffff]Compatible with [b]NMS \"[url=https://www.nomanssky.com/swarm-update/]THE SWARM[/url][/b][/color][url=https://www.nomanssky.com/2024/10/expedition-sixteen-the-cursed/][color=#00ffff][b]\"[/b] v.[/color][/url][url=https://www.nomanssky.com/release-log/]6.44\n<br />[/url][color=#00ffff]( Steam's Build [/color][url=https://steamdb.info/app/275850/depots/]23583900[/url] [color=#00ffff]).[/color][/size][/center]\n<br />[center]\n<br />[b][color=#ff0000][u][size=4]3xperimental branch is not supported ![/size][/u][/color]\n<br />[/b]\n<br />[b]Modified File[/b][size=3] :[/size]\n<br />\n<br />[b][size=3]METADATA&#92;UI&#92;SPECIALTEXTPUNCTUATIONDELAYDATA.MBIN[/size][/b]\n<br /> [/center]\n<br />[center][size=3]***************************************************************************************\n<br />\n<br />Heavily inspired by \"[url=https://nomansskymods.com/mods/faster-text-display/]Quantus Mod[/url]\",\n<br />so all credits goes to him !\n<br />\n<br />\n<br />***************************************************************************************\n<br />\n<br />[b]Installation Instructions[/b] :\n<br />\n<br />Manually :\n<br />\n<br />Put the \"Instant Text Display\" folder which is inside the archive ( .zip ) in your\n<br />[b][color=#00ffff]InstallPath&#92;No Man's Sky&#92;GAMEDATA&#92;MODS folder[/color][/b].\n<br />( and [b][color=#ff0000]Not in [/color][color=#ff0000]No Man's Sky&#92;GAMEDATA&#92;PCBANKS&#92;MODS[/color][/b] as it used to be )\n<br />\n<br />or\n<br />\n<br />Via Vortex ( Nexus new Mod Manager ) :\n<br />\n<br />Just click on the \"Mod Manager Download\" button.\n<br />\n<br />The Mod is provided as a replacement (MBIN)\n<br />since it's modifying the entire file.\n<br />\n<br />New lua file provided for the new \"[url=https://github.com/HolterPhylo/AMUMSS/releases/]AMUMSS[/url]\" v5.4.1.1W+.\n<br />( Thanks to Makto, initial LUA &amp; gh0stwizard, fixed LUA )\n<br />\n<br />\n<br />***************************************************************************************\n<br />\n<br />[b]Uninstallation :[/b]\n<br />\n<br />Such an awful thing to do...\n<br />Delete the \"Instant Text Display\" folder from your MODS folder, or\n<br />Disable/Uninstall and Remove via Vortex.\n<br />That's it. Bye Bye ! ;)\n<br />\n<br />\n<br />****************************************************************************************\n<br />\n<br />\n<br />[b][color=#6aa84f]Thanks to monkeyman192 for keeping updating his great tool \"[/color][/b][b][url=https://github.com/monkeyman192/MBINCompiler/releases]MBINCompiler[/url][color=#6aa84f]\".[/color]\n<br />[color=#f1c232]Thanks to all members of the [url=https://discord.com/channels/215514623384748034/610638164150976541]No Man's Sky Modding Discord Channel[/url] for their kind help and insight.[/color]\n<br />[color=#cc0000]All Credit goes to Quantus with all my Thanks as well for releasing his \"Faster-Text-Display\" Mod in the first place.[/color][/b][/size][/center]\n<br />",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          9268,
+          1634
+        ],
+        "uid": 7017976570932,
+        "file_id": 9268,
+        "name": "Instant Text Display",
+        "version": "2.62",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 2,
+        "file_name": "Instant Text Display-1677-2-62-1600484727.zip",
+        "uploaded_timestamp": 1600484727,
+        "uploaded_time": "2020-09-19T03:05:27.000+00:00",
+        "mod_version": "2.62",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4e0777d0cd6f8a3e13ff083e5f5c086be28588d8895a0b18f9bdd5dd83953138/detection/f-4e0777d0cd6f8a3e13ff083e5f5c086be28588d8895a0b18f9bdd5dd83953138-1600484729",
+        "description": "ITD initial release v2.62 for NMS DESOLATION v.2.62 (Steam's build 5384364).",
+        "size_kb": 2,
+        "size_in_bytes": null,
+        "changelog_html": "Initial Release for NMS \"DESOLATION\" v.2.62 (Steam's build 5384364)",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-2-62-1600484727.zip.json"
+      },
+      {
+        "id": [
+          9269,
+          1634
+        ],
+        "uid": 7017976570933,
+        "file_id": 9269,
+        "name": "Instant Text Display",
+        "version": "2.62",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 2,
+        "file_name": "Instant Text Display-1677-2-62-1600486266.zip",
+        "uploaded_timestamp": 1600486266,
+        "uploaded_time": "2020-09-19T03:31:06.000+00:00",
+        "mod_version": "2.62",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4e0777d0cd6f8a3e13ff083e5f5c086be28588d8895a0b18f9bdd5dd83953138/detection/f-4e0777d0cd6f8a3e13ff083e5f5c086be28588d8895a0b18f9bdd5dd83953138-1600484729",
+        "description": "ITD initial release v.2.62 for NMS \"DESOLATION\" v.2.62.\n<br />[b]Still compatible with NMS \"WAYPOINT\" v.4.05 (Steam's Build 9753868).[/b]",
+        "size_kb": 2,
+        "size_in_bytes": 0,
+        "changelog_html": "Initial Release for NMS \"DESOLATION\" v.2.62 (Steam's build 5384364)",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-2-62-1600486266.zip.json"
+      },
+      {
+        "id": [
+          11475,
+          1634
+        ],
+        "uid": 7017976573139,
+        "file_id": 11475,
+        "name": "Instant Text Display LUA Script",
+        "version": "2.62",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 1,
+        "file_name": "Instant Text Display LUA Script-1677-2-62-1614202866.zip",
+        "uploaded_timestamp": 1614202866,
+        "uploaded_time": "2021-02-24T21:41:06.000+00:00",
+        "mod_version": "2.62",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c90f66e925494c4cfe1d9e602248a74f4bdf05cc91ae6be45507022e69b77703/detection/f-c90f66e925494c4cfe1d9e602248a74f4bdf05cc91ae6be45507022e69b77703-1614202868",
+        "description": "Script file (.lua) to be used with AMUMSS",
+        "size_kb": 1,
+        "size_in_bytes": 982,
+        "changelog_html": "Initial Release for NMS \"DESOLATION\" v.2.62 (Steam's build 5384364)",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display LUA Script-1677-2-62-1614202866.zip.json"
+      },
+      {
+        "id": [
+          11476,
+          1634
+        ],
+        "uid": 7017976573140,
+        "file_id": 11476,
+        "name": "Instant Text Display LUA Script",
+        "version": "2.62",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "Instant Text Display LUA Script-1677-2-62-1614203441.zip",
+        "uploaded_timestamp": 1614203441,
+        "uploaded_time": "2021-02-24T21:50:41.000+00:00",
+        "mod_version": "2.62",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/58455fed751695c69ad18016eeec2af972321755614c304fec371d75fd9f7c97/detection/f-58455fed751695c69ad18016eeec2af972321755614c304fec371d75fd9f7c97-1614203445",
+        "description": "Script file (.lua) to be used with AMUMSS",
+        "size_kb": 1,
+        "size_in_bytes": 989,
+        "changelog_html": "Initial Release for NMS \"DESOLATION\" v.2.62 (Steam's build 5384364)",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display LUA Script-1677-2-62-1614203441.zip.json"
+      },
+      {
+        "id": [
+          21994,
+          1634
+        ],
+        "uid": 7017976583658,
+        "file_id": 21994,
+        "name": "Instant Text Display",
+        "version": "4.06",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 3,
+        "file_name": "Instant Text Display-1677-4-06-1667998819.zip",
+        "uploaded_timestamp": 1667998819,
+        "uploaded_time": "2022-11-09T13:00:19.000+00:00",
+        "mod_version": "4.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/3c892986da357d16523c6aaf9d8f628294e17d86572b2a145f59314e30bd3093/detection/f-3c892986da357d16523c6aaf9d8f628294e17d86572b2a145f59314e30bd3093-1667998825",
+        "description": "[b]First update still compatible with NMS \"SINGULARITY\" Expedition Ten v.4.37 ( Steam's Build 11692643 ).[/b]",
+        "size_kb": 3,
+        "size_in_bytes": 3426,
+        "changelog_html": "Updated for NMS \"WAYPOINT\" v.4.06 (Steam's Build 9872544).",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-4-06-1667998819.zip.json"
+      },
+      {
+        "id": [
+          27236,
+          1634
+        ],
+        "uid": 7017976588900,
+        "file_id": 27236,
+        "name": "Instant Text Display",
+        "version": "4.41",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 3,
+        "file_name": "Instant Text Display-1677-4-41-1693033038.zip",
+        "uploaded_timestamp": 1693033038,
+        "uploaded_time": "2023-08-26T06:57:18.000+00:00",
+        "mod_version": "4.41",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/84be50dc666e818e2e3541649aa74e076d93802ac6d70ca05904d370b757b4a5/detection/f-84be50dc666e818e2e3541649aa74e076d93802ac6d70ca05904d370b757b4a5-1693033042",
+        "description": "[b]Compatible with NMS \"ECHOES\" Expedition Eleven v.4.43 ( Steam's Build 12069674 ).[/b]",
+        "size_kb": 3,
+        "size_in_bytes": 3480,
+        "changelog_html": "Updated for NMS \"ECHOES\" Expedition Eleven v.4.41 ( Steam's Build 12034921 ).",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-4-41-1693033038.zip.json"
+      },
+      {
+        "id": [
+          27992,
+          1634
+        ],
+        "uid": 7017976589656,
+        "file_id": 27992,
+        "name": "Instant Text Display",
+        "version": "4.44",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 3,
+        "file_name": "Instant Text Display-1677-4-44-1694319194.zip",
+        "uploaded_timestamp": 1694319194,
+        "uploaded_time": "2023-09-10T04:13:14.000+00:00",
+        "mod_version": "4.44",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/efc791bf4d24b4a4fe0bd37ab824717fc1383f5c9220167ba8e53d08a8d7cf96/detection/f-efc791bf4d24b4a4fe0bd37ab824717fc1383f5c9220167ba8e53d08a8d7cf96-1694319216",
+        "description": "[b]Compatible with NMS \"ORBITAL\" v.4.64 (Steam's build 13995455).[/b]",
+        "size_kb": 3,
+        "size_in_bytes": 3481,
+        "changelog_html": "Updated for 4.44",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-4-44-1694319194.zip.json"
+      },
+      {
+        "id": [
+          31781,
+          1634
+        ],
+        "uid": 7017976593445,
+        "file_id": 31781,
+        "name": "Instant Text Display",
+        "version": "4.65",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 3,
+        "file_name": "Instant Text Display-1677-4-65-1714586474.zip",
+        "uploaded_timestamp": 1714586474,
+        "uploaded_time": "2024-05-01T18:01:14.000+00:00",
+        "mod_version": "4.65",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/657c57a4651873051b773885e79f73f1c1d955e674bb33debd94a644cd3dbcd9/detection/f-657c57a4651873051b773885e79f73f1c1d955e674bb33debd94a644cd3dbcd9-1714586589",
+        "description": "[b]Compatible with NMS \"ADRIFT\" v.4.72 (Steam's build 14624643).[/b]",
+        "size_kb": 3,
+        "size_in_bytes": 3516,
+        "changelog_html": "Updated for NMS \"ORBITAL\" v.4.65 (Steam's build 14232068).",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-4-65-1714586474.zip.json"
+      },
+      {
+        "id": [
+          33468,
+          1634
+        ],
+        "uid": 7017976595132,
+        "file_id": 33468,
+        "name": "Instant Text Display",
+        "version": "5.00.1",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 3,
+        "file_name": "Instant Text Display-1677-5-00-1-1721432405.zip",
+        "uploaded_timestamp": 1721432405,
+        "uploaded_time": "2024-07-19T23:40:05.000+00:00",
+        "mod_version": "5.00.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d23765286009491a6f791553214a9dbd822ab9c675069cd549bfb9d5a03419bd/detection/f-d23765286009491a6f791553214a9dbd822ab9c675069cd549bfb9d5a03419bd-1721432751",
+        "description": "[b]Compatible with NMS \"Holiday 2024 Expeditions\" v.5.29 (Steam's build 16706781).[/b]",
+        "size_kb": 3,
+        "size_in_bytes": 3499,
+        "changelog_html": "Updated for NMS \"WORLDS\" v.5.00.1 (Steam's build 15088397).",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-5-00-1-1721432405.zip.json"
+      },
+      {
+        "id": [
+          39013,
+          1634
+        ],
+        "uid": 7017976600677,
+        "file_id": 39013,
+        "name": "Instant Text Display",
+        "version": "5.52",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 3,
+        "file_name": "Instant Text Display-1677-5-52-1738609663.zip",
+        "uploaded_timestamp": 1738609663,
+        "uploaded_time": "2025-02-03T19:07:43.000+00:00",
+        "mod_version": "5.52",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1ed6ee420e35b51bc61b7037c574e8bec3af8de99a002fc487c37c66a4c045aa/detection/f-1ed6ee420e35b51bc61b7037c574e8bec3af8de99a002fc487c37c66a4c045aa-1738609666",
+        "description": "[b]Compatible with NMS \"Worlds Part 2\" v.5.52 (Steam's build 17225766).[/b]",
+        "size_kb": 3,
+        "size_in_bytes": 3021,
+        "changelog_html": "Updated for NMS \"Worlds Part 2\" v.5.52 (Steam's build 17225766).",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-5-52-1738609663.zip.json"
+      },
+      {
+        "id": [
+          39371,
+          1634
+        ],
+        "uid": 7017976601035,
+        "file_id": 39371,
+        "name": "Instant Text Display",
+        "version": "5.54",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 2,
+        "file_name": "Instant Text Display-1677-5-54-1739055684.zip",
+        "uploaded_timestamp": 1739055684,
+        "uploaded_time": "2025-02-08T23:01:24.000+00:00",
+        "mod_version": "5.54",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/6c6d6cc2f34d8013ec1b6a3b71a1f613a940f6dbd5a14e59e2ef927634f61d6f/detection/f-6c6d6cc2f34d8013ec1b6a3b71a1f613a940f6dbd5a14e59e2ef927634f61d6f-1739055688",
+        "description": "[b]Compatible with NMS \"WORLDS PART 2\" v.5.55 (Steam's build 17336353).[/b]",
+        "size_kb": 2,
+        "size_in_bytes": 2003,
+        "changelog_html": "Updated for NMS \"WORLDS PART 2\" v.5.54 (Steam's build 17283571).",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-5-54-1739055684.zip.json"
+      },
+      {
+        "id": [
+          39967,
+          1634
+        ],
+        "uid": 7017976601631,
+        "file_id": 39967,
+        "name": "Instant Text Display",
+        "version": "5.58",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 2,
+        "file_name": "Instant Text Display-1677-5-58-1741178566.zip",
+        "uploaded_timestamp": 1741178566,
+        "uploaded_time": "2025-03-05T12:42:46.000+00:00",
+        "mod_version": "5.58",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1e72cafbcfe2f0123d17b457879fcc324adca274a75d13f900f632b11c56ad5c/detection/f-1e72cafbcfe2f0123d17b457879fcc324adca274a75d13f900f632b11c56ad5c-1741178568",
+        "description": "[b]Compatible with NMS \"RELICS\" v.5.61 (Steam's build 17884758).[/b]",
+        "size_kb": 2,
+        "size_in_bytes": 2124,
+        "changelog_html": "Updated for NMS \"WORLDS PART 2\" v.5.58 (Steam's build 17591082).",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-5-58-1741178566.zip.json"
+      },
+      {
+        "id": [
+          41005,
+          1634
+        ],
+        "uid": 7017976602669,
+        "file_id": 41005,
+        "name": "Instant Text Display",
+        "version": "5.64",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 4,
+        "file_name": "Instant Text Display-1677-5-64-1745341064.zip",
+        "uploaded_timestamp": 1745341064,
+        "uploaded_time": "2025-04-22T16:57:44.000+00:00",
+        "mod_version": "5.64",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/38777313ed5286e48cb8b64b0ac59b45b48e9b8335d1455baef8980338563923/detection/f-38777313ed5286e48cb8b64b0ac59b45b48e9b8335d1455baef8980338563923-1745341067",
+        "description": "[b]Compatible with NMS \"BEACON\" v.5.72 (Steam's build 18841749).[/b]\n<br />\n<br />[b]New lua file provided for the new AMUMSS v5.4.1.1W+.[/b]",
+        "size_kb": 4,
+        "size_in_bytes": 4110,
+        "changelog_html": "Updated for NMS \"RELICS\" v.5.64 (Steam's build 18055638).<br />New initial lua file provided by Makto for the new AMUMSS v5.3.5.1W.",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-5-64-1745341064.zip.json"
+      },
+      {
+        "id": [
+          41006,
+          1634
+        ],
+        "uid": 7017976602670,
+        "file_id": 41006,
+        "name": "Instant Text Display LUA Script",
+        "version": "5.64",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "Instant Text Display LUA Script-1677-5-64-1745341396.zip",
+        "uploaded_timestamp": 1745341396,
+        "uploaded_time": "2025-04-22T17:03:16.000+00:00",
+        "mod_version": "5.64",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0f51b7a79a7092a58d8f77df6dc0f29af5473b691a937f5bd63a0c93c43dfcc6/detection/f-0f51b7a79a7092a58d8f77df6dc0f29af5473b691a937f5bd63a0c93c43dfcc6-1745341398",
+        "description": "Script file (.lua) to be used with AMUMSS v5.4.1.1W+",
+        "size_kb": 1,
+        "size_in_bytes": 977,
+        "changelog_html": "Updated for NMS \"RELICS\" v.5.64 (Steam's build 18055638).<br />New initial lua file provided by Makto for the new AMUMSS v5.3.5.1W.",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display LUA Script-1677-5-64-1745341396.zip.json"
+      },
+      {
+        "id": [
+          41653,
+          1634
+        ],
+        "uid": 7017976603317,
+        "file_id": 41653,
+        "name": "Instant Text Display",
+        "version": "5.72",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 3,
+        "file_name": "Instant Text Display-1677-5-72-1750692890.zip",
+        "uploaded_timestamp": 1750692890,
+        "uploaded_time": "2025-06-23T15:34:50.000+00:00",
+        "mod_version": "5.72",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/225a6744c4d12b8f11d70e40ee16dec19947dd8274838fd7f99576ca115e1aa6/detection/f-225a6744c4d12b8f11d70e40ee16dec19947dd8274838fd7f99576ca115e1aa6-1750692894",
+        "description": "[b]Compatible with NMS \"BEACON\" v.5.75 (Steam's build 19327688).[/b]\n<br />\n<br />\n<br />[b]New fixed lua file provided by gh0stwizard for the new AMUMSS v5.4.1.1W+.[/b]",
+        "size_kb": 3,
+        "size_in_bytes": 3171,
+        "changelog_html": "Updated for NMS \"BEACON\" v.5.72 (Steam's build 18841749).<br />New fixed lua file provided by gh0stwizard for the new AMUMSS v5.4.1.1W.",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-5-72-1750692890.zip.json"
+      },
+      {
+        "id": [
+          41654,
+          1634
+        ],
+        "uid": 7017976603318,
+        "file_id": 41654,
+        "name": "Instant Text Display LUA Script",
+        "version": "5.72",
+        "category_id": 5,
+        "category_name": "MISCELLANEOUS",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "Instant Text Display LUA Script-1677-5-72-1750692997.zip",
+        "uploaded_timestamp": 1750692997,
+        "uploaded_time": "2025-06-23T15:36:37.000+00:00",
+        "mod_version": "5.72",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b069c3fc14ba7ee0e2c05cc832a08ef8c71861ed474411f607212cc9418fbde4/detection/f-b069c3fc14ba7ee0e2c05cc832a08ef8c71861ed474411f607212cc9418fbde4-1750692999",
+        "description": "[b]Fixed script file (.lua) provided by gh0stwizard to be used with AMUMSS v5.4.1.1W+.[/b]",
+        "size_kb": 1,
+        "size_in_bytes": 1027,
+        "changelog_html": "Updated for NMS \"BEACON\" v.5.72 (Steam's build 18841749).<br />New fixed lua file provided by gh0stwizard for the new AMUMSS v5.4.1.1W.",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display LUA Script-1677-5-72-1750692997.zip.json"
+      },
+      {
+        "id": [
+          42444,
+          1634
+        ],
+        "uid": 7017976604108,
+        "file_id": 42444,
+        "name": "Instant Text Display",
+        "version": "6.0",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 3,
+        "file_name": "Instant Text Display-1677-6-0-1756382606.zip",
+        "uploaded_timestamp": 1756382606,
+        "uploaded_time": "2025-08-28T12:03:26.000+00:00",
+        "mod_version": "6.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/2cb7645340b35f5699d7a97fe9aed90ac99cdd4e1e5397684628d1532a38115b/detection/f-2cb7645340b35f5699d7a97fe9aed90ac99cdd4e1e5397684628d1532a38115b-1756382607",
+        "description": "[b]Compatible with NMS \"VOYAGERS\" v.6.04 (Steam's build 19909216).[/b]",
+        "size_kb": 3,
+        "size_in_bytes": 3174,
+        "changelog_html": "Updated for NMS \"VOYAGERS\" v.6.0 (Steam's build 19754095).",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-6-0-1756382606.zip.json"
+      },
+      {
+        "id": [
+          43308,
+          1634
+        ],
+        "uid": 7017976604972,
+        "file_id": 43308,
+        "name": "Instant Text Display",
+        "version": "6.04",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 3,
+        "file_name": "Instant Text Display-1677-6-04-1757879199.zip",
+        "uploaded_timestamp": 1757879199,
+        "uploaded_time": "2025-09-14T19:46:39.000+00:00",
+        "mod_version": "6.04",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1c26252a49a4e3cccdb42ce1101630a6a3edcd06d3e460e5bfdacda76fb6e3cd/detection/f-1c26252a49a4e3cccdb42ce1101630a6a3edcd06d3e460e5bfdacda76fb6e3cd-1757879205",
+        "description": "[b]Compatible with NMS \"HOLIDAY EXPEDITIONS 2025\" v.6.18 (Steam's build 21006256).[/b]",
+        "size_kb": 3,
+        "size_in_bytes": 3175,
+        "changelog_html": "Updated for NMS \"VOYAGERS\" v.6.04 (Steam's build 19909216).<br />Corrected a bug with controllers.",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-6-04-1757879199.zip.json"
+      },
+      {
+        "id": [
+          45596,
+          1634
+        ],
+        "uid": 7017976607260,
+        "file_id": 45596,
+        "name": "Instant Text Display",
+        "version": "6.20",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 3,
+        "file_name": "Instant Text Display-1677-6-20-1770898362.zip",
+        "uploaded_timestamp": 1770898362,
+        "uploaded_time": "2026-02-12T12:12:42.000+00:00",
+        "mod_version": "6.20",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/99a1e8e131f98e4d7ed766bd6f7f3015f5721af1678c178a19e8642513f5fd7d",
+        "description": "[b]Compatible with NMS \"THE SWARM\" v.6.44 (Steam's build 23583900).[/b]",
+        "size_kb": 3,
+        "size_in_bytes": 3174,
+        "changelog_html": "Updated for NMS \"REMNANT\" v.6.21 (Steam's build 21900231).",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-6-20-1770898362.zip.json"
+      }
+    ],
+    "changelogs": {
+      "2.62": [
+        "Initial Release for NMS \"DESOLATION\" v.2.62 (Steam's build 5384364)"
+      ],
+      "4.06": [
+        "Updated for NMS \"WAYPOINT\" v.4.06 (Steam's Build 9872544)."
+      ],
+      "4.41": [
+        "Updated for NMS \"ECHOES\" Expedition Eleven v.4.41 ( Steam's Build 12034921 )."
+      ],
+      "4.44": [
+        "Updated for 4.44"
+      ],
+      "4.65": [
+        "Updated for NMS \"ORBITAL\" v.4.65 (Steam's build 14232068)."
+      ],
+      "5.00.1": [
+        "Updated for NMS \"WORLDS\" v.5.00.1 (Steam's build 15088397)."
+      ],
+      "5.52": [
+        "Updated for NMS \"Worlds Part 2\" v.5.52 (Steam's build 17225766)."
+      ],
+      "5.54": [
+        "Updated for NMS \"WORLDS PART 2\" v.5.54 (Steam's build 17283571)."
+      ],
+      "5.58": [
+        "Updated for NMS \"WORLDS PART 2\" v.5.58 (Steam's build 17591082)."
+      ],
+      "5.64": [
+        "Updated for NMS \"RELICS\" v.5.64 (Steam's build 18055638).<br />New initial lua file provided by Makto for the new AMUMSS v5.3.5.1W."
+      ],
+      "5.72": [
+        "Updated for NMS \"BEACON\" v.5.72 (Steam's build 18841749).<br />New fixed lua file provided by gh0stwizard for the new AMUMSS v5.4.1.1W."
+      ],
+      "6.0": [
+        "Updated for NMS \"VOYAGERS\" v.6.0 (Steam's build 19754095)."
+      ],
+      "6.04": [
+        "Updated for NMS \"VOYAGERS\" v.6.04 (Steam's build 19909216).<br />Corrected a bug with controllers."
+      ],
+      "6.20": [
+        "Updated for NMS \"REMNANT\" v.6.21 (Steam's build 21900231)."
+      ]
+    }
+  },
+  {
     "mod_id": 1877,
     "name": "NeoMoreSalvageData_Nanites_Words Expeditions (Waypoint)",
     "summary": "More:<br />Salvage data (random drop between 3-15x)<br />Nanites (twice more as usual)<br />Words (You will learn 10x words from stones)",
@@ -40440,190 +40955,6 @@
         "size_in_bytes": 787769,
         "changelog_html": null,
         "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3617/Inventory Background Fix-3617-1-0-1751893739.zip.json"
-      }
-    ],
-    "changelogs": {}
-  },
-  {
-    "mod_id": 3701,
-    "name": "Corvette No Complexity Limit",
-    "summary": "Corvette-class ships no complexity limit. 克尔维特级星舰(小型护卫舰)无复杂度限制。",
-    "version": "6.45.1",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3701/3701-1758172631-120228289.png",
-    "author": "DY230",
-    "updated_timestamp": 1786698119,
-    "created_timestamp": 1756324548,
-    "description": "Corvette-class ships no complexity limit.\n<br />克尔维特级星舰(小型护卫舰)无复杂度限制。\n<br />\n<br />[b]#IMPORTANT / 重点#[/b]\n<br />[color=#ff0000][b]Too many parts can make the game STUCK!!![/b][/color]\n<br />[color=#ff0000][b]太多部件会让游戏很卡！！！[/b][/color]\n<br />\n<br />[b]#INSTALL / 安装#[/b]\n<br />Download and extract the archive.\n<br />Place the entire \"___230_CorvetteNoComplexityLimit\" folder into: [u][b]GAMEDATA&#92;MODS&#92;[/b][/u]\n<br />下载并解压压缩包。\n<br />将整个 \"___230_CorvetteNoComplexityLimit\" 文件夹放入：[u][b]GAMEDATA&#92;MODS&#92;[/b][/u]\n<br />\n<br />[b]#GUIDE / 指南#[/b]\n<br />Manual mod installation guide:\n<br />[url=https://nomanssky.fandom.com/wiki/Mods#Installing_Mods]https://nomanssky.fandom.com/wiki/Mods#Installing_Mods[/url]\n<br />无人深空 MOD 安装教学（B站@我值500G噢）：\n<br />[url=https://www.bilibili.com/video/BV1AGKWeyE1J/]https://www.bilibili.com/video/BV1AGKWeyE1J/[/url]\n<br />\n<br />[b]#Troubleshooting / 排错#[/b]\n<br />📌If the mod is installed correctly but not working, try deleting:\n<br />[u][b]No Man's Sky&#92;Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/b][/u]\n<br />and restart the game.\n<br />📌如果正确安装后无效，尝试删除：\n<br />[u][b]No Man's Sky&#92;Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/b][/u]\n<br />并重启游戏。\n<br />\n<br />[b]#CREDITS / 鸣谢#[/b]\n<br />Hello Games / Nexus Mods / MBINCompiler / AMUMSS\n<br />and All amazing modders\n<br />以及所有其他了不起的mod作者",
-    "state": "normal",
-    "warningMessage": "",
-    "files": [
-      {
-        "id": [
-          42384,
-          1634
-        ],
-        "uid": 7017976604048,
-        "file_id": 42384,
-        "name": "BuildableShip 10x",
-        "version": "6.00",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 1,
-        "file_name": "BuildableShip 10x-3701-6-00-1756323395.zip",
-        "uploaded_timestamp": 1756323395,
-        "uploaded_time": "2025-08-27T19:36:35.000+00:00",
-        "mod_version": "6.00",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0ca716bed29695fbddf8d2132aa444c36cd36fec38cf4c5a8b900ab7e4047a4f/detection/f-0ca716bed29695fbddf8d2132aa444c36cd36fec38cf4c5a8b900ab7e4047a4f-1756323398",
-        "description": "No part limits\n<br />Complexity limit to 1000 (Orginal 100)",
-        "size_kb": 1,
-        "size_in_bytes": 837,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/BuildableShip 10x-3701-6-00-1756323395.zip.json"
-      },
-      {
-        "id": [
-          42385,
-          1634
-        ],
-        "uid": 7017976604049,
-        "file_id": 42385,
-        "name": "BuildableShip 99999",
-        "version": "6.00",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 1,
-        "file_name": "BuildableShip 99999-3701-6-00-1756323431.zip",
-        "uploaded_timestamp": 1756323431,
-        "uploaded_time": "2025-08-27T19:37:11.000+00:00",
-        "mod_version": "6.00",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/06df6ad9a2f2befe0f13f43e8c154591edbee552c10270394a6cfd379008f07a/detection/f-06df6ad9a2f2befe0f13f43e8c154591edbee552c10270394a6cfd379008f07a-1756323434",
-        "description": "No part limits\n<br />Complexity limit to 99999 (Orginal 100)",
-        "size_kb": 1,
-        "size_in_bytes": 849,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/BuildableShip 99999-3701-6-00-1756323431.zip.json"
-      },
-      {
-        "id": [
-          42751,
-          1634
-        ],
-        "uid": 7017976604415,
-        "file_id": 42751,
-        "name": "BuildableShip 99999 EXML",
-        "version": "6.01",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 1,
-        "file_name": "BuildableShip 99999 EXML-3701-6-01-1756698417.zip",
-        "uploaded_timestamp": 1756698417,
-        "uploaded_time": "2025-09-01T03:46:57.000+00:00",
-        "mod_version": "6.01",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/452ee210684cc8ac8c281551c1711a428ff6e851db3dc84562850e3bf4c7e40e/detection/f-452ee210684cc8ac8c281551c1711a428ff6e851db3dc84562850e3bf4c7e40e-1756698422",
-        "description": "Corvette-class ships no complexity limit\n<br />克尔维特级星舰(小型护卫舰)无复杂度限制\n<br />✅EXML - Still working fine so far(到目前为止仍然工作正常)",
-        "size_kb": 1,
-        "size_in_bytes": 866,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/BuildableShip 99999 EXML-3701-6-01-1756698417.zip.json"
-      },
-      {
-        "id": [
-          42752,
-          1634
-        ],
-        "uid": 7017976604416,
-        "file_id": 42752,
-        "name": "BuildableShip 99999 MBIN",
-        "version": "6.01",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 1,
-        "file_name": "BuildableShip 99999 MBIN-3701-6-01-1756698478.zip",
-        "uploaded_timestamp": 1756698478,
-        "uploaded_time": "2025-09-01T03:47:58.000+00:00",
-        "mod_version": "6.01",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/83b52beafec7dc3cb3ae7fd40375a426dda80f1bce579a74790a7405f28e7685/detection/f-83b52beafec7dc3cb3ae7fd40375a426dda80f1bce579a74790a7405f28e7685-1756698482",
-        "description": "Part fx and Complexity limit to 99999\n<br />(Full file replacement, High chance of conflict,\n<br />and EASY to fail when NMS UPDATED.)",
-        "size_kb": 1,
-        "size_in_bytes": 965,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/BuildableShip 99999 MBIN-3701-6-01-1756698478.zip.json"
-      },
-      {
-        "id": [
-          47701,
-          1634
-        ],
-        "uid": 7017976609365,
-        "file_id": 47701,
-        "name": "Corvette No Complexity Limit",
-        "version": "6.45.1",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 2,
-        "file_name": "Corvette No Complexity Limit 3701 6.45.1 2026-08-14T08-57Z L5bXM347h.zip",
-        "uploaded_timestamp": 1786697863,
-        "uploaded_time": "2026-08-14T08:57:43.000+00:00",
-        "mod_version": "6.45.1",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7574584cfb117e9f99873c73a49381e6a93f220b4cd8dd8dec274f20c74a6295",
-        "description": "Corvette-class ships no complexity limit.\n克尔维特级星舰(小型护卫舰)无复杂度限制。",
-        "size_kb": 2,
-        "size_in_bytes": 2923,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/4d/74/f2/4d74f2c7-ae68-4a70-bf36-2dc19a944036.json"
-      },
-      {
-        "id": [
-          47702,
-          1634
-        ],
-        "uid": 7017976609366,
-        "file_id": 47702,
-        "name": "CorvetteNoComplexityLimit_LUA",
-        "version": "6.45.1",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
-        "is_primary": false,
-        "size": 0,
-        "file_name": "CorvetteNoComplexityLimit_LUA 3701 6.45.1 2026-08-14T08-58Z KsnM3TaOf.zip",
-        "uploaded_timestamp": 1786697892,
-        "uploaded_time": "2026-08-14T08:58:12.000+00:00",
-        "mod_version": "6.45.1",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/20c581eff7c062c9bf47069ed8b1d20b216f6c2d3992bc849d101124b8b4af94",
-        "description": "Requirements 需求 :\n[url=https://github.com/HolterPhylo/AMUMSS/releases]AMUMSS v5.6.2.0w[/url] + [url=https://github.com/monkeyman192/MBINCompiler/releases]MBINCompiler v6.45.0-pre1[/url]",
-        "size_kb": 0,
-        "size_in_bytes": 791,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/18/d9/8c/18d98c54-8cdf-44b8-9c71-75bd95837f7f.json"
-      },
-      {
-        "id": [
-          47703,
-          1634
-        ],
-        "uid": 7017976609367,
-        "file_id": 47703,
-        "name": "Corvette No Complexity Limit",
-        "version": "6.45.1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
-        "size": 2,
-        "file_name": "Corvette No Complexity Limit 3701 6.45.1 2026-08-14T09-01Z hfsARgnZN.zip",
-        "uploaded_timestamp": 1786698119,
-        "uploaded_time": "2026-08-14T09:01:59.000+00:00",
-        "mod_version": "6.45.1",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/58d1e9e34a939d1b2038aa8c40f2bd769499eb6be939057c814ee5832d7078d2",
-        "description": "Corvette-class ships no complexity limit.\n克尔维特级星舰(小型护卫舰)无复杂度限制。",
-        "size_kb": 2,
-        "size_in_bytes": 2883,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/67/91/d8/6791d876-75bc-4dd9-b3aa-70d251940c10.json"
       }
     ],
     "changelogs": {}
