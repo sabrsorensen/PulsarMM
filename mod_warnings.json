@@ -72,12 +72,6 @@
         "warningMessage": "Not updated in 4 years"
     },
     {
-        "name": "Fine LOD",
-        "id": "1316",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "(Synthesis) Dead Planet Changes",
         "id": "1355",
         "state": "warning",
@@ -140,6 +134,12 @@
     {
         "name": "No Man's - Prepare to Sky Edition (PTSd) -- A Progression-Difficulty-Balance Overhaul",
         "id": "2225",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More Words",
+        "id": "2333",
         "state": "normal",
         "warningMessage": ""
     },
