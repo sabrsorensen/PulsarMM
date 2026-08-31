@@ -36,6 +36,12 @@
         "warningMessage": ""
     },
     {
+        "name": "Exosolar's and Babs' Beyond Base Building",
+        "id": "1096",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "Slow Clouds 2.3",
         "id": "1097",
         "state": "normal",
@@ -68,6 +74,12 @@
     {
         "name": "Better Rewards",
         "id": "1460",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Black Space 4.3",
+        "id": "1471",
         "state": "normal",
         "warningMessage": ""
     },
@@ -132,12 +144,6 @@
         "warningMessage": "Not updated in 5 years"
     },
     {
-        "name": "Remove Technology Overload - 6.21 Remnant Compatible",
-        "id": "2162",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Cape Shapes",
         "id": "2222",
         "state": "warning",
@@ -154,12 +160,6 @@
         "id": "2297",
         "state": "warning",
         "warningMessage": "Not updated in 3 years"
-    },
-    {
-        "name": "More Words",
-        "id": "2333",
-        "state": "normal",
-        "warningMessage": ""
     },
     {
         "name": "Anomaly Detector odds",
