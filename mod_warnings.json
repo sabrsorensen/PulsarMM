@@ -78,12 +78,6 @@
         "warningMessage": ""
     },
     {
-        "name": "Black Space 4.3",
-        "id": "1471",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "VO Tweaks - Hostile Scan and Nav Data",
         "id": "1472",
         "state": "warning",
@@ -196,6 +190,12 @@
         "id": "2822",
         "state": "warning",
         "warningMessage": "Not updated in 3 years"
+    },
+    {
+        "name": "Only S class",
+        "id": "2878",
+        "state": "normal",
+        "warningMessage": ""
     },
     {
         "name": "TitanBeGone",
