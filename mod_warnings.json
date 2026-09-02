@@ -78,6 +78,12 @@
         "warningMessage": ""
     },
     {
+        "name": "Black Space 4.3",
+        "id": "1471",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "VO Tweaks - Hostile Scan and Nav Data",
         "id": "1472",
         "state": "warning",
@@ -98,12 +104,6 @@
     {
         "name": "Step No Man's Sky - NMS - Guide",
         "id": "1622",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Instant Text Display - ITD",
-        "id": "1677",
         "state": "normal",
         "warningMessage": ""
     },
