@@ -27368,96 +27368,6 @@
     }
   },
   {
-    "mod_id": 2284,
-    "name": "Faster Scanning v6.45",
-    "summary": "Scan anything faster!",
-    "version": "6.45",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2284/2284-1652427334-301250705.png",
-    "author": "Flugelwulff",
-    "updated_timestamp": 1783375304,
-    "created_timestamp": 1652427579,
-    "description": "Lets you scan things faster with the analyzer. 1 second and instant options available as well as the option to disable the delay between scans.\n<br />\n<br />\n<br />[b][u]HOW TO INSTALL:\n<br />[/u][/b]1. Install with Vortex (strongly recommended - just do it)\n<br />2. Choose scan speed\n<br />3. Profit\n<br />\n<br />LUA file is available for those who wish to change the multiplier themselves or merge it with other mods.",
-    "state": "normal",
-    "warningMessage": "",
-    "files": [
-      {
-        "id": [
-          45004,
-          1634
-        ],
-        "uid": 7017976606668,
-        "file_id": 45004,
-        "name": "Faster Scanning LUA",
-        "version": "6.17",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
-        "is_primary": false,
-        "size": 1,
-        "file_name": "Faster Scanning LUA-2284-6-17-1763512584.7z",
-        "uploaded_timestamp": 1763512584,
-        "uploaded_time": "2025-11-19T00:36:24.000+00:00",
-        "mod_version": "6.17",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/fbc6bc8b742d79ec90e6e1e3dac7326b2e96a742ba68d0bb641c3a4d9a693f71/detection/f-fbc6bc8b742d79ec90e6e1e3dac7326b2e96a742ba68d0bb641c3a4d9a693f71-1763512590",
-        "description": "",
-        "size_kb": 1,
-        "size_in_bytes": 526,
-        "changelog_html": "Updated version number",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2284/Faster Scanning LUA-2284-6-17-1763512584.7z.json"
-      },
-      {
-        "id": [
-          47499,
-          1634
-        ],
-        "uid": 7017976609163,
-        "file_id": 47499,
-        "name": "Faster Scanning",
-        "version": "6.45",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
-        "size": 24,
-        "file_name": "Faster Scanning 2284 6.45 2026-07-06T22-01Z rv2uEjLfA.7z",
-        "uploaded_timestamp": 1783375304,
-        "uploaded_time": "2026-07-06T22:01:44.000+00:00",
-        "mod_version": "6.45",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a5c0b90db4acce3f8dae443f2bc8f6b87295d149a945a490865760338d5ebdd0",
-        "description": "",
-        "size_kb": 24,
-        "size_in_bytes": null,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2284/98/13/b7/9813b7e2-7335-42c9-a7b8-f0c695bfb200.json"
-      }
-    ],
-    "changelogs": {
-      "1.0": [
-        "Sorry to anyone trying to download when I first uploaded. Added option to chose speeds. Fixed selection screen image being broken."
-      ],
-      "1.0.1": [
-        "Modified \"Instant\" from \"0.1\" sec. to actually instant after testing stability",
-        "Changed version numbering",
-        "Added LUA file for use with AMUMSS (for merging)"
-      ],
-      "1.1.0": [
-        "Added ability to remove the delay between scans (added to LUA as well)",
-        "Added link to description to custom LUA",
-        "Added Custom LUA as optional file"
-      ],
-      "5.02": [
-        "Removed Custom LUA as the additional changes are now changable in-game and that code no longer works."
-      ],
-      "5.75": [
-        "Replaced EXML_CHANGE_TABLE in LUA to MXML_CHANGE_TABLE to fix warning in AMUMSS"
-      ],
-      "6.12": [
-        "Overhaul to LUA structure &amp; updated version number"
-      ],
-      "6.17": [
-        "Updated version number"
-      ]
-    }
-  },
-  {
     "mod_id": 2297,
     "name": "RU_FIX",
     "summary": "Исправление многочисленных огрехов русской локализации.",
@@ -28072,6 +27982,779 @@
       }
     ],
     "changelogs": {}
+  },
+  {
+    "mod_id": 2372,
+    "name": "Balanced MT Cabinet Lighting",
+    "summary": "Makes multi-tool cabinet lighting more even, with no overly bright or dark spots.",
+    "version": "6.45.1",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2372/2372-1657819912-611770961.png",
+    "author": "Lenni",
+    "updated_timestamp": 1785706203,
+    "created_timestamp": 1657820035,
+    "description": "Makes multi-tool cabinet lighting more even, with no overly bright or dark spots.\n<br />Space station, outlaw station and minor settlement multi-tool cabinets are separated.\n<br />\n<br />I honestly don't really like this mod. If you like it and are interested in maintaining and improving it, please post a message or contact me on Discord.\n<br />\n<br />[b]Modified files[/b]:\n<br />CRATE_WEAPON.SCENE.MBIN\n<br />CRATE_WEAPONOSS.SCENE.MBIN (created by the mod)\n<br />CRATE_WEAPONSS.SCENE.MBIN (created by the mod)\n<br />SHOPWEAPON.SCENE.MBIN\n<br />SHOPWEAPON/GLOW_MAT.MATERIAL.MBIN\n<br />SHOPWEAPON/GLOW_MAT1.MATERIAL.MBIN\n<br />SHOPWEAPON/INTERIORLIGHTS_MAT26.MATERIAL.MBIN\n<br />SHOPWEAPON/LIGHTS1_MAT.MATERIAL.MBIN\n<br />WEAPONSHOP.SCENE.MBIN\n<br />WEAPONSHOP/CORRIDORMODULE_STRAIGHT3_LIGHTS1_MAT.MATERIAL.MBIN\n<br />WEAPONSHOP/GLOW_MAT1.MATERIAL.MBIN\n<br />LIGHT2_MAT.MATERIAL.MBIN\n<br />LIGHTFADE_MAT.MATERIAL.MBIN\n<br />LIGHTFADE_MAT1.MATERIAL.MBIN\n<br />LIGHTS1_MAT.MATERIAL.MBIN\n<br />LIGHTS1_MAT8.MATERIAL.MBIN\n<br />LIGHTS1_MAT9.MATERIAL.MBIN\n<br />SMALLLIGHT_MAT1.MATERIAL.MBIN\n<br />WALLMODULE_TECHSHOP_LIGHTS1_MAT2.MATERIAL.MBIN\n<br />\n<br />⚠️ Replacement mod - unlikely to work well with other Replacement mods",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          18550,
+          1634
+        ],
+        "uid": 7017976580214,
+        "file_id": 18550,
+        "name": "3.93 BalancedMTCabinet",
+        "version": "3.93",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 360,
+        "file_name": "3.93 BalancedMTCabinet-2372-3-93-1657820026.zip",
+        "uploaded_timestamp": 1657820026,
+        "uploaded_time": "2022-07-14T17:33:46.000+00:00",
+        "mod_version": "3.93",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/90a1d3ebb22abebc99867549769e3424c39600e41e64a95ecae000812557b023/detection/f-90a1d3ebb22abebc99867549769e3424c39600e41e64a95ecae000812557b023-1657820038",
+        "description": "Created for 3.93",
+        "size_kb": 360,
+        "size_in_bytes": 368988,
+        "changelog_html": "Created for 3.93",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/3.93 BalancedMTCabinet-2372-3-93-1657820026.zip.json"
+      },
+      {
+        "id": [
+          19055,
+          1634
+        ],
+        "uid": 7017976580719,
+        "file_id": 19055,
+        "name": "3.97 BalancedMTCabinetLighting",
+        "version": "3.97",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 58,
+        "file_name": "3.97 BalancedMTCabinetLighting-2372-3-97-1658948274.zip",
+        "uploaded_timestamp": 1658948274,
+        "uploaded_time": "2022-07-27T18:57:54.000+00:00",
+        "mod_version": "3.97",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4ffe7db527b944d6a3d455c51b0b49a5c4d70ca19998b6859bef012c7bff09d2/detection/f-4ffe7db527b944d6a3d455c51b0b49a5c4d70ca19998b6859bef012c7bff09d2-1658948276",
+        "description": "Version 3.97",
+        "size_kb": 58,
+        "size_in_bytes": 59674,
+        "changelog_html": "Updated to 3.97",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/3.97 BalancedMTCabinetLighting-2372-3-97-1658948274.zip.json"
+      },
+      {
+        "id": [
+          19475,
+          1634
+        ],
+        "uid": 7017976581139,
+        "file_id": 19475,
+        "name": "3.98 BalancedMTCabinetLighting",
+        "version": "3.98",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 58,
+        "file_name": "3.98 BalancedMTCabinetLighting-2372-3-98-1659553345.zip",
+        "uploaded_timestamp": 1659553345,
+        "uploaded_time": "2022-08-03T19:02:25.000+00:00",
+        "mod_version": "3.98",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e8f720576467e1e3c4535bbf1676afca3546e384c42b1e17715c23f72b087027/detection/f-e8f720576467e1e3c4535bbf1676afca3546e384c42b1e17715c23f72b087027-1659553351",
+        "description": "Version 3.98",
+        "size_kb": 58,
+        "size_in_bytes": 59665,
+        "changelog_html": "Updated to 3.98",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/3.98 BalancedMTCabinetLighting-2372-3-98-1659553345.zip.json"
+      },
+      {
+        "id": [
+          19847,
+          1634
+        ],
+        "uid": 7017976581511,
+        "file_id": 19847,
+        "name": "3.99 BalancedMTCabinetLighting",
+        "version": "3.99",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 58,
+        "file_name": "3.99 BalancedMTCabinetLighting-2372-3-99-1660586279.zip",
+        "uploaded_timestamp": 1660586279,
+        "uploaded_time": "2022-08-15T17:57:59.000+00:00",
+        "mod_version": "3.99",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c2890158824ad7745f7166aa9e13e9e7edaf0afe4013ad83c64740103c25ee42/detection/f-c2890158824ad7745f7166aa9e13e9e7edaf0afe4013ad83c64740103c25ee42-1660586284",
+        "description": "Version 3.99",
+        "size_kb": 58,
+        "size_in_bytes": 59652,
+        "changelog_html": "Updated to 3.99",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/3.99 BalancedMTCabinetLighting-2372-3-99-1660586279.zip.json"
+      },
+      {
+        "id": [
+          20801,
+          1634
+        ],
+        "uid": 7017976582465,
+        "file_id": 20801,
+        "name": "4.03 BalancedMTCabinetLighting",
+        "version": "4.03",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 58,
+        "file_name": "4.03 BalancedMTCabinetLighting-2372-4-03-1665418271.zip",
+        "uploaded_timestamp": 1665418271,
+        "uploaded_time": "2022-10-10T16:11:11.000+00:00",
+        "mod_version": "4.03",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e7b35532efa5726c919237504891afbfc7dbaaae4745e09f6247411aeea8c510/detection/f-e7b35532efa5726c919237504891afbfc7dbaaae4745e09f6247411aeea8c510-1665418273",
+        "description": "Version 4.03",
+        "size_kb": 58,
+        "size_in_bytes": 59673,
+        "changelog_html": "Updated to 4.03",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/4.03 BalancedMTCabinetLighting-2372-4-03-1665418271.zip.json"
+      },
+      {
+        "id": [
+          21420,
+          1634
+        ],
+        "uid": 7017976583084,
+        "file_id": 21420,
+        "name": "4.05 BalancedMTCabinetLighting",
+        "version": "4.05",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 58,
+        "file_name": "4.05 BalancedMTCabinetLighting-2372-4-05-1666429419.zip",
+        "uploaded_timestamp": 1666429419,
+        "uploaded_time": "2022-10-22T09:03:39.000+00:00",
+        "mod_version": "4.05",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7b75803aed62389a86f2ffa054219b2b728fe745b2bddf0a2ac5c695063f45e3/detection/f-7b75803aed62389a86f2ffa054219b2b728fe745b2bddf0a2ac5c695063f45e3-1666429420",
+        "description": "Version 4.05",
+        "size_kb": 58,
+        "size_in_bytes": 59655,
+        "changelog_html": "Updated to 4.05",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/4.05 BalancedMTCabinetLighting-2372-4-05-1666429419.zip.json"
+      },
+      {
+        "id": [
+          22300,
+          1634
+        ],
+        "uid": 7017976583964,
+        "file_id": 22300,
+        "name": "4.07 BalancedMTCabinetLighting",
+        "version": "4.07",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 58,
+        "file_name": "4.07 BalancedMTCabinetLighting-2372-4-07-1669231955.zip",
+        "uploaded_timestamp": 1669231955,
+        "uploaded_time": "2022-11-23T19:32:35.000+00:00",
+        "mod_version": "4.07",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c0951fc595abe80d1cb6825c71fab1df6350c3c012b0345f7b7cbd205bf05317/detection/f-c0951fc595abe80d1cb6825c71fab1df6350c3c012b0345f7b7cbd205bf05317-1669231960",
+        "description": "Version 4.07",
+        "size_kb": 58,
+        "size_in_bytes": 59678,
+        "changelog_html": "Updated to 4.07",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/4.07 BalancedMTCabinetLighting-2372-4-07-1669231955.zip.json"
+      },
+      {
+        "id": [
+          23482,
+          1634
+        ],
+        "uid": 7017976585146,
+        "file_id": 23482,
+        "name": "4.12 BalancedMTCabinetLighting",
+        "version": "4.12",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 58,
+        "file_name": "4.12 BalancedMTCabinetLighting-2372-4-12-1677700047.zip",
+        "uploaded_timestamp": 1677700047,
+        "uploaded_time": "2023-03-01T19:47:27.000+00:00",
+        "mod_version": "4.12",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a0ebc3a977b170ae427faca312c92fde4643d462788ed92aabecc2659b419544/detection/f-a0ebc3a977b170ae427faca312c92fde4643d462788ed92aabecc2659b419544-1677700052",
+        "description": "Version 4.12",
+        "size_kb": 58,
+        "size_in_bytes": 59611,
+        "changelog_html": "Updated to 4.12",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/4.12 BalancedMTCabinetLighting-2372-4-12-1677700047.zip.json"
+      },
+      {
+        "id": [
+          23774,
+          1634
+        ],
+        "uid": 7017976585438,
+        "file_id": 23774,
+        "name": "4.13 BalancedMTCabinetLighting",
+        "version": "4.13",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 58,
+        "file_name": "4.13 BalancedMTCabinetLighting-2372-4-13-1678306739.zip",
+        "uploaded_timestamp": 1678306739,
+        "uploaded_time": "2023-03-08T20:18:59.000+00:00",
+        "mod_version": "4.13",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/cfafdd043ab9447339f253e253917760d92f0f2a363575ece5f4064b8c8bc383/detection/f-cfafdd043ab9447339f253e253917760d92f0f2a363575ece5f4064b8c8bc383-1678306830",
+        "description": "Version 4.13",
+        "size_kb": 58,
+        "size_in_bytes": 59611,
+        "changelog_html": "Updated to 4.13",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/4.13 BalancedMTCabinetLighting-2372-4-13-1678306739.zip.json"
+      },
+      {
+        "id": [
+          24207,
+          1634
+        ],
+        "uid": 7017976585871,
+        "file_id": 24207,
+        "name": "4.20 BalancedMTCabinetLighting",
+        "version": "4.20",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 58,
+        "file_name": "4.20 BalancedMTCabinetLighting-2372-4-20-1680723223.zip",
+        "uploaded_timestamp": 1680723223,
+        "uploaded_time": "2023-04-05T19:33:43.000+00:00",
+        "mod_version": "4.20",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8c13495bed3bd2cfe32cd4071640ceb3b4e99d35eadbb6f4dc5903fc5c450260/detection/f-8c13495bed3bd2cfe32cd4071640ceb3b4e99d35eadbb6f4dc5903fc5c450260-1680723229",
+        "description": "Version 4.20",
+        "size_kb": 58,
+        "size_in_bytes": 59600,
+        "changelog_html": "Updated to 4.20",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/4.20 BalancedMTCabinetLighting-2372-4-20-1680723223.zip.json"
+      },
+      {
+        "id": [
+          24823,
+          1634
+        ],
+        "uid": 7017976586487,
+        "file_id": 24823,
+        "name": "4.22 Balanced MT Cabinet Lighting",
+        "version": "4.22",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 58,
+        "file_name": "4.22 Balanced MT Cabinet Lighting-2372-4-22-1681489855.zip",
+        "uploaded_timestamp": 1681489855,
+        "uploaded_time": "2023-04-14T16:30:55.000+00:00",
+        "mod_version": "4.22",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/592df3434924d2fe24e0d2b9aec860291877e005b9831e3550b0ad558e3eede1/detection/f-592df3434924d2fe24e0d2b9aec860291877e005b9831e3550b0ad558e3eede1-1681489861",
+        "description": "Version 4.22",
+        "size_kb": 58,
+        "size_in_bytes": 59644,
+        "changelog_html": "Updated to 4.22",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/4.22 Balanced MT Cabinet Lighting-2372-4-22-1681489855.zip.json"
+      },
+      {
+        "id": [
+          25561,
+          1634
+        ],
+        "uid": 7017976587225,
+        "file_id": 25561,
+        "name": "4.26 Balanced MT Cabinet Lighting",
+        "version": "4.26",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 58,
+        "file_name": "4.26 Balanced MT Cabinet Lighting-2372-4-26-1685715963.zip",
+        "uploaded_timestamp": 1685715963,
+        "uploaded_time": "2023-06-02T14:26:03.000+00:00",
+        "mod_version": "4.26",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/57324ac671cdd7ec896f5af10db5d04b61a6f14e2b6db20d3a599f8d31b26b56/detection/f-57324ac671cdd7ec896f5af10db5d04b61a6f14e2b6db20d3a599f8d31b26b56-1685715968",
+        "description": "Version 4.26",
+        "size_kb": 58,
+        "size_in_bytes": 59634,
+        "changelog_html": "Updated to 4.26",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/4.26 Balanced MT Cabinet Lighting-2372-4-26-1685715963.zip.json"
+      },
+      {
+        "id": [
+          26058,
+          1634
+        ],
+        "uid": 7017976587722,
+        "file_id": 26058,
+        "name": "4.30.1 Balanced MT Cabinet Lighting",
+        "version": "4.30.1",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 58,
+        "file_name": "4.30.1 Balanced MT Cabinet Lighting-2372-4-30-1-1686233025.zip",
+        "uploaded_timestamp": 1686233025,
+        "uploaded_time": "2023-06-08T14:03:45.000+00:00",
+        "mod_version": "4.30.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/19fed46dbfa3704cdeb048a555166f56010c4ab9798f9682339b88f5d61ade50/detection/f-19fed46dbfa3704cdeb048a555166f56010c4ab9798f9682339b88f5d61ade50-1686233050",
+        "description": "Version 4.30.1",
+        "size_kb": 58,
+        "size_in_bytes": 59687,
+        "changelog_html": "Updated to 4.30.1",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/4.30.1 Balanced MT Cabinet Lighting-2372-4-30-1-1686233025.zip.json"
+      },
+      {
+        "id": [
+          26436,
+          1634
+        ],
+        "uid": 7017976588100,
+        "file_id": 26436,
+        "name": "4.36 Balanced MT Cabinet Lighting",
+        "version": "4.36",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 58,
+        "file_name": "4.36 Balanced MT Cabinet Lighting-2372-4-36-1687255822.zip",
+        "uploaded_timestamp": 1687255822,
+        "uploaded_time": "2023-06-20T10:10:22.000+00:00",
+        "mod_version": "4.36",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/cc80e2e2ee5302a3571c7f91b3c7fd8340a19bb8940d9583bbd71c0a271e3f1a/detection/f-cc80e2e2ee5302a3571c7f91b3c7fd8340a19bb8940d9583bbd71c0a271e3f1a-1687255828",
+        "description": "Version 4.36",
+        "size_kb": 58,
+        "size_in_bytes": 59687,
+        "changelog_html": "Updated to 4.36",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/4.36 Balanced MT Cabinet Lighting-2372-4-36-1687255822.zip.json"
+      },
+      {
+        "id": [
+          26969,
+          1634
+        ],
+        "uid": 7017976588633,
+        "file_id": 26969,
+        "name": "4.40 Balanced MT Cabinet Lighting",
+        "version": "4.40",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 58,
+        "file_name": "4.40 Balanced MT Cabinet Lighting-2372-4-40-1692894220.zip",
+        "uploaded_timestamp": 1692894220,
+        "uploaded_time": "2023-08-24T16:23:40.000+00:00",
+        "mod_version": "4.40",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/f50f4c2b65789076cac3c4a6458be42d74b11efc5d1788e0b59e47197a7867a5/detection/f-f50f4c2b65789076cac3c4a6458be42d74b11efc5d1788e0b59e47197a7867a5-1692894222",
+        "description": "Version 4.40",
+        "size_kb": 58,
+        "size_in_bytes": 59708,
+        "changelog_html": "Updated to 4.40",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/4.40 Balanced MT Cabinet Lighting-2372-4-40-1692894220.zip.json"
+      },
+      {
+        "id": [
+          27864,
+          1634
+        ],
+        "uid": 7017976589528,
+        "file_id": 27864,
+        "name": "4.44 Balanced MT Cabinet Lighting",
+        "version": "4.44",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 58,
+        "file_name": "4.44 Balanced MT Cabinet Lighting-2372-4-44-1694106798.zip",
+        "uploaded_timestamp": 1694106798,
+        "uploaded_time": "2023-09-07T17:13:18.000+00:00",
+        "mod_version": "4.44",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/f0953cfb17c7593343119d310a9f8beed369ad7b96a5a21cf0fdde75e510dace/detection/f-f0953cfb17c7593343119d310a9f8beed369ad7b96a5a21cf0fdde75e510dace-1694106805",
+        "description": "Version 4.44",
+        "size_kb": 58,
+        "size_in_bytes": 59684,
+        "changelog_html": "Updated to 4.44",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/4.44 Balanced MT Cabinet Lighting-2372-4-44-1694106798.zip.json"
+      },
+      {
+        "id": [
+          29759,
+          1634
+        ],
+        "uid": 7017976591423,
+        "file_id": 29759,
+        "name": "4.50 Balanced MT Cabinet Lighting",
+        "version": "4.50",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 58,
+        "file_name": "4.50 Balanced MT Cabinet Lighting-2372-4-50-1707939332.zip",
+        "uploaded_timestamp": 1707939332,
+        "uploaded_time": "2024-02-14T19:35:32.000+00:00",
+        "mod_version": "4.50",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/3a9a4aea9e1e23f6e8ea341c01b906e9965f1cca83180d38c7cf400d01a9f560/detection/f-3a9a4aea9e1e23f6e8ea341c01b906e9965f1cca83180d38c7cf400d01a9f560-1707939339",
+        "description": "Version 4.50",
+        "size_kb": 58,
+        "size_in_bytes": 59701,
+        "changelog_html": "Updated to 4.50",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/4.50 Balanced MT Cabinet Lighting-2372-4-50-1707939332.zip.json"
+      },
+      {
+        "id": [
+          31769,
+          1634
+        ],
+        "uid": 7017976593433,
+        "file_id": 31769,
+        "name": "4.65 Balanced MT Cabinet Lighting",
+        "version": "4.65",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 60,
+        "file_name": "4.65 Balanced MT Cabinet Lighting-2372-4-65-1714585350.zip",
+        "uploaded_timestamp": 1714585350,
+        "uploaded_time": "2024-05-01T17:42:30.000+00:00",
+        "mod_version": "4.65",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4a5d637e13c0cc69697d98cf0c13f05eaef03bcc8c3ad31584cc48421338b537/detection/f-4a5d637e13c0cc69697d98cf0c13f05eaef03bcc8c3ad31584cc48421338b537-1714585409",
+        "description": "Version 4.65",
+        "size_kb": 60,
+        "size_in_bytes": 61588,
+        "changelog_html": "Updated to 4.65",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/4.65 Balanced MT Cabinet Lighting-2372-4-65-1714585350.zip.json"
+      },
+      {
+        "id": [
+          33085,
+          1634
+        ],
+        "uid": 7017976594749,
+        "file_id": 33085,
+        "name": "4.71.1 Balanced MT Cabinet Lighting",
+        "version": "4.71.1",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 48,
+        "file_name": "4.71.1 Balanced MT Cabinet Lighting-2372-4-71-1-1717573214.zip",
+        "uploaded_timestamp": 1717573214,
+        "uploaded_time": "2024-06-05T07:40:14.000+00:00",
+        "mod_version": "4.71.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/bd77204d28b7c1568f4127931446d62d81a8f6d4ee52731498f4e94fbaaf8d28/detection/f-bd77204d28b7c1568f4127931446d62d81a8f6d4ee52731498f4e94fbaaf8d28-1717573220",
+        "description": "Version 4.71.1",
+        "size_kb": 48,
+        "size_in_bytes": 48662,
+        "changelog_html": "Updated to 4.71.1",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/4.71.1 Balanced MT Cabinet Lighting-2372-4-71-1-1717573214.zip.json"
+      },
+      {
+        "id": [
+          33813,
+          1634
+        ],
+        "uid": 7017976595477,
+        "file_id": 33813,
+        "name": "5.01.1 Balanced MT Cabinet Lighting",
+        "version": "5.01.1",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 48,
+        "file_name": "5.01.1 Balanced MT Cabinet Lighting-2372-5-01-1-1721830063.zip",
+        "uploaded_timestamp": 1721830063,
+        "uploaded_time": "2024-07-24T14:07:43.000+00:00",
+        "mod_version": "5.01.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/2596b16fd1125e7d84ff947936bcfc4dc872468d11b23e702afe24eeb049961a/detection/f-2596b16fd1125e7d84ff947936bcfc4dc872468d11b23e702afe24eeb049961a-1721830308",
+        "description": "Version 5.01.1",
+        "size_kb": 48,
+        "size_in_bytes": 49593,
+        "changelog_html": "Updated to 5.01.1",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/5.01.1 Balanced MT Cabinet Lighting-2372-5-01-1-1721830063.zip.json"
+      },
+      {
+        "id": [
+          40679,
+          1634
+        ],
+        "uid": 7017976602343,
+        "file_id": 40679,
+        "name": "5.62 Balanced MT Cabinet Lighting",
+        "version": "5.62",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 55,
+        "file_name": "5.62 Balanced MT Cabinet Lighting-2372-5-62-1743790602.zip",
+        "uploaded_timestamp": 1743790602,
+        "uploaded_time": "2025-04-04T18:16:42.000+00:00",
+        "mod_version": "5.62",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/688f099d42f800e75044608dfb6564a0188f2072c5051326e30a7192ea8f63b1/detection/f-688f099d42f800e75044608dfb6564a0188f2072c5051326e30a7192ea8f63b1-1743790604",
+        "description": "Version 5.62",
+        "size_kb": 55,
+        "size_in_bytes": 56310,
+        "changelog_html": "Updated to 5.62",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/5.62 Balanced MT Cabinet Lighting-2372-5-62-1743790602.zip.json"
+      },
+      {
+        "id": [
+          43347,
+          1634
+        ],
+        "uid": 7017976605011,
+        "file_id": 43347,
+        "name": "6.04 Balanced MT Cabinet Lighting",
+        "version": "6.04",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 58,
+        "file_name": "6.04 Balanced MT Cabinet Lighting-2372-6-04-1757943884.zip",
+        "uploaded_timestamp": 1757943884,
+        "uploaded_time": "2025-09-15T13:44:44.000+00:00",
+        "mod_version": "6.04",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/46556bf55babfbf7e7c2eddff659f2cb1416b0980c6428c4d87ff9216ab6ebef/detection/f-46556bf55babfbf7e7c2eddff659f2cb1416b0980c6428c4d87ff9216ab6ebef-1757943888",
+        "description": "Version 6.04",
+        "size_kb": 58,
+        "size_in_bytes": 59615,
+        "changelog_html": "Updated to 6.04",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/6.04 Balanced MT Cabinet Lighting-2372-6-04-1757943884.zip.json"
+      },
+      {
+        "id": [
+          43646,
+          1634
+        ],
+        "uid": 7017976605310,
+        "file_id": 43646,
+        "name": "6.05.2 Balanced MT Cabinet Lighting",
+        "version": "6.05.2",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 45,
+        "file_name": "6.05.2 Balanced MT Cabinet Lighting-2372-6-05-2-1758726840.zip",
+        "uploaded_timestamp": 1758726840,
+        "uploaded_time": "2025-09-24T15:14:00.000+00:00",
+        "mod_version": "6.05.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8522de601a3e97af6ec3d7e2c05c414aa1fcfb67f38dd4002514de421f3333b0/detection/f-8522de601a3e97af6ec3d7e2c05c414aa1fcfb67f38dd4002514de421f3333b0-1758726841",
+        "description": "Version 6.05.2",
+        "size_kb": 45,
+        "size_in_bytes": 46115,
+        "changelog_html": "More maintainable by using more vanilla code, no custom lights",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/6.05.2 Balanced MT Cabinet Lighting-2372-6-05-2-1758726840.zip.json"
+      },
+      {
+        "id": [
+          43781,
+          1634
+        ],
+        "uid": 7017976605445,
+        "file_id": 43781,
+        "name": "6.06 Balanced MT Cabinet Lighting",
+        "version": "6.06",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 45,
+        "file_name": "6.06 Balanced MT Cabinet Lighting-2372-6-06-1759243334.zip",
+        "uploaded_timestamp": 1759243334,
+        "uploaded_time": "2025-09-30T14:42:14.000+00:00",
+        "mod_version": "6.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a0d4b4d1c9e53aa320ef3aa85d6d40046762783fb53798f8e9ed6d5cc0eaba8e/detection/f-a0d4b4d1c9e53aa320ef3aa85d6d40046762783fb53798f8e9ed6d5cc0eaba8e-1759243337",
+        "description": "Version 6.06",
+        "size_kb": 45,
+        "size_in_bytes": 46157,
+        "changelog_html": "Adjust pirate station lighting",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/6.06 Balanced MT Cabinet Lighting-2372-6-06-1759243334.zip.json"
+      },
+      {
+        "id": [
+          44373,
+          1634
+        ],
+        "uid": 7017976606037,
+        "file_id": 44373,
+        "name": "6.10 Balanced MT Cabinet Lighting",
+        "version": "6.10",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 43,
+        "file_name": "6.10 Balanced MT Cabinet Lighting-2372-6-10-1761132839.zip",
+        "uploaded_timestamp": 1761132839,
+        "uploaded_time": "2025-10-22T11:33:59.000+00:00",
+        "mod_version": "6.10",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/ae34c64a58bb6b55cce19568cda4388b179c50c7bb30207099ed2078758886fb/detection/f-ae34c64a58bb6b55cce19568cda4388b179c50c7bb30207099ed2078758886fb-1761132842",
+        "description": "Version 6.10",
+        "size_kb": 43,
+        "size_in_bytes": 44519,
+        "changelog_html": "Updated to 6.10",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/6.10 Balanced MT Cabinet Lighting-2372-6-10-1761132839.zip.json"
+      },
+      {
+        "id": [
+          46058,
+          1634
+        ],
+        "uid": 7017976607722,
+        "file_id": 46058,
+        "name": "6.24 Balanced MT Cabinet Lighting",
+        "version": "6.24",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 43,
+        "file_name": "6.24 Balanced MT Cabinet Lighting-2372-6-24-1772896859.zip",
+        "uploaded_timestamp": 1772896859,
+        "uploaded_time": "2026-03-07T15:20:59.000+00:00",
+        "mod_version": "6.24",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4360971f00a9bb99d59feddd755dfb567806b82ad69e324ab021a1ed611361cf",
+        "description": "Version 6.24",
+        "size_kb": 43,
+        "size_in_bytes": 44411,
+        "changelog_html": "Updated to 6.24",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/6.24 Balanced MT Cabinet Lighting-2372-6-24-1772896859.zip.json"
+      },
+      {
+        "id": [
+          46615,
+          1634
+        ],
+        "uid": 7017976608279,
+        "file_id": 46615,
+        "name": "6.34 Balanced MT Cabinet Lighting",
+        "version": "6.34",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 43,
+        "file_name": "6.34 Balanced MT Cabinet Lighting-2372-6-34-1777821626.zip",
+        "uploaded_timestamp": 1777821626,
+        "uploaded_time": "2026-05-03T15:20:26.000+00:00",
+        "mod_version": "6.34",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0030aad7597aa375c5a215931d698e6a38775d24c8a276295d2b7e10ae0dc5f3",
+        "description": "Version 6.34",
+        "size_kb": 43,
+        "size_in_bytes": 44451,
+        "changelog_html": "Updated to 6.34",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/6.34 Balanced MT Cabinet Lighting-2372-6-34-1777821626.zip.json"
+      },
+      {
+        "id": [
+          47597,
+          1634
+        ],
+        "uid": 7017976609261,
+        "file_id": 47597,
+        "name": "6.45.1 Balanced MT Cabinet Lighting",
+        "version": "6.45.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 43,
+        "file_name": "6.45.1 Balanced MT Cabinet Lighting 2372 6.45.1 2026-08-02T21-30Z AeW3Tdrab.zip",
+        "uploaded_timestamp": 1785706203,
+        "uploaded_time": "2026-08-02T21:30:03.000+00:00",
+        "mod_version": "6.45.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/f7165c48fddb561ddd33b394e1336a56718ba9263f0a84c0310d69a16659994f",
+        "description": "Version 6.45.1",
+        "size_kb": 43,
+        "size_in_bytes": null,
+        "changelog_html": "Updated to 6.45.1",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2372/82/8c/92/828c921c-a2a1-4de3-b23e-8f7e20596dc2.json"
+      }
+    ],
+    "changelogs": {
+      "3.93": [
+        "Created for 3.93"
+      ],
+      "3.97": [
+        "Updated to 3.97"
+      ],
+      "3.98": [
+        "Updated to 3.98"
+      ],
+      "3.99": [
+        "Updated to 3.99"
+      ],
+      "4.03": [
+        "Updated to 4.03"
+      ],
+      "4.05": [
+        "Updated to 4.05"
+      ],
+      "4.07": [
+        "Updated to 4.07"
+      ],
+      "4.12": [
+        "Updated to 4.12"
+      ],
+      "4.13": [
+        "Updated to 4.13"
+      ],
+      "4.20": [
+        "Updated to 4.20"
+      ],
+      "4.22": [
+        "Updated to 4.22"
+      ],
+      "4.26": [
+        "Updated to 4.26"
+      ],
+      "4.30.1": [
+        "Updated to 4.30.1"
+      ],
+      "4.36": [
+        "Updated to 4.36"
+      ],
+      "4.40": [
+        "Updated to 4.40"
+      ],
+      "4.44": [
+        "Updated to 4.44"
+      ],
+      "4.50": [
+        "Updated to 4.50"
+      ],
+      "4.65": [
+        "Updated to 4.65"
+      ],
+      "4.71.1": [
+        "Updated to 4.71.1"
+      ],
+      "5.01.1": [
+        "Updated to 5.01.1"
+      ],
+      "5.62": [
+        "Updated to 5.62"
+      ],
+      "6.04": [
+        "Updated to 6.04"
+      ],
+      "6.05.2": [
+        "More maintainable by using more vanilla code, no custom lights"
+      ],
+      "6.06": [
+        "Adjust pirate station lighting"
+      ],
+      "6.10": [
+        "Updated to 6.10"
+      ],
+      "6.24": [
+        "Updated to 6.24"
+      ],
+      "6.34": [
+        "Updated to 6.34"
+      ],
+      "6.45.1": [
+        "Updated to 6.45.1"
+      ]
+    }
   },
   {
     "mod_id": 2447,
@@ -31799,6 +32482,190 @@
         "Fixed a mistake I made w/previous update and updated version number"
       ]
     }
+  },
+  {
+    "mod_id": 3701,
+    "name": "Corvette No Complexity Limit",
+    "summary": "Corvette-class ships no complexity limit. 克尔维特级星舰(小型护卫舰)无复杂度限制。",
+    "version": "6.45.1",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3701/3701-1758172631-120228289.png",
+    "author": "DY230",
+    "updated_timestamp": 1786698119,
+    "created_timestamp": 1756324548,
+    "description": "Corvette-class ships no complexity limit.\n<br />克尔维特级星舰(小型护卫舰)无复杂度限制。\n<br />\n<br />[b]#IMPORTANT / 重点#[/b]\n<br />[color=#ff0000][b]Too many parts can make the game STUCK!!![/b][/color]\n<br />[color=#ff0000][b]太多部件会让游戏很卡！！！[/b][/color]\n<br />\n<br />[b]#INSTALL / 安装#[/b]\n<br />Download and extract the archive.\n<br />Place the entire \"___230_CorvetteNoComplexityLimit\" folder into: [u][b]GAMEDATA&#92;MODS&#92;[/b][/u]\n<br />下载并解压压缩包。\n<br />将整个 \"___230_CorvetteNoComplexityLimit\" 文件夹放入：[u][b]GAMEDATA&#92;MODS&#92;[/b][/u]\n<br />\n<br />[b]#GUIDE / 指南#[/b]\n<br />Manual mod installation guide:\n<br />[url=https://nomanssky.fandom.com/wiki/Mods#Installing_Mods]https://nomanssky.fandom.com/wiki/Mods#Installing_Mods[/url]\n<br />无人深空 MOD 安装教学（B站@我值500G噢）：\n<br />[url=https://www.bilibili.com/video/BV1AGKWeyE1J/]https://www.bilibili.com/video/BV1AGKWeyE1J/[/url]\n<br />\n<br />[b]#Troubleshooting / 排错#[/b]\n<br />📌If the mod is installed correctly but not working, try deleting:\n<br />[u][b]No Man's Sky&#92;Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/b][/u]\n<br />and restart the game.\n<br />📌如果正确安装后无效，尝试删除：\n<br />[u][b]No Man's Sky&#92;Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/b][/u]\n<br />并重启游戏。\n<br />\n<br />[b]#CREDITS / 鸣谢#[/b]\n<br />Hello Games / Nexus Mods / MBINCompiler / AMUMSS\n<br />and All amazing modders\n<br />以及所有其他了不起的mod作者",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          42384,
+          1634
+        ],
+        "uid": 7017976604048,
+        "file_id": 42384,
+        "name": "BuildableShip 10x",
+        "version": "6.00",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "BuildableShip 10x-3701-6-00-1756323395.zip",
+        "uploaded_timestamp": 1756323395,
+        "uploaded_time": "2025-08-27T19:36:35.000+00:00",
+        "mod_version": "6.00",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0ca716bed29695fbddf8d2132aa444c36cd36fec38cf4c5a8b900ab7e4047a4f/detection/f-0ca716bed29695fbddf8d2132aa444c36cd36fec38cf4c5a8b900ab7e4047a4f-1756323398",
+        "description": "No part limits\n<br />Complexity limit to 1000 (Orginal 100)",
+        "size_kb": 1,
+        "size_in_bytes": 837,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/BuildableShip 10x-3701-6-00-1756323395.zip.json"
+      },
+      {
+        "id": [
+          42385,
+          1634
+        ],
+        "uid": 7017976604049,
+        "file_id": 42385,
+        "name": "BuildableShip 99999",
+        "version": "6.00",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "BuildableShip 99999-3701-6-00-1756323431.zip",
+        "uploaded_timestamp": 1756323431,
+        "uploaded_time": "2025-08-27T19:37:11.000+00:00",
+        "mod_version": "6.00",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/06df6ad9a2f2befe0f13f43e8c154591edbee552c10270394a6cfd379008f07a/detection/f-06df6ad9a2f2befe0f13f43e8c154591edbee552c10270394a6cfd379008f07a-1756323434",
+        "description": "No part limits\n<br />Complexity limit to 99999 (Orginal 100)",
+        "size_kb": 1,
+        "size_in_bytes": 849,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/BuildableShip 99999-3701-6-00-1756323431.zip.json"
+      },
+      {
+        "id": [
+          42751,
+          1634
+        ],
+        "uid": 7017976604415,
+        "file_id": 42751,
+        "name": "BuildableShip 99999 EXML",
+        "version": "6.01",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "BuildableShip 99999 EXML-3701-6-01-1756698417.zip",
+        "uploaded_timestamp": 1756698417,
+        "uploaded_time": "2025-09-01T03:46:57.000+00:00",
+        "mod_version": "6.01",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/452ee210684cc8ac8c281551c1711a428ff6e851db3dc84562850e3bf4c7e40e/detection/f-452ee210684cc8ac8c281551c1711a428ff6e851db3dc84562850e3bf4c7e40e-1756698422",
+        "description": "Corvette-class ships no complexity limit\n<br />克尔维特级星舰(小型护卫舰)无复杂度限制\n<br />✅EXML - Still working fine so far(到目前为止仍然工作正常)",
+        "size_kb": 1,
+        "size_in_bytes": 866,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/BuildableShip 99999 EXML-3701-6-01-1756698417.zip.json"
+      },
+      {
+        "id": [
+          42752,
+          1634
+        ],
+        "uid": 7017976604416,
+        "file_id": 42752,
+        "name": "BuildableShip 99999 MBIN",
+        "version": "6.01",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "BuildableShip 99999 MBIN-3701-6-01-1756698478.zip",
+        "uploaded_timestamp": 1756698478,
+        "uploaded_time": "2025-09-01T03:47:58.000+00:00",
+        "mod_version": "6.01",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/83b52beafec7dc3cb3ae7fd40375a426dda80f1bce579a74790a7405f28e7685/detection/f-83b52beafec7dc3cb3ae7fd40375a426dda80f1bce579a74790a7405f28e7685-1756698482",
+        "description": "Part fx and Complexity limit to 99999\n<br />(Full file replacement, High chance of conflict,\n<br />and EASY to fail when NMS UPDATED.)",
+        "size_kb": 1,
+        "size_in_bytes": 965,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/BuildableShip 99999 MBIN-3701-6-01-1756698478.zip.json"
+      },
+      {
+        "id": [
+          47701,
+          1634
+        ],
+        "uid": 7017976609365,
+        "file_id": 47701,
+        "name": "Corvette No Complexity Limit",
+        "version": "6.45.1",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 2,
+        "file_name": "Corvette No Complexity Limit 3701 6.45.1 2026-08-14T08-57Z L5bXM347h.zip",
+        "uploaded_timestamp": 1786697863,
+        "uploaded_time": "2026-08-14T08:57:43.000+00:00",
+        "mod_version": "6.45.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7574584cfb117e9f99873c73a49381e6a93f220b4cd8dd8dec274f20c74a6295",
+        "description": "Corvette-class ships no complexity limit.\n克尔维特级星舰(小型护卫舰)无复杂度限制。",
+        "size_kb": 2,
+        "size_in_bytes": 2923,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/4d/74/f2/4d74f2c7-ae68-4a70-bf36-2dc19a944036.json"
+      },
+      {
+        "id": [
+          47702,
+          1634
+        ],
+        "uid": 7017976609366,
+        "file_id": 47702,
+        "name": "CorvetteNoComplexityLimit_LUA",
+        "version": "6.45.1",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 0,
+        "file_name": "CorvetteNoComplexityLimit_LUA 3701 6.45.1 2026-08-14T08-58Z KsnM3TaOf.zip",
+        "uploaded_timestamp": 1786697892,
+        "uploaded_time": "2026-08-14T08:58:12.000+00:00",
+        "mod_version": "6.45.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/20c581eff7c062c9bf47069ed8b1d20b216f6c2d3992bc849d101124b8b4af94",
+        "description": "Requirements 需求 :\n[url=https://github.com/HolterPhylo/AMUMSS/releases]AMUMSS v5.6.2.0w[/url] + [url=https://github.com/monkeyman192/MBINCompiler/releases]MBINCompiler v6.45.0-pre1[/url]",
+        "size_kb": 0,
+        "size_in_bytes": 791,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/18/d9/8c/18d98c54-8cdf-44b8-9c71-75bd95837f7f.json"
+      },
+      {
+        "id": [
+          47703,
+          1634
+        ],
+        "uid": 7017976609367,
+        "file_id": 47703,
+        "name": "Corvette No Complexity Limit",
+        "version": "6.45.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 2,
+        "file_name": "Corvette No Complexity Limit 3701 6.45.1 2026-08-14T09-01Z hfsARgnZN.zip",
+        "uploaded_timestamp": 1786698119,
+        "uploaded_time": "2026-08-14T09:01:59.000+00:00",
+        "mod_version": "6.45.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/58d1e9e34a939d1b2038aa8c40f2bd769499eb6be939057c814ee5832d7078d2",
+        "description": "Corvette-class ships no complexity limit.\n克尔维特级星舰(小型护卫舰)无复杂度限制。",
+        "size_kb": 2,
+        "size_in_bytes": 2883,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/67/91/d8/6791d876-75bc-4dd9-b3aa-70d251940c10.json"
+      }
+    ],
+    "changelogs": {}
   },
   {
     "mod_id": 3722,
