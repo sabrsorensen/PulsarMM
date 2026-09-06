@@ -18,12 +18,6 @@
         "warningMessage": ""
     },
     {
-        "name": "HD Space Planet Clouds 2.2",
-        "id": "1083",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "New Summon Freighter Icon 1.1",
         "id": "1085",
         "state": "normal",
@@ -206,6 +200,12 @@
     {
         "name": "No Sentinel Terrain Dmg",
         "id": "3389",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Communism - A Consumerism AddOn",
+        "id": "3420",
         "state": "normal",
         "warningMessage": ""
     },
