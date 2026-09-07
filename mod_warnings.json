@@ -120,6 +120,12 @@
         "warningMessage": ""
     },
     {
+        "name": "Faster Scanning v6.45",
+        "id": "2284",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "Nanite Reward Multiplier (Leviathan-Outlaws)",
         "id": "2309",
         "state": "warning",
@@ -200,12 +206,6 @@
     {
         "name": "No Sentinel Terrain Dmg",
         "id": "3389",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Communism - A Consumerism AddOn",
-        "id": "3420",
         "state": "normal",
         "warningMessage": ""
     },

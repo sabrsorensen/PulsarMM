@@ -25920,6 +25920,96 @@
     }
   },
   {
+    "mod_id": 2284,
+    "name": "Faster Scanning v6.45",
+    "summary": "Scan anything faster!",
+    "version": "6.45",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2284/2284-1652427334-301250705.png",
+    "author": "Flugelwulff",
+    "updated_timestamp": 1783375304,
+    "created_timestamp": 1652427579,
+    "description": "Lets you scan things faster with the analyzer. 1 second and instant options available as well as the option to disable the delay between scans.\n<br />\n<br />\n<br />[b][u]HOW TO INSTALL:\n<br />[/u][/b]1. Install with Vortex (strongly recommended - just do it)\n<br />2. Choose scan speed\n<br />3. Profit\n<br />\n<br />LUA file is available for those who wish to change the multiplier themselves or merge it with other mods.",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          45004,
+          1634
+        ],
+        "uid": 7017976606668,
+        "file_id": 45004,
+        "name": "Faster Scanning LUA",
+        "version": "6.17",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "Faster Scanning LUA-2284-6-17-1763512584.7z",
+        "uploaded_timestamp": 1763512584,
+        "uploaded_time": "2025-11-19T00:36:24.000+00:00",
+        "mod_version": "6.17",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/fbc6bc8b742d79ec90e6e1e3dac7326b2e96a742ba68d0bb641c3a4d9a693f71/detection/f-fbc6bc8b742d79ec90e6e1e3dac7326b2e96a742ba68d0bb641c3a4d9a693f71-1763512590",
+        "description": "",
+        "size_kb": 1,
+        "size_in_bytes": 526,
+        "changelog_html": "Updated version number",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2284/Faster Scanning LUA-2284-6-17-1763512584.7z.json"
+      },
+      {
+        "id": [
+          47499,
+          1634
+        ],
+        "uid": 7017976609163,
+        "file_id": 47499,
+        "name": "Faster Scanning",
+        "version": "6.45",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 24,
+        "file_name": "Faster Scanning 2284 6.45 2026-07-06T22-01Z rv2uEjLfA.7z",
+        "uploaded_timestamp": 1783375304,
+        "uploaded_time": "2026-07-06T22:01:44.000+00:00",
+        "mod_version": "6.45",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a5c0b90db4acce3f8dae443f2bc8f6b87295d149a945a490865760338d5ebdd0",
+        "description": "",
+        "size_kb": 24,
+        "size_in_bytes": null,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2284/98/13/b7/9813b7e2-7335-42c9-a7b8-f0c695bfb200.json"
+      }
+    ],
+    "changelogs": {
+      "1.0": [
+        "Sorry to anyone trying to download when I first uploaded. Added option to chose speeds. Fixed selection screen image being broken."
+      ],
+      "1.0.1": [
+        "Modified \"Instant\" from \"0.1\" sec. to actually instant after testing stability",
+        "Changed version numbering",
+        "Added LUA file for use with AMUMSS (for merging)"
+      ],
+      "1.1.0": [
+        "Added ability to remove the delay between scans (added to LUA as well)",
+        "Added link to description to custom LUA",
+        "Added Custom LUA as optional file"
+      ],
+      "5.02": [
+        "Removed Custom LUA as the additional changes are now changable in-game and that code no longer works."
+      ],
+      "5.75": [
+        "Replaced EXML_CHANGE_TABLE in LUA to MXML_CHANGE_TABLE to fix warning in AMUMSS"
+      ],
+      "6.12": [
+        "Overhaul to LUA structure &amp; updated version number"
+      ],
+      "6.17": [
+        "Updated version number"
+      ]
+    }
+  },
+  {
     "mod_id": 2309,
     "name": "Nanite Reward Multiplier (Leviathan-Outlaws)",
     "summary": "This mod simply multiplies the amount of nanites you get from rewards such as damaged machinery and missions.<br /><br />Using the LUA file you can modify the multiplier of your choice. I have provided PAKs for X2 , X4 and X10.<br /><br />Modifies METADATA/REALITY/TABLES/REWARDTABLE<br /><br />I recommend you use AMUMSS and the LUA file.",
@@ -28707,103 +28797,6 @@
       }
     ],
     "changelogs": {}
-  },
-  {
-    "mod_id": 3420,
-    "name": "Communism - A Consumerism AddOn",
-    "summary": "Makes every Expedition and Twitch item added by Consumerism FREE OF CHARGE.",
-    "version": "6.40",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3420/3420-1743029391-404502943.png",
-    "author": "Syzzle",
-    "updated_timestamp": 1779917889,
-    "created_timestamp": 1743035334,
-    "description": "[center]That's right Comrade, are you also tired of the capitalism devils dictating what you can or can not have? If you are then you can join us, this little trick can help you achieve everything you desire and the best part is that you will be able to do that FOR FREE!\n<br />You've heard it right, FOR FREE!\n<br />\n<br />[size=5][b]THERE IS NO CATCH![/b][/size]\n<br />\n<br />If you want to bask in this red glory then just install our [i]thing[/i] on your game, and as you probably have guessed, this thing is also FREE!\n<br />\n<br />If you still not believe in what we're saying, then don't believe on us, believe on them who believes on us.\n<br />\n<br />[img]https://i.imgur.com/y3JelQA.png[/img]﻿﻿[/center][center]﻿[/center][center][size=4][b]Convinced now?[/b][/size]\n<br />Then join us in this WAR against CAPITALISM, to do it is pretty simple, download our program and follow the instructions below to activate it.[/center]\n<br />[quote][size=5][b]Installing Mods[/b][/size]\n<br />Follow these steps to install mods.\n<br />\n<br />[list=1]\n<br />[*]Browse to [b]No Man's Sky&#92;GAMEDATA[/b].\n<br />[*]Create a folder named [b]MODS[/b].\n<br />[*]Place the [b]mod folder containing the loose files into the MODS folder[/b] (they have to be in the MODS folder itself and not in any subfolder, and no loose files should be inside the MODS folder).\n<br />[*]Start the game and wait for the splash screen to disappear.\n<br />[*]If done correctly [b]the[/b] [b]game will display a[/b] [b]warning[/b] just before displaying the selection of saved games.\n<br />[/list][/quote][center]The warning will look like [url=https://i.imgur.com/zTEEFwI.jpeg]this[/url].[/center]\n<br />\n<br />[center][img]https://i.imgur.com/kVHngZn.png[/img]﻿[/center]",
-    "state": "normal",
-    "warningMessage": "",
-    "files": [
-      {
-        "id": [
-          42970,
-          1634
-        ],
-        "uid": 7017976604634,
-        "file_id": 42970,
-        "name": "Communism - Free Void Egg",
-        "version": "6.03",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
-        "is_primary": false,
-        "size": 1,
-        "file_name": "Communism - Free Void Egg-3420-6-03-1757177129.zip",
-        "uploaded_timestamp": 1757177129,
-        "uploaded_time": "2025-09-06T16:45:29.000+00:00",
-        "mod_version": "6.03",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/72a3efa3da9f0ff8c9b04bbf34eb17132a062891b285312bcdd6b7132fad44cf/detection/f-72a3efa3da9f0ff8c9b04bbf34eb17132a062891b285312bcdd6b7132fad44cf-1757177131",
-        "description": "Glory to the collective! The Void Egg, a tool for the people, is now liberated from the capitalist yoke of price and is rightfully free. For it is not an item of decadent, bourgeois expeditions, but a common resource for all.",
-        "size_kb": 1,
-        "size_in_bytes": 1302,
-        "changelog_html": "Due to a change in policy, the Void Egg is now considered an item of capitalist luxury and must be bought with a price, rather than being given freely to the people.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3420/Communism - Free Void Egg-3420-6-03-1757177129.zip.json"
-      },
-      {
-        "id": [
-          46718,
-          1634
-        ],
-        "uid": 7017976608382,
-        "file_id": 46718,
-        "name": "Communism",
-        "version": "6.40",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": false,
-        "size": 11,
-        "file_name": "Communism-3420-6-40-1779917889.zip",
-        "uploaded_timestamp": 1779917889,
-        "uploaded_time": "2026-05-27T21:38:09.000+00:00",
-        "mod_version": "6.40",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1f5e583b86c0c88fd55078129f8d627534ac1c4a02b37f37463088d649f6dbed",
-        "description": "Here is your passport, Comrade.",
-        "size_kb": 11,
-        "size_in_bytes": 10799,
-        "changelog_html": "The Central Committee is proud to announce that the glorious spoils of the Great Swarm Expedition have been liberated from the greedy hands of the bourgeoisie!\nThese rewards, including the state-issued Direwasp Armour, will no longer be hoarded behind capitalist paywalls. They have been seized by the workers and shall now be distributed equally among the proletariat at absolutely no cost.\nWear your armor with pride. Glory to the collective!",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3420/Communism-3420-6-40-1779917889.zip.json"
-      }
-    ],
-    "changelogs": {
-      "5.60": [
-        "Initial Release"
-      ],
-      "5.70": [
-        "Updated to 5.70, broski"
-      ],
-      "6.0": [
-        "Received the intel from Agent 6.0 with the new armaments for our cause."
-      ],
-      "6.03": [
-        "Due to a change in policy, the Void Egg is now considered an item of capitalist luxury and must be bought with a price, rather than being given freely to the people."
-      ],
-      "6.04": [
-        "Comrades,  In our collective struggle for a more just universe, we have liberated some of the Expedition Ships from the oppressive burden of Nanites. The People's Fleet is now more accessible to all who contribute to the common good!"
-      ],
-      "6.05": [
-        "Comrade, the Deadeye Cannon is now, by the will of the people and for the glory of the collective, a resource liberated from the chains of capitalist exchange! It is our cannon, and its use is free for all who serve the cause!"
-      ],
-      "6.10": [
-        "Comrades! The new resources secured by the victorious Breach expedition are now property of the collective and have been added to the people's inventory!"
-      ],
-      "6.20": [
-        "Comrades! The glorious Remnant expedition has arrived with spoils for the Collective! The Party has authorized the distribution of superior truck modifications for the proletariat. Best of all, these assets have been liberated from the chains of currency and they are available to all loyal workers at zero cost! Glory to the State!"
-      ],
-      "6.32": [
-        "Attention, comrades! The Eggs from the glorious Xeno Arena update have been liberated from the greedy grip of the bourgeoisie! They have been seized and redistributed to the proletariat, and now belong to the people at absolutely no cost. Glory to the collective!"
-      ],
-      "6.40": [
-        "The Central Committee is proud to announce that the glorious spoils of the Great Swarm Expedition have been liberated from the greedy hands of the bourgeoisie!",
-        "These rewards, including the state-issued Direwasp Armour, will no longer be hoarded behind capitalist paywalls. They have been seized by the workers and shall now be distributed equally among the proletariat at absolutely no cost.",
-        "Wear your armor with pride. Glory to the collective!"
-      ]
-    }
   },
   {
     "mod_id": 3461,
