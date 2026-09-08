@@ -18,6 +18,12 @@
         "warningMessage": ""
     },
     {
+        "name": "HD Space Planet Clouds 2.2",
+        "id": "1083",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "New Summon Freighter Icon 1.1",
         "id": "1085",
         "state": "normal",
@@ -116,12 +122,6 @@
     {
         "name": "Almost Perfect Flight",
         "id": "2237",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Faster Scanning v6.45",
-        "id": "2284",
         "state": "normal",
         "warningMessage": ""
     },
