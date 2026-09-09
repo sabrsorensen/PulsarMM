@@ -18,12 +18,6 @@
         "warningMessage": ""
     },
     {
-        "name": "HD Space Planet Clouds 2.2",
-        "id": "1083",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "New Summon Freighter Icon 1.1",
         "id": "1085",
         "state": "normal",
@@ -84,8 +78,20 @@
         "warningMessage": "Not updated in 6 years"
     },
     {
+        "name": "ReLight 5.7",
+        "id": "1644",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "Better Scanning Icons 1.6",
         "id": "1661",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Instant Text Display - ITD",
+        "id": "1677",
         "state": "normal",
         "warningMessage": ""
     },
@@ -224,12 +230,6 @@
     {
         "name": "zBest Freighter v6.42",
         "id": "3605",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Corvette No Complexity Limit",
-        "id": "3701",
         "state": "normal",
         "warningMessage": ""
     },
