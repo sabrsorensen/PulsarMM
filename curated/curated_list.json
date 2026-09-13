@@ -20579,1914 +20579,6 @@
     }
   },
   {
-    "mod_id": 1566,
-    "name": "NomNom",
-    "summary": "NomNom is the most complete savegame editor for NMS but also shows you additional information around the data you're about to change. You can also easily look up each item individually to examine its attributes, independently of a savegame, or get other useful information that are not related to a specific one (but enhanced if one is loaded).",
-    "version": "6.40.1",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/1566/1566-1667235373-915062398.png",
-    "author": "zencq",
-    "updated_timestamp": 1780687261,
-    "created_timestamp": 1601807032,
-    "description": "[color=#e69138][size=3][b]NomNom is now in beta state.[/b] This means for you that some things may still not be 100% finished but the general state of the tool is a lot better than before.[/size] If you encounter bugs or when you think something doesn't work as expected or could be improved, [url=https://www.nexusmods.com/nomanssky/mods/1566?tab=bugs]let me know[/url]![/color]\n<br />\n<br />[color=#ff0000]All available features are tested while implemented but mistakes can happen, so be aware of that and backup your saves![/color]\n<br />\n<br />The features can be divided into the different main parts:\n<br />[list]\n<br />[*][b]Manager[/b] Manage your saves!\n<br />[list]\n<br />[*]Automatic backup.[/*]\n<br />[*]Save your save as human-readable JSON.[/*]\n<br />[*]Copy, move, and swap slots to another.[/*]\n<br />[*]Delete your save.[/*]\n<br />[/list][/*]\n<br />[*][b]Editor[/b] Edit your save for your needs!\n<br />[list]\n<br />[*]Ability to manage fleets, change data values like currencies and stats, and organize inventories.[/*]\n<br />[*]Ability to fast travel to any system you like, trigger space battles, and clear portal interference.[/*]\n<br />[*]Ability to edit your knowledge and recorded experiences.[/*]\n<br />[/list][/*]\n<br />[/list]\n<br />Have a look at the screenshots as well, to see what NomNom is capable of.\n<br />\n<br />Each version of NomNom is built with the latest game version (at that time) in mind and the version number is reflecting that. Each one is also backwards\n<br />compatible down to [b]Beyond 2.11[/b] and even saves before that can still be edited via the build-in JSON editor. If you use it with a newer game version branch than\n<br />the one it was built for (e.g. [b]7.00[/b]), things should work as usual in most cases but there can always be a breaking change.\n<br />\n<br />NomNom is compatible with every platform No Man's Sky is available on (some work better than others though). You can select a specific account/folder with you saves or, for platforms on PC, one level above if you have multiple accounts. A complete and always up-to-date overview with additional notes can be found [url=https://github.com/zencq/libNOM.io?tab=readme-ov-file#getting-started]on GitHub[/url].\n<br />\n<br />\n<br />[b]Instructions[/b]\n<br />[list=1]\n<br />[*]After downloading and extracting the zip file you'll find a few files. All you need to care about is the executable ([b]NomNom.exe[/b]) but new folders may    be created at runtime (e.g. for backups) that will become relevant to you.[/*]\n<br />[*]You may want to create a shortcut to the executable for easier access.[/*]\n<br />[*]As the tool includes an automatic backup functionality you don't need to do it manually but if you want to be absolutely safe, do it.[/*]\n<br />[*]At first start the tool locates your saves at the default location of each platform but if that fails, you must select it manually.[/*]\n<br />[*]Select a slot.[/*]\n<br />[*]Start tinkering![/*]\n<br />[/list]\n<br />\n<br />If you like NomNom and want to support me in its further development, you can do so via the donation options above or on [url=https://www.buymeacoffee.com/cengelha]Buy Me a Coffee[/url], [url=https://github.com/sponsors/cengelha]GitHub[/url], [url=https://ko-fi.com/cengelha]Ko-fi[/url], and [url=https://www.patreon.com/cengelha]Patreon[/url]. I will appreciate it!\n<br />There won't be a paywall though.\n<br />\n<br />The is also a dedicated [url=https://discord.gg/nomnom-762409407488720918]Discord[/url] server where you'll find all information in one place, firsthand. Please read the rules first, to gain full access. If you need (or want to offer) help, found a bug, have a suggestion, or something else regarding NomNom, you will find, or can post it there.\n<br />\n<br />Issues created here on Nexus Mods or via another channel will of course also be addressed.\n<br />\n<br />\n<br />Header image by [url=https://patreon.com/Orioto]Orioto[/url]﻿.",
-    "state": "normal",
-    "warningMessage": "",
-    "files": [
-      {
-        "id": [
-          9675,
-          1634
-        ],
-        "uid": 7017976571339,
-        "file_id": 9675,
-        "name": "NomNom.zip",
-        "version": "3.0.0.8-alpha.8",
-        "category_id": 6,
-        "category_name": null,
-        "is_primary": false,
-        "size": 10954,
-        "file_name": "NomNom.zip-1566-3-0-0-8-alpha-8-1601711277.zip",
-        "uploaded_timestamp": 1601711277,
-        "uploaded_time": "2020-10-03T07:47:57.000+00:00",
-        "mod_version": "3.0.0.8-alpha.8",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0c23a9e3b70ee8a9e23bb80869c404335b437468cd263b152fe1a92515b2cd03/detection/f-0c23a9e3b70ee8a9e23bb80869c404335b437468cd263b152fe1a92515b2cd03-1601711319",
-        "description": "",
-        "size_kb": 10954,
-        "size_in_bytes": null,
-        "changelog_html": "update for Origins",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-0-0-8-alpha-8-1601711277.zip.json"
-      },
-      {
-        "id": [
-          9718,
-          1634
-        ],
-        "uid": 7017976571382,
-        "file_id": 9718,
-        "name": "NomNom.zip",
-        "version": "3.0.0.9-alpha.9",
-        "category_id": 6,
-        "category_name": null,
-        "is_primary": false,
-        "size": 10955,
-        "file_name": "NomNom.zip-1566-3-0-0-9-alpha-9-1601845941.zip",
-        "uploaded_timestamp": 1601845941,
-        "uploaded_time": "2020-10-04T21:12:21.000+00:00",
-        "mod_version": "3.0.0.9-alpha.9",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/ea6cf3088364af2bc4acd728fefdb6f2cd85887096556f9a1a860630d1f11024/detection/f-ea6cf3088364af2bc4acd728fefdb6f2cd85887096556f9a1a860630d1f11024-1601845978",
-        "description": "",
-        "size_kb": 10955,
-        "size_in_bytes": null,
-        "changelog_html": "bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-0-0-9-alpha-9-1601845941.zip.json"
-      },
-      {
-        "id": [
-          9719,
-          1634
-        ],
-        "uid": 7017976571383,
-        "file_id": 9719,
-        "name": "NomNom.zip",
-        "version": "3.0.0.10-alpha.10",
-        "category_id": 6,
-        "category_name": null,
-        "is_primary": false,
-        "size": 10955,
-        "file_name": "NomNom.zip-1566-3-0-0-10-alpha-10-1601852450.zip",
-        "uploaded_timestamp": 1601852450,
-        "uploaded_time": "2020-10-04T23:00:50.000+00:00",
-        "mod_version": "3.0.0.10-alpha.10",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4f711d131dc4c4912e7c1a7f732ac1c83d58bc6b4ea146efee5ecd7432fb2180/detection/f-4f711d131dc4c4912e7c1a7f732ac1c83d58bc6b4ea146efee5ecd7432fb2180-1601852490",
-        "description": "",
-        "size_kb": 10955,
-        "size_in_bytes": null,
-        "changelog_html": "bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-0-0-10-alpha-10-1601852450.zip.json"
-      },
-      {
-        "id": [
-          9754,
-          1634
-        ],
-        "uid": 7017976571418,
-        "file_id": 9754,
-        "name": "NomNom.zip",
-        "version": "3.0.0.11-alpha.11",
-        "category_id": 6,
-        "category_name": null,
-        "is_primary": false,
-        "size": 10958,
-        "file_name": "NomNom.zip-1566-3-0-0-11-alpha-11-1602105350.zip",
-        "uploaded_timestamp": 1602105350,
-        "uploaded_time": "2020-10-07T21:15:50.000+00:00",
-        "mod_version": "3.0.0.11-alpha.11",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e98215c09c999a4c0768fd0fe2b4815f34606f6bbf14fc2b03862b57592f0007/detection/f-e98215c09c999a4c0768fd0fe2b4815f34606f6bbf14fc2b03862b57592f0007-1602105392",
-        "description": "",
-        "size_kb": 10958,
-        "size_in_bytes": null,
-        "changelog_html": "bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-0-0-11-alpha-11-1602105350.zip.json"
-      },
-      {
-        "id": [
-          9801,
-          1634
-        ],
-        "uid": 7017976571465,
-        "file_id": 9801,
-        "name": "NomNom.zip",
-        "version": "3.0.0.12-alpha.12",
-        "category_id": 6,
-        "category_name": null,
-        "is_primary": false,
-        "size": 10957,
-        "file_name": "NomNom.zip-1566-3-0-0-12-alpha-12-1602282499.zip",
-        "uploaded_timestamp": 1602282500,
-        "uploaded_time": "2020-10-09T22:28:20.000+00:00",
-        "mod_version": "3.0.0.12-alpha.12",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/2a2f4b21efe53f66595f3e8c22101f90e535028e211b8e53e434e7c084c61243/detection/f-2a2f4b21efe53f66595f3e8c22101f90e535028e211b8e53e434e7c084c61243-1602282549",
-        "description": "",
-        "size_kb": 10957,
-        "size_in_bytes": null,
-        "changelog_html": "bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-0-0-12-alpha-12-1602282499.zip.json"
-      },
-      {
-        "id": [
-          9959,
-          1634
-        ],
-        "uid": 7017976571623,
-        "file_id": 9959,
-        "name": "NomNom.zip",
-        "version": "3.0.0.13-alpha.13",
-        "category_id": 6,
-        "category_name": null,
-        "is_primary": false,
-        "size": 10957,
-        "file_name": "NomNom.zip-1566-3-0-0-13-alpha-13-1602619850.zip",
-        "uploaded_timestamp": 1602619850,
-        "uploaded_time": "2020-10-13T20:10:50.000+00:00",
-        "mod_version": "3.0.0.13-alpha.13",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/be5665d6d37bf1d39544016312b90921efdeb878f843496fbb21682117bb99aa/detection/f-be5665d6d37bf1d39544016312b90921efdeb878f843496fbb21682117bb99aa-1602619891",
-        "description": "",
-        "size_kb": 10957,
-        "size_in_bytes": null,
-        "changelog_html": "bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-0-0-13-alpha-13-1602619850.zip.json"
-      },
-      {
-        "id": [
-          10300,
-          1634
-        ],
-        "uid": 7017976571964,
-        "file_id": 10300,
-        "name": "NomNom.zip",
-        "version": "3.0.0.14-alpha.14",
-        "category_id": 6,
-        "category_name": null,
-        "is_primary": false,
-        "size": 10936,
-        "file_name": "NomNom.zip-1566-3-0-0-14-alpha-14-1603998765.zip",
-        "uploaded_timestamp": 1603998765,
-        "uploaded_time": "2020-10-29T19:12:45.000+00:00",
-        "mod_version": "3.0.0.14-alpha.14",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/931ea97d237a91f9527397ea8946635d5d8bd7d4f8904d1678a862093dbb0a57/detection/f-931ea97d237a91f9527397ea8946635d5d8bd7d4f8904d1678a862093dbb0a57-1603998802",
-        "description": "",
-        "size_kb": 10936,
-        "size_in_bytes": null,
-        "changelog_html": "database update for Origins 3.05",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-0-0-14-alpha-14-1603998765.zip.json"
-      },
-      {
-        "id": [
-          10592,
-          1634
-        ],
-        "uid": 7017976572256,
-        "file_id": 10592,
-        "name": "NomNom.zip",
-        "version": "3.1.0.15-alpha.15",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 11031,
-        "file_name": "NomNom.zip-1566-3-1-0-15-alpha-15-1605215210.zip",
-        "uploaded_timestamp": 1605215210,
-        "uploaded_time": "2020-11-12T21:06:50.000+00:00",
-        "mod_version": "3.1.0.15-alpha.15",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/20b5f241aefe70d3e01196e32d8628d7996fa56ed2333c25bf87ff9d03bc20fc/detection/f-20b5f241aefe70d3e01196e32d8628d7996fa56ed2333c25bf87ff9d03bc20fc-1605215252",
-        "description": "",
-        "size_kb": 11031,
-        "size_in_bytes": 0,
-        "changelog_html": "database update for Next Generation 3.10",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-1-0-15-alpha-15-1605215210.zip.json"
-      },
-      {
-        "id": [
-          13358,
-          1634
-        ],
-        "uid": 7017976575022,
-        "file_id": 13358,
-        "name": "NomNom.zip",
-        "version": "3.1.0.16-alpha.16",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 10914,
-        "file_name": "NomNom.zip-1566-3-1-0-16-alpha-16-1624725256.zip",
-        "uploaded_timestamp": 1624725256,
-        "uploaded_time": "2021-06-26T16:34:16.000+00:00",
-        "mod_version": "3.1.0.16-alpha.16",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/219fcf63ce15e2e8ce6cfa37f876c8ac8dabe467ddab1a004da5d44945c6a8d1/detection/f-219fcf63ce15e2e8ce6cfa37f876c8ac8dabe467ddab1a004da5d44945c6a8d1-1624725296",
-        "description": "",
-        "size_kb": 10914,
-        "size_in_bytes": 11175586,
-        "changelog_html": "fixed save incompatibilities due to game updates once and for all (except there are some real breaking changes) and added some nice improvements for Windows Store and PlayStation platforms",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-1-0-16-alpha-16-1624725256.zip.json"
-      },
-      {
-        "id": [
-          13604,
-          1634
-        ],
-        "uid": 7017976575268,
-        "file_id": 13604,
-        "name": "NomNom.zip",
-        "version": "3.5.0.17-alpha.17",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 9157,
-        "file_name": "NomNom.zip-1566-3-5-0-17-alpha-17-1629920191.zip",
-        "uploaded_timestamp": 1629920191,
-        "uploaded_time": "2021-08-25T19:36:31.000+00:00",
-        "mod_version": "3.5.0.17-alpha.17",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1db27f391ce2a9f0b9064fdd61780954889c3cf72ee256a51b1ca2d52452413e/detection/f-1db27f391ce2a9f0b9064fdd61780954889c3cf72ee256a51b1ca2d52452413e-1629920229",
-        "description": "",
-        "size_kb": 9157,
-        "size_in_bytes": 9376861,
-        "changelog_html": "database update for Prisms 3.53, added JSON editor and platform save transfer",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-5-0-17-alpha-17-1629920191.zip.json"
-      },
-      {
-        "id": [
-          13744,
-          1634
-        ],
-        "uid": 7017976575408,
-        "file_id": 13744,
-        "name": "NomNom.zip",
-        "version": "3.6.0.18-alpha.18",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 9190,
-        "file_name": "NomNom.zip-1566-3-6-0-18-alpha-18-1630783750.zip",
-        "uploaded_timestamp": 1630783750,
-        "uploaded_time": "2021-09-04T19:29:10.000+00:00",
-        "mod_version": "3.6.0.18-alpha.18",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/602cb0e961bd3b34aba2a1fee3bedcb7ad47069cd30714e3971e7611c03ce484/detection/f-602cb0e961bd3b34aba2a1fee3bedcb7ad47069cd30714e3971e7611c03ce484-1630783787",
-        "description": "",
-        "size_kb": 9190,
-        "size_in_bytes": 9411039,
-        "changelog_html": "compatibility with the new save streaming system",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-6-0-18-alpha-18-1630783750.zip.json"
-      },
-      {
-        "id": [
-          15156,
-          1634
-        ],
-        "uid": 7017976576820,
-        "file_id": 15156,
-        "name": "NomNom.zip",
-        "version": "3.6.0.19-alpha.19",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 9193,
-        "file_name": "NomNom.zip-1566-3-6-0-19-alpha-19-1635444131.zip",
-        "uploaded_timestamp": 1635444131,
-        "uploaded_time": "2021-10-28T18:02:11.000+00:00",
-        "mod_version": "3.6.0.19-alpha.19",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/24ce2de3337b96ea3b8f1320dbd0a4df5787a80312867ff5930a89b4d8ed6204/detection/f-24ce2de3337b96ea3b8f1320dbd0a4df5787a80312867ff5930a89b4d8ed6204-1635444168",
-        "description": "",
-        "size_kb": 9193,
-        "size_in_bytes": 9413494,
-        "changelog_html": "compatibility with the new save streaming system for PlayStation",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-6-0-19-alpha-19-1635444131.zip.json"
-      },
-      {
-        "id": [
-          15415,
-          1634
-        ],
-        "uid": 7017976577079,
-        "file_id": 15415,
-        "name": "NomNom.zip",
-        "version": "3.7.0.20-alpha.20",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 9244,
-        "file_name": "NomNom.zip-1566-3-7-0-20-alpha-20-1638125649.zip",
-        "uploaded_timestamp": 1638125649,
-        "uploaded_time": "2021-11-28T18:54:09.000+00:00",
-        "mod_version": "3.7.0.20-alpha.20",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7570756720e99062d0764aeb685599d47c99ae5392a52dc986f3c7549c8c1eaf/detection/f-7570756720e99062d0764aeb685599d47c99ae5392a52dc986f3c7549c8c1eaf-1638125683",
-        "description": "",
-        "size_kb": 9244,
-        "size_in_bytes": 9465760,
-        "changelog_html": "fixed knowledge tab, and added cross-save and companion editing",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-7-0-20-alpha-20-1638125649.zip.json"
-      },
-      {
-        "id": [
-          15462,
-          1634
-        ],
-        "uid": 7017976577126,
-        "file_id": 15462,
-        "name": "NomNom.zip",
-        "version": "3.7.0.21-alpha.21",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 9279,
-        "file_name": "NomNom.zip-1566-3-7-0-21-alpha-21-1638790614.zip",
-        "uploaded_timestamp": 1638790614,
-        "uploaded_time": "2021-12-06T11:36:54.000+00:00",
-        "mod_version": "3.7.0.21-alpha.21",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/585bb46e552fe87d0ef82cb71c67dfddf9b471a6afaae6eadfa0a045d18bf437/detection/f-585bb46e552fe87d0ef82cb71c67dfddf9b471a6afaae6eadfa0a045d18bf437-1638790647",
-        "description": "",
-        "size_kb": 9279,
-        "size_in_bytes": 9501733,
-        "changelog_html": "renamed editor buttons to avoid confusion, fixed some issues (with the Microsoft platform)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-7-0-21-alpha-21-1638790614.zip.json"
-      },
-      {
-        "id": [
-          15480,
-          1634
-        ],
-        "uid": 7017976577144,
-        "file_id": 15480,
-        "name": "NomNom.zip",
-        "version": "3.7.0.22-alpha.22",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 9282,
-        "file_name": "NomNom.zip-1566-3-7-0-22-alpha-22-1639252389.zip",
-        "uploaded_timestamp": 1639252389,
-        "uploaded_time": "2021-12-11T19:53:09.000+00:00",
-        "mod_version": "3.7.0.22-alpha.22",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/f9a96b5cd571221a553e2bfb47f6e9b494898357bfdc9217be7a776bc33a49f4/detection/f-f9a96b5cd571221a553e2bfb47f6e9b494898357bfdc9217be7a776bc33a49f4-1639252425",
-        "description": "<br />",
-        "size_kb": 9282,
-        "size_in_bytes": 9504806,
-        "changelog_html": "added expedition progress editing",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-7-0-22-alpha-22-1639252389.zip.json"
-      },
-      {
-        "id": [
-          15528,
-          1634
-        ],
-        "uid": 7017976577192,
-        "file_id": 15528,
-        "name": "NomNom.zip",
-        "version": "3.7.0.23-alpha.23",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 9293,
-        "file_name": "NomNom.zip-1566-3-7-0-23-alpha-23-1640275940.zip",
-        "uploaded_timestamp": 1640275940,
-        "uploaded_time": "2021-12-23T16:12:20.000+00:00",
-        "mod_version": "3.7.0.23-alpha.23",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/216c092a6b48760b7c9f56ce032117db7539f2be23fd14471f38b67ea79a6225/detection/f-216c092a6b48760b7c9f56ce032117db7539f2be23fd14471f38b67ea79a6225-1640275973",
-        "description": "",
-        "size_kb": 9293,
-        "size_in_bytes": 9516504,
-        "changelog_html": "added settlement editing",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-7-0-23-alpha-23-1640275940.zip.json"
-      },
-      {
-        "id": [
-          15546,
-          1634
-        ],
-        "uid": 7017976577210,
-        "file_id": 15546,
-        "name": "NomNom.zip",
-        "version": "3.7.0.24-alpha.24",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 9295,
-        "file_name": "NomNom.zip-1566-3-7-0-24-alpha-24-1641242059.zip",
-        "uploaded_timestamp": 1641242059,
-        "uploaded_time": "2022-01-03T20:34:19.000+00:00",
-        "mod_version": "3.7.0.24-alpha.24",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/89f40a3c0357d6ad7a05fcdc8db260afb488490034e4f7d0de250834ca644912/detection/f-89f40a3c0357d6ad7a05fcdc8db260afb488490034e4f7d0de250834ca644912-1641233415",
-        "description": "",
-        "size_kb": 9295,
-        "size_in_bytes": 9517852,
-        "changelog_html": "bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-7-0-24-alpha-24-1641242059.zip.json"
-      },
-      {
-        "id": [
-          16087,
-          1634
-        ],
-        "uid": 7017976577751,
-        "file_id": 16087,
-        "name": "NomNom.zip",
-        "version": "3.8.0.25-alpha.25",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 9991,
-        "file_name": "NomNom.zip-1566-3-8-0-25-alpha-25-1645710610.zip",
-        "uploaded_timestamp": 1645710610,
-        "uploaded_time": "2022-02-24T13:50:10.000+00:00",
-        "mod_version": "3.8.0.25-alpha.25",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0dcb11c896d242618324241eec94c6497783b535fc9f9fdea79f8145f2ad3556/detection/f-0dcb11c896d242618324241eec94c6497783b535fc9f9fdea79f8145f2ad3556-1645710649",
-        "description": "",
-        "size_kb": 9991,
-        "size_in_bytes": 10231077,
-        "changelog_html": "update for Sentinel 3.8",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-8-0-25-alpha-25-1645710610.zip.json"
-      },
-      {
-        "id": [
-          16187,
-          1634
-        ],
-        "uid": 7017976577851,
-        "file_id": 16187,
-        "name": "NomNom.zip",
-        "version": "3.8.0.26-alpha.26",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 9991,
-        "file_name": "NomNom.zip-1566-3-8-0-26-alpha-26-1646081800.zip",
-        "uploaded_timestamp": 1646081800,
-        "uploaded_time": "2022-02-28T20:56:40.000+00:00",
-        "mod_version": "3.8.0.26-alpha.26",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/3eff50e9f39922cdfc322cbf57fc00a42c9b193746a6fb2d511aeb9d6be3e940/detection/f-3eff50e9f39922cdfc322cbf57fc00a42c9b193746a6fb2d511aeb9d6be3e940-1646081839",
-        "description": "",
-        "size_kb": 9991,
-        "size_in_bytes": 10231001,
-        "changelog_html": "bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-8-0-26-alpha-26-1646081800.zip.json"
-      },
-      {
-        "id": [
-          17840,
-          1634
-        ],
-        "uid": 7017976579504,
-        "file_id": 17840,
-        "name": "NomNom.zip",
-        "version": "3.85.0.28-alpha.28",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 9890,
-        "file_name": "NomNom.zip-1566-3-85-0-28-alpha-28-1652995541.zip",
-        "uploaded_timestamp": 1652995541,
-        "uploaded_time": "2022-05-19T21:25:41.000+00:00",
-        "mod_version": "3.85.0.28-alpha.28",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/2f22340974dd3fa56dc655d16b82e38412357fe4a6b2fac8231459e311a8c396/detection/f-2f22340974dd3fa56dc655d16b82e38412357fe4a6b2fac8231459e311a8c396-1652995581",
-        "description": "",
-        "size_kb": 9890,
-        "size_in_bytes": 10127008,
-        "changelog_html": "bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-85-0-28-alpha-28-1652995541.zip.json"
-      },
-      {
-        "id": [
-          18038,
-          1634
-        ],
-        "uid": 7017976579702,
-        "file_id": 18038,
-        "name": "NomNom.zip",
-        "version": "3.90.0.29-alpha.29",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 9893,
-        "file_name": "NomNom.zip-1566-3-90-0-29-alpha-29-1653596795.zip",
-        "uploaded_timestamp": 1653596795,
-        "uploaded_time": "2022-05-26T20:26:35.000+00:00",
-        "mod_version": "3.90.0.29-alpha.29",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1c2c6a1c724a852daf964910615e01232d1d53ac3be152404d048862461cfe9b/detection/f-1c2c6a1c724a852daf964910615e01232d1d53ac3be152404d048862461cfe9b-1653596832",
-        "description": "",
-        "size_kb": 9893,
-        "size_in_bytes": 10130427,
-        "changelog_html": "update for Leviathan 3.90",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-90-0-29-alpha-29-1653596795.zip.json"
-      },
-      {
-        "id": [
-          19253,
-          1634
-        ],
-        "uid": 7017976580917,
-        "file_id": 19253,
-        "name": "NomNom.zip",
-        "version": "3.94.0.30-alpha.30",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 10057,
-        "file_name": "NomNom.zip-1566-3-94-0-30-alpha-30-1659172276.zip",
-        "uploaded_timestamp": 1659172276,
-        "uploaded_time": "2022-07-30T09:11:16.000+00:00",
-        "mod_version": "3.94.0.30-alpha.30",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/6103b275045f4e3bd00e8f43d7cf0c7ad3964b15526b6c9dae5ad3d170729c94/detection/f-6103b275045f4e3bd00e8f43d7cf0c7ad3964b15526b6c9dae5ad3d170729c94-1659172316",
-        "description": "",
-        "size_kb": 10057,
-        "size_in_bytes": 10298661,
-        "changelog_html": "update for Endurance 3.94",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-3-94-0-30-alpha-30-1659172276.zip.json"
-      },
-      {
-        "id": [
-          21622,
-          1634
-        ],
-        "uid": 7017976583286,
-        "file_id": 21622,
-        "name": "NomNom.zip",
-        "version": "4.00.0.31-beta.1",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 119360,
-        "file_name": "NomNom.zip-1566-4-00-0-31-beta-1-1667252444.zip",
-        "uploaded_timestamp": 1667252444,
-        "uploaded_time": "2022-10-31T21:40:44.000+00:00",
-        "mod_version": "4.00.0.31-beta.1",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e50d3cacb91765576d23a0a6cb5a9d8d203fbbbf1bdd1980a6c41e980c6f8f6a/detection/f-e50d3cacb91765576d23a0a6cb5a9d8d203fbbbf1bdd1980a6c41e980c6f8f6a-1667252474",
-        "description": "",
-        "size_kb": 119360,
-        "size_in_bytes": 122224378,
-        "changelog_html": "now in beta state with countless new features and improvements incl. update for Waypoint 4.00 and support for Nintendo Switch",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-4-00-0-31-beta-1-1667252444.zip.json"
-      },
-      {
-        "id": [
-          22423,
-          1634
-        ],
-        "uid": 7017976584087,
-        "file_id": 22423,
-        "name": "NomNom.zip",
-        "version": "4.00.0.32-beta.2",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 119207,
-        "file_name": "NomNom.zip-1566-4-00-0-32-beta-2-1669322286.zip",
-        "uploaded_timestamp": 1669322286,
-        "uploaded_time": "2022-11-24T20:38:06.000+00:00",
-        "mod_version": "4.00.0.32-beta.2",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/9cca73738df9b075f63d304d4fd31ddabdeee9000b2a0d4c84ac2aa0715f2fa3/detection/f-9cca73738df9b075f63d304d4fd31ddabdeee9000b2a0d4c84ac2aa0715f2fa3-1669322315",
-        "description": "",
-        "size_kb": 119207,
-        "size_in_bytes": 122067509,
-        "changelog_html": "bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-4-00-0-32-beta-2-1669322286.zip.json"
-      },
-      {
-        "id": [
-          28004,
-          1634
-        ],
-        "uid": 7017976589668,
-        "file_id": 28004,
-        "name": "NomNom.zip",
-        "version": "4.40.0.34-beta.4",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
-        "is_primary": false,
-        "size": 127834,
-        "file_name": "NomNom.zip-1566-4-40-0-34-beta-4-1694443753.zip",
-        "uploaded_timestamp": 1694443753,
-        "uploaded_time": "2023-09-11T14:49:13.000+00:00",
-        "mod_version": "4.40.0.34-beta.4",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/bff93e1b1e501a0130e98bd143473cde2962c3f5b6410d999491c39cdeec8b44/detection/f-bff93e1b1e501a0130e98bd143473cde2962c3f5b6410d999491c39cdeec8b44-1694443783",
-        "description": "Use this one for saves created before the Omega update.",
-        "size_kb": 127834,
-        "size_in_bytes": 130901550,
-        "changelog_html": "update for Echoes 4.40 and lots of bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-4-40-0-34-beta-4-1694443753.zip.json"
-      },
-      {
-        "id": [
-          30449,
-          1634
-        ],
-        "uid": 7017976592113,
-        "file_id": 30449,
-        "name": "NomNom.zip",
-        "version": "4.50.2.37-beta.7",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 129872,
-        "file_name": "NomNom.zip-1566-4-50-2-37-beta-7-1710001686.zip",
-        "uploaded_timestamp": 1710001686,
-        "uploaded_time": "2024-03-09T16:28:06.000+00:00",
-        "mod_version": "4.50.2.37-beta.7",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4927c29a6a8e3264ecc7126de03aa41d91cd660feccdb8633da1e5dfe37649d0/detection/f-4927c29a6a8e3264ecc7126de03aa41d91cd660feccdb8633da1e5dfe37649d0-1710001734",
-        "description": "",
-        "size_kb": 129872,
-        "size_in_bytes": 132988573,
-        "changelog_html": "update for Omega 4.50 incl. support for new Xbox save format, bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-4-50-2-37-beta-7-1710001686.zip.json"
-      },
-      {
-        "id": [
-          31401,
-          1634
-        ],
-        "uid": 7017976593065,
-        "file_id": 31401,
-        "name": "NomNom.zip",
-        "version": "4.60.0.38-beta.8",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 140924,
-        "file_name": "NomNom.zip-1566-4-60-0-38-beta-8-1712773242.zip",
-        "uploaded_timestamp": 1712773243,
-        "uploaded_time": "2024-04-10T18:20:43.000+00:00",
-        "mod_version": "4.60.0.38-beta.8",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/2065960e8c95f65e288517b2c50c59ab8c49fff93b7891f6fee5aba1b6414148/detection/f-2065960e8c95f65e288517b2c50c59ab8c49fff93b7891f6fee5aba1b6414148-1712773714",
-        "description": "",
-        "size_kb": 140924,
-        "size_in_bytes": 144306265,
-        "changelog_html": "update for Orbital 4.60",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-4-60-0-38-beta-8-1712773242.zip.json"
-      },
-      {
-        "id": [
-          33172,
-          1634
-        ],
-        "uid": 7017976594836,
-        "file_id": 33172,
-        "name": "NomNom.zip",
-        "version": "4.70.0.39-beta.9",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 119177,
-        "file_name": "NomNom.zip-1566-4-70-0-39-beta-9-1718043580.zip",
-        "uploaded_timestamp": 1718043580,
-        "uploaded_time": "2024-06-10T18:19:40.000+00:00",
-        "mod_version": "4.70.0.39-beta.9",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/48bea9f798c693d2433eed7e0c46a729768f5ebca3271660faf973741a44577d/detection/f-48bea9f798c693d2433eed7e0c46a729768f5ebca3271660faf973741a44577d-1718043635",
-        "description": "",
-        "size_kb": 119177,
-        "size_in_bytes": 122037606,
-        "changelog_html": "update for Adrift 4.70",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-4-70-0-39-beta-9-1718043580.zip.json"
-      },
-      {
-        "id": [
-          33193,
-          1634
-        ],
-        "uid": 7017976594857,
-        "file_id": 33193,
-        "name": "NomNom.zip",
-        "version": "4.70.1.40-beta.10",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 119198,
-        "file_name": "NomNom.zip-1566-4-70-1-40-beta-10-1718355535.zip",
-        "uploaded_timestamp": 1718355535,
-        "uploaded_time": "2024-06-14T08:58:55.000+00:00",
-        "mod_version": "4.70.1.40-beta.10",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/513f997ab3b498cc1904a30ef4cab23530473b8fa9248fe51a697507b7fcdd1f/detection/f-513f997ab3b498cc1904a30ef4cab23530473b8fa9248fe51a697507b7fcdd1f-1718355643",
-        "description": "",
-        "size_kb": 119198,
-        "size_in_bytes": 122059042,
-        "changelog_html": "bug fixes, experimental support for new save format",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-4-70-1-40-beta-10-1718355535.zip.json"
-      },
-      {
-        "id": [
-          33308,
-          1634
-        ],
-        "uid": 7017976594972,
-        "file_id": 33308,
-        "name": "NomNom.zip",
-        "version": "4.70.2.41-beta.11",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 119199,
-        "file_name": "NomNom.zip-1566-4-70-2-41-beta-11-1720983175.zip",
-        "uploaded_timestamp": 1720983175,
-        "uploaded_time": "2024-07-14T18:52:55.000+00:00",
-        "mod_version": "4.70.2.41-beta.11",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/dd51b9af78b3dba585c3890bfdc49a7714d3e750e02520594fc61bed8b6177a4/detection/f-dd51b9af78b3dba585c3890bfdc49a7714d3e750e02520594fc61bed8b6177a4-1720983231",
-        "description": "",
-        "size_kb": 119199,
-        "size_in_bytes": 122059791,
-        "changelog_html": "bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-4-70-2-41-beta-11-1720983175.zip.json"
-      },
-      {
-        "id": [
-          33698,
-          1634
-        ],
-        "uid": 7017976595362,
-        "file_id": 33698,
-        "name": "NomNom.zip",
-        "version": "4.70.3.42-beta.12",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 119130,
-        "file_name": "NomNom.zip-1566-4-70-3-42-beta-12-1721597840.zip",
-        "uploaded_timestamp": 1721597840,
-        "uploaded_time": "2024-07-21T21:37:20.000+00:00",
-        "mod_version": "4.70.3.42-beta.12",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8374d6045ec947341a407f1c5e7a8e40a0d77d46f9da578f3a2dedc7f2cae133/detection/f-8374d6045ec947341a407f1c5e7a8e40a0d77d46f9da578f3a2dedc7f2cae133-1721635268",
-        "description": "",
-        "size_kb": 119130,
-        "size_in_bytes": 121989332,
-        "changelog_html": "bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-4-70-3-42-beta-12-1721597840.zip.json"
-      },
-      {
-        "id": [
-          33759,
-          1634
-        ],
-        "uid": 7017976595423,
-        "file_id": 33759,
-        "name": "NomNom.zip",
-        "version": "4.70.3.42-beta.12",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 119130,
-        "file_name": "NomNom.zip-1566-4-70-3-42-beta-12-1721755721.zip",
-        "uploaded_timestamp": 1721755721,
-        "uploaded_time": "2024-07-23T17:28:41.000+00:00",
-        "mod_version": "4.70.3.42-beta.12",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8374d6045ec947341a407f1c5e7a8e40a0d77d46f9da578f3a2dedc7f2cae133/detection/f-8374d6045ec947341a407f1c5e7a8e40a0d77d46f9da578f3a2dedc7f2cae133-1721635268",
-        "description": "Reupload as previous file seems to be corrupted.",
-        "size_kb": 119130,
-        "size_in_bytes": 121989332,
-        "changelog_html": "bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-4-70-3-42-beta-12-1721755721.zip.json"
-      },
-      {
-        "id": [
-          34154,
-          1634
-        ],
-        "uid": 7017976595818,
-        "file_id": 34154,
-        "name": "NomNom.zip",
-        "version": "5.00.0.44-beta.13",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 121106,
-        "file_name": "NomNom.zip-1566-5-00-0-44-beta-13-1722030693.zip",
-        "uploaded_timestamp": 1722030693,
-        "uploaded_time": "2024-07-26T21:51:33.000+00:00",
-        "mod_version": "5.00.0.44-beta.13",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/80000bc3b4c22919425c6ac4e184ff4bc39eaac79b1c2d222ebc036a42acedd8/detection/f-80000bc3b4c22919425c6ac4e184ff4bc39eaac79b1c2d222ebc036a42acedd8-1722031311",
-        "description": "",
-        "size_kb": 121106,
-        "size_in_bytes": 124012923,
-        "changelog_html": "update for Worlds Part I 5.00, bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-5-00-0-44-beta-13-1722030693.zip.json"
-      },
-      {
-        "id": [
-          34604,
-          1634
-        ],
-        "uid": 7017976596268,
-        "file_id": 34604,
-        "name": "NomNom.zip",
-        "version": "5.00.1.45-beta.14",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 121109,
-        "file_name": "NomNom.zip-1566-5-00-1-45-beta-14-1722891476.zip",
-        "uploaded_timestamp": 1722891476,
-        "uploaded_time": "2024-08-05T20:57:56.000+00:00",
-        "mod_version": "5.00.1.45-beta.14",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b943eefc882e37726424952935ce45c40c9d44e1cf08450b1fbd0f5bde0f19cc/detection/f-b943eefc882e37726424952935ce45c40c9d44e1cf08450b1fbd0f5bde0f19cc-1722891884",
-        "description": "",
-        "size_kb": 121109,
-        "size_in_bytes": 124015384,
-        "changelog_html": "bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-5-00-1-45-beta-14-1722891476.zip.json"
-      },
-      {
-        "id": [
-          34618,
-          1634
-        ],
-        "uid": 7017976596282,
-        "file_id": 34618,
-        "name": "NomNom.zip",
-        "version": "5.00.2.46-beta.15",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 121109,
-        "file_name": "NomNom.zip-1566-5-00-2-46-beta-15-1722936606.zip",
-        "uploaded_timestamp": 1722936606,
-        "uploaded_time": "2024-08-06T09:30:06.000+00:00",
-        "mod_version": "5.00.2.46-beta.15",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4e768447ff391657ac8bda12f283ec235ba6b3dd8be967a251b87169dae79588/detection/f-4e768447ff391657ac8bda12f283ec235ba6b3dd8be967a251b87169dae79588-1722936662",
-        "description": "",
-        "size_kb": 121109,
-        "size_in_bytes": 124015349,
-        "changelog_html": "bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-5-00-2-46-beta-15-1722936606.zip.json"
-      },
-      {
-        "id": [
-          35083,
-          1634
-        ],
-        "uid": 7017976596747,
-        "file_id": 35083,
-        "name": "NomNom.zip",
-        "version": "5.00.3",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 189372,
-        "file_name": "NomNom.zip-1566-5-00-3-1724190096.zip",
-        "uploaded_timestamp": 1724190096,
-        "uploaded_time": "2024-08-20T21:41:36.000+00:00",
-        "mod_version": "5.00.3",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/250bb0cc770c2ea556e97a9ae69d41617d1640e2b16c2dfa0f2f9d15b67b2f29/detection/f-250bb0cc770c2ea556e97a9ae69d41617d1640e2b16c2dfa0f2f9d15b67b2f29-1724190260",
-        "description": "",
-        "size_kb": 189372,
-        "size_in_bytes": 193916738,
-        "changelog_html": "bug fixes, internal changes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom.zip-1566-5-00-3-1724190096.zip.json"
-      },
-      {
-        "id": [
-          35498,
-          1634
-        ],
-        "uid": 7017976597162,
-        "file_id": 35498,
-        "name": "NomNom-Portable.zip",
-        "version": "5.10.0",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 185707,
-        "file_name": "NomNom-Portable.zip-1566-5-10-0-1725484022.zip",
-        "uploaded_timestamp": 1725484022,
-        "uploaded_time": "2024-09-04T21:07:02.000+00:00",
-        "mod_version": "5.10.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/30a8af630fd8d2b3b4a684ef090588086fd6d6502539aca116c2441d9610ac0a/detection/f-30a8af630fd8d2b3b4a684ef090588086fd6d6502539aca116c2441d9610ac0a-1725484895",
-        "description": "",
-        "size_kb": 185707,
-        "size_in_bytes": 190164259,
-        "changelog_html": "update for Aquarius 5.10",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom-Portable.zip-1566-5-10-0-1725484022.zip.json"
-      },
-      {
-        "id": [
-          35499,
-          1634
-        ],
-        "uid": 7017976597163,
-        "file_id": 35499,
-        "name": "NomNom-Setup.exe",
-        "version": "5.10.0",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 188428,
-        "file_name": "NomNom-Setup.exe-1566-5-10-0-1725484159.exe",
-        "uploaded_timestamp": 1725484159,
-        "uploaded_time": "2024-09-04T21:09:19.000+00:00",
-        "mod_version": "5.10.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/35b6fb3bc576321624850247944054fc5cccd6497359118363a8d9a3fd7ea2db/detection/f-35b6fb3bc576321624850247944054fc5cccd6497359118363a8d9a3fd7ea2db-1725484511",
-        "description": "",
-        "size_kb": 188428,
-        "size_in_bytes": 192950056,
-        "changelog_html": "update for Aquarius 5.10",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom-Setup.exe-1566-5-10-0-1725484159.exe.json"
-      },
-      {
-        "id": [
-          35814,
-          1634
-        ],
-        "uid": 7017976597478,
-        "file_id": 35814,
-        "name": "NomNom-Portable.zip",
-        "version": "5.10.1",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 185707,
-        "file_name": "NomNom-Portable.zip-1566-5-10-1-1725560418.zip",
-        "uploaded_timestamp": 1725560418,
-        "uploaded_time": "2024-09-05T18:20:18.000+00:00",
-        "mod_version": "5.10.1",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b21f7533a88d1a980322bc4c182e3f69892f3c410cb15b1113cdff910f84c6a2/detection/f-b21f7533a88d1a980322bc4c182e3f69892f3c410cb15b1113cdff910f84c6a2-1725561032",
-        "description": "",
-        "size_kb": 185707,
-        "size_in_bytes": 190164313,
-        "changelog_html": "bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom-Portable.zip-1566-5-10-1-1725560418.zip.json"
-      },
-      {
-        "id": [
-          35815,
-          1634
-        ],
-        "uid": 7017976597479,
-        "file_id": 35815,
-        "name": "NomNom-Setup.exe",
-        "version": "5.10.1",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 188428,
-        "file_name": "NomNom-Setup.exe-1566-5-10-1-1725560505.exe",
-        "uploaded_timestamp": 1725560505,
-        "uploaded_time": "2024-09-05T18:21:45.000+00:00",
-        "mod_version": "5.10.1",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/9265376b852b1236da064e5bb6b060895101226bdfbd736854f8b86c393751ed/detection/f-9265376b852b1236da064e5bb6b060895101226bdfbd736854f8b86c393751ed-1725561200",
-        "description": "",
-        "size_kb": 188428,
-        "size_in_bytes": 192950200,
-        "changelog_html": "bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom-Setup.exe-1566-5-10-1-1725560505.exe.json"
-      },
-      {
-        "id": [
-          37347,
-          1634
-        ],
-        "uid": 7017976599011,
-        "file_id": 37347,
-        "name": "NomNom-Portable.zip",
-        "version": "5.20.0",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 189378,
-        "file_name": "NomNom-Portable.zip-1566-5-20-0-1730065802.zip",
-        "uploaded_timestamp": 1730065802,
-        "uploaded_time": "2024-10-27T21:50:02.000+00:00",
-        "mod_version": "5.20.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/9281c138e077cc606bbab8cbe826e4293b24dea34c129a4666c4f9dc68fdc466/detection/f-9281c138e077cc606bbab8cbe826e4293b24dea34c129a4666c4f9dc68fdc466-1730066002",
-        "description": "",
-        "size_kb": 189378,
-        "size_in_bytes": 193923304,
-        "changelog_html": "update for The Cursed 5.20",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom-Portable.zip-1566-5-20-0-1730065802.zip.json"
-      },
-      {
-        "id": [
-          37348,
-          1634
-        ],
-        "uid": 7017976599012,
-        "file_id": 37348,
-        "name": "NomNom-Setup.exe",
-        "version": "5.20.0",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 192099,
-        "file_name": "NomNom-Setup.exe-1566-5-20-0-1730065877.exe",
-        "uploaded_timestamp": 1730065877,
-        "uploaded_time": "2024-10-27T21:51:17.000+00:00",
-        "mod_version": "5.20.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1d28292efae7db764c77fd4232581414f00facfb4156a634d00ae837c3d171aa/detection/f-1d28292efae7db764c77fd4232581414f00facfb4156a634d00ae837c3d171aa-1730066087",
-        "description": "",
-        "size_kb": 192099,
-        "size_in_bytes": 196709672,
-        "changelog_html": "update for The Cursed 5.20",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom-Setup.exe-1566-5-20-0-1730065877.exe.json"
-      },
-      {
-        "id": [
-          38126,
-          1634
-        ],
-        "uid": 7017976599790,
-        "file_id": 38126,
-        "name": "NomNom-Portable.zip",
-        "version": "5.20.2",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 190427,
-        "file_name": "NomNom-Portable.zip-1566-5-20-2-1733164581.zip",
-        "uploaded_timestamp": 1733164581,
-        "uploaded_time": "2024-12-02T18:36:21.000+00:00",
-        "mod_version": "5.20.2",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/6c2a03a7e3967b3d25c16f9a981022a2d1c7901c5f0147d4a390b4600c7e50ce/detection/f-6c2a03a7e3967b3d25c16f9a981022a2d1c7901c5f0147d4a390b4600c7e50ce-1733164657",
-        "description": "",
-        "size_kb": 190427,
-        "size_in_bytes": 194997220,
-        "changelog_html": "update for The Cursed 5.27, bug fixes, underfill inventory, show save names in manager",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom-Portable.zip-1566-5-20-2-1733164581.zip.json"
-      },
-      {
-        "id": [
-          38127,
-          1634
-        ],
-        "uid": 7017976599791,
-        "file_id": 38127,
-        "name": "NomNom-Setup.exe",
-        "version": "5.20.2",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 193525,
-        "file_name": "NomNom-Setup.exe-1566-5-20-2-1733164721.exe",
-        "uploaded_timestamp": 1733164721,
-        "uploaded_time": "2024-12-02T18:38:41.000+00:00",
-        "mod_version": "5.20.2",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/70fe1ac2183561c3e8e79cb24a1d97b3d293f8c5daa0747412436dd08006ea7d/detection/f-70fe1ac2183561c3e8e79cb24a1d97b3d293f8c5daa0747412436dd08006ea7d-1733164774",
-        "description": "",
-        "size_kb": 193525,
-        "size_in_bytes": 198169392,
-        "changelog_html": "update for The Cursed 5.27, bug fixes, underfill inventory, show save names in manager",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom-Setup.exe-1566-5-20-2-1733164721.exe.json"
-      },
-      {
-        "id": [
-          39392,
-          1634
-        ],
-        "uid": 7017976601056,
-        "file_id": 39392,
-        "name": "NomNom-Portable.zip",
-        "version": "5.50.0",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 195663,
-        "file_name": "NomNom-Portable.zip-1566-5-50-0-1739117529.zip",
-        "uploaded_timestamp": 1739117529,
-        "uploaded_time": "2025-02-09T16:12:09.000+00:00",
-        "mod_version": "5.50.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/307887a984ec39c399311b07a4b013a342721ee543965cc1b827e42fbffc62d6/detection/f-307887a984ec39c399311b07a4b013a342721ee543965cc1b827e42fbffc62d6-1739117585",
-        "description": "",
-        "size_kb": 195663,
-        "size_in_bytes": 200358791,
-        "changelog_html": "update for Worlds Part II 5.50, bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom-Portable.zip-1566-5-50-0-1739117529.zip.json"
-      },
-      {
-        "id": [
-          39393,
-          1634
-        ],
-        "uid": 7017976601057,
-        "file_id": 39393,
-        "name": "NomNom-Setup.exe",
-        "version": "5.50.0",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 198759,
-        "file_name": "NomNom-Setup.exe-1566-5-50-0-1739117627.exe",
-        "uploaded_timestamp": 1739117627,
-        "uploaded_time": "2025-02-09T16:13:47.000+00:00",
-        "mod_version": "5.50.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d450886e2cc29141172158f83a724490fdef90181c70d40abdabee85bddab41c/detection/f-d450886e2cc29141172158f83a724490fdef90181c70d40abdabee85bddab41c-1739117673",
-        "description": "",
-        "size_kb": 198759,
-        "size_in_bytes": 203529264,
-        "changelog_html": "update for Worlds Part II 5.50, bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom-Setup.exe-1566-5-50-0-1739117627.exe.json"
-      },
-      {
-        "id": [
-          42760,
-          1634
-        ],
-        "uid": 7017976604424,
-        "file_id": 42760,
-        "name": "NomNom-Portable.zip",
-        "version": "6.00.0",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 147072,
-        "file_name": "NomNom-Portable.zip-1566-6-00-0-1756725531.zip",
-        "uploaded_timestamp": 1756725531,
-        "uploaded_time": "2025-09-01T11:18:51.000+00:00",
-        "mod_version": "6.00.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5e50fc07c1c73de3461d9f11ecfa0b8d0eb9cf1e9dcfaaceaff42af18d7f6a1a/detection/f-5e50fc07c1c73de3461d9f11ecfa0b8d0eb9cf1e9dcfaaceaff42af18d7f6a1a-1756725567",
-        "description": "",
-        "size_kb": 147072,
-        "size_in_bytes": 150601762,
-        "changelog_html": "update for Beacons 5.70 and Voyagers 6.00",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom-Portable.zip-1566-6-00-0-1756725531.zip.json"
-      },
-      {
-        "id": [
-          42762,
-          1634
-        ],
-        "uid": 7017976604426,
-        "file_id": 42762,
-        "name": "NomNom-Setup.exe",
-        "version": "6.00.0",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 149883,
-        "file_name": "NomNom-Setup.exe-1566-6-00-0-1756725602.exe",
-        "uploaded_timestamp": 1756725602,
-        "uploaded_time": "2025-09-01T11:20:02.000+00:00",
-        "mod_version": "6.00.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/3d134a8831e1c945b628f484abab1d79521f1a5e001e99e911b95e39f7211f41/detection/f-3d134a8831e1c945b628f484abab1d79521f1a5e001e99e911b95e39f7211f41-1756725639",
-        "description": "",
-        "size_kb": 149883,
-        "size_in_bytes": 153479888,
-        "changelog_html": "update for Beacons 5.70 and Voyagers 6.00",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom-Setup.exe-1566-6-00-0-1756725602.exe.json"
-      },
-      {
-        "id": [
-          47128,
-          1634
-        ],
-        "uid": 7017976608792,
-        "file_id": 47128,
-        "name": "NomNom-Setup.exe",
-        "version": "6.40.1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": false,
-        "size": 164194,
-        "file_name": "NomNom-Setup.exe-1566-6-40-1-1780687199.exe",
-        "uploaded_timestamp": 1780687199,
-        "uploaded_time": "2026-06-05T19:19:59.000+00:00",
-        "mod_version": "6.40.1",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e6151d7ba43fdb8162662790cabc02737fd5ca24ca77fd722a4d63fddc3c9c2c",
-        "description": "",
-        "size_kb": 164194,
-        "size_in_bytes": 168134712,
-        "changelog_html": "update to catch up with the Swarm 6.40, bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom-Setup.exe-1566-6-40-1-1780687199.exe.json"
-      },
-      {
-        "id": [
-          47129,
-          1634
-        ],
-        "uid": 7017976608793,
-        "file_id": 47129,
-        "name": "NomNom-Portable.zip",
-        "version": "6.40.1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": false,
-        "size": 159548,
-        "file_name": "NomNom-Portable.zip-1566-6-40-1-1780687261.zip",
-        "uploaded_timestamp": 1780687261,
-        "uploaded_time": "2026-06-05T19:21:01.000+00:00",
-        "mod_version": "6.40.1",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/cd78c05a550cc4d0a511d61d84abf954c4198b98395f45f62d2625b89b12d083",
-        "description": "",
-        "size_kb": 159548,
-        "size_in_bytes": 163377234,
-        "changelog_html": "update to catch up with the Swarm 6.40, bug fixes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1566/NomNom-Portable.zip-1566-6-40-1-1780687261.zip.json"
-      }
-    ],
-    "changelogs": {
-      "3.0.0.8-alpha.8": [
-        "update for Origins"
-      ],
-      "3.0.0.9-alpha.9": [
-        "bug fixes"
-      ],
-      "3.0.0.10-alpha.10": [
-        "bug fixes"
-      ],
-      "3.0.0.11-alpha.11": [
-        "bug fixes"
-      ],
-      "3.0.0.12-alpha.12": [
-        "bug fixes"
-      ],
-      "3.0.0.13-alpha.13": [
-        "bug fixes"
-      ],
-      "3.0.0.14-alpha.14": [
-        "database update for Origins 3.05"
-      ],
-      "3.1.0.15-alpha.15": [
-        "database update for Next Generation 3.10"
-      ],
-      "3.1.0.16-alpha.16": [
-        "fixed save incompatibilities due to game updates once and for all (except there are some real breaking changes) and added some nice improvements for Windows Store and PlayStation platforms"
-      ],
-      "3.5.0.17-alpha.17": [
-        "database update for Prisms 3.53, added JSON editor and platform save transfer"
-      ],
-      "3.6.0.18-alpha.18": [
-        "compatibility with the new save streaming system"
-      ],
-      "3.6.0.19-alpha.19": [
-        "compatibility with the new save streaming system for PlayStation"
-      ],
-      "3.7.0.20-alpha.20": [
-        "fixed knowledge tab, and added cross-save and companion editing"
-      ],
-      "3.7.0.21-alpha.21": [
-        "renamed editor buttons to avoid confusion, fixed some issues (with the Microsoft platform)"
-      ],
-      "3.7.0.22-alpha.22": [
-        "added expedition progress editing"
-      ],
-      "3.7.0.23-alpha.23": [
-        "added settlement editing"
-      ],
-      "3.7.0.24-alpha.24": [
-        "bug fixes"
-      ],
-      "3.8.0.25-alpha.25": [
-        "update for Sentinel 3.8"
-      ],
-      "3.8.0.26-alpha.26": [
-        "bug fixes"
-      ],
-      "3.85.0.27-alpha.27": [
-        "update for Outlaws 3.85"
-      ],
-      "3.85.0.28-alpha.28": [
-        "bug fixes"
-      ],
-      "3.90.0.29-alpha.29": [
-        "update for Leviathan 3.90"
-      ],
-      "3.94.0.30-alpha.30": [
-        "update for Endurance 3.94"
-      ],
-      "4.00.0.31-beta.1": [
-        "now in beta state with countless new features and improvements incl. update for Waypoint 4.00 and support for Nintendo Switch"
-      ],
-      "4.00.0.32-beta.2": [
-        "bug fixes"
-      ],
-      "4.40.0.34-beta.4": [
-        "update for Echoes 4.40 and lots of bug fixes"
-      ],
-      "4.50.2.37-beta.7": [
-        "update for Omega 4.50 incl. support for new Xbox save format, bug fixes"
-      ],
-      "4.60.0.38-beta.8": [
-        "update for Orbital 4.60"
-      ],
-      "4.70.0.39-beta.9": [
-        "update for Adrift 4.70"
-      ],
-      "4.70.1.40-beta.10": [
-        "bug fixes, experimental support for new save format"
-      ],
-      "4.70.2.41-beta.11": [
-        "bug fixes"
-      ],
-      "4.70.3.42-beta.12": [
-        "bug fixes"
-      ],
-      "5.00.0.44-beta.13": [
-        "update for Worlds Part I 5.00, bug fixes"
-      ],
-      "5.00.1.45-beta.14": [
-        "bug fixes"
-      ],
-      "5.00.2.46-beta.15": [
-        "bug fixes"
-      ],
-      "5.00.3": [
-        "bug fixes, internal changes"
-      ],
-      "5.10.0": [
-        "update for Aquarius 5.10"
-      ],
-      "5.10.1": [
-        "bug fixes"
-      ],
-      "5.20.0": [
-        "update for The Cursed 5.20"
-      ],
-      "5.20.2": [
-        "update for The Cursed 5.27, bug fixes, underfill inventory, show save names in manager"
-      ],
-      "5.50.0": [
-        "update for Worlds Part II 5.50, bug fixes"
-      ],
-      "6.00.0": [
-        "update for Beacons 5.70 and Voyagers 6.00"
-      ],
-      "6.40.1": [
-        "update to catch up with the Swarm 6.40, bug fixes"
-      ]
-    }
-  },
-  {
-    "mod_id": 1677,
-    "name": "Instant Text Display - ITD",
-    "summary": "This mod displays the text pretty instantly when interacting with objects or aliens (NPCs). Compatible with NMS \"COSMOS\" v.7.01 (Steam's build 25233815).",
-    "version": "7.00",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/1677/1677-1601846759-780937301.jpeg",
-    "author": "NooBzPoWaH - Backing vocals by Babscoole",
-    "updated_timestamp": 1788982768,
-    "created_timestamp": 1600486057,
-    "description": "[center][size=3]This mod simply displays the text pretty instantly when interacting with objects or aliens (NPCs).\n<br />\n<br />If you leave the left mouse button pressed (players with keyboard/mouse, or the A button for XBOX 360 controller's users),\n<br />the text will be displayed even faster, if that's even possible.[/size]\n<br />\n<br />\n<br />[size=3]**************************************************************************************[/size][/center]\n<br />\n<br />\n<br />\n<br />[center][b]Compatibility[/b] : \n<br />\n<br />[size=4][color=#00ffff]Compatible with [b]NMS \"[url=https://www.nomanssky.com/cosmos-update/]COSMOS[/url][/b][/color][url=https://www.nomanssky.com/2024/10/expedition-sixteen-the-cursed/][color=#00ffff][b]\"[/b] v.[/color][/url][url=https://www.nomanssky.com/release-log/]7.01\n<br />[/url][color=#00ffff]( Steam's Build [/color][url=https://steamdb.info/app/275850/depots/]25233815[/url] [color=#00ffff]).[/color][/size][/center]\n<br />[center]\n<br />[b][color=#ff0000][u][size=4]3xperimental branch is not supported ![/size][/u][/color]\n<br />[/b]\n<br />[b]Modified File[/b][size=3] :[/size]\n<br />\n<br />[b][size=3]METADATA&#92;UI&#92;SPECIALTEXTPUNCTUATIONDELAYDATA.MBIN[/size][/b]\n<br /> [/center]\n<br />[center][size=3]***************************************************************************************\n<br />\n<br />Heavily inspired by \"[url=https://nomansskymods.com/mods/faster-text-display/]Quantus Mod[/url]\",\n<br />so all credits goes to him !\n<br />\n<br />\n<br />***************************************************************************************\n<br />\n<br />[b]Installation Instructions[/b] :\n<br />\n<br />Manually :\n<br />\n<br />Put the \"Instant Text Display\" folder which is inside the archive ( .zip ) in your\n<br />[b][color=#00ffff]InstallPath&#92;No Man's Sky&#92;GAMEDATA&#92;MODS folder[/color][/b].\n<br />( and [b][color=#ff0000]Not in [/color][color=#ff0000]No Man's Sky&#92;GAMEDATA&#92;PCBANKS&#92;MODS[/color][/b] as it used to be )\n<br />\n<br />or\n<br />\n<br />Via Vortex ( Nexus new Mod Manager ) :\n<br />\n<br />Just click on the \"Mod Manager Download\" button.\n<br />\n<br />The Mod is provided as a replacement (MBIN)\n<br />since it's modifying the entire file.\n<br />\n<br />New lua file provided for the new \"[url=https://github.com/HolterPhylo/AMUMSS/releases/]AMUMSS[/url]\" v5.4.1.1W+.\n<br />( Thanks to Makto, initial LUA &amp; gh0stwizard, fixed LUA )\n<br />\n<br />\n<br />***************************************************************************************\n<br />\n<br />[b]Uninstallation :[/b]\n<br />\n<br />Such an awful thing to do...\n<br />Delete the \"Instant Text Display\" folder from your MODS folder, or\n<br />Disable/Uninstall and Remove via Vortex.\n<br />That's it. Bye Bye ! ;)\n<br />\n<br />\n<br />****************************************************************************************\n<br />\n<br />\n<br />[b][color=#6aa84f]Thanks to monkeyman192 for keeping updating his great tool \"[/color][/b][b][url=https://github.com/monkeyman192/MBINCompiler/releases]MBINCompiler[/url][color=#6aa84f]\".[/color]\n<br />[color=#f1c232]Thanks to all members of the [url=https://discord.com/channels/215514623384748034/610638164150976541]No Man's Sky Modding Discord Channel[/url] for their kind help and insight.[/color]\n<br />[color=#cc0000]All Credit goes to Quantus with all my Thanks as well for releasing his \"Faster-Text-Display\" Mod in the first place.[/color][/b][/size][/center]\n<br />",
-    "state": "normal",
-    "warningMessage": "",
-    "files": [
-      {
-        "id": [
-          9268,
-          1634
-        ],
-        "uid": 7017976570932,
-        "file_id": 9268,
-        "name": "Instant Text Display",
-        "version": "2.62",
-        "category_id": 6,
-        "category_name": null,
-        "is_primary": false,
-        "size": 2,
-        "file_name": "Instant Text Display-1677-2-62-1600484727.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1600484727,
-        "uploaded_time": "2020-09-19T03:05:27.000+00:00",
-        "mod_version": "2.62",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4e0777d0cd6f8a3e13ff083e5f5c086be28588d8895a0b18f9bdd5dd83953138/detection/f-4e0777d0cd6f8a3e13ff083e5f5c086be28588d8895a0b18f9bdd5dd83953138-1600484729",
-        "description": "ITD initial release v2.62 for NMS DESOLATION v.2.62 (Steam's build 5384364).",
-        "size_kb": 2,
-        "size_in_bytes": null,
-        "changelog_html": "Initial Release for NMS \"DESOLATION\" v.2.62 (Steam's build 5384364)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-2-62-1600484727.zip.json"
-      },
-      {
-        "id": [
-          9269,
-          1634
-        ],
-        "uid": 7017976570933,
-        "file_id": 9269,
-        "name": "Instant Text Display",
-        "version": "2.62",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
-        "is_primary": false,
-        "size": 2,
-        "file_name": "Instant Text Display-1677-2-62-1600486266.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1600486266,
-        "uploaded_time": "2020-09-19T03:31:06.000+00:00",
-        "mod_version": "2.62",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4e0777d0cd6f8a3e13ff083e5f5c086be28588d8895a0b18f9bdd5dd83953138/detection/f-4e0777d0cd6f8a3e13ff083e5f5c086be28588d8895a0b18f9bdd5dd83953138-1600484729",
-        "description": "ITD initial release v.2.62 for NMS \"DESOLATION\" v.2.62.\n<br />[b]Still compatible with NMS \"WAYPOINT\" v.4.05 (Steam's Build 9753868).[/b]",
-        "size_kb": 2,
-        "size_in_bytes": 0,
-        "changelog_html": "Initial Release for NMS \"DESOLATION\" v.2.62 (Steam's build 5384364)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-2-62-1600486266.zip.json"
-      },
-      {
-        "id": [
-          11475,
-          1634
-        ],
-        "uid": 7017976573139,
-        "file_id": 11475,
-        "name": "Instant Text Display LUA Script",
-        "version": "2.62",
-        "category_id": 6,
-        "category_name": null,
-        "is_primary": false,
-        "size": 1,
-        "file_name": "Instant Text Display LUA Script-1677-2-62-1614202866.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1614202866,
-        "uploaded_time": "2021-02-24T21:41:06.000+00:00",
-        "mod_version": "2.62",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c90f66e925494c4cfe1d9e602248a74f4bdf05cc91ae6be45507022e69b77703/detection/f-c90f66e925494c4cfe1d9e602248a74f4bdf05cc91ae6be45507022e69b77703-1614202868",
-        "description": "Script file (.lua) to be used with AMUMSS",
-        "size_kb": 1,
-        "size_in_bytes": 982,
-        "changelog_html": "Initial Release for NMS \"DESOLATION\" v.2.62 (Steam's build 5384364)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display LUA Script-1677-2-62-1614202866.zip.json"
-      },
-      {
-        "id": [
-          11476,
-          1634
-        ],
-        "uid": 7017976573140,
-        "file_id": 11476,
-        "name": "Instant Text Display LUA Script",
-        "version": "2.62",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
-        "is_primary": false,
-        "size": 1,
-        "file_name": "Instant Text Display LUA Script-1677-2-62-1614203441.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1614203441,
-        "uploaded_time": "2021-02-24T21:50:41.000+00:00",
-        "mod_version": "2.62",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/58455fed751695c69ad18016eeec2af972321755614c304fec371d75fd9f7c97/detection/f-58455fed751695c69ad18016eeec2af972321755614c304fec371d75fd9f7c97-1614203445",
-        "description": "Script file (.lua) to be used with AMUMSS",
-        "size_kb": 1,
-        "size_in_bytes": 989,
-        "changelog_html": "Initial Release for NMS \"DESOLATION\" v.2.62 (Steam's build 5384364)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display LUA Script-1677-2-62-1614203441.zip.json"
-      },
-      {
-        "id": [
-          21994,
-          1634
-        ],
-        "uid": 7017976583658,
-        "file_id": 21994,
-        "name": "Instant Text Display",
-        "version": "4.06",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
-        "is_primary": false,
-        "size": 3,
-        "file_name": "Instant Text Display-1677-4-06-1667998819.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1667998819,
-        "uploaded_time": "2022-11-09T13:00:19.000+00:00",
-        "mod_version": "4.06",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/3c892986da357d16523c6aaf9d8f628294e17d86572b2a145f59314e30bd3093/detection/f-3c892986da357d16523c6aaf9d8f628294e17d86572b2a145f59314e30bd3093-1667998825",
-        "description": "[b]First update still compatible with NMS \"SINGULARITY\" Expedition Ten v.4.37 ( Steam's Build 11692643 ).[/b]",
-        "size_kb": 3,
-        "size_in_bytes": 3426,
-        "changelog_html": "Updated for NMS \"WAYPOINT\" v.4.06 (Steam's Build 9872544).",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-4-06-1667998819.zip.json"
-      },
-      {
-        "id": [
-          27236,
-          1634
-        ],
-        "uid": 7017976588900,
-        "file_id": 27236,
-        "name": "Instant Text Display",
-        "version": "4.41",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
-        "is_primary": false,
-        "size": 3,
-        "file_name": "Instant Text Display-1677-4-41-1693033038.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1693033038,
-        "uploaded_time": "2023-08-26T06:57:18.000+00:00",
-        "mod_version": "4.41",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/84be50dc666e818e2e3541649aa74e076d93802ac6d70ca05904d370b757b4a5/detection/f-84be50dc666e818e2e3541649aa74e076d93802ac6d70ca05904d370b757b4a5-1693033042",
-        "description": "[b]Compatible with NMS \"ECHOES\" Expedition Eleven v.4.43 ( Steam's Build 12069674 ).[/b]",
-        "size_kb": 3,
-        "size_in_bytes": 3480,
-        "changelog_html": "Updated for NMS \"ECHOES\" Expedition Eleven v.4.41 ( Steam's Build 12034921 ).",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-4-41-1693033038.zip.json"
-      },
-      {
-        "id": [
-          27992,
-          1634
-        ],
-        "uid": 7017976589656,
-        "file_id": 27992,
-        "name": "Instant Text Display",
-        "version": "4.44",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
-        "is_primary": false,
-        "size": 3,
-        "file_name": "Instant Text Display-1677-4-44-1694319194.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1694319194,
-        "uploaded_time": "2023-09-10T04:13:14.000+00:00",
-        "mod_version": "4.44",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/efc791bf4d24b4a4fe0bd37ab824717fc1383f5c9220167ba8e53d08a8d7cf96/detection/f-efc791bf4d24b4a4fe0bd37ab824717fc1383f5c9220167ba8e53d08a8d7cf96-1694319216",
-        "description": "[b]Compatible with NMS \"ORBITAL\" v.4.64 (Steam's build 13995455).[/b]",
-        "size_kb": 3,
-        "size_in_bytes": 3481,
-        "changelog_html": "Updated for 4.44",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-4-44-1694319194.zip.json"
-      },
-      {
-        "id": [
-          31781,
-          1634
-        ],
-        "uid": 7017976593445,
-        "file_id": 31781,
-        "name": "Instant Text Display",
-        "version": "4.65",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
-        "is_primary": false,
-        "size": 3,
-        "file_name": "Instant Text Display-1677-4-65-1714586474.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1714586474,
-        "uploaded_time": "2024-05-01T18:01:14.000+00:00",
-        "mod_version": "4.65",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/657c57a4651873051b773885e79f73f1c1d955e674bb33debd94a644cd3dbcd9/detection/f-657c57a4651873051b773885e79f73f1c1d955e674bb33debd94a644cd3dbcd9-1714586589",
-        "description": "[b]Compatible with NMS \"ADRIFT\" v.4.72 (Steam's build 14624643).[/b]",
-        "size_kb": 3,
-        "size_in_bytes": 3516,
-        "changelog_html": "Updated for NMS \"ORBITAL\" v.4.65 (Steam's build 14232068).",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-4-65-1714586474.zip.json"
-      },
-      {
-        "id": [
-          33468,
-          1634
-        ],
-        "uid": 7017976595132,
-        "file_id": 33468,
-        "name": "Instant Text Display",
-        "version": "5.00.1",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
-        "is_primary": false,
-        "size": 3,
-        "file_name": "Instant Text Display-1677-5-00-1-1721432405.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1721432405,
-        "uploaded_time": "2024-07-19T23:40:05.000+00:00",
-        "mod_version": "5.00.1",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d23765286009491a6f791553214a9dbd822ab9c675069cd549bfb9d5a03419bd/detection/f-d23765286009491a6f791553214a9dbd822ab9c675069cd549bfb9d5a03419bd-1721432751",
-        "description": "[b]Compatible with NMS \"Holiday 2024 Expeditions\" v.5.29 (Steam's build 16706781).[/b]",
-        "size_kb": 3,
-        "size_in_bytes": 3499,
-        "changelog_html": "Updated for NMS \"WORLDS\" v.5.00.1 (Steam's build 15088397).",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-5-00-1-1721432405.zip.json"
-      },
-      {
-        "id": [
-          39013,
-          1634
-        ],
-        "uid": 7017976600677,
-        "file_id": 39013,
-        "name": "Instant Text Display",
-        "version": "5.52",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
-        "is_primary": false,
-        "size": 3,
-        "file_name": "Instant Text Display-1677-5-52-1738609663.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1738609663,
-        "uploaded_time": "2025-02-03T19:07:43.000+00:00",
-        "mod_version": "5.52",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1ed6ee420e35b51bc61b7037c574e8bec3af8de99a002fc487c37c66a4c045aa/detection/f-1ed6ee420e35b51bc61b7037c574e8bec3af8de99a002fc487c37c66a4c045aa-1738609666",
-        "description": "[b]Compatible with NMS \"Worlds Part 2\" v.5.52 (Steam's build 17225766).[/b]",
-        "size_kb": 3,
-        "size_in_bytes": 3021,
-        "changelog_html": "Updated for NMS \"Worlds Part 2\" v.5.52 (Steam's build 17225766).",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-5-52-1738609663.zip.json"
-      },
-      {
-        "id": [
-          39371,
-          1634
-        ],
-        "uid": 7017976601035,
-        "file_id": 39371,
-        "name": "Instant Text Display",
-        "version": "5.54",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
-        "is_primary": false,
-        "size": 2,
-        "file_name": "Instant Text Display-1677-5-54-1739055684.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1739055684,
-        "uploaded_time": "2025-02-08T23:01:24.000+00:00",
-        "mod_version": "5.54",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/6c6d6cc2f34d8013ec1b6a3b71a1f613a940f6dbd5a14e59e2ef927634f61d6f/detection/f-6c6d6cc2f34d8013ec1b6a3b71a1f613a940f6dbd5a14e59e2ef927634f61d6f-1739055688",
-        "description": "[b]Compatible with NMS \"WORLDS PART 2\" v.5.55 (Steam's build 17336353).[/b]",
-        "size_kb": 2,
-        "size_in_bytes": 2003,
-        "changelog_html": "Updated for NMS \"WORLDS PART 2\" v.5.54 (Steam's build 17283571).",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-5-54-1739055684.zip.json"
-      },
-      {
-        "id": [
-          39967,
-          1634
-        ],
-        "uid": 7017976601631,
-        "file_id": 39967,
-        "name": "Instant Text Display",
-        "version": "5.58",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
-        "is_primary": false,
-        "size": 2,
-        "file_name": "Instant Text Display-1677-5-58-1741178566.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1741178566,
-        "uploaded_time": "2025-03-05T12:42:46.000+00:00",
-        "mod_version": "5.58",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1e72cafbcfe2f0123d17b457879fcc324adca274a75d13f900f632b11c56ad5c/detection/f-1e72cafbcfe2f0123d17b457879fcc324adca274a75d13f900f632b11c56ad5c-1741178568",
-        "description": "[b]Compatible with NMS \"RELICS\" v.5.61 (Steam's build 17884758).[/b]",
-        "size_kb": 2,
-        "size_in_bytes": 2124,
-        "changelog_html": "Updated for NMS \"WORLDS PART 2\" v.5.58 (Steam's build 17591082).",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-5-58-1741178566.zip.json"
-      },
-      {
-        "id": [
-          41005,
-          1634
-        ],
-        "uid": 7017976602669,
-        "file_id": 41005,
-        "name": "Instant Text Display",
-        "version": "5.64",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
-        "is_primary": false,
-        "size": 4,
-        "file_name": "Instant Text Display-1677-5-64-1745341064.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1745341064,
-        "uploaded_time": "2025-04-22T16:57:44.000+00:00",
-        "mod_version": "5.64",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/38777313ed5286e48cb8b64b0ac59b45b48e9b8335d1455baef8980338563923/detection/f-38777313ed5286e48cb8b64b0ac59b45b48e9b8335d1455baef8980338563923-1745341067",
-        "description": "[b]Compatible with NMS \"BEACON\" v.5.72 (Steam's build 18841749).[/b]\n<br />\n<br />[b]New lua file provided for the new AMUMSS v5.4.1.1W+.[/b]",
-        "size_kb": 4,
-        "size_in_bytes": 4110,
-        "changelog_html": "Updated for NMS \"RELICS\" v.5.64 (Steam's build 18055638).<br />New initial lua file provided by Makto for the new AMUMSS v5.3.5.1W.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-5-64-1745341064.zip.json"
-      },
-      {
-        "id": [
-          41006,
-          1634
-        ],
-        "uid": 7017976602670,
-        "file_id": 41006,
-        "name": "Instant Text Display LUA Script",
-        "version": "5.64",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
-        "is_primary": false,
-        "size": 1,
-        "file_name": "Instant Text Display LUA Script-1677-5-64-1745341396.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1745341396,
-        "uploaded_time": "2025-04-22T17:03:16.000+00:00",
-        "mod_version": "5.64",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0f51b7a79a7092a58d8f77df6dc0f29af5473b691a937f5bd63a0c93c43dfcc6/detection/f-0f51b7a79a7092a58d8f77df6dc0f29af5473b691a937f5bd63a0c93c43dfcc6-1745341398",
-        "description": "Script file (.lua) to be used with AMUMSS v5.4.1.1W+",
-        "size_kb": 1,
-        "size_in_bytes": 977,
-        "changelog_html": "Updated for NMS \"RELICS\" v.5.64 (Steam's build 18055638).<br />New initial lua file provided by Makto for the new AMUMSS v5.3.5.1W.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display LUA Script-1677-5-64-1745341396.zip.json"
-      },
-      {
-        "id": [
-          41653,
-          1634
-        ],
-        "uid": 7017976603317,
-        "file_id": 41653,
-        "name": "Instant Text Display",
-        "version": "5.72",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
-        "is_primary": false,
-        "size": 3,
-        "file_name": "Instant Text Display-1677-5-72-1750692890.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1750692890,
-        "uploaded_time": "2025-06-23T15:34:50.000+00:00",
-        "mod_version": "5.72",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/225a6744c4d12b8f11d70e40ee16dec19947dd8274838fd7f99576ca115e1aa6/detection/f-225a6744c4d12b8f11d70e40ee16dec19947dd8274838fd7f99576ca115e1aa6-1750692894",
-        "description": "[b]Compatible with NMS \"BEACON\" v.5.75 (Steam's build 19327688).[/b]\n<br />\n<br />\n<br />[b]New fixed lua file provided by gh0stwizard for the new AMUMSS v5.4.1.1W+.[/b]",
-        "size_kb": 3,
-        "size_in_bytes": 3171,
-        "changelog_html": "Updated for NMS \"BEACON\" v.5.72 (Steam's build 18841749).<br />New fixed lua file provided by gh0stwizard for the new AMUMSS v5.4.1.1W.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-5-72-1750692890.zip.json"
-      },
-      {
-        "id": [
-          41654,
-          1634
-        ],
-        "uid": 7017976603318,
-        "file_id": 41654,
-        "name": "Instant Text Display LUA Script",
-        "version": "5.72",
-        "category_id": 5,
-        "category_name": "MISCELLANEOUS",
-        "is_primary": false,
-        "size": 1,
-        "file_name": "Instant Text Display LUA Script-1677-5-72-1750692997.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1750692997,
-        "uploaded_time": "2025-06-23T15:36:37.000+00:00",
-        "mod_version": "5.72",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b069c3fc14ba7ee0e2c05cc832a08ef8c71861ed474411f607212cc9418fbde4/detection/f-b069c3fc14ba7ee0e2c05cc832a08ef8c71861ed474411f607212cc9418fbde4-1750692999",
-        "description": "[b]Fixed script file (.lua) provided by gh0stwizard to be used with AMUMSS v5.4.1.1W+.[/b]",
-        "size_kb": 1,
-        "size_in_bytes": 1027,
-        "changelog_html": "Updated for NMS \"BEACON\" v.5.72 (Steam's build 18841749).<br />New fixed lua file provided by gh0stwizard for the new AMUMSS v5.4.1.1W.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display LUA Script-1677-5-72-1750692997.zip.json"
-      },
-      {
-        "id": [
-          42444,
-          1634
-        ],
-        "uid": 7017976604108,
-        "file_id": 42444,
-        "name": "Instant Text Display",
-        "version": "6.0",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
-        "is_primary": false,
-        "size": 3,
-        "file_name": "Instant Text Display-1677-6-0-1756382606.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1756382606,
-        "uploaded_time": "2025-08-28T12:03:26.000+00:00",
-        "mod_version": "6.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/2cb7645340b35f5699d7a97fe9aed90ac99cdd4e1e5397684628d1532a38115b/detection/f-2cb7645340b35f5699d7a97fe9aed90ac99cdd4e1e5397684628d1532a38115b-1756382607",
-        "description": "[b]Compatible with NMS \"VOYAGERS\" v.6.04 (Steam's build 19909216).[/b]",
-        "size_kb": 3,
-        "size_in_bytes": 3174,
-        "changelog_html": "Updated for NMS \"VOYAGERS\" v.6.0 (Steam's build 19754095).",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-6-0-1756382606.zip.json"
-      },
-      {
-        "id": [
-          43308,
-          1634
-        ],
-        "uid": 7017976604972,
-        "file_id": 43308,
-        "name": "Instant Text Display",
-        "version": "6.04",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
-        "is_primary": false,
-        "size": 3,
-        "file_name": "Instant Text Display-1677-6-04-1757879199.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1757879199,
-        "uploaded_time": "2025-09-14T19:46:39.000+00:00",
-        "mod_version": "6.04",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1c26252a49a4e3cccdb42ce1101630a6a3edcd06d3e460e5bfdacda76fb6e3cd/detection/f-1c26252a49a4e3cccdb42ce1101630a6a3edcd06d3e460e5bfdacda76fb6e3cd-1757879205",
-        "description": "[b]Compatible with NMS \"HOLIDAY EXPEDITIONS 2025\" v.6.18 (Steam's build 21006256).[/b]",
-        "size_kb": 3,
-        "size_in_bytes": 3175,
-        "changelog_html": "Updated for NMS \"VOYAGERS\" v.6.04 (Steam's build 19909216).<br />Corrected a bug with controllers.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-6-04-1757879199.zip.json"
-      },
-      {
-        "id": [
-          45596,
-          1634
-        ],
-        "uid": 7017976607260,
-        "file_id": 45596,
-        "name": "Instant Text Display",
-        "version": "6.20",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
-        "is_primary": false,
-        "size": 3,
-        "file_name": "Instant Text Display-1677-6-20-1770898362.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1770898362,
-        "uploaded_time": "2026-02-12T12:12:42.000+00:00",
-        "mod_version": "6.20",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/99a1e8e131f98e4d7ed766bd6f7f3015f5721af1678c178a19e8642513f5fd7d",
-        "description": "[b]Compatible with NMS \"THE SWARM\" v.6.44 (Steam's build 23583900).[/b]",
-        "size_kb": 3,
-        "size_in_bytes": 3174,
-        "changelog_html": "Updated for NMS \"REMNANT\" v.6.21 (Steam's build 21900231).",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/Instant Text Display-1677-6-20-1770898362.zip.json"
-      },
-      {
-        "id": [
-          47864,
-          1634
-        ],
-        "uid": 7017976609528,
-        "file_id": 47864,
-        "name": "Instant Text Display",
-        "version": "7.00",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
-        "size": 3,
-        "file_name": "Instant Text Display 1677 7.00 2026-09-09T19-39Z 31ISmlu2B.zip",
-        "detected_file_extension": "zip",
-        "uploaded_timestamp": 1788982768,
-        "uploaded_time": "2026-09-09T19:39:28.000+00:00",
-        "mod_version": "7.00",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/49cdca8730d94a0a49bb0c394869117d6a9dea398290a063f88c1b47d7f986ed",
-        "description": "[b]Compatible with NMS \"COSMOS\" v.7.00 (Steam's build 25208023).[/b]",
-        "size_kb": 3,
-        "size_in_bytes": 3172,
-        "changelog_html": "Updated for NMS \"COSMOS\" v.7.00 (Steam's build 25208023).",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1677/e4/98/9b/e4989b04-c718-46c7-952c-69a564d166df.json"
-      }
-    ],
-    "changelogs": {
-      "2.62": [
-        "Initial Release for NMS \"DESOLATION\" v.2.62 (Steam's build 5384364)"
-      ],
-      "4.06": [
-        "Updated for NMS \"WAYPOINT\" v.4.06 (Steam's Build 9872544)."
-      ],
-      "4.41": [
-        "Updated for NMS \"ECHOES\" Expedition Eleven v.4.41 ( Steam's Build 12034921 )."
-      ],
-      "4.44": [
-        "Updated for 4.44"
-      ],
-      "4.65": [
-        "Updated for NMS \"ORBITAL\" v.4.65 (Steam's build 14232068)."
-      ],
-      "5.00.1": [
-        "Updated for NMS \"WORLDS\" v.5.00.1 (Steam's build 15088397)."
-      ],
-      "5.52": [
-        "Updated for NMS \"Worlds Part 2\" v.5.52 (Steam's build 17225766)."
-      ],
-      "5.54": [
-        "Updated for NMS \"WORLDS PART 2\" v.5.54 (Steam's build 17283571)."
-      ],
-      "5.58": [
-        "Updated for NMS \"WORLDS PART 2\" v.5.58 (Steam's build 17591082)."
-      ],
-      "5.64": [
-        "Updated for NMS \"RELICS\" v.5.64 (Steam's build 18055638).<br />New initial lua file provided by Makto for the new AMUMSS v5.3.5.1W."
-      ],
-      "5.72": [
-        "Updated for NMS \"BEACON\" v.5.72 (Steam's build 18841749).<br />New fixed lua file provided by gh0stwizard for the new AMUMSS v5.4.1.1W."
-      ],
-      "6.0": [
-        "Updated for NMS \"VOYAGERS\" v.6.0 (Steam's build 19754095)."
-      ],
-      "6.04": [
-        "Updated for NMS \"VOYAGERS\" v.6.04 (Steam's build 19909216).<br />Corrected a bug with controllers."
-      ],
-      "6.20": [
-        "Updated for NMS \"REMNANT\" v.6.21 (Steam's build 21900231)."
-      ],
-      "7.00": [
-        "Updated for NMS \"COSMOS\" v.7.00 (Steam's build 25208023)."
-      ]
-    }
-  },
-  {
     "mod_id": 1717,
     "name": "Enhanced Ship Scanner And Inventory Range NextGen 310",
     "summary": "This mod makes several small quality of life changes to the ship scanner. I have taken inspiration from two old mods, namely \"Better Ship Scanner\" from TheJughead and \"Starship Out Of Range and Faster Scanner\" from JovianStone and merged these ideas together.",
@@ -25489,6 +23581,98 @@
     }
   },
   {
+    "mod_id": 2284,
+    "name": "Faster Scanning v7.0",
+    "summary": "Scan anything faster!",
+    "version": "7.0",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2284/2284-1652427334-301250705.png",
+    "author": "Flugelwulff",
+    "updated_timestamp": 1788991237,
+    "created_timestamp": 1652427579,
+    "description": "Lets you scan things faster with the analyzer. 1 second and instant options available as well as the option to disable the delay between scans.\n<br />\n<br />\n<br />[b][u]HOW TO INSTALL:\n<br />[/u][/b]1. Install with Vortex (strongly recommended - just do it)\n<br />2. Choose scan speed\n<br />3. Profit\n<br />\n<br />LUA file is available for those who wish to change the multiplier themselves or merge it with other mods.",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          45004,
+          1634
+        ],
+        "uid": 7017976606668,
+        "file_id": 45004,
+        "name": "Faster Scanning LUA",
+        "version": "6.17",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "Faster Scanning LUA-2284-6-17-1763512584.7z",
+        "detected_file_extension": null,
+        "uploaded_timestamp": 1763512584,
+        "uploaded_time": "2025-11-19T00:36:24.000+00:00",
+        "mod_version": "6.17",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/fbc6bc8b742d79ec90e6e1e3dac7326b2e96a742ba68d0bb641c3a4d9a693f71/detection/f-fbc6bc8b742d79ec90e6e1e3dac7326b2e96a742ba68d0bb641c3a4d9a693f71-1763512590",
+        "description": "",
+        "size_kb": 1,
+        "size_in_bytes": 526,
+        "changelog_html": "Updated version number",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2284/Faster Scanning LUA-2284-6-17-1763512584.7z.json"
+      },
+      {
+        "id": [
+          47885,
+          1634
+        ],
+        "uid": 7017976609549,
+        "file_id": 47885,
+        "name": "Faster Scanning",
+        "version": "7.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 24,
+        "file_name": "Faster Scanning 2284 7.0 2026-09-09T22-00Z Z3ytCvPNR.7z",
+        "detected_file_extension": "7z",
+        "uploaded_timestamp": 1788991237,
+        "uploaded_time": "2026-09-09T22:00:37.000+00:00",
+        "mod_version": "7.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/36052df54eb00f2dabcb220ad2e0aa3c8ce6e5d51dc4cad85ca036d33a02a896",
+        "description": "",
+        "size_kb": 24,
+        "size_in_bytes": 25488,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2284/88/ca/7f/88ca7f1f-d5bf-4f4c-89cc-b887038c1056.json"
+      }
+    ],
+    "changelogs": {
+      "1.0": [
+        "Sorry to anyone trying to download when I first uploaded. Added option to chose speeds. Fixed selection screen image being broken."
+      ],
+      "1.0.1": [
+        "Modified \"Instant\" from \"0.1\" sec. to actually instant after testing stability",
+        "Changed version numbering",
+        "Added LUA file for use with AMUMSS (for merging)"
+      ],
+      "1.1.0": [
+        "Added ability to remove the delay between scans (added to LUA as well)",
+        "Added link to description to custom LUA",
+        "Added Custom LUA as optional file"
+      ],
+      "5.02": [
+        "Removed Custom LUA as the additional changes are now changable in-game and that code no longer works."
+      ],
+      "5.75": [
+        "Replaced EXML_CHANGE_TABLE in LUA to MXML_CHANGE_TABLE to fix warning in AMUMSS"
+      ],
+      "6.12": [
+        "Overhaul to LUA structure &amp; updated version number"
+      ],
+      "6.17": [
+        "Updated version number"
+      ]
+    }
+  },
+  {
     "mod_id": 2575,
     "name": "No Notification Icons",
     "summary": "Removes notification icons.",
@@ -26133,347 +24317,6 @@
         "Updated to 6.45.1"
       ]
     }
-  },
-  {
-    "mod_id": 2653,
-    "name": "Crashed Freighter Procedural Containers",
-    "summary": "procedurally placed containers in the crashed -and underwater-crashed freighter ... instead of the constant placement.",
-    "version": "1.42",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2653/2653-1675713937-1800715978.jpeg",
-    "author": "lMonk",
-    "updated_timestamp": 1775884933,
-    "created_timestamp": 1675714131,
-    "description": "[size=3][color=#BF9000][size=5][b]Crashed Freighter Procedural Containers 1.42[/b][/size][/color]\n<br />\n<br />[color=#BF9000][size=4][b]Description[/b][/size][/color]\n<br />The crashed freighter may look worth exploring when you see it for the first time, but when you approach your second crash site, you realize you don't really need to find the loot - it's right there in the exact same spot. It turns collecting loot from the freighter into a mindless grind.\n<br />This mod aims to change that a bit... The containers are procedurally placed! When you approach a new crash site you may actually need to use the scanner to find your loot! ... So go do some exploring... and the same goes for the underwater crashed freighter site.\n<br />[size=3]\n<br />⚠️ Overwrite mod - unlikely to work well with other Overwrite mods[/size]\n<br />\n<br />[color=#BF9000][size=4][b]Install[/b][/size][/color]\n<br />[size=3]Unzip the mod and place the full folder into [color=#f4cccc]{NMS Install Folder}&#92;GAMEDATA&#92;MODS[/color] (not PCBANKS). Create MODS folder if necessary.\n<br />[size=3]If the mod(s) still doesn't work, delete the mod settings file [color=#f4cccc]{NMS Install Folder}&#92;Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/color] and try again.[/size][/size]\n<br />◈ The LUA isn't used by the game directly. It's an aid for merging with other mods, using AMUMSS, or modding yourself. If you don't do either, you can safely ignore it.\n<br />[size=3]\n<br />[color=#BF9000][size=4][b]Change-log[/b][/size][/color][/size]\n<br />1.42: Synced with game version [b]6.32[/b]\n<br />\n<br />[color=#BF9000][size=4][b]Compatibility[/b][/size][/color]\n<br />changes made in the following files:\n<br /> - MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/CRASHEDFREIGHTER/CRASHEDFREIGHTER.SCENE.MBIN\n<br /> - MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/CRASHEDFREIGHTER/CRASHEDFREIGHTER.DESCRIPTOR.MBIN\n<br /> - MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/CRASHEDFREIGHTER/CRASHEDFREIGHTER_UNDERWATER.SCENE.MBIN\n<br /> - MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/CRASHEDFREIGHTER/MODULES/LARGEROOM.SCENE.MBIN\n<br /> - MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/CRASHEDFREIGHTER/MODULES/SMALLROOM.SCENE.MBIN[/size]",
-    "state": "normal",
-    "warningMessage": "",
-    "files": [
-      {
-        "id": [
-          22971,
-          1634
-        ],
-        "uid": 7017976584635,
-        "file_id": 22971,
-        "name": "Crashed Freighter Procedural Containers",
-        "version": "1.0",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 74,
-        "file_name": "Crashed Freighter Procedural Containers-2653-1-0-1675714041.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1675714041,
-        "uploaded_time": "2023-02-06T20:07:21.000+00:00",
-        "mod_version": "1.0",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e9effb25825312a90a81f81b4ba1ad5e7503589e7dd008aad0364c6815a58bb6/detection/f-e9effb25825312a90a81f81b4ba1ad5e7503589e7dd008aad0364c6815a58bb6-1675714048",
-        "description": "",
-        "size_kb": 74,
-        "size_in_bytes": 75551,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2653/Crashed Freighter Procedural Containers-2653-1-0-1675714041.zip.json"
-      },
-      {
-        "id": [
-          23383,
-          1634
-        ],
-        "uid": 7017976585047,
-        "file_id": 23383,
-        "name": "Crashed Freighter Procedural Containers",
-        "version": "1.01",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 75,
-        "file_name": "Crashed Freighter Procedural Containers-2653-1-01-1677577728.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1677577728,
-        "uploaded_time": "2023-02-28T09:48:48.000+00:00",
-        "mod_version": "1.01",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/52300c4c1fad246378e08bd9da29317d029ec27085dcc70b939ed145a631f397/detection/f-52300c4c1fad246378e08bd9da29317d029ec27085dcc70b939ed145a631f397-1677577732",
-        "description": "",
-        "size_kb": 75,
-        "size_in_bytes": 76427,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2653/Crashed Freighter Procedural Containers-2653-1-01-1677577728.zip.json"
-      },
-      {
-        "id": [
-          25952,
-          1634
-        ],
-        "uid": 7017976587616,
-        "file_id": 25952,
-        "name": "Crashed Freighter Procedural Containers",
-        "version": "1.02",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 76,
-        "file_name": "Crashed Freighter Procedural Containers-2653-1-02-1686210586.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1686210586,
-        "uploaded_time": "2023-06-08T07:49:46.000+00:00",
-        "mod_version": "1.02",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8be06e3d2677493a617eb98bf92232d49c015a8a195b33395fcf570ff031e099/detection/f-8be06e3d2677493a617eb98bf92232d49c015a8a195b33395fcf570ff031e099-1686210590",
-        "description": "",
-        "size_kb": 76,
-        "size_in_bytes": 77615,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2653/Crashed Freighter Procedural Containers-2653-1-02-1686210586.zip.json"
-      },
-      {
-        "id": [
-          27137,
-          1634
-        ],
-        "uid": 7017976588801,
-        "file_id": 27137,
-        "name": "Crashed Freighter Procedural Containers",
-        "version": "1.03",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 79,
-        "file_name": "Crashed Freighter Procedural Containers-2653-1-03-1692954658.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1692954658,
-        "uploaded_time": "2023-08-25T09:10:58.000+00:00",
-        "mod_version": "1.03",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d496d5cfd2232431ef4e8ac0efd60da6549f24354c74298e493c5252ec63da63/detection/f-d496d5cfd2232431ef4e8ac0efd60da6549f24354c74298e493c5252ec63da63-1692954663",
-        "description": "",
-        "size_kb": 79,
-        "size_in_bytes": 81021,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2653/Crashed Freighter Procedural Containers-2653-1-03-1692954658.zip.json"
-      },
-      {
-        "id": [
-          28338,
-          1634
-        ],
-        "uid": 7017976590002,
-        "file_id": 28338,
-        "name": "Crashed Freighter Procedural Containers",
-        "version": "1.2",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 141,
-        "file_name": "Crashed Freighter Procedural Containers-2653-1-2-1695581887.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1695581887,
-        "uploaded_time": "2023-09-24T18:58:07.000+00:00",
-        "mod_version": "1.2",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4eee784a50aa79bdf6f742cdb13280979f8216cd287f0d512029271943d50c20/detection/f-4eee784a50aa79bdf6f742cdb13280979f8216cd287f0d512029271943d50c20-1695581890",
-        "description": "",
-        "size_kb": 141,
-        "size_in_bytes": 144471,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2653/Crashed Freighter Procedural Containers-2653-1-2-1695581887.zip.json"
-      },
-      {
-        "id": [
-          31839,
-          1634
-        ],
-        "uid": 7017976593503,
-        "file_id": 31839,
-        "name": "Crashed Freighter Procedural Containers",
-        "version": "1.21",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 146,
-        "file_name": "Crashed Freighter Procedural Containers-2653-1-21-1714633643.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1714633643,
-        "uploaded_time": "2024-05-02T07:07:23.000+00:00",
-        "mod_version": "1.21",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/45b052cd16302214b81398e40855f4a5ae42f51adecb5825a7f4a27f27c888f0/detection/f-45b052cd16302214b81398e40855f4a5ae42f51adecb5825a7f4a27f27c888f0-1714633650",
-        "description": "",
-        "size_kb": 146,
-        "size_in_bytes": 149419,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2653/Crashed Freighter Procedural Containers-2653-1-21-1714633643.zip.json"
-      },
-      {
-        "id": [
-          32938,
-          1634
-        ],
-        "uid": 7017976594602,
-        "file_id": 32938,
-        "name": "Crashed Freighter Procedural Containers",
-        "version": "1.22",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 100,
-        "file_name": "Crashed Freighter Procedural Containers-2653-1-22-1717255392.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1717255392,
-        "uploaded_time": "2024-06-01T15:23:12.000+00:00",
-        "mod_version": "1.22",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a7d9bb0605be56b2bf8790fc19b8a0ab9943d46299dc4393ac57d97fc738f507/detection/f-a7d9bb0605be56b2bf8790fc19b8a0ab9943d46299dc4393ac57d97fc738f507-1717255427",
-        "description": "",
-        "size_kb": 100,
-        "size_in_bytes": 102765,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2653/Crashed Freighter Procedural Containers-2653-1-22-1717255392.zip.json"
-      },
-      {
-        "id": [
-          33708,
-          1634
-        ],
-        "uid": 7017976595372,
-        "file_id": 33708,
-        "name": "Crashed Freighter Procedural Containers",
-        "version": "1.23",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 105,
-        "file_name": "Crashed Freighter Procedural Containers-2653-1-23-1721627923.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1721627923,
-        "uploaded_time": "2024-07-22T05:58:43.000+00:00",
-        "mod_version": "1.23",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/f5b52013dc10fd28ad85f346d366591869ee397e17f0f7c4c52b42d2ce60bb8b/detection/f-f5b52013dc10fd28ad85f346d366591869ee397e17f0f7c4c52b42d2ce60bb8b-1721627989",
-        "description": "",
-        "size_kb": 105,
-        "size_in_bytes": 107598,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2653/Crashed Freighter Procedural Containers-2653-1-23-1721627923.zip.json"
-      },
-      {
-        "id": [
-          38875,
-          1634
-        ],
-        "uid": 7017976600539,
-        "file_id": 38875,
-        "name": "Crashed Freighter Procedural Containers",
-        "version": "1.3",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 107,
-        "file_name": "Crashed Freighter Procedural Containers-2653-1-3-1738485959.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1738485959,
-        "uploaded_time": "2025-02-02T08:45:59.000+00:00",
-        "mod_version": "1.3",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7145947d4048441636377244af1398bba4163e424ac206e5229ddd7f59f8f52d/detection/f-7145947d4048441636377244af1398bba4163e424ac206e5229ddd7f59f8f52d-1738485965",
-        "description": "",
-        "size_kb": 107,
-        "size_in_bytes": 110023,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2653/Crashed Freighter Procedural Containers-2653-1-3-1738485959.zip.json"
-      },
-      {
-        "id": [
-          44931,
-          1634
-        ],
-        "uid": 7017976606595,
-        "file_id": 44931,
-        "name": "Crashed Freighter Procedural Containers",
-        "version": "1.40",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 106,
-        "file_name": "Crashed Freighter Procedural Containers-2653-1-40-1763114828.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1763114828,
-        "uploaded_time": "2025-11-14T10:07:08.000+00:00",
-        "mod_version": "1.40",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/ca26cd6bb13c6b460376736973348ccf3317bfe599754d19bdbccf07b434d8e4/detection/f-ca26cd6bb13c6b460376736973348ccf3317bfe599754d19bdbccf07b434d8e4-1763114830",
-        "description": "",
-        "size_kb": 106,
-        "size_in_bytes": 108681,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2653/Crashed Freighter Procedural Containers-2653-1-40-1763114828.zip.json"
-      },
-      {
-        "id": [
-          44967,
-          1634
-        ],
-        "uid": 7017976606631,
-        "file_id": 44967,
-        "name": "Crashed Freighter Procedural Containers",
-        "version": "1.40",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 104,
-        "file_name": "Crashed Freighter Procedural Containers-2653-1-40-1763409948.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1763409948,
-        "uploaded_time": "2025-11-17T20:05:48.000+00:00",
-        "mod_version": "1.40",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/3e2f222f1a5f804d5691481550b7d9023acfe25bad26b0feac71b22bbaf0d6aa/detection/f-3e2f222f1a5f804d5691481550b7d9023acfe25bad26b0feac71b22bbaf0d6aa-1763409950",
-        "description": "",
-        "size_kb": 104,
-        "size_in_bytes": 106768,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2653/Crashed Freighter Procedural Containers-2653-1-40-1763409948.zip.json"
-      },
-      {
-        "id": [
-          45648,
-          1634
-        ],
-        "uid": 7017976607312,
-        "file_id": 45648,
-        "name": "Crashed Freighter Procedural Containers",
-        "version": "1.41",
-        "category_id": 7,
-        "category_name": "ARCHIVED",
-        "is_primary": false,
-        "size": 104,
-        "file_name": "Crashed Freighter Procedural Containers-2653-1-41-1770909399.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1770909399,
-        "uploaded_time": "2026-02-12T15:16:39.000+00:00",
-        "mod_version": "1.41",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c21a0f424514df65d80cc3d7a3c9dd7b27ee7854a8d8abfa8e2554e8f4ecc821",
-        "description": "",
-        "size_kb": 104,
-        "size_in_bytes": 106849,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2653/Crashed Freighter Procedural Containers-2653-1-41-1770909399.zip.json"
-      },
-      {
-        "id": [
-          46375,
-          1634
-        ],
-        "uid": 7017976608039,
-        "file_id": 46375,
-        "name": "Crashed Freighter Procedural Containers",
-        "version": "1.42",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": false,
-        "size": 104,
-        "file_name": "Crashed Freighter Procedural Containers-2653-1-42-1775884933.zip",
-        "detected_file_extension": null,
-        "uploaded_timestamp": 1775884933,
-        "uploaded_time": "2026-04-11T05:22:13.000+00:00",
-        "mod_version": "1.42",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/49c8b005b6f5c19818d783cbe0cc4d3ceaff48427b1e04e805e85f98cef3721f",
-        "description": "",
-        "size_kb": 104,
-        "size_in_bytes": 106861,
-        "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2653/Crashed Freighter Procedural Containers-2653-1-42-1775884933.zip.json"
-      }
-    ],
-    "changelogs": {}
   },
   {
     "mod_id": 2731,
@@ -28138,180 +25981,195 @@
     "changelogs": {}
   },
   {
-    "mod_id": 3589,
-    "name": "Natural Skies II",
-    "summary": "Gives the 6 legacy sky colors a more natural look and feel and fixes overly white fogs during rain and storms with some sky colors.Now with optional add-on for natural sunset/sunrise!",
-    "version": "6.42",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3589/3589-1750998091-859633046.jpg",
-    "author": "degraaaff and Babscoole",
-    "updated_timestamp": 1780011095,
-    "created_timestamp": 1751001049,
-    "description": "This mod gives the 6 legacy skies a (much) more natural look and feel by softening some neon colours, and darkening upper skies and cloud bottoms.\n<br />It also fixes the overly white fogs during rainy weather and storms seen in certain sky colours.\n<br />\n<br />Update for [url=https://www.nexusmods.com/nomanssky/mods/1012]https://www.nexusmods.com/nomanssky/mods/1115[/url].  With gracious permission from degraaaff.  This is the original mod changes, updated to work with NMS 5.5x+\n<br />\n<br />Install:\n<br />Extract archive contents to GAMEDATA&#92;MODS\n<br />\n<br />Files Modified:\n<br />DAYSKYCOLOURS.MBIN for the main file\n<br />DUSKSKYCOLOURS.MBIN for the sunset/sunrise add-on\n<br />\n<br />For install and usage of AMUMSS to self update the mod or combine with other mods using the included Lua script please see [url=https://www.nexusmods.com/nomanssky/mods/2626]AMUMSS How To[/url]",
+    "mod_id": 3701,
+    "name": "Corvette No Complexity Limit",
+    "summary": "Corvette-class ships no complexity limit. 克尔维特级星舰(小型护卫舰)无复杂度限制。",
+    "version": "6.45.1",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3701/3701-1758172631-120228289.png",
+    "author": "DY230",
+    "updated_timestamp": 1786698119,
+    "created_timestamp": 1756324548,
+    "description": "Corvette-class ships no complexity limit.\n<br />克尔维特级星舰(小型护卫舰)无复杂度限制。\n<br />\n<br />[b]#IMPORTANT / 重点#[/b]\n<br />[color=#ff0000][b]Too many parts can make the game STUCK!!![/b][/color]\n<br />[color=#ff0000][b]太多部件会让游戏很卡！！！[/b][/color]\n<br />\n<br />[b]#INSTALL / 安装#[/b]\n<br />Download and extract the archive.\n<br />Place the entire \"___230_CorvetteNoComplexityLimit\" folder into: [u][b]GAMEDATA&#92;MODS&#92;[/b][/u]\n<br />下载并解压压缩包。\n<br />将整个 \"___230_CorvetteNoComplexityLimit\" 文件夹放入：[u][b]GAMEDATA&#92;MODS&#92;[/b][/u]\n<br />\n<br />[b]#GUIDE / 指南#[/b]\n<br />Manual mod installation guide:\n<br />[url=https://nomanssky.fandom.com/wiki/Mods#Installing_Mods]https://nomanssky.fandom.com/wiki/Mods#Installing_Mods[/url]\n<br />无人深空 MOD 安装教学（B站@我值500G噢）：\n<br />[url=https://www.bilibili.com/video/BV1AGKWeyE1J/]https://www.bilibili.com/video/BV1AGKWeyE1J/[/url]\n<br />\n<br />[b]#Troubleshooting / 排错#[/b]\n<br />📌If the mod is installed correctly but not working, try deleting:\n<br />[u][b]No Man's Sky&#92;Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/b][/u]\n<br />and restart the game.\n<br />📌如果正确安装后无效，尝试删除：\n<br />[u][b]No Man's Sky&#92;Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/b][/u]\n<br />并重启游戏。\n<br />\n<br />[b]#CREDITS / 鸣谢#[/b]\n<br />Hello Games / Nexus Mods / MBINCompiler / AMUMSS\n<br />and All amazing modders\n<br />以及所有其他了不起的mod作者",
     "state": "normal",
     "warningMessage": "",
     "files": [
       {
         "id": [
-          41728,
+          42384,
           1634
         ],
-        "uid": 7017976603392,
-        "file_id": 41728,
-        "name": "Natural Skies",
-        "version": "5.72",
+        "uid": 7017976604048,
+        "file_id": 42384,
+        "name": "BuildableShip 10x",
+        "version": "6.00",
         "category_id": 7,
         "category_name": "ARCHIVED",
         "is_primary": false,
-        "size": 5,
-        "file_name": "Natural Skies-3589-5-72-1751000898.zip",
+        "size": 1,
+        "file_name": "BuildableShip 10x-3701-6-00-1756323395.zip",
         "detected_file_extension": null,
-        "uploaded_timestamp": 1751000898,
-        "uploaded_time": "2025-06-27T05:08:18.000+00:00",
-        "mod_version": "5.72",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/30640962bbf8b20d4b0c4312301a45da7bd0de8b3a814caedca3cfe0da698dba/detection/f-30640962bbf8b20d4b0c4312301a45da7bd0de8b3a814caedca3cfe0da698dba-1751000902",
-        "description": "Lua script included",
-        "size_kb": 5,
-        "size_in_bytes": 4829,
-        "changelog_html": "Initial upload",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3589/Natural Skies-3589-5-72-1751000898.zip.json"
+        "uploaded_timestamp": 1756323395,
+        "uploaded_time": "2025-08-27T19:36:35.000+00:00",
+        "mod_version": "6.00",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0ca716bed29695fbddf8d2132aa444c36cd36fec38cf4c5a8b900ab7e4047a4f/detection/f-0ca716bed29695fbddf8d2132aa444c36cd36fec38cf4c5a8b900ab7e4047a4f-1756323398",
+        "description": "No part limits\n<br />Complexity limit to 1000 (Orginal 100)",
+        "size_kb": 1,
+        "size_in_bytes": 837,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/BuildableShip 10x-3701-6-00-1756323395.zip.json"
       },
       {
         "id": [
-          41729,
+          42385,
           1634
         ],
-        "uid": 7017976603393,
-        "file_id": 41729,
-        "name": "Natural Skies Addon For Sunrise Sunset",
-        "version": "5.72",
+        "uid": 7017976604049,
+        "file_id": 42385,
+        "name": "BuildableShip 99999",
+        "version": "6.00",
         "category_id": 7,
         "category_name": "ARCHIVED",
         "is_primary": false,
-        "size": 4,
-        "file_name": "Natural Skies Addon For Sunrise Sunset-3589-5-72-1751000998.zip",
+        "size": 1,
+        "file_name": "BuildableShip 99999-3701-6-00-1756323431.zip",
         "detected_file_extension": null,
-        "uploaded_timestamp": 1751000998,
-        "uploaded_time": "2025-06-27T05:09:58.000+00:00",
-        "mod_version": "5.72",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5cc488b01de612faf2176587eca7d8b58e8195e98133cb96098218599ea6f371/detection/f-5cc488b01de612faf2176587eca7d8b58e8195e98133cb96098218599ea6f371-1751001003",
-        "description": "The natural sunset/sunrise now has more vibrant colors (see last screenshot on Media tab).  Lua script included",
-        "size_kb": 4,
-        "size_in_bytes": 4403,
-        "changelog_html": "Initial upload",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3589/Natural Skies Addon For Sunrise Sunset-3589-5-72-1751000998.zip.json"
+        "uploaded_timestamp": 1756323431,
+        "uploaded_time": "2025-08-27T19:37:11.000+00:00",
+        "mod_version": "6.00",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/06df6ad9a2f2befe0f13f43e8c154591edbee552c10270394a6cfd379008f07a/detection/f-06df6ad9a2f2befe0f13f43e8c154591edbee552c10270394a6cfd379008f07a-1756323434",
+        "description": "No part limits\n<br />Complexity limit to 99999 (Orginal 100)",
+        "size_kb": 1,
+        "size_in_bytes": 849,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/BuildableShip 99999-3701-6-00-1756323431.zip.json"
       },
       {
         "id": [
-          43821,
+          42751,
           1634
         ],
-        "uid": 7017976605485,
-        "file_id": 43821,
-        "name": "Natural Skies",
-        "version": "6.06",
+        "uid": 7017976604415,
+        "file_id": 42751,
+        "name": "BuildableShip 99999 EXML",
+        "version": "6.01",
         "category_id": 7,
         "category_name": "ARCHIVED",
         "is_primary": false,
-        "size": 10,
-        "file_name": "Natural Skies-3589-6-06-1759293765.zip",
+        "size": 1,
+        "file_name": "BuildableShip 99999 EXML-3701-6-01-1756698417.zip",
         "detected_file_extension": null,
-        "uploaded_timestamp": 1759293765,
-        "uploaded_time": "2025-10-01T04:42:45.000+00:00",
-        "mod_version": "6.06",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/da09f52535ab3ea297cb26386ef86f441887fec7bcaa6c3e1e75d7f2978272a1/detection/f-da09f52535ab3ea297cb26386ef86f441887fec7bcaa6c3e1e75d7f2978272a1-1759293768",
-        "description": "Lua script included",
-        "size_kb": 10,
-        "size_in_bytes": 9936,
-        "changelog_html": "Update for NMS 6.06",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3589/Natural Skies-3589-6-06-1759293765.zip.json"
+        "uploaded_timestamp": 1756698417,
+        "uploaded_time": "2025-09-01T03:46:57.000+00:00",
+        "mod_version": "6.01",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/452ee210684cc8ac8c281551c1711a428ff6e851db3dc84562850e3bf4c7e40e/detection/f-452ee210684cc8ac8c281551c1711a428ff6e851db3dc84562850e3bf4c7e40e-1756698422",
+        "description": "Corvette-class ships no complexity limit\n<br />克尔维特级星舰(小型护卫舰)无复杂度限制\n<br />✅EXML - Still working fine so far(到目前为止仍然工作正常)",
+        "size_kb": 1,
+        "size_in_bytes": 866,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/BuildableShip 99999 EXML-3701-6-01-1756698417.zip.json"
       },
       {
         "id": [
-          43822,
+          42752,
           1634
         ],
-        "uid": 7017976605486,
-        "file_id": 43822,
-        "name": "Natural Skies Addon For Sunrise Sunset",
-        "version": "6.06",
+        "uid": 7017976604416,
+        "file_id": 42752,
+        "name": "BuildableShip 99999 MBIN",
+        "version": "6.01",
         "category_id": 7,
         "category_name": "ARCHIVED",
         "is_primary": false,
-        "size": 4,
-        "file_name": "Natural Skies Addon For Sunrise Sunset-3589-6-06-1759293797.zip",
+        "size": 1,
+        "file_name": "BuildableShip 99999 MBIN-3701-6-01-1756698478.zip",
         "detected_file_extension": null,
-        "uploaded_timestamp": 1759293797,
-        "uploaded_time": "2025-10-01T04:43:17.000+00:00",
-        "mod_version": "6.06",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/244da9c555c37973fb1cbe8ac5d6f7ee826c2359a7007c302f133fc50d8ffa3d/detection/f-244da9c555c37973fb1cbe8ac5d6f7ee826c2359a7007c302f133fc50d8ffa3d-1759293801",
-        "description": "The natural sunset/sunrise now has more vibrant colors (see last screenshot on Media tab).  Lua script included",
-        "size_kb": 4,
-        "size_in_bytes": 4596,
-        "changelog_html": "Update for NMS 6.06",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3589/Natural Skies Addon For Sunrise Sunset-3589-6-06-1759293797.zip.json"
+        "uploaded_timestamp": 1756698478,
+        "uploaded_time": "2025-09-01T03:47:58.000+00:00",
+        "mod_version": "6.01",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/83b52beafec7dc3cb3ae7fd40375a426dda80f1bce579a74790a7405f28e7685/detection/f-83b52beafec7dc3cb3ae7fd40375a426dda80f1bce579a74790a7405f28e7685-1756698482",
+        "description": "Part fx and Complexity limit to 99999\n<br />(Full file replacement, High chance of conflict,\n<br />and EASY to fail when NMS UPDATED.)",
+        "size_kb": 1,
+        "size_in_bytes": 965,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/BuildableShip 99999 MBIN-3701-6-01-1756698478.zip.json"
       },
       {
         "id": [
-          46779,
+          47701,
           1634
         ],
-        "uid": 7017976608443,
-        "file_id": 46779,
-        "name": "Natural Skies",
-        "version": "6.42",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "uid": 7017976609365,
+        "file_id": 47701,
+        "name": "Corvette No Complexity Limit",
+        "version": "6.45.1",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
-        "size": 10,
-        "file_name": "Natural Skies-3589-6-42-1780011071.zip",
+        "size": 2,
+        "file_name": "Corvette No Complexity Limit 3701 6.45.1 2026-08-14T08-57Z L5bXM347h.zip",
         "detected_file_extension": null,
-        "uploaded_timestamp": 1780011071,
-        "uploaded_time": "2026-05-28T23:31:11.000+00:00",
-        "mod_version": "6.42",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/63a7e2c46c4378e540c6feee50aafb5ba865f7f90a0c3962330d4759b845329e",
-        "description": "Lua script included",
-        "size_kb": 10,
-        "size_in_bytes": 9981,
-        "changelog_html": "Update for Swarm",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3589/Natural Skies-3589-6-42-1780011071.zip.json"
+        "uploaded_timestamp": 1786697863,
+        "uploaded_time": "2026-08-14T08:57:43.000+00:00",
+        "mod_version": "6.45.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7574584cfb117e9f99873c73a49381e6a93f220b4cd8dd8dec274f20c74a6295",
+        "description": "Corvette-class ships no complexity limit.\n克尔维特级星舰(小型护卫舰)无复杂度限制。",
+        "size_kb": 2,
+        "size_in_bytes": 2923,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/4d/74/f2/4d74f2c7-ae68-4a70-bf36-2dc19a944036.json"
       },
       {
         "id": [
-          46780,
+          47702,
           1634
         ],
-        "uid": 7017976608444,
-        "file_id": 46780,
-        "name": "Natural Skies Addon For Sunrise Sunset",
-        "version": "6.42",
+        "uid": 7017976609366,
+        "file_id": 47702,
+        "name": "CorvetteNoComplexityLimit_LUA",
+        "version": "6.45.1",
         "category_id": 3,
         "category_name": "OPTIONAL",
         "is_primary": false,
-        "size": 4,
-        "file_name": "Natural Skies Addon For Sunrise Sunset-3589-6-42-1780011095.zip",
+        "size": 0,
+        "file_name": "CorvetteNoComplexityLimit_LUA 3701 6.45.1 2026-08-14T08-58Z KsnM3TaOf.zip",
         "detected_file_extension": null,
-        "uploaded_timestamp": 1780011095,
-        "uploaded_time": "2026-05-28T23:31:35.000+00:00",
-        "mod_version": "6.42",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a29f0d70f5e571f593f99561f671677cd80e974916764771e68b396cf2d914b1",
-        "description": "The natural sunset/sunrise now has more vibrant colors (see last screenshot on Media tab).  Lua script included",
-        "size_kb": 4,
-        "size_in_bytes": 4564,
-        "changelog_html": "Update for Swarm",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3589/Natural Skies Addon For Sunrise Sunset-3589-6-42-1780011095.zip.json"
+        "uploaded_timestamp": 1786697892,
+        "uploaded_time": "2026-08-14T08:58:12.000+00:00",
+        "mod_version": "6.45.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/20c581eff7c062c9bf47069ed8b1d20b216f6c2d3992bc849d101124b8b4af94",
+        "description": "Requirements 需求 :\n[url=https://github.com/HolterPhylo/AMUMSS/releases]AMUMSS v5.6.2.0w[/url] + [url=https://github.com/monkeyman192/MBINCompiler/releases]MBINCompiler v6.45.0-pre1[/url]",
+        "size_kb": 0,
+        "size_in_bytes": 791,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/18/d9/8c/18d98c54-8cdf-44b8-9c71-75bd95837f7f.json"
+      },
+      {
+        "id": [
+          47703,
+          1634
+        ],
+        "uid": 7017976609367,
+        "file_id": 47703,
+        "name": "Corvette No Complexity Limit",
+        "version": "6.45.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 2,
+        "file_name": "Corvette No Complexity Limit 3701 6.45.1 2026-08-14T09-01Z hfsARgnZN.zip",
+        "detected_file_extension": null,
+        "uploaded_timestamp": 1786698119,
+        "uploaded_time": "2026-08-14T09:01:59.000+00:00",
+        "mod_version": "6.45.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/58d1e9e34a939d1b2038aa8c40f2bd769499eb6be939057c814ee5832d7078d2",
+        "description": "Corvette-class ships no complexity limit.\n克尔维特级星舰(小型护卫舰)无复杂度限制。",
+        "size_kb": 2,
+        "size_in_bytes": 2883,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/67/91/d8/6791d876-75bc-4dd9-b3aa-70d251940c10.json"
       }
     ],
-    "changelogs": {
-      "5.72": [
-        "Initial upload"
-      ],
-      "6.06": [
-        "Update for NMS 6.06"
-      ],
-      "6.42": [
-        "Update for Swarm"
-      ]
-    }
+    "changelogs": {}
   },
   {
     "mod_id": 3745,
