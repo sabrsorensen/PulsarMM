@@ -84,6 +84,12 @@
         "warningMessage": "Not updated in 6 years"
     },
     {
+        "name": "NomNom",
+        "id": "1566",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "Enhanced Ship Scanner And Inventory Range NextGen 310",
         "id": "1717",
         "state": "warning",
@@ -93,7 +99,7 @@
         "name": "SPDX - Magnum Multitools",
         "id": "1873",
         "state": "warning",
-        "warningMessage": "Not updated in 4 years"
+        "warningMessage": "Not updated in 5 years"
     },
     {
         "name": "Supra Murray Kratt - Warthog for Roamer",
@@ -104,12 +110,6 @@
     {
         "name": "Consumerism - Expedition Twitch and Community reward unlocker",
         "id": "2062",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Faster Scanning v7.0",
-        "id": "2284",
         "state": "normal",
         "warningMessage": ""
     },
