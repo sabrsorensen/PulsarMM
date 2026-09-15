@@ -84,12 +84,6 @@
         "warningMessage": "Not updated in 6 years"
     },
     {
-        "name": "NomNom",
-        "id": "1566",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Enhanced Ship Scanner And Inventory Range NextGen 310",
         "id": "1717",
         "state": "warning",
@@ -212,6 +206,12 @@
     {
         "name": "Easy Station Directorship",
         "id": "4437",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "NMS Trainer - COSMOS",
+        "id": "4445",
         "state": "normal",
         "warningMessage": ""
     }
