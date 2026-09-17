@@ -72,12 +72,6 @@
         "warningMessage": ""
     },
     {
-        "name": "NomNom",
-        "id": "1566",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Capital System Freighters",
         "id": "1574",
         "state": "warning",
@@ -116,6 +110,12 @@
     {
         "name": "Consumerism - Expedition Twitch and Community reward unlocker",
         "id": "2062",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Faster Scanning v7.0",
+        "id": "2284",
         "state": "normal",
         "warningMessage": ""
     },
