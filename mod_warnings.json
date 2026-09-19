@@ -66,12 +66,6 @@
         "warningMessage": ""
     },
     {
-        "name": "NomNom",
-        "id": "1566",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Capital System Freighters",
         "id": "1574",
         "state": "warning",
@@ -100,6 +94,12 @@
         "id": "1969",
         "state": "warning",
         "warningMessage": "Not updated in 5 years"
+    },
+    {
+        "name": "Fast Refiners",
+        "id": "2016",
+        "state": "normal",
+        "warningMessage": ""
     },
     {
         "name": "VAC's Reshade Preset",
