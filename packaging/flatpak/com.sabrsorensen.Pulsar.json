@@ -13,6 +13,7 @@
     "--socket=pulseaudio",
     "--device=dri",
     "--filesystem=xdg-run/dri",
+    "--filesystem=/sys/devices/virtual/dmi/id:ro",
     "--filesystem=xdg-data/Steam",
     "--filesystem=~/.steam",
     "--filesystem=home",

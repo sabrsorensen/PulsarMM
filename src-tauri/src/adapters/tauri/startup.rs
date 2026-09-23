@@ -65,7 +65,10 @@ pub(crate) fn apply_steam_deck_window_config(
     };
     let mut log = |level: &str, message: &str| log_internal(app_handle, level, message);
     apply_steam_deck_window_decorations_with(
-        linux::is_running_on_steam_deck(),
+        crate::linux::env::should_force_window_decorations(
+            linux::is_running_on_steam_deck(),
+            crate::linux::env::is_flatpak_runtime(|k| std::env::var(k).ok()),
+        ),
         &mut log,
         &mut set_decorations,
     );

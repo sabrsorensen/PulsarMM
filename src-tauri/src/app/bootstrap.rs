@@ -29,10 +29,16 @@ pub(crate) fn configure_linux_environment_with(
     set_env: &mut dyn FnMut(&str, &str),
     log: &mut dyn FnMut(&str),
 ) {
-    for (key, value) in linux::env::linux_webkit_env_updates(webkit_dmabuf_is_set) {
+    let stock_webkit_rendering = linux::env::uses_stock_webkit_rendering(is_steam_deck, is_flatpak);
+    for (key, value) in
+        linux::env::linux_webkit_env_updates(webkit_dmabuf_is_set || stock_webkit_rendering)
+    {
         set_env(key, value);
     }
     log("[INFO] Linux WebKit network compatibility configured");
+    if stock_webkit_rendering {
+        log("[INFO] Steam Deck Flatpak - using stock WebKit rendering (DMABUF and compositing enabled)");
+    }
 
     if is_steam_deck {
         log("[INFO] Steam Deck detected, applying compatibility settings...");

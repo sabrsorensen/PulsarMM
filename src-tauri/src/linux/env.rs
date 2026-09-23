@@ -12,12 +12,25 @@ where
     get_env("STEAM_DECK").as_deref() == Some("1")
         || get_env("SteamDeck").as_deref() == Some("1")
         || product_name
-            .map(|s| s.trim().contains("Jupiter") || s.trim().contains("Steam Deck"))
+            .map(|s| {
+                let s = s.trim();
+                s.contains("Jupiter") || s.contains("Galileo") || s.contains("Steam Deck")
+            })
             .unwrap_or(false)
 }
 
 pub fn should_force_x11_backend(is_flatpak: bool, gdk_backend_present: bool) -> bool {
     !is_flatpak && !gdk_backend_present
+}
+
+// The Flatpak runs native Wayland with the app's own titlebar; forcing a second one is redundant.
+pub fn should_force_window_decorations(is_steam_deck: bool, is_flatpak: bool) -> bool {
+    is_steam_deck && !is_flatpak
+}
+
+// Verified on Jovian (kernel 7, Wayland): disabling DMABUF or compositing leaves the window unpainted.
+pub fn uses_stock_webkit_rendering(is_steam_deck: bool, is_flatpak: bool) -> bool {
+    is_steam_deck && is_flatpak
 }
 
 pub fn linux_webkit_env_updates(
@@ -39,14 +52,16 @@ pub fn steam_deck_env_updates(
     gdk_backend_present: bool,
 ) -> Vec<(&'static str, &'static str)> {
     let mut updates = Vec::new();
-    if !libgl_present {
-        updates.push(("LIBGL_ALWAYS_SOFTWARE", "1"));
-    }
-    if !webkit_compositing_present {
-        updates.push(("WEBKIT_DISABLE_COMPOSITING_MODE", "1"));
-    }
-    if !egl_platform_present {
-        updates.push(("EGL_PLATFORM", "x11"));
+    if !is_flatpak {
+        if !libgl_present {
+            updates.push(("LIBGL_ALWAYS_SOFTWARE", "1"));
+        }
+        if !webkit_compositing_present {
+            updates.push(("WEBKIT_DISABLE_COMPOSITING_MODE", "1"));
+        }
+        if !egl_platform_present {
+            updates.push(("EGL_PLATFORM", "x11"));
+        }
     }
 
     updates.push(("NO_AT_BRIDGE", "1"));

@@ -32,6 +32,9 @@ fn steam_deck_detection_checks_env_and_product_name() {
     assert!(is_steam_deck(env, Some("Jupiter")));
 
     let env = env_from(HashMap::new());
+    assert!(is_steam_deck(env, Some("Galileo")));
+
+    let env = env_from(HashMap::new());
     assert!(!is_steam_deck(env, Some("Desktop")));
 }
 
@@ -65,4 +68,29 @@ fn steam_deck_updates_respect_existing_vars_and_flatpak() {
     let flatpak_updates = steam_deck_env_updates(true, true, true, true, false);
     assert!(!flatpak_updates.contains(&("GDK_BACKEND", "x11")));
     assert_eq!(flatpak_updates, vec![("NO_AT_BRIDGE", "1")]);
+
+    let native_updates = steam_deck_env_updates(false, true, true, true, true);
+    assert_eq!(native_updates, vec![("NO_AT_BRIDGE", "1")]);
+}
+
+#[test]
+fn steam_deck_flatpak_skips_x11_and_software_rendering_overrides() {
+    let updates = steam_deck_env_updates(true, false, false, false, false);
+    assert_eq!(updates, vec![("NO_AT_BRIDGE", "1")]);
+}
+
+#[test]
+fn window_decorations_are_forced_only_for_native_steam_deck() {
+    assert!(should_force_window_decorations(true, false));
+    assert!(!should_force_window_decorations(true, true));
+    assert!(!should_force_window_decorations(false, false));
+    assert!(!should_force_window_decorations(false, true));
+}
+
+#[test]
+fn stock_webkit_rendering_only_for_steam_deck_flatpak() {
+    assert!(uses_stock_webkit_rendering(true, true));
+    assert!(!uses_stock_webkit_rendering(true, false));
+    assert!(!uses_stock_webkit_rendering(false, true));
+    assert!(!uses_stock_webkit_rendering(false, false));
 }
