@@ -8,9 +8,6 @@ use super::{
     update_mod_id_in_json_command_entry_with, update_mod_id_in_json_runtime_with,
     update_mod_name_in_xml_command_entry_with, update_mod_name_in_xml_runtime_with,
 };
-use crate::adapters::tauri::mods::{
-    ensure_mod_info, reorder_mods, update_mod_id_in_json, update_mod_name_in_xml,
-};
 use crate::models::{DownloadResult, ModRenderData};
 use std::cell::RefCell;
 use std::path::{Path, PathBuf};
@@ -531,41 +528,4 @@ fn settings_command_entries_forward_success_paths() {
         },
     )
     .expect("ensure entry should succeed");
-}
-
-#[test]
-fn public_settings_commands_fail_cleanly_when_game_path_missing() {
-    let reorder_err =
-        reorder_mods(vec!["A".to_string()]).expect_err("reorder should fail without game path");
-    assert!(
-        !reorder_err.is_empty(),
-        "reorder error should provide user-facing context"
-    );
-
-    let rename_err = update_mod_name_in_xml("Old".to_string(), "New".to_string())
-        .expect_err("update name should fail without game path");
-    assert!(
-        !rename_err.is_empty(),
-        "update name error should provide user-facing context"
-    );
-
-    let update_id_err = update_mod_id_in_json("Folder".to_string(), "42".to_string())
-        .expect_err("update id should fail without game path");
-    assert!(
-        !update_id_err.is_empty(),
-        "update id error should provide user-facing context"
-    );
-
-    let ensure_err = ensure_mod_info(
-        "Folder".to_string(),
-        "mod-id".to_string(),
-        "file-id".to_string(),
-        "1.0.0".to_string(),
-        "manual".to_string(),
-    )
-    .expect_err("ensure mod info should fail without game path");
-    assert!(
-        !ensure_err.is_empty(),
-        "ensure mod info error should provide user-facing context"
-    );
 }

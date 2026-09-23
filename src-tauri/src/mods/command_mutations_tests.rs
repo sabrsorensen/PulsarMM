@@ -105,6 +105,57 @@ fn rename_mod_in_settings_updates_name() {
 }
 
 #[test]
+fn reorder_mods_from_settings_propagates_load_error() {
+    let dir = temp_test_dir("reorder_missing");
+    let file = dir.join("missing").join("GCMODSETTINGS.MXML");
+
+    let err = reorder_mods_from_settings(&file, &["ALPHA".to_string()])
+        .expect_err("reorder should fail when settings file is missing");
+    assert!(err.contains("Failed to read GCMODSETTINGS.MXML"));
+
+    fs::remove_dir_all(dir).expect("cleanup should succeed");
+}
+
+#[test]
+fn rename_mod_in_settings_propagates_load_error() {
+    let dir = temp_test_dir("rename_missing");
+    let file = dir.join("missing").join("GCMODSETTINGS.MXML");
+
+    let err = rename_mod_in_settings(&file, "alpha", "new_name")
+        .expect_err("rename should fail when settings file is missing");
+    assert!(err.contains("Failed to read GCMODSETTINGS.MXML"));
+
+    fs::remove_dir_all(dir).expect("cleanup should succeed");
+}
+
+#[test]
+fn rename_mod_in_settings_propagates_rename_error() {
+    let dir = temp_test_dir("rename_not_found");
+    let file = dir.join("GCMODSETTINGS.MXML");
+
+    let root = root_with_mods(vec![make_mod("ALPHA", "0", "0")]);
+    settings_store::save_settings_file(&file, &root).expect("save should succeed");
+
+    let err = rename_mod_in_settings(&file, "does_not_exist", "new_name")
+        .expect_err("rename should fail when the mod is not found");
+    assert!(err.contains("does_not_exist"));
+
+    fs::remove_dir_all(dir).expect("cleanup should succeed");
+}
+
+#[test]
+fn delete_mod_and_save_settings_propagates_load_error() {
+    let dir = temp_test_dir("delete_missing");
+    let file = dir.join("missing").join("GCMODSETTINGS.MXML");
+
+    let err = delete_mod_and_save_settings(&file, "alpha")
+        .expect_err("delete should fail when settings file is missing");
+    assert!(err.contains("Failed to read GCMODSETTINGS.MXML"));
+
+    fs::remove_dir_all(dir).expect("cleanup should succeed");
+}
+
+#[test]
 fn delete_mod_and_save_settings_removes_target() {
     let dir = temp_test_dir("delete");
     let file = dir.join("GCMODSETTINGS.MXML");
