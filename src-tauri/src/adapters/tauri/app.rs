@@ -29,6 +29,16 @@ fn configure_linux_environment_process() {
         std::env::var("GDK_BACKEND").is_ok(),
     );
 
+    match std::fs::read_to_string("/sys/devices/virtual/dmi/id/product_name") {
+        Ok(name) => println!("[INFO] DMI product_name: {:?}", name.trim()),
+        Err(e) => println!("[INFO] DMI product_name unreadable: {}", e),
+    }
+    println!(
+        "[INFO] STEAM_DECK={:?} SteamDeck={:?}",
+        std::env::var("STEAM_DECK").ok(),
+        std::env::var("SteamDeck").ok()
+    );
+
     app_linux::configure_linux_environment_with(
         app_linux::is_running_on_steam_deck(),
         linux::env::is_flatpak_runtime(|k| std::env::var(k).ok()),
@@ -43,6 +53,13 @@ fn configure_linux_environment_process() {
 }
 
 pub(crate) fn run_app() {
+    println!(
+        "[INFO] Pulsar v{} (git {}, built {})",
+        env!("CARGO_PKG_VERSION"),
+        env!("PULSAR_GIT_HASH"),
+        env!("PULSAR_BUILD_TIME")
+    );
+
     #[cfg(target_os = "linux")]
     {
         let is_flatpak = linux::env::is_flatpak_runtime(|k| std::env::var(k).ok());

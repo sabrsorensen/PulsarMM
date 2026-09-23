@@ -46,6 +46,7 @@ portable-package/
 *.AppImage
 *.AppDir/
 PulsarMM.flatpak
+PulsarMM-*.flatpak
 
 # Nix
 /result

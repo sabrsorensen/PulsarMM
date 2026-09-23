@@ -4,7 +4,9 @@ set -euo pipefail
 REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
 cd "$REPO_ROOT"
 
-OUTPUT="${PULSAR_FLATPAK_OUTPUT:-PulsarMM.flatpak}"
+GIT_HASH="$(git rev-parse --short HEAD 2>/dev/null || echo unknown)"
+BUILD_STAMP="$(date -u +%Y%m%d-%H%M%S)"
+OUTPUT="${PULSAR_FLATPAK_OUTPUT:-PulsarMM-${BUILD_STAMP}-${GIT_HASH}.flatpak}"
 PULSAR_PATCH_FOR_FLATPAK="${PULSAR_PATCH_FOR_FLATPAK:-1}"
 
 if [ "${PULSAR_SKIP_TEST_GATE:-0}" != "1" ]; then

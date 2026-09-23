@@ -13,6 +13,8 @@
         pkgs = import nixpkgs { inherit system; };
         pname = "pulsar-mm";
         version = "dev";
+        # The source fileset excludes .git, so build.rs can't ask git for the revision.
+        gitRev = self.shortRev or self.dirtyShortRev or "unknown";
 
         # Only include files needed for the build — excludes .github, scripts,
         # screenshots, build artifacts, etc.
@@ -42,6 +44,7 @@
         # Shared build config — all packages reuse this derivation
         pulsar = pkgs.rustPlatform.buildRustPackage (finalAttrs: {
           inherit pname version src npmDeps;
+          env.PULSAR_GIT_HASH = gitRev;
           cargoLock = {
             lockFile = ./src-tauri/Cargo.lock;
             # Avoid fetch-cargo-vendor-util TLS issues behind corporate MITM proxies.
@@ -72,6 +75,7 @@
           pname = "${pname}-backend";
           inherit version;
           src = ./src-tauri;
+          env.PULSAR_GIT_HASH = gitRev;
           cargoDeps = rustDeps;
           cargoLock = {
             lockFile = ./src-tauri/Cargo.lock;
