@@ -32,6 +32,11 @@
   "devDependencies": {
     "@tauri-apps/cli": "2.9.6",
     "husky": "^9.1.7",
-    "vite": "^7.3.1"
+    "vite": "^7.3.6"
+  },
+  "overrides": {
+    "postcss": "^8.5.28",
+    "nanoid": "^3.3.19",
+    "picomatch": "^4.0.7"
   }
 }
