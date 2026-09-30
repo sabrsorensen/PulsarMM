@@ -1,8 +1,14 @@
 use serde_json::{json, Value};
 
+// The app id NexusMods issued for Pulsar on registration. The SSO websocket handshake and the
+// browser-facing authorize URL must use the same value (https://github.com/Nexus-Mods/node-nexus-api,
+// "appid you got on registration") -- omitting it from the handshake gets "Application ID was invalid".
+const NEXUS_SSO_APP_ID: &str = "sabrsorensen-pulsar";
+
 pub fn handshake_payload(uuid: &str) -> Value {
     json!({
         "id": uuid,
+        "appid": NEXUS_SSO_APP_ID,
         "token": null,
         "protocol": 2
     })
@@ -10,8 +16,8 @@ pub fn handshake_payload(uuid: &str) -> Value {
 
 pub fn auth_url(uuid: &str) -> String {
     format!(
-        "https://www.nexusmods.com/sso?id={}&application=sabrsorensen-pulsar",
-        uuid
+        "https://www.nexusmods.com/sso?id={}&application={}",
+        uuid, NEXUS_SSO_APP_ID
     )
 }
 

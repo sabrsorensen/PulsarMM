@@ -4,6 +4,7 @@ use super::*;
 fn handshake_payload_uses_expected_contract() {
     let payload = handshake_payload("abc-123");
     assert_eq!(payload["id"], "abc-123");
+    assert_eq!(payload["appid"], "sabrsorensen-pulsar");
     assert_eq!(payload["protocol"], 2);
     assert!(payload["token"].is_null());
 }
