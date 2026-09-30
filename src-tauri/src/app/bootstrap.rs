@@ -21,7 +21,6 @@ pub(crate) fn apply_linux_backend_config_with(
 pub(crate) fn configure_linux_environment_with(
     is_steam_deck: bool,
     is_flatpak: bool,
-    webkit_dmabuf_is_set: bool,
     libgl_software_is_set: bool,
     webkit_compositing_is_set: bool,
     egl_platform_is_set: bool,
@@ -29,16 +28,10 @@ pub(crate) fn configure_linux_environment_with(
     set_env: &mut dyn FnMut(&str, &str),
     log: &mut dyn FnMut(&str),
 ) {
-    let stock_webkit_rendering = linux::env::uses_stock_webkit_rendering(is_steam_deck, is_flatpak);
-    for (key, value) in
-        linux::env::linux_webkit_env_updates(webkit_dmabuf_is_set || stock_webkit_rendering)
-    {
+    for (key, value) in linux::env::linux_webkit_env_updates() {
         set_env(key, value);
     }
     log("[INFO] Linux WebKit network compatibility configured");
-    if stock_webkit_rendering {
-        log("[INFO] Steam Deck Flatpak - using stock WebKit rendering (DMABUF and compositing enabled)");
-    }
 
     if is_steam_deck {
         log("[INFO] Steam Deck detected, applying compatibility settings...");

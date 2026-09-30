@@ -64,18 +64,13 @@ fn configure_linux_environment_with_applies_webkit_and_steam_deck_updates() {
         false,
         false,
         false,
-        false,
         &mut |k, v| {
             env.insert(k.to_string(), v.to_string());
         },
         &mut |m| logs.push(m.to_string()),
     );
 
-    assert_eq!(
-        env.get("WEBKIT_DISABLE_DMABUF_RENDERER")
-            .map(String::as_str),
-        Some("1")
-    );
+    assert!(!env.contains_key("WEBKIT_DISABLE_DMABUF_RENDERER"));
     assert_eq!(
         env.get("WEBKIT_DISABLE_COMPOSITING_MODE")
             .map(String::as_str),
@@ -83,37 +78,6 @@ fn configure_linux_environment_with_applies_webkit_and_steam_deck_updates() {
     );
     assert!(logs.iter().any(|m| m.contains("Linux WebKit network")));
     assert!(logs.iter().any(|m| m.contains("Steam Deck compatibility")));
-}
-
-#[test]
-fn configure_linux_environment_with_uses_stock_webkit_rendering_on_steam_deck_flatpak() {
-    let mut env = HashMap::new();
-    let mut logs = Vec::new();
-    configure_linux_environment_with(
-        true,
-        true,
-        false,
-        false,
-        false,
-        false,
-        false,
-        &mut |k, v| {
-            env.insert(k.to_string(), v.to_string());
-        },
-        &mut |m| logs.push(m.to_string()),
-    );
-
-    assert_eq!(
-        env.get("G_TLS_GNUTLS_PRIORITY").map(String::as_str),
-        Some("NORMAL:%COMPAT")
-    );
-    assert_eq!(env.get("NO_AT_BRIDGE").map(String::as_str), Some("1"));
-    assert_eq!(env.get("WEBKIT_DISABLE_DMABUF_RENDERER"), None);
-    assert_eq!(env.get("WEBKIT_DISABLE_COMPOSITING_MODE"), None);
-    assert_eq!(env.get("LIBGL_ALWAYS_SOFTWARE"), None);
-    assert_eq!(env.get("EGL_PLATFORM"), None);
-    assert_eq!(env.get("GDK_BACKEND"), None);
-    assert!(logs.iter().any(|m| m.contains("stock WebKit rendering")));
 }
 
 #[test]
@@ -127,18 +91,13 @@ fn configure_linux_environment_with_skips_steam_deck_updates_when_not_needed() {
         false,
         false,
         false,
-        false,
         &mut |k, v| {
             env.insert(k.to_string(), v.to_string());
         },
         &mut |m| logs.push(m.to_string()),
     );
 
-    assert_eq!(
-        env.get("WEBKIT_DISABLE_DMABUF_RENDERER")
-            .map(String::as_str),
-        Some("1")
-    );
+    assert!(!env.contains_key("WEBKIT_DISABLE_DMABUF_RENDERER"));
     assert_eq!(env.get("LIBGL_ALWAYS_SOFTWARE").map(String::as_str), None);
     assert!(logs.iter().any(|m| m.contains("Linux WebKit network")));
     assert!(!logs.iter().any(|m| m.contains("Steam Deck detected")));
@@ -155,7 +114,6 @@ fn configure_linux_environment_with_logs_steam_deck_without_reapplying_existing_
         true,
         true,
         true,
-        true,
         &mut |k, v| {
             env.insert(k.to_string(), v.to_string());
         },
@@ -167,11 +125,7 @@ fn configure_linux_environment_with_logs_steam_deck_without_reapplying_existing_
         Some("NORMAL:%COMPAT")
     );
     assert_eq!(env.get("NO_AT_BRIDGE").map(String::as_str), Some("1"));
-    assert_eq!(
-        env.get("WEBKIT_DISABLE_DMABUF_RENDERER")
-            .map(String::as_str),
-        None
-    );
+    assert!(!env.contains_key("WEBKIT_DISABLE_DMABUF_RENDERER"));
     assert_eq!(env.get("LIBGL_ALWAYS_SOFTWARE").map(String::as_str), None);
     assert_eq!(
         env.get("WEBKIT_DISABLE_COMPOSITING_MODE")
