@@ -1,4 +1,5 @@
 use super::command_flow::open_special_folder_with;
+#[cfg(target_os = "linux")]
 use super::logic::linux_show_in_folder_target;
 use crate::models::FileNode;
 use std::collections::HashMap;
