@@ -73,6 +73,8 @@ jobs:
 
             - name: Cache Rust
               uses: Swatinem/rust-cache@v2
+              with:
+                  workspaces: src-tauri
 
             - name: Install Rust Test System Dependencies
               run: |
@@ -214,6 +216,8 @@ jobs:
             - name: Cache Rust (Windows)
               if: matrix.target == 'windows'
               uses: Swatinem/rust-cache@v2
+              with:
+                  workspaces: src-tauri
 
             - name: Install Dependencies (Windows)
               if: matrix.target == 'windows'
