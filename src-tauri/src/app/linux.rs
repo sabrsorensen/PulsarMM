@@ -16,7 +16,6 @@ pub(crate) fn is_running_on_steam_deck() -> bool {
 pub(crate) fn configure_linux_environment_with(
     is_steam_deck: bool,
     is_flatpak: bool,
-    has_webkit_disable_dmabuf_renderer: bool,
     has_libgl_always_software: bool,
     has_webkit_disable_compositing_mode: bool,
     has_egl_platform: bool,
@@ -27,7 +26,6 @@ pub(crate) fn configure_linux_environment_with(
     bootstrap::configure_linux_environment_with(
         is_steam_deck,
         is_flatpak,
-        has_webkit_disable_dmabuf_renderer,
         has_libgl_always_software,
         has_webkit_disable_compositing_mode,
         has_egl_platform,

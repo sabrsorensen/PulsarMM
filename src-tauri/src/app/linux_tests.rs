@@ -39,12 +39,11 @@ fn configure_linux_environment_with_sets_expected_keys_when_missing() {
         false,
         false,
         false,
-        false,
         &mut |k, v| set_calls.push((k.to_string(), v.to_string())),
         &mut |msg| logs.push(msg.to_string()),
     );
 
-    assert!(set_calls
+    assert!(!set_calls
         .iter()
         .any(|(k, _)| k == "WEBKIT_DISABLE_DMABUF_RENDERER"));
     assert!(set_calls.iter().any(|(k, _)| k == "LIBGL_ALWAYS_SOFTWARE"));
@@ -62,7 +61,6 @@ fn configure_linux_environment_with_skips_updates_when_already_configured() {
     let mut logs = Vec::new();
     configure_linux_environment_with(
         false,
-        true,
         true,
         true,
         true,

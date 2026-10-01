@@ -16,13 +16,11 @@ use tauri::{Emitter, Manager};
 
 fn configure_linux_environment_process() {
     let (
-        has_webkit_disable_dmabuf_renderer,
         has_libgl_always_software,
         has_webkit_disable_compositing_mode,
         has_egl_platform,
         has_gdk_backend,
     ) = (
-        std::env::var("WEBKIT_DISABLE_DMABUF_RENDERER").is_ok(),
         std::env::var("LIBGL_ALWAYS_SOFTWARE").is_ok(),
         std::env::var("WEBKIT_DISABLE_COMPOSITING_MODE").is_ok(),
         std::env::var("EGL_PLATFORM").is_ok(),
@@ -42,7 +40,6 @@ fn configure_linux_environment_process() {
     app_linux::configure_linux_environment_with(
         app_linux::is_running_on_steam_deck(),
         linux::env::is_flatpak_runtime(|k| std::env::var(k).ok()),
-        has_webkit_disable_dmabuf_renderer,
         has_libgl_always_software,
         has_webkit_disable_compositing_mode,
         has_egl_platform,

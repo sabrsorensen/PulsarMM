@@ -35,6 +35,7 @@
     }
   },
   "app": {
+    "enableGTKAppId": true,
     "windows": [
       {
         "title": "Pulsar",

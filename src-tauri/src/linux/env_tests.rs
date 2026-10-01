@@ -46,14 +46,12 @@ fn x11_backend_is_not_forced_inside_flatpak() {
 }
 
 #[test]
-fn linux_webkit_updates_are_minimal() {
-    let updates = linux_webkit_env_updates(false);
-    assert!(updates.contains(&("WEBKIT_DISABLE_DMABUF_RENDERER", "1")));
-    assert!(updates.contains(&("G_TLS_GNUTLS_PRIORITY", "NORMAL:%COMPAT")));
-
-    let updates = linux_webkit_env_updates(true);
-    assert!(!updates.contains(&("WEBKIT_DISABLE_DMABUF_RENDERER", "1")));
-    assert!(updates.contains(&("G_TLS_GNUTLS_PRIORITY", "NORMAL:%COMPAT")));
+fn linux_webkit_updates_never_disable_dmabuf_rendering() {
+    let updates = linux_webkit_env_updates();
+    assert!(!updates
+        .iter()
+        .any(|(k, _)| *k == "WEBKIT_DISABLE_DMABUF_RENDERER"));
+    assert_eq!(updates, vec![("G_TLS_GNUTLS_PRIORITY", "NORMAL:%COMPAT")]);
 }
 
 #[test]
@@ -85,12 +83,4 @@ fn window_decorations_are_forced_only_for_native_steam_deck() {
     assert!(!should_force_window_decorations(true, true));
     assert!(!should_force_window_decorations(false, false));
     assert!(!should_force_window_decorations(false, true));
-}
-
-#[test]
-fn stock_webkit_rendering_only_for_steam_deck_flatpak() {
-    assert!(uses_stock_webkit_rendering(true, true));
-    assert!(!uses_stock_webkit_rendering(true, false));
-    assert!(!uses_stock_webkit_rendering(false, true));
-    assert!(!uses_stock_webkit_rendering(false, false));
 }

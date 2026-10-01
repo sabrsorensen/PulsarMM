@@ -28,20 +28,11 @@ pub fn should_force_window_decorations(is_steam_deck: bool, is_flatpak: bool) ->
     is_steam_deck && !is_flatpak
 }
 
-// Verified on Jovian (kernel 7, Wayland): disabling DMABUF or compositing leaves the window unpainted.
-pub fn uses_stock_webkit_rendering(is_steam_deck: bool, is_flatpak: bool) -> bool {
-    is_steam_deck && is_flatpak
-}
-
-pub fn linux_webkit_env_updates(
-    dmabuf_renderer_present: bool,
-) -> Vec<(&'static str, &'static str)> {
-    let mut updates = Vec::new();
-    if !dmabuf_renderer_present {
-        updates.push(("WEBKIT_DISABLE_DMABUF_RENDERER", "1"));
-    }
-    updates.push(("G_TLS_GNUTLS_PRIORITY", "NORMAL:%COMPAT"));
-    updates
+// Verified on Jovian/AMD (kernel 7, Wayland) and NVIDIA/Wayland: disabling the DMABUF renderer
+// leaves the window unpainted on the current WebKitGTK/wry stack. Stock rendering works on both,
+// so this is never forced; it's left up to the user to opt into if some future hardware needs it.
+pub fn linux_webkit_env_updates() -> Vec<(&'static str, &'static str)> {
+    vec![("G_TLS_GNUTLS_PRIORITY", "NORMAL:%COMPAT")]
 }
 
 pub fn steam_deck_env_updates(

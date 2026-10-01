@@ -33,7 +33,7 @@
         npmDeps = pkgs.fetchNpmDeps {
           name = "${pname}-${version}-npm-deps";
           inherit src;
-          hash = "sha256-Dk3ufqpyIm1WmwScrNRDaW43tEsWysj4NGgmtfUahSQ=";
+          hash = "sha256-CSiJken/XgUbZIaJ2d5L9yYwbqd92vXW5vKZXdzEvb4=";
         };
 
         appImageTool = pkgs.fetchurl {

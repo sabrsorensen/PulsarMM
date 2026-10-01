@@ -1,19 +1,43 @@
 use super::{
-    build_window_icon, decode_icon_rgba, first_decoded_icon_rgba_with, load_runtime_window_icon,
-    load_runtime_window_icon_with, read_icon_bytes, runtime_icon_candidate_paths,
+    build_window_icon, decode_icon_rgba, exe_relative_icon_candidates,
+    first_decoded_icon_rgba_with, load_runtime_window_icon, load_runtime_window_icon_with,
+    read_icon_bytes, runtime_icon_candidate_paths,
 };
 use std::io;
+use std::path::PathBuf;
 
 #[test]
-fn runtime_icon_candidate_paths_are_stable_and_ordered() {
+fn runtime_icon_candidate_paths_end_with_stable_relative_fallbacks() {
     let paths = runtime_icon_candidate_paths();
-    assert_eq!(paths.len(), 3);
+    assert_eq!(paths[paths.len() - 2], "src-tauri/icons/128x128.png");
+    assert_eq!(paths[paths.len() - 1], "icons/128x128.png");
+}
+
+#[test]
+fn exe_relative_icon_candidates_derive_from_install_prefix() {
+    let candidates = exe_relative_icon_candidates(Some(PathBuf::from("/app/bin/Pulsar")));
     assert_eq!(
-        paths[0],
-        "/app/share/icons/hicolor/128x128/apps/com.sabrsorensen.Pulsar.png"
+        candidates,
+        vec![
+            "/app/share/icons/hicolor/128x128/apps/com.sabrsorensen.Pulsar.png".to_string(),
+            "/app/share/icons/hicolor/128x128/apps/Pulsar.png".to_string(),
+        ]
     );
-    assert_eq!(paths[1], "src-tauri/icons/128x128.png");
-    assert_eq!(paths[2], "icons/128x128.png");
+
+    let nix_candidates = exe_relative_icon_candidates(Some(PathBuf::from(
+        "/nix/store/abc-pulsar-mm-dev/bin/Pulsar",
+    )));
+    assert_eq!(
+        nix_candidates[1],
+        "/nix/store/abc-pulsar-mm-dev/share/icons/hicolor/128x128/apps/Pulsar.png"
+    );
+}
+
+#[test]
+fn exe_relative_icon_candidates_empty_without_a_usable_exe_path() {
+    assert!(exe_relative_icon_candidates(None).is_empty());
+    // A bare filename has no bin/ directory to derive an install prefix from.
+    assert!(exe_relative_icon_candidates(Some(PathBuf::from("Pulsar"))).is_empty());
 }
 
 #[test]
@@ -22,7 +46,11 @@ fn first_decoded_icon_rgba_with_skips_errors_and_returns_first_success() {
     let mut decodes = 0usize;
 
     let result = first_decoded_icon_rgba_with(
-        &["/missing.png", "/bad.png", "/good.png"],
+        &[
+            "/missing.png".to_string(),
+            "/bad.png".to_string(),
+            "/good.png".to_string(),
+        ],
         |path| {
             reads.push(path.to_string());
             match path {
@@ -59,7 +87,7 @@ fn first_decoded_icon_rgba_with_skips_errors_and_returns_first_success() {
 #[test]
 fn first_decoded_icon_rgba_with_returns_none_when_all_candidates_fail() {
     let result = first_decoded_icon_rgba_with(
-        &["/a.png", "/b.png"],
+        &["/a.png".to_string(), "/b.png".to_string()],
         |_| Err(io::Error::other("no file")),
         |_| Ok((vec![255], 1, 1)),
     );
@@ -69,7 +97,7 @@ fn first_decoded_icon_rgba_with_returns_none_when_all_candidates_fail() {
 #[test]
 fn load_runtime_window_icon_with_builds_image_and_handles_none() {
     let icon = load_runtime_window_icon_with(
-        &["/good.png"],
+        &["/good.png".to_string()],
         |_path| Ok(vec![1, 2, 3, 4]),
         |bytes| Ok((bytes.to_vec(), 2, 2)),
     )
@@ -79,7 +107,7 @@ fn load_runtime_window_icon_with_builds_image_and_handles_none() {
     assert_eq!(icon.rgba(), &[1, 2, 3, 4]);
 
     let none = load_runtime_window_icon_with(
-        &["/missing.png"],
+        &["/missing.png".to_string()],
         |_path| Err(io::Error::other("missing")),
         |_bytes| Ok((vec![255, 0, 0, 255], 1, 1)),
     );
