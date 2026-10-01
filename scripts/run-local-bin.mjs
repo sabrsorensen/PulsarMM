@@ -92,8 +92,26 @@ if (!binName) {
   process.exit(2)
 }
 
+function quoteWindowsArg(arg) {
+  return /^[\w\-.:\\/=@]+$/.test(arg) ? arg : `"${arg.replace(/"/g, '""')}"`
+}
+
+// Node refuses to spawn .cmd/.bat files directly (CVE-2024-27980), so on
+// Windows the npm bin shim has to be run through cmd.exe.
+function spawnLocalBin(command, args, options) {
+  if (process.platform === 'win32' && /\.(cmd|bat)$/i.test(command)) {
+    const commandLine = [command, ...args].map(quoteWindowsArg).join(' ')
+    return spawn(process.env.ComSpec || 'cmd.exe', ['/d', '/s', '/c', `"${commandLine}"`], {
+      ...options,
+      windowsVerbatimArguments: true,
+    })
+  }
+
+  return spawn(command, args, options)
+}
+
 const command = resolveLocalBin(binName)
-const child = spawn(command, args, {
+const child = spawnLocalBin(command, args, {
   env: process.env,
   stdio: ['ignore', 'pipe', 'pipe'],
   shell: false,

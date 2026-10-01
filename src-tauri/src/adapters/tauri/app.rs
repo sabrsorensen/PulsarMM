@@ -2,9 +2,11 @@ use super::{
     app_commands as tauri_app_commands, game_launch, install, mods, nexus, profiles, startup,
     storage,
 };
+#[cfg(target_os = "linux")]
+use crate::app::entry::apply_linux_backend_config_with;
 use crate::app::entry::{
-    apply_linux_backend_config_with, handle_window_event_with,
-    restore_focus_if_window_available_with, run_single_instance_event_with, StartupWindowEventKind,
+    handle_window_event_with, restore_focus_if_window_available_with,
+    run_single_instance_event_with, StartupWindowEventKind,
 };
 use crate::app::linux as app_linux;
 use crate::app::single_instance;

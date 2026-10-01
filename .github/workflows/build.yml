@@ -73,6 +73,8 @@ jobs:
 
             - name: Cache Rust
               uses: Swatinem/rust-cache@v2
+              with:
+                  workspaces: src-tauri
 
             - name: Install Rust Test System Dependencies
               run: |
@@ -214,6 +216,8 @@ jobs:
             - name: Cache Rust (Windows)
               if: matrix.target == 'windows'
               uses: Swatinem/rust-cache@v2
+              with:
+                  workspaces: src-tauri
 
             - name: Install Dependencies (Windows)
               if: matrix.target == 'windows'
@@ -252,11 +256,17 @@ jobs:
                   extra_nix_config: |
                       experimental-features = nix-command flakes
 
+            # Ubuntu 24.04 restricts unprivileged user namespaces via AppArmor, which
+            # breaks the Nix-provided bwrap that flatpak-builder sandboxes with.
+            - name: Allow unprivileged user namespaces (Flatpak)
+              if: matrix.target == 'flatpak'
+              run: sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
+
             - name: Build Flatpak Package
               if: matrix.target == 'flatpak'
               run: |
                   PULSAR_SKIP_TEST_GATE=1 \
-                  FLATPAK_INSTALL_SCOPE=system \
+                  FLATPAK_INSTALL_SCOPE=user \
                   PULSAR_FLATPAK_OUTPUT="${{ steps.artifact_names.outputs.flatpak }}" \
                   nix run .#flatpak
 

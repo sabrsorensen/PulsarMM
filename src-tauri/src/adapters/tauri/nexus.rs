@@ -2,18 +2,21 @@ use crate::log_internal;
 use crate::nexus::auth::handshake_payload;
 #[cfg(target_os = "windows")]
 use crate::nexus::command_ops::windows_nxm_command;
+#[cfg(target_os = "linux")]
 use crate::nexus::command_ops::{
     linux_protocol_handler_registered, linux_unregister_nxm_protocol_with,
-    remove_auth_file_if_exists, save_api_key_to_auth_path,
 };
+use crate::nexus::command_ops::{remove_auth_file_if_exists, save_api_key_to_auth_path};
 use crate::nexus::commands::{
     await_api_key_from_messages_with, ensure_auth_path_for_app_data, get_auth_file_path_with,
     get_nexus_api_key_command_with, handle_login_text_with, handle_login_ws_message_with,
-    is_protocol_handler_registered_command_linux_with, linux_home_from_env,
     logout_nexus_command_with, nexus_ws_url, open_auth_url_with, parse_login_message_for_api_key,
-    parse_nexus_ws_url_with, persist_api_key_for_login_with,
-    register_nxm_protocol_command_linux_with, send_handshake_with,
-    unregister_nxm_protocol_command_linux_with,
+    parse_nexus_ws_url_with, persist_api_key_for_login_with, send_handshake_with,
+};
+#[cfg(target_os = "linux")]
+use crate::nexus::commands::{
+    is_protocol_handler_registered_command_linux_with, linux_home_from_env,
+    register_nxm_protocol_command_linux_with, unregister_nxm_protocol_command_linux_with,
 };
 use crate::utils::auth::load_api_key_from_file;
 use futures_util::{SinkExt, StreamExt};
