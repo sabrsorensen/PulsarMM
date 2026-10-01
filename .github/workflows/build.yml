@@ -260,7 +260,7 @@ jobs:
               if: matrix.target == 'flatpak'
               run: |
                   PULSAR_SKIP_TEST_GATE=1 \
-                  FLATPAK_INSTALL_SCOPE=system \
+                  FLATPAK_INSTALL_SCOPE=user \
                   PULSAR_FLATPAK_OUTPUT="${{ steps.artifact_names.outputs.flatpak }}" \
                   nix run .#flatpak
 
